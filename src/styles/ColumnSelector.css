@@ -1,0 +1,124 @@
+.column-selector-container {
+  display: flex;
+  position: relative;
+}
+
+.column-selector-menu {
+  width: 290px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.column-selector-group {
+  margin-bottom: 15px;
+}
+
+.column-selector-title {
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.column-selector-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #333;
+  transition: background-color 0.2s ease;
+  position: relative;
+}
+
+.column-selector-item input[type="radio"] {
+  margin-right: 8px;
+  width: 20px;
+  height: 20px;
+}
+
+.column-active {
+  background-color: #e1edf8;
+  color: black;
+}
+
+.column-selector-hover {
+  position: absolute;
+  left: -320px; /* Appear on the left side */
+  top: 0;
+  width: 300px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.column-selector-hover h4 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: "#555";
+}
+
+.column-selector-hover ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.column-selector-hover li {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.column-selector-actions {
+  margin-top: 15px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.action-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 14px;
+  cursor: pointer;
+  color: "#555";
+  transition: color 0.2s ease;
+}
+
+.chevron-right-icon {
+  width: 22px;
+  height: 22px;
+  color: black;
+}
+
+.customize-columns-btn {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+
+.customize-columns-btn:hover {
+  background-color: #0056b3;
+}
+
+.customize-icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+}
