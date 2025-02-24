@@ -4,7 +4,12 @@ import ColoumSelector from "./ColoumSelector";
 import { useNavigate } from "react-router-dom";
 import PlacementBox from "./PlacementBox";
 
-const CompaingsData = ({ campaigns, loading }) => {
+const CompaingsData = ({
+  campaigns,
+  loading,
+  checkedCampaigns,
+  handleCheckboxChangeTarget,
+}) => {
   const [showMenu, SetShowMenu] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("Performance");
   const [showPlacementBox, setShowPlacementBox] = useState(false);
@@ -73,7 +78,7 @@ const CompaingsData = ({ campaigns, loading }) => {
       "CPC (cost per link click)",
       "plus",
     ],
-    "Video Engagement": [
+    VideoEngagement: [
       "Impressions",
       "2-second continuous video plays",
       "Cost per 2-second continuous video play",
@@ -932,12 +937,16 @@ const CompaingsData = ({ campaigns, loading }) => {
             style={{
               position: "absolute",
               top: "45px",
-              left: "1100px",
-              zIndex: 999,
+              left: "1087px",
+              zIndex: 9300,
               textAlign: "left",
             }}
           >
-            <ColoumSelector />
+            <ColoumSelector
+              selectedCategory={selectedCategory}
+              onCategoryChange={setSelectedCategory}
+              SetShowMenu={SetShowMenu}
+            />
           </div>
         )}
         {showPlacementBox && (
@@ -1003,7 +1012,7 @@ const CompaingsData = ({ campaigns, loading }) => {
                       cursor: "pointer", // Change cursor to pointer for better UX
                     }}
                     type="checkbox"
-                    className="uniquecheckbox"
+                    className="uniquecheckbox mynewuniqubotwo"
                   />
                 </th>
                 <th
@@ -1416,12 +1425,19 @@ const CompaingsData = ({ campaigns, loading }) => {
                           outline: "none",
                           marginRight: "8px",
                           borderRadius: "4px",
-                          appearance: "none", // Remove default checkbox styling
-                          backgroundColor: "white", // Set background to white
-                          cursor: "pointer", // Change cursor to pointer for better UX
+                          appearance: "none",
+                          backgroundColor: "white",
+                          cursor: "pointer",
                         }}
                         type="checkbox"
-                        className="uniquecheckbox"
+                        className="mynewbox"
+                        checked={checkedCampaigns.includes(campaign._id)}
+                        onChange={(e) =>
+                          handleCheckboxChangeTarget(
+                            campaign._id,
+                            e.target.checked
+                          )
+                        }
                       />
                     </td>
                     <td
@@ -1788,7 +1804,7 @@ const CompaingsData = ({ campaigns, loading }) => {
                           const value = campaign[fieldMapping[header]];
                           if (value == null) return "—"; // Return default placeholder if value is null/undefined
                           {
-                            console.log(header);
+                            // console.log(header);
                           }
 
                           if (header === "Budget") {

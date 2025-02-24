@@ -6,7 +6,11 @@ import {
 
 import "../styles/ColumnSelector.css";
 
-const ColumnSelector = () => {
+const ColumnSelector = ({
+  selectedCategory,
+  onCategoryChange,
+  SetShowMenu,
+}) => {
   const initialCategories = {
     "Recently used": ["Performance", "Engagement", "Video engagement"],
     Popular: ["Performance and clicks", "Delivery"],
@@ -95,22 +99,22 @@ const ColumnSelector = () => {
   };
 
   const [categories, setCategories] = useState(initialCategories);
-  const [selectedCategory, setSelectedCategory] = useState("Performance");
   const [hoveredCategory, setHoveredCategory] = useState(null);
 
   const handleSelect = (category, group) => {
-    setSelectedCategory(category);
+    // Update parent state
+    onCategoryChange(category);
 
-    // Move selected item to the top of the list
+    // Optionally update the order in the group
     setCategories((prev) => {
       const updatedGroup = [
         category,
         ...prev[group].filter((item) => item !== category),
       ];
+      SetShowMenu(false);
       return { ...prev, [group]: updatedGroup };
     });
   };
-
   const handleHover = (category) => {
     setHoveredCategory(category);
   };

@@ -20,6 +20,7 @@ import SideBar from "./components/SideBar";
 
 const App = () => {
   const [showcalender, setShowCalender] = useState(false);
+  const [checkedCampaigns, setCheckedCampaigns] = useState([]);
   const [showmyaccount, setShowmyAccount] = useState(false);
   const [account, setAccount] = useState({});
   const [showcustomizedbanner, setShowCustumizeBanner] = useState(false);
@@ -53,7 +54,16 @@ const App = () => {
     const storedEndDate = localStorage.getItem("endDate");
     return storedEndDate ? new Date(storedEndDate) : getTodayDate();
   });
-
+  // Callback function to update checked campaign IDs
+  const handleCheckboxChangeTarget = (campaignId, isChecked) => {
+    setCheckedCampaigns((prevIds) => {
+      if (isChecked) {
+        return [...prevIds, campaignId];
+      } else {
+        return prevIds.filter((id) => id !== campaignId);
+      }
+    });
+  };
   const [selectedOption, setSelectedOption] = useState("This Month");
   const [hoverDate, setHoverDate] = useState(null);
   const [currentMonth, setCurrentMonth] = useState(new Date());
@@ -164,7 +174,7 @@ const App = () => {
     return days;
   };
   // Function to handle checkbox changes
-
+  console.log("checkedcampaings", checkedCampaigns);
   const formatDate = (date) => {
     return date?.toLocaleDateString("en-GB", {
       day: "numeric",
@@ -1329,6 +1339,20 @@ const App = () => {
       setCampaigns(campaings);
     }
   }, [loading]);
+  console.log();
+  // Helper function to filter campaigns based on checkedCampaigns
+  const getFilteredCampaignsFetch = (campaigns, selectedIds) => {
+    if (!selectedIds || selectedIds.length === 0) {
+      return campaigns;
+    }
+    return campaigns.filter((campaign) => selectedIds.includes(campaign._id));
+  };
+
+  // Compute the filtered campaigns
+  const filteredCampaigns = getFilteredCampaignsFetch(
+    campaings,
+    checkedCampaigns
+  );
 
   return (
     <div>
@@ -2873,7 +2897,7 @@ const App = () => {
                                                           )
                                                         }
                                                         style={{
-                                                          width: "260px",
+                                                          width: "270px",
                                                         }}
                                                         class="x6ikm8r x10wlt62 x1vjfegm x1jyxor1 x1c4vz4f xdl72j9 xb1udk4 xbgkxdc _45hc _1hqh"
                                                         role="presentation"
@@ -2921,8 +2945,51 @@ const App = () => {
                                                                               aria-level="3"
                                                                               class="x1xqt7ti x1uxerd5 xrohxju x1qsmy5i xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x117nqv4 xeuugli x1uvtmcs x1i64zmx"
                                                                               role="heading"
+                                                                              style={{
+                                                                                display:
+                                                                                  "flex",
+                                                                                alignItems:
+                                                                                  "center",
+                                                                              }}
                                                                             >
                                                                               Campaigns{" "}
+                                                                              {checkedCampaigns?.length >
+                                                                              0 ? (
+                                                                                <div
+                                                                                  style={{
+                                                                                    marginLeft:
+                                                                                      "18px",
+                                                                                  }}
+                                                                                  class="x1q0g3np x1qughib xozqiw3 x2lwn1j x1iyjqo2 xs83m0k x65s2av x6s0dn4 x78zum5 x1fgtraw x1i47q4g xeuugli xurb0ha x1n2onr6 x14atkfc x19bke7z x1lcm9me x1yr5g0i xrt01vj x10y3i5r x140t73q snipcss-A1ciB"
+                                                                                >
+                                                                                  <div class="xmi5d70 x1fvot60 xo1l8bm xxio538 x140t73q xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1uvtmcs">
+                                                                                    {
+                                                                                      checkedCampaigns?.length
+                                                                                    }
+                                                                                    selected
+                                                                                  </div>
+                                                                                  <div
+                                                                                    aria-label="Remove 2 selected from Campaigns"
+                                                                                    class="x6s0dn4 x78zum5 x2lah0s xeuugli x1y1aw1k x1sxyh0 xwib8y2 xurb0ha x1277o0a xo1l8bm x1v911su x1lcm9me x1yr5g0i xrt01vj x10y3i5r x140t73q"
+                                                                                    role="button"
+                                                                                  >
+                                                                                    <div
+                                                                                      class="x3nfvp2 x120ccyz x1heor9g"
+                                                                                      role="presentation"
+                                                                                    >
+                                                                                      <div
+                                                                                        onClick={() =>
+                                                                                          setCheckedCampaigns(
+                                                                                            []
+                                                                                          )
+                                                                                        }
+                                                                                        class="xtwfq29 style-w822C"
+                                                                                        id="style-w822C"
+                                                                                      ></div>
+                                                                                    </div>
+                                                                                  </div>
+                                                                                </div>
+                                                                              ) : null}
                                                                             </div>
                                                                           </div>
                                                                         </div>
@@ -2968,8 +3035,51 @@ const App = () => {
                                                                           aria-level="3"
                                                                           class="x1xqt7ti x1uxerd5 xrohxju xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x117nqv4 xeuugli x1uvtmcs x1i64zmx"
                                                                           role="heading"
+                                                                          style={{
+                                                                            display:
+                                                                              "flex",
+                                                                            alignItems:
+                                                                              "center",
+                                                                          }}
                                                                         >
                                                                           Campaigns{" "}
+                                                                          {checkedCampaigns?.length >
+                                                                          0 ? (
+                                                                            <div
+                                                                              style={{
+                                                                                marginLeft:
+                                                                                  "18px",
+                                                                              }}
+                                                                              class="x1q0g3np x1qughib xozqiw3 x2lwn1j x1iyjqo2 xs83m0k x65s2av x6s0dn4 x78zum5 x1fgtraw x1i47q4g xeuugli xurb0ha x1n2onr6 x14atkfc x19bke7z x1lcm9me x1yr5g0i xrt01vj x10y3i5r x140t73q snipcss-A1ciB"
+                                                                            >
+                                                                              <div class="xmi5d70 x1fvot60 xo1l8bm xxio538 x140t73q xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1uvtmcs">
+                                                                                {
+                                                                                  checkedCampaigns?.length
+                                                                                }
+                                                                                selected
+                                                                              </div>
+                                                                              <div
+                                                                                aria-label="Remove 2 selected from Campaigns"
+                                                                                class="x6s0dn4 x78zum5 x2lah0s xeuugli x1y1aw1k x1sxyh0 xwib8y2 xurb0ha x1277o0a xo1l8bm x1v911su x1lcm9me x1yr5g0i xrt01vj x10y3i5r x140t73q"
+                                                                                role="button"
+                                                                              >
+                                                                                <div
+                                                                                  class="x3nfvp2 x120ccyz x1heor9g"
+                                                                                  role="presentation"
+                                                                                >
+                                                                                  <div
+                                                                                    onClick={() =>
+                                                                                      setCheckedCampaigns(
+                                                                                        []
+                                                                                      )
+                                                                                    }
+                                                                                    class="xtwfq29 style-w822C"
+                                                                                    id="style-w822C"
+                                                                                  ></div>
+                                                                                </div>
+                                                                              </div>
+                                                                            </div>
+                                                                          ) : null}
                                                                         </div>
                                                                       </div>
                                                                     </div>
@@ -3056,6 +3166,10 @@ const App = () => {
                                                                           >
                                                                             Ad
                                                                             sets{" "}
+                                                                            {checkedCampaigns?.length >
+                                                                            0
+                                                                              ? `for ${checkedCampaigns?.length} Campaign`
+                                                                              : ""}
                                                                           </div>
                                                                         </div>
                                                                       </div>
@@ -3171,6 +3285,10 @@ const App = () => {
                                                                             >
                                                                               Ad
                                                                               sets{" "}
+                                                                              {checkedCampaigns?.length >
+                                                                              0
+                                                                                ? `for ${checkedCampaigns?.length} Campaign`
+                                                                                : ""}
                                                                             </div>
                                                                           </div>
                                                                         </div>
@@ -3239,6 +3357,10 @@ const App = () => {
                                                                           role="heading"
                                                                         >
                                                                           Ads{" "}
+                                                                          {checkedCampaigns?.length >
+                                                                          0
+                                                                            ? `for ${checkedCampaigns?.length} Campaign`
+                                                                            : ""}
                                                                         </div>
                                                                       </div>
                                                                     </div>
@@ -3313,7 +3435,11 @@ const App = () => {
                                                                               class="x1xqt7ti x1uxerd5 xrohxju xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x117nqv4 xeuugli x1uvtmcs x1i64zmx"
                                                                               role="heading"
                                                                             >
-                                                                              Ads
+                                                                              Ads{" "}
+                                                                              {checkedCampaigns?.length >
+                                                                              0
+                                                                                ? `for ${checkedCampaigns?.length} Campaign`
+                                                                                : ""}
                                                                             </div>
                                                                           </div>
                                                                         </div>
@@ -3500,11 +3626,20 @@ const App = () => {
                                                   setShowCustumizeBanner={
                                                     setShowCustumizeBanner
                                                   }
+                                                  checkedCampaigns={
+                                                    checkedCampaigns
+                                                  }
+                                                  handleCheckboxChangeTarget={
+                                                    handleCheckboxChangeTarget
+                                                  }
                                                 />
                                               )}
                                               {currentfolder === "AdsSets" && (
                                                 <AdsSets
-                                                  campaigns={campaings}
+                                                  campaigns={getFilteredCampaignsFetch(
+                                                    campaings,
+                                                    checkedCampaigns
+                                                  )}
                                                   loading={loading}
                                                   setLoading={setLoading}
                                                   setError={setError}
@@ -3512,7 +3647,10 @@ const App = () => {
                                               )}
                                               {currentfolder === "Ads" && (
                                                 <Ads
-                                                  campaigns={campaings}
+                                                  campaigns={getFilteredCampaignsFetch(
+                                                    campaings,
+                                                    checkedCampaigns
+                                                  )}
                                                   loading={loading}
                                                   setLoading={setLoading}
                                                   setError={setError}
