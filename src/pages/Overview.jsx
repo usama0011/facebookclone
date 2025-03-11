@@ -344,7 +344,7 @@ const Overview = () => {
                                           role="heading"
                                           id="style-odOxE"
                                         >
-                                          Max Media Leads
+                                          Selani Media
                                         </div>
                                         <a
                                           class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"

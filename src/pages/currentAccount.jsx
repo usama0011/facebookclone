@@ -1843,7 +1843,7 @@ const CurrentAccount = () => {
                           <tr></tr>
                           <tr class="odd">
                             <td class="firstRow">
-                              <Link to="/overviewaccount">Max Media Leads</Link>
+                              <Link to="/overviewaccount">Selani Media</Link>
                             </td>
                             <td
                               data-sort="1387295665246598"
