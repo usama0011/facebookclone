@@ -340,8 +340,6 @@ const PaymentPage = () => {
                                                                                     class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli"
                                                                                     id="js_29"
                                                                                   >
-                                                                                    Selani
-                                                                                    Media
                                                                                     {
                                                                                       account?.currentAccountname
                                                                                     }
@@ -533,7 +531,6 @@ const PaymentPage = () => {
                                                                     class="x8t9es0 x1ldc4aq x1xlr1w8 x1cgboj8 x4hq6eo xq9mrsl x1yc453h x1h4wwuj xeuugli"
                                                                     role="heading"
                                                                   >
-                                                                    Selani Media
                                                                     {
                                                                       account?.currentAccountname
                                                                     }
