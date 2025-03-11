@@ -328,16 +328,17 @@ const SideBar = () => {
                 : { textDecoration: "none" }
             }
           >
+            {/* comhdh */}
+
+            {/* coosss */}
             {location.pathname === "/payment" ? (
-              <div class="">
-                <div class="">
-                  <div class="x3nfvp2">
-                    <i
-                      alt=""
-                      data-visualcompletion="css-img"
-                      class="img sp_BCSohYmDE5w sx_4fb158"
-                    ></i>
-                  </div>
+              <div class="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k x1qsmy5i xvy4d1p xxk0z11 snipcss-DqZMi">
+                <div class="x3nfvp2">
+                  <i
+                    alt=""
+                    data-visualcompletion="css-img"
+                    class="img sp_kCKRIZ5JpP6 sx_2f14a0"
+                  ></i>
                 </div>
               </div>
             ) : (
