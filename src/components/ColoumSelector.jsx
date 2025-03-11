@@ -12,8 +12,8 @@ const ColumnSelector = ({
   SetShowMenu,
 }) => {
   const initialCategories = {
-    "Recently used": ["Performance", "Engagement", "Video engagement"],
-    Popular: ["Performance and clicks", "Delivery"],
+    "Recently used": ["Performance", "Engagement", "Video Engagement"],
+    Popular: ["Performance and Clicks", "Delivery"],
   };
 
   const metricsDetails = {
@@ -46,7 +46,7 @@ const ColumnSelector = ({
       "Follows or likes",
       "CPC (cost per link click)",
     ],
-    "Video engagement": [
+    "Video Engagement": [
       "Delivery",
       "Impressions",
       "2-second continuous video plays",
@@ -64,7 +64,7 @@ const ColumnSelector = ({
       "Video plays at 100%",
       "Video plays",
     ],
-    "Performance and clicks": [
+    "Performance and Clicks": [
       "Delivery",
       "Attribution setting",
       "Results",

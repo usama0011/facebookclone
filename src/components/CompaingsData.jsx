@@ -78,7 +78,7 @@ const CompaingsData = ({
       "CPC (cost per link click)",
       "plus",
     ],
-    VideoEngagement: [
+    "Video Engagement": [
       "Impressions",
       "2-second continuous video plays",
       "Cost per 2-second continuous video play",
