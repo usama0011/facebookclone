@@ -1577,7 +1577,9 @@ const EditCompaingThree = () => {
                                                                                                   marginTop:
                                                                                                     "-1px",
                                                                                                 }}
-                                                                                                src="https://i.ibb.co/Nmc7XxL/Whats-App-Image-2025-01-05-at-7-26-45-PM.jpg"
+                                                                                                src={
+                                                                                                  campaign?.sponsorImageURL
+                                                                                                }
                                                                                                 alt=""
                                                                                               />
                                                                                             </div>
@@ -6742,7 +6744,9 @@ const EditCompaingThree = () => {
                                                                                                                                 <div class="x78zum5 x16dsc37 x1sxyh0">
                                                                                                                                   <img
                                                                                                                                     class="x14yjl9h xudhj91 x18nykt9 xww2gxu x100vrsf x1vqgdyp x3ajldb img"
-                                                                                                                                    src="https://i.ibb.co/Nmc7XxL/Whats-App-Image-2025-01-05-at-7-26-45-PM.jpg"
+                                                                                                                                    src={
+                                                                                                                                      campaign?.sponsorImageURL
+                                                                                                                                    }
                                                                                                                                     alt=""
                                                                                                                                   />
                                                                                                                                 </div>
@@ -7939,7 +7943,9 @@ const EditCompaingThree = () => {
                                                                                                                               <div>
                                                                                                                                 <img
                                                                                                                                   class="_67w_ img"
-                                                                                                                                  src="https://i.ibb.co/Nmc7XxL/Whats-App-Image-2025-01-05-at-7-26-45-PM.jpg"
+                                                                                                                                  src={
+                                                                                                                                    campaign?.sponsorImageURL
+                                                                                                                                  }
                                                                                                                                   alt=""
                                                                                                                                 />
                                                                                                                                 <div class="_67x2">
