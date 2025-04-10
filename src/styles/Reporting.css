@@ -7093,7 +7093,7 @@ i.img {
 
 /* When the checkbox is checked */
 /* When the checkbox is checked */
-.uniquecheckbox:checked::after {
+.uniquecheckboxsss:checked::after {
   content: ""; /* Remove the checkmark symbol */
   background-image: url("https://cdn-icons-png.freepik.com/512/9136/9136003.png"); /* Add the image as background */
   background-size: contain; /* Make sure the image fits within the element */
@@ -7101,12 +7101,12 @@ i.img {
   width: 18px; /* Set width for the tick */
   height: 18px; /* Set height for the tick */
   position: absolute; /* Position it inside the checkbox */
-  left: 14px; /* Adjust horizontal position */
+  left: 7px; /* Adjust horizontal position */
   top: 9px; /* Adjust vertical position */
 }
 
 /* Optional: Keep the border color #499BCF when checked */
-.uniquecheckbox:checked {
+.uniquecheckboxsss:checked {
   border-color: #499bcf;
 }
 /* When the checkbox is checked */

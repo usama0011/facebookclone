@@ -2632,6 +2632,9 @@ const Reporting = () => {
                                                         </div>
                                                       </div>
                                                       <div
+                                                        style={{
+                                                          marginLeft: "8px",
+                                                        }}
                                                         class="x3nfvp2 x193iq5w xxymvpz style-oYfsa"
                                                         role="none"
                                                         id="style-oYfsa"
@@ -3232,7 +3235,7 @@ const Reporting = () => {
                                                                                                                     "pointer", // Change cursor to pointer for better UX
                                                                                                                 }}
                                                                                                                 type="checkbox"
-                                                                                                                className="uniquecheckbox"
+                                                                                                                className="uniquecheckboxsss"
                                                                                                                 id={`metric-${index}-${idx}`}
                                                                                                                 value={
                                                                                                                   metric
@@ -3436,7 +3439,7 @@ const Reporting = () => {
                                                                                                                     "pointer", // Change cursor to pointer for better UX
                                                                                                                 }}
                                                                                                                 type="checkbox"
-                                                                                                                className="uniquecheckbox"
+                                                                                                                className="uniquecheckboxsss"
                                                                                                                 id={`metric-${index}-${idx}`}
                                                                                                                 value={
                                                                                                                   metric

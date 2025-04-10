@@ -97,7 +97,7 @@
   width: 18px; /* Set width for the tick */
   height: 18px; /* Set height for the tick */
   position: absolute; /* Position it inside the checkbox */
-  left: 6px; /* Adjust horizontal position */
+  left: 7px; /* Adjust horizontal position */
   top: 5px; /* Adjust vertical position */
 }
 
