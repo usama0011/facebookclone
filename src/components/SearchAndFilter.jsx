@@ -126,6 +126,7 @@ const SearchAndFilter = ({
                                     style={{
                                       color: "#1461cc",
                                       backgroundColor: "#f5f5f5",
+                                      marginBottom: "5px",
                                     }}
                                   >
                                     {searchQuery}

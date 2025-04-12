@@ -8,6 +8,7 @@ const PageID = ({
   campaigns,
   setCampaigns,
   setLoading,
+  Corssclick,
 }) => {
   const handleApply = () => {
     setShowPageIDBar(false);
@@ -69,7 +70,10 @@ const PageID = ({
                               >
                                 Close
                               </div>
-                              <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                              <div
+                                onClick={Corssclick}
+                                class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3"
+                              >
                                 <div
                                   class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                   role="presentation"
@@ -341,7 +345,11 @@ const PageID = ({
                 </div>
                 <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x19lwn94 x1swvt13 x1pi30zi x1l90r2v x1y1aw1k x1c4vz4f x2lah0s">
                   <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x2lah0s x13a6bvl">
-                    <div class="x3nfvp2 x193iq5w xxymvpz" role="none">
+                    <div
+                      onClick={Corssclick}
+                      class="x3nfvp2 x193iq5w xxymvpz"
+                      role="none"
+                    >
                       <div
                         aria-busy="false"
                         class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 x1swvt13 x1pi30zi"

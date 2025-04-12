@@ -38,7 +38,7 @@ const EditCompaingThree = () => {
         </div>
       </div>
       <div
-        style={{ marginRight: "380px" }}
+        style={{ marginRight: "0px", paddingRight: "380px" }}
         class="_2k0c _96v5 _8_1l snipcss-o723F style-VS3Gy"
         id="style-VS3Gy"
       >
@@ -2618,12 +2618,28 @@ const EditCompaingThree = () => {
                                                                       class="x1iyjqo2 xr9ek0c xamitd3"
                                                                       data-sscoverage-ignore="true"
                                                                     >
-                                                                      <div class="x6s0dn4 x1q0g3np xozqiw3 x2lwn1j x1iyjqo2 xs83m0k x65s2av x78zum5 xeuugli">
+                                                                      <div
+                                                                        style={{
+                                                                          textAlign:
+                                                                            "left",
+                                                                        }}
+                                                                        class="x6s0dn4 x1q0g3np xozqiw3 x2lwn1j x1iyjqo2 xs83m0k x65s2av x78zum5 xeuugli"
+                                                                      >
                                                                         <div
+                                                                          style={{
+                                                                            textAlign:
+                                                                              "left",
+                                                                          }}
                                                                           class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli x1iyjqo2"
                                                                           id="js_z3"
                                                                         >
-                                                                          <span class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xq9mrsl x1h4wwuj xeuugli">
+                                                                          <span
+                                                                            style={{
+                                                                              textAlign:
+                                                                                "left",
+                                                                            }}
+                                                                            class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xq9mrsl x1h4wwuj xeuugli"
+                                                                          >
                                                                             Multi-advertiser
                                                                             ads
                                                                           </span>
@@ -2725,7 +2741,10 @@ const EditCompaingThree = () => {
                                                 data-visualcompletion="ignore"
                                                 class="xt0psk2"
                                               >
-                                                <div class="x9f619 x78zum5 x2lah0s xh8yej3 xyamay9 x1l90r2v x1swvt13 x1pi30zi">
+                                                <div
+                                                  style={{ textAlign: "left" }}
+                                                  class="x9f619 x78zum5 x2lah0s xh8yej3 xyamay9 x1l90r2v x1swvt13 x1pi30zi"
+                                                >
                                                   <div class="x1iyjqo2 xeuugli">
                                                     <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94">
                                                       <div class="x78zum5 xlup9mm">
@@ -2747,6 +2766,9 @@ const EditCompaingThree = () => {
                                                         </div>
                                                       </div>
                                                       <div
+                                                        style={{
+                                                          textAlign: "left",
+                                                        }}
                                                         aria-level="3"
                                                         class="x1xqt7ti x1uxerd5 x1xlr1w8 xrohxju xbsr9hj xq9mrsl x1yc453h x1h4wwuj xeuugli"
                                                         role="heading"
@@ -3093,6 +3115,14 @@ const EditCompaingThree = () => {
                                                                                                     id="style-iPGLr"
                                                                                                   >
                                                                                                     <img
+                                                                                                      style={{
+                                                                                                        width:
+                                                                                                          "50px",
+                                                                                                        height:
+                                                                                                          "50px",
+                                                                                                        objectFit:
+                                                                                                          "cover",
+                                                                                                      }}
                                                                                                       alt=""
                                                                                                       class="_5i4g img style-a7pa7"
                                                                                                       src={
@@ -3213,19 +3243,21 @@ const EditCompaingThree = () => {
                                                                                       <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94">
                                                                                         <div class="x1n2onr6">
                                                                                           <div class="x1useyqa xsdox4t x78zum5 xl56j7k x6s0dn4">
-                                                                                            <div
-                                                                                              class="x1lcm9me x1yr5g0i xrt01vj x10y3i5r x6ikm8r x10wlt62 xgx9qek style-TaxjQ"
-                                                                                              id="style-TaxjQ"
-                                                                                            >
+                                                                                            <div>
                                                                                               <div>
-                                                                                                <div class="x1n2onr6 xzadtn0 x1pdr0v7">
-                                                                                                  <div
-                                                                                                    src="https://scontent.flhe11-1.fna.fbcdn.net/v/t45.1600-4/436307494_120210079407570644_381994830417011904_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=5f2048&amp;_nc_eui2=AeHdhX1m5CVT0M_wJWCI6V-E39No7K5H_8zf02jsrkf_zJerQfTLQCwYl5zClSSv9UlIBJ7FGdHlVDTRi5NCkmNg&amp;_nc_ohc=1H2Comuj-w8Q7kNvgF7cp2H&amp;_nc_ht=scontent.flhe11-1.fna&amp;oh=00_AYAUvskYNIgzJRhzmYbYytaPXWVAoSZBAUy4n0QD2DoNyQ&amp;oe=664DFF50"
-                                                                                                    xstyle="x47corl"
-                                                                                                    class="_5f0d style-HPc2O"
-                                                                                                    id="style-HPc2O"
-                                                                                                  >
+                                                                                                <div class="">
+                                                                                                  <div>
                                                                                                     <img
+                                                                                                      style={{
+                                                                                                        width:
+                                                                                                          "45px",
+                                                                                                        height:
+                                                                                                          "45px",
+                                                                                                        borderRadius:
+                                                                                                          "5px",
+                                                                                                        objectFit:
+                                                                                                          "cover",
+                                                                                                      }}
                                                                                                       alt=""
                                                                                                       class="_5i4g img style-OhL98"
                                                                                                       src={
@@ -3342,25 +3374,24 @@ const EditCompaingThree = () => {
                                                                                               id="style-Xjaew"
                                                                                             >
                                                                                               <div>
-                                                                                                <div class="x1n2onr6 xzadtn0 x1pdr0v7">
-                                                                                                  <div
-                                                                                                    height="25"
-                                                                                                    src="https://scontent.flhe11-1.fna.fbcdn.net/v/t45.1600-4/436307494_120210079407570644_381994830417011904_n.jpg?_nc_cat=111&amp;ccb=1-7&amp;_nc_sid=5f2048&amp;_nc_eui2=AeHdhX1m5CVT0M_wJWCI6V-E39No7K5H_8zf02jsrkf_zJerQfTLQCwYl5zClSSv9UlIBJ7FGdHlVDTRi5NCkmNg&amp;_nc_ohc=1H2Comuj-w8Q7kNvgF7cp2H&amp;_nc_ht=scontent.flhe11-1.fna&amp;oh=00_AYAUvskYNIgzJRhzmYbYytaPXWVAoSZBAUy4n0QD2DoNyQ&amp;oe=664DFF50"
-                                                                                                    width="48"
-                                                                                                    xstyle="x47corl"
-                                                                                                    class="_5f0d style-h6DFj"
-                                                                                                    id="style-h6DFj"
-                                                                                                  >
-                                                                                                    <img
-                                                                                                      alt=""
-                                                                                                      class="_5i4g img style-JdTCw"
-                                                                                                      src={
-                                                                                                        campaign.campaingImage
-                                                                                                      }
-                                                                                                      id="style-JdTCw"
-                                                                                                    />
-                                                                                                  </div>
-                                                                                                </div>
+                                                                                                <img
+                                                                                                  style={{
+                                                                                                    width:
+                                                                                                      "45px",
+                                                                                                    height:
+                                                                                                      "45px",
+                                                                                                    borderRadius:
+                                                                                                      "5px",
+                                                                                                    objectFit:
+                                                                                                      "cover",
+                                                                                                  }}
+                                                                                                  alt=""
+                                                                                                  class="_5i4g img style-OhL98"
+                                                                                                  src={
+                                                                                                    campaign.campaingImage
+                                                                                                  }
+                                                                                                  id="style-OhL98"
+                                                                                                />
                                                                                               </div>
                                                                                             </div>
                                                                                           </div>
@@ -3757,6 +3788,10 @@ const EditCompaingThree = () => {
                                                                                   <div class="_21op"></div>
                                                                                 </div>
                                                                                 <div
+                                                                                  style={{
+                                                                                    textAlign:
+                                                                                      "left",
+                                                                                  }}
                                                                                   class="_9vny _9vnz ads-text-suggestions-focusable uiContextualLayerParent style-MWUQx"
                                                                                   id="style-MWUQx"
                                                                                 >
@@ -3829,7 +3864,13 @@ const EditCompaingThree = () => {
                                                                             </div>
                                                                           </div>
                                                                         </div>
-                                                                        <span class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli">
+                                                                        <span
+                                                                          style={{
+                                                                            textAlign:
+                                                                              "left",
+                                                                          }}
+                                                                          class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli"
+                                                                        >
                                                                           Disabled
                                                                         </span>
                                                                       </div>
@@ -5723,7 +5764,10 @@ const EditCompaingThree = () => {
                                                 </div>
                                               </div>
                                               <div
-                                                style={{ textAlign: "left" }}
+                                                style={{
+                                                  textAlign: "left",
+                                                  marginLeft: "-25px",
+                                                }}
                                                 aria-level="3"
                                                 class="x1xqt7ti x1uxerd5 x1xlr1w8 xrohxju xbsr9hj xq9mrsl x1yc453h x1h4wwuj xeuugli"
                                                 role="heading"

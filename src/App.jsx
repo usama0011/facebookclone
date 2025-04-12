@@ -1416,7 +1416,7 @@ const App = () => {
                                   <div>
                                     <div
                                       style={{
-                                        margin: "0px 25px",
+                                        margin: "10px 25px",
                                       }}
                                       class="x6s0dn4 x78zum5 x1q0g3np xfex06f x3pnbk8 x2lwn1j xeuugli snipcss-eSG3o"
                                     >
@@ -2082,10 +2082,41 @@ const App = () => {
                                                       <div class="xw2csxc x1odjw0f xh8yej3 x18d9i69">
                                                         <div class="xjm9jq1 xg01cxk x47corl xh8yej3 x1jyxor1"></div>
                                                         <div class="x78zum5 x1nhvcw1 x6s0dn4 x1iyjqo2 x1ye3gou xc9qbxq">
-                                                          <div class="x78zum5 x6s0dn4 x5yr21d">
-                                                            <div class="x1sliqq">
-                                                              <div class="x6s0dn4 x78zum5">
-                                                                <span class="xmi5d70 x1fvot60 xo1l8bm xxio538 x1541jtf xq9mrsl x1h4wwuj xeuugli x1uvtmcs">
+                                                          <div
+                                                            class="x78zum5 x6s0dn4 x5yr21d"
+                                                            style={{
+                                                              marginLeft: "0px",
+                                                              paddingLeft:
+                                                                "0px",
+                                                            }}
+                                                          >
+                                                            <div
+                                                              class="x1sliqq"
+                                                              style={{
+                                                                marginLeft:
+                                                                  "0px",
+                                                                paddingLeft:
+                                                                  "0px",
+                                                              }}
+                                                            >
+                                                              <div
+                                                                class="x6s0dn4 x78zum5"
+                                                                style={{
+                                                                  marginLeft:
+                                                                    "0px",
+                                                                  paddingLeft:
+                                                                    "0px",
+                                                                }}
+                                                              >
+                                                                <span
+                                                                  style={{
+                                                                    marginLeft:
+                                                                      "0px",
+                                                                    paddingLeft:
+                                                                      "0px",
+                                                                  }}
+                                                                  class="xmi5d70 x1fvot60 xo1l8bm xxio538 x1541jtf xq9mrsl x1h4wwuj xeuugli x1uvtmcs"
+                                                                >
                                                                   <div class="x1sliqq">
                                                                     <div class="x6s0dn4 x78zum5">
                                                                       {(displayID ||
@@ -2179,7 +2210,7 @@ const App = () => {
                                                                               </div>
                                                                               <div
                                                                                 style={{
-                                                                                  marginTop:
+                                                                                  marginBottom:
                                                                                     "3px",
                                                                                 }}
                                                                                 aria-level="4"
@@ -2851,9 +2882,9 @@ const App = () => {
                                                 className=""
                                                 style={{
                                                   position: "absolute",
-                                                  top: "100px",
+                                                  top: "170px",
                                                   zIndex: "3000",
-                                                  left: "55px",
+                                                  left: "65px",
                                                   backgroundColor: "",
                                                 }}
                                               >
@@ -2869,6 +2900,7 @@ const App = () => {
                                                   campaigns={campaings}
                                                   setCampaigns={setCampaigns}
                                                   setLoading={setLoading}
+                                                  Corssclick={handleClickCross}
                                                 />
                                               </div>
                                             )}

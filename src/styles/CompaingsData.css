@@ -2299,12 +2299,13 @@ i.img {
   width: 100%; /* Ensure the table takes up the full width of the container */
   border-spacing: 0;
   table-layout: fixed; /* Fix the layout to respect column widths */
+  border-collapse: collapse; /* FIX: Ensures full grid-style border lines */
 }
 
 .vCampaign-table th,
 .vCampaign-table td {
   padding: 4px 5.5px;
-  border: 1px solid #efebeb;
+  border: 1px solid #ddd; /* slightly darker for better contrast */
   text-overflow: ellipsis; /* Handle overflow text with ellipsis */
   white-space: nowrap; /* Prevent wrapping in table cells */
   overflow: hidden; /* Hide overflow content */
@@ -2312,11 +2313,14 @@ i.img {
 
 /* Add shadow to the bottom of the header */
 .vCampaign-table thead th {
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1) !important; /* Shadow at the bottom of the header */
   position: sticky;
-  top: -1px; /* Ensures the header remains sticky when scrolling */
-  z-index: 10; /* Ensure it appears above table content */
-  background-color: white; /* Keep the header background consistent */
+  top: 0;
+  z-index: 20;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+  font-weight: 600;
 }
 
 .vCampaign-table tfoot td {
