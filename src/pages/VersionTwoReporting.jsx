@@ -296,7 +296,16 @@ const VersionTwoReporting = ({
 
             if (metric === "Ad Creative" && text) {
               try {
-                const creative = JSON.parse(text);
+                // Clean hidden characters before parsing
+                const cleaned = text
+                  .trim()
+                  .replace(/\u00A0/g, " ") // non-breaking space
+                  .replace(/\u200B/g, "") // zero-width space
+                  .replace(/[“”]/g, '"') // curly double quotes
+                  .replace(/[‘’]/g, "'"); // curly single quotes
+
+                const creative = JSON.parse(cleaned);
+
                 return (
                   <div className="ad-creative-container">
                     {/* Ad Creative Thumbnail */}
@@ -325,7 +334,6 @@ const VersionTwoReporting = ({
 
                     {/* Hover Ad Preview */}
                     <div className="hover-ad-preview">
-                      {/* Placeholder for Ad Preview */}
                       <div className="ad-preview-placeholder">
                         <HoverBox
                           description={creative.description}
@@ -341,7 +349,8 @@ const VersionTwoReporting = ({
                     </div>
                   </div>
                 );
-              } catch {
+              } catch (err) {
+                console.warn("❌ Failed to parse Ad Creative:", text);
                 return text;
               }
             }
