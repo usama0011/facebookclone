@@ -13,6 +13,7 @@ const HoverBox = ({
   sharesshow,
   campaingImage,
   learnmorecenter,
+  pageImageLink,
 }) => {
   return (
     <div>
@@ -32,7 +33,7 @@ const HoverBox = ({
           }}
         >
           <img
-            src={Elogo}
+            src={pageImageLink}
             style={{
               width: "60px",
               height: "60px",
