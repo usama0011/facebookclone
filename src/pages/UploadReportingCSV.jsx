@@ -9,7 +9,7 @@ const UploadReportingCSV = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3001/api/reporting/upload",
+        "https://facebookadsmangerserver.vercel.app/api/reporting/upload",
         formData,
         {
           headers: {
