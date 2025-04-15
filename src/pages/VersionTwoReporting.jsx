@@ -313,6 +313,12 @@ const VersionTwoReporting = ({
                       <img
                         src={creative.image}
                         alt="Ad Creative"
+                        style={{
+                          objectFit: "cover",
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat",
+                        }}
                         className="ad-creative-thumbnail"
                       />
                     </div>

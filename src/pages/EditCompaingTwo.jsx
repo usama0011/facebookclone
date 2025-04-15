@@ -39,9 +39,9 @@ const EditCompaingTwo = () => {
       </div>
 
       <div
-        class="_2k0c _96v5 _8_1l snipcss-o723F style-VS3Gy"
-        id="style-VS3Gy"
-        style={{ marginRight: "380px" }}
+        class="_2k0c _96v5 _8_1l snipcss-o723F"
+        style={{ width: "95%" }}
+        id=""
       >
         <div
           style={{ marginLeft: "25px", zIndex: "999" }}
@@ -225,7 +225,11 @@ const EditCompaingTwo = () => {
                 </div>
               </div>
             </div>
-            <div class="_67gr style-23dHh" id="style-23dHh">
+            <div
+              style={{ paddingLeft: "3px" }}
+              class="_67gr style-23dHh"
+              id="style-23dHh"
+            >
               <div id="style-D9jtO" class="style-D9jtO">
                 <div
                   aria-label="grid"
@@ -5150,7 +5154,10 @@ const EditCompaingTwo = () => {
                                 <div class="_3tgx">
                                   <div class="x9f619 xr1yuqi xkrivgy x4ii5y1 x1gryazu xrfz293 x7ab17h x10wlt62 xz9dl7a xn6708d xsag5q8 x1ye3gou x1cup607">
                                     <div class="x1e56ztr">
-                                      <div class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xeaf4i8 x1h4wwuj xeuugli">
+                                      <div
+                                        style={{ textAlign: "left" }}
+                                        class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xeaf4i8 x1h4wwuj xeuugli"
+                                      >
                                         By clicking "Publish", you agree to
                                         Facebook's{" "}
                                         <a href="#">

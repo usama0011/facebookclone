@@ -38,9 +38,9 @@ const EditCompaingThree = () => {
         </div>
       </div>
       <div
-        style={{ marginRight: "0px", paddingRight: "380px" }}
-        class="_2k0c _96v5 _8_1l snipcss-o723F style-VS3Gy"
-        id="style-VS3Gy"
+        class="_2k0c _96v5 _8_1l snipcss-o723F"
+        style={{ width: "95%" }}
+        id=""
       >
         <div
           style={{ marginLeft: "25px", zIndex: "999" }}
