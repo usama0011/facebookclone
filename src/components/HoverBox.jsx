@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/hoverbox.css";
-import Elogo from "../assets/e.png";
+import Elogo from "../assets/NewNew.jpg";
 const HoverBox = ({
   description,
   learnmoreabove,
@@ -13,7 +13,6 @@ const HoverBox = ({
   sharesshow,
   campaingImage,
   learnmorecenter,
-  pageImageLink,
 }) => {
   return (
     <div>
@@ -33,7 +32,7 @@ const HoverBox = ({
           }}
         >
           <img
-            src={pageImageLink}
+            src={Elogo}
             style={{
               width: "60px",
               height: "60px",

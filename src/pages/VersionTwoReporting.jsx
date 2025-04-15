@@ -330,7 +330,6 @@ const VersionTwoReporting = ({
                         <HoverBox
                           description={creative.description}
                           campaingImage={creative.image}
-                          pageImageLink={row.pageImageLink}
                           angryshow="1"
                           likesshow="10"
                           happyshow
