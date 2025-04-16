@@ -57,15 +57,15 @@ const CompaingsData = ({
 
   const categories = {
     Performance: [
-      "Bid strategy",
-      "Budget",
       "Attribution setting",
       "Results",
       "Reach",
+      "Budget",
       "Impressions",
       "Cost per result",
       "Amount spent",
       "Ends",
+      "Bid strategy",
       "plus",
     ],
     Engagement: [
@@ -1134,10 +1134,6 @@ const CompaingsData = ({
                   className="vCampaign-delivery"
                   style={{
                     width: "150px",
-                    position: "sticky",
-                    left: "454px",
-                    top: "0",
-                    zIndex: "1100",
                   }}
                 >
                   <div
@@ -1217,6 +1213,7 @@ const CompaingsData = ({
                       .toLowerCase()}`}
                     style={getColumnStyles(col, {
                       Results: 180, // Example custom width for Results
+                      "Attribution setting": 200, // Example custom width for Results
                       Reach: 160, // Example custom width for Reach
                       plus: 25,
                     })}
@@ -1716,11 +1713,9 @@ const CompaingsData = ({
                         </div>
                       </div>
                     </td>
+
                     <td
                       style={{
-                        position: "sticky", // Make the column sticky
-                        left: "454px", // Fix the column to the left
-                        zIndex: 999,
                         backgroundColor: "white",
                       }}
                     >
@@ -1768,7 +1763,9 @@ const CompaingsData = ({
                                           role="presentation"
                                         >
                                           <div
-                                            style={{ border: "none" }}
+                                            style={{
+                                              border: "none",
+                                            }}
                                             class="xtwfq29 style-OVWKk"
                                             id="style-OVWKk"
                                           ></div>
@@ -1786,6 +1783,7 @@ const CompaingsData = ({
                         </div>
                       </span>
                     </td>
+
                     {categories[selectedCategory].map((header) => (
                       <td
                         style={{
@@ -2116,14 +2114,7 @@ const CompaingsData = ({
                           >
                             {rowData}
                           </td>
-                          <td
-                            style={{
-                              position: "sticky",
-                              left: "454px",
-                              zIndex: "1100px",
-                              backgroundColor: "white",
-                            }}
-                          ></td>
+                          <td></td>
                           {categories[selectedCategory].map((header) => (
                             <td
                               style={{
@@ -2135,99 +2126,104 @@ const CompaingsData = ({
                               }}
                               key={header}
                             >
-                              {header === "Attribution setting"
-                                ? campaign[fieldMapping[header]] || "—"
-                                : header === "Results" &&
+                              {header === "Attribution setting" ? (
+                                <div style={{ textAlign: "left" }}>
+                                  7-day click or 1-day view
+                                </div>
+                              ) : header === "Delivery" ? (
+                                campaign[fieldMapping[header]] || "—"
+                              ) : header === "Results" &&
+                                rowPercentages[rowData] ? (
+                                calculatePercentage(
+                                  resultValue,
                                   rowPercentages[rowData]
-                                ? calculatePercentage(
-                                    resultValue,
-                                    rowPercentages[rowData]
-                                  )
-                                : header === "Reach" && rowPercentages[rowData]
-                                ? calculatePercentage(
-                                    reachValue,
-                                    rowPercentages[rowData]
-                                  )
-                                : header === "Impressions" &&
+                                )
+                              ) : header === "Reach" &&
+                                rowPercentages[rowData] ? (
+                                calculatePercentage(
+                                  reachValue,
                                   rowPercentages[rowData]
-                                ? calculatePercentage(
-                                    impressionValue,
-                                    rowPercentages[rowData]
-                                  )
-                                : header === "Amount spent" &&
+                                )
+                              ) : header === "Impressions" &&
+                                rowPercentages[rowData] ? (
+                                calculatePercentage(
+                                  impressionValue,
                                   rowPercentages[rowData]
-                                ? `$${adjustValue(
+                                )
+                              ) : header === "Amount spent" &&
+                                rowPercentages[rowData] ? (
+                                `$${adjustValue(
+                                  calculatePercentage(
+                                    amountSpentValue,
+                                    rowPercentages[rowData]
+                                  ),
+                                  adjustment
+                                )}`
+                              ) : header === "Link clicks" &&
+                                rowPercentages[rowData] ? (
+                                calculatePercentage(
+                                  linkClicksValue,
+                                  rowPercentages[rowData]
+                                )
+                              ) : header ===
+                                "CPM (cost per 1,000 impressions)" ? (
+                                adjustValue(
+                                  calculateCPM(
+                                    amountSpentValue,
+                                    impressionValue
+                                  ),
+                                  adjustment
+                                )
+                              ) : header === "Cost per result" &&
+                                rowPercentages[rowData] ? (
+                                `$${adjustValue(
+                                  calculateCostPerResult(
+                                    amountSpentValue,
                                     calculatePercentage(
-                                      amountSpentValue,
+                                      resultValue,
                                       rowPercentages[rowData]
-                                    ),
-                                    adjustment
-                                  )}`
-                                : header === "Link clicks" &&
-                                  rowPercentages[rowData]
-                                ? calculatePercentage(
+                                    ).replaceAll(",", "") // Remove commas for numeric calculation
+                                  ),
+                                  adjustment
+                                )}`
+                              ) : header === "CPC (cost per link click)" ? (
+                                adjustValue(
+                                  calculateCPC(
+                                    amountSpentValue,
+                                    linkClicksValue
+                                  ),
+                                  adjustment
+                                )
+                              ) : header === "CTR (link click-through rate)" ? (
+                                adjustValue(
+                                  calculateCTR(
                                     linkClicksValue,
-                                    rowPercentages[rowData]
-                                  )
-                                : header === "CPM (cost per 1,000 impressions)"
-                                ? adjustValue(
-                                    calculateCPM(
-                                      amountSpentValue,
-                                      impressionValue
-                                    ),
-                                    adjustment
-                                  )
-                                : header === "Cost per result" &&
+                                    impressionValue
+                                  ),
+                                  adjustment
+                                )
+                              ) : header === "Clicks (all)" &&
+                                rowPercentages[rowData] ? (
+                                calculatePercentage(
+                                  clicksAllValue,
                                   rowPercentages[rowData]
-                                ? `$${adjustValue(
-                                    calculateCostPerResult(
-                                      amountSpentValue,
-                                      calculatePercentage(
-                                        resultValue,
-                                        rowPercentages[rowData]
-                                      ).replaceAll(",", "") // Remove commas for numeric calculation
-                                    ),
-                                    adjustment
-                                  )}`
-                                : header === "CPC (cost per link click)"
-                                ? adjustValue(
-                                    calculateCPC(
-                                      amountSpentValue,
-                                      linkClicksValue
-                                    ),
-                                    adjustment
-                                  )
-                                : header === "CTR (link click-through rate)"
-                                ? adjustValue(
-                                    calculateCTR(
-                                      linkClicksValue,
-                                      impressionValue
-                                    ),
-                                    adjustment
-                                  )
-                                : header === "Clicks (all)" &&
-                                  rowPercentages[rowData]
-                                ? calculatePercentage(
-                                    clicksAllValue,
-                                    rowPercentages[rowData]
-                                  )
-                                : header === "CTR (all)"
-                                ? adjustValue(
-                                    calculateCTR(
-                                      clicksAllValue,
-                                      impressionValue
-                                    ),
-                                    adjustment
-                                  )
-                                : header === "CPC (all)"
-                                ? adjustValue(
-                                    calculateCPC(
-                                      amountSpentValue,
-                                      clicksAllValue
-                                    ),
-                                    adjustment
-                                  )
-                                : ""}{" "}
+                                )
+                              ) : header === "CTR (all)" ? (
+                                adjustValue(
+                                  calculateCTR(clicksAllValue, impressionValue),
+                                  adjustment
+                                )
+                              ) : header === "CPC (all)" ? (
+                                adjustValue(
+                                  calculateCPC(
+                                    amountSpentValue,
+                                    clicksAllValue
+                                  ),
+                                  adjustment
+                                )
+                              ) : (
+                                ""
+                              )}{" "}
                             </td>
                           ))}
                         </tr>
