@@ -35,7 +35,7 @@ const EditChartTwo = () => {
       </div>
       <div
         class="_2k0c _96v5 _8_1l snipcss-o723F"
-        style={{ width: "95%", border: "1px solid red" }}
+        style={{ width: "95%" }}
         id=""
       >
         <div
