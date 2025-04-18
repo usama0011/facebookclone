@@ -186,6 +186,21 @@ const CompaingsData = ({
   const handleMouseLeave = () => {
     setHoveredRow(null); // Clear the hovered row index
   };
+  useEffect(() => {
+    const handleScroll = () => {
+      const table = document.querySelector(".vCampaign-scrollable");
+      const col = document.querySelector(".sticky-col-3");
+      if (table.scrollLeft > 10) {
+        col.classList.add("shadow-scroll");
+      } else {
+        col.classList.remove("shadow-scroll");
+      }
+    };
+    const el = document.querySelector(".vCampaign-scrollable");
+    if (el) el.addEventListener("scroll", handleScroll);
+    return () => el && el.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div>
       <div
@@ -971,32 +986,14 @@ const CompaingsData = ({
         )}
       </div>
       <div className="vCampaign-container">
-        {/* <select
-          className="vCampaign-select"
-          onChange={handleChange}
-          value={selectedCategory}
-        >
-          {Object.keys(categories).map((category) => (
-            <option key={category} value={category}>
-              {category}
-            </option>
-          ))}
-        </select> */}
-        {/* Checkbox for Performance */}
-
         <div className="vCampaign-scrollable">
           <table className="vCampaign-table">
             <thead style={{ backgroundColor: "white" }}>
               <tr>
                 <th
+                  className="sticky-col sticky-col-1"
                   style={{
                     width: "40px", // Ensure proper width for the column
-                    position: "sticky", // Make the column sticky
-                    top: "0",
-                    left: "0", // Fix the column to the left
-                    zIndex: "1300", // Keep the column above other rows
-                    backgroundColor: "#fff", // Ensure background matches the table
-                    textAlign: "center", // Center-align the content
                   }}
                 >
                   <input
@@ -1016,13 +1013,9 @@ const CompaingsData = ({
                   />
                 </th>
                 <th
-                  className="sticky-col"
+                  className="sticky-col sticky-col-2"
                   style={{
                     width: "75px",
-                    position: "sticky",
-                    left: "53px",
-                    top: "0",
-                    zIndex: "1300",
                   }}
                 >
                   <div
@@ -1063,13 +1056,9 @@ const CompaingsData = ({
                   </div>
                 </th>
                 <th
-                  className="vCampaign-campaign"
+                  className="sticky-col sticky-col-3"
                   style={{
                     width: "300px",
-                    position: "sticky",
-                    left: "141px",
-                    top: "0",
-                    zIndex: "1300",
                   }}
                 >
                   <div
@@ -1131,7 +1120,6 @@ const CompaingsData = ({
                   </div>
                 </th>
                 <th
-                  className="vCampaign-delivery"
                   style={{
                     width: "150px",
                   }}
@@ -1406,14 +1394,7 @@ const CompaingsData = ({
                       position: "relative",
                     }}
                   >
-                    <td
-                      style={{
-                        position: "sticky", // Make the column sticky
-                        left: "0", // Fix the column to the left
-                        zIndex: 999,
-                        backgroundColor: "white",
-                      }}
-                    >
+                    <td className="sticky-col sticky-col-1 ">
                       <input
                         style={{
                           width: "22px",
@@ -1423,7 +1404,6 @@ const CompaingsData = ({
                           marginRight: "8px",
                           borderRadius: "4px",
                           appearance: "none",
-                          backgroundColor: "white",
                           cursor: "pointer",
                         }}
                         type="checkbox"
@@ -1437,14 +1417,7 @@ const CompaingsData = ({
                         }
                       />
                     </td>
-                    <td
-                      style={{
-                        position: "sticky", // Make the column sticky
-                        left: "53px", // Fix the column to the left
-                        zIndex: 999,
-                        backgroundColor: "white",
-                      }}
-                    >
+                    <td className="sticky-col sticky-col-2">
                       <div class="">
                         <div class="x6s0dn4 x78zum5 xl56j7k x2lwn1j xeuugli x5yr21d">
                           <div data-visualcompletion="ignore" class="">
@@ -1477,14 +1450,7 @@ const CompaingsData = ({
                         </div>
                       </div>
                     </td>
-                    <td
-                      style={{
-                        position: "sticky", // Make the column sticky
-                        left: "141px", // Fix the column to the left
-                        zIndex: 999,
-                        backgroundColor: "white",
-                      }}
-                    >
+                    <td className="sticky-col sticky-col-3  sticky-campaign shadow-scroll">
                       <div>
                         <div class="x9f619 x78zum5 xdj266r x11i5rnm xat24cr x1mh8g0r">
                           <div class="x1iyjqo2 x6ikm8r x10wlt62">
@@ -1714,15 +1680,14 @@ const CompaingsData = ({
                       </div>
                     </td>
 
-                    <td
-                      style={{
-                        backgroundColor: "white",
-                      }}
-                    >
+                    <td style={{}}>
                       <span>
                         <div class="clearfix _ikh">
                           <div class="x6s0dn4 x78zum5 x1q0g3np x2lwn1j xeuugli">
-                            <div class="x1yc453h x1kky2od x1y5rjcf">
+                            <div
+                              style={{ borderRadius: "5px" }}
+                              class="x1yc453h x1kky2od x1y5rjcf"
+                            >
                               <i
                                 alt=""
                                 data-visualcompletion="css-img"
@@ -1734,15 +1699,33 @@ const CompaingsData = ({
                               Active
                             </span>
                           </div>
-                          <div class="_4bl7" style={{ border: "none" }}>
+                          <div
+                            class="_4bl7"
+                            style={{
+                              border: "none",
+                              backgroundColor: "transparent",
+                            }}
+                          >
                             <div
                               class=" _1b33 _e9h _abu1"
-                              style={{ border: "none" }}
+                              style={{
+                                border: "none",
+                                backgroundColor: "transparent",
+                              }}
                             >
-                              <div class="_e9n" style={{ border: "none" }}>
+                              <div
+                                class="_e9n"
+                                style={{
+                                  border: "none",
+                                  backgroundColor: "transparent",
+                                }}
+                              >
                                 <div class="" style={{ border: "none" }}>
                                   <div
-                                    style={{ border: "none" }}
+                                    style={{
+                                      border: "none",
+                                      backgroundColor: "transparent",
+                                    }}
                                     geotextcolor="value"
                                     data-hover="tooltip"
                                     data-tooltip-display="overflow"
@@ -2081,35 +2064,32 @@ const CompaingsData = ({
                       }
 
                       return (
-                        <tr key={`sub-${subIndex}`}>
+                        <tr
+                          style={{
+                            backgroundColor:
+                              subIndex % 2 === 0 ? "#f9f9f9" : "#ffffff",
+                          }}
+                          key={`sub-${subIndex}`}
+                        >
                           <td
+                            className="sticky-col sticky-col-1"
                             style={{
                               height: "30px",
-                              zIndex: "1000",
-                              position: "sticky",
-                              left: "0",
-                              backgroundColor: "white",
                             }}
                           ></td>
                           <td
+                            className="sticky-col sticky-col-2"
                             style={{
                               height: "30px",
-                              zIndex: "1000",
-                              position: "sticky",
-                              left: "53px",
-                              backgroundColor: "white",
                             }}
                           ></td>
                           <td
+                            className="sticky-col sticky-col-3 vCampaign-label-cell  sticky-campaign"
                             style={{
                               color: "rgba(0, 0, 0, 0.8)",
                               fontSize: "14px",
                               fontWeight: 400,
                               lineHeight: "20px",
-                              position: "sticky",
-                              backgroundColor: "white",
-                              left: "141px",
-                              zIndex: "1100px",
                             }}
                           >
                             {rowData}
@@ -2271,15 +2251,12 @@ const CompaingsData = ({
                               tabindex="0"
                               role="button"
                             >
-                              <div class="x1rg5ohu x67bb7w">
+                              <div class="">
                                 <div class="xmi5d70 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x1fcty0u x78zum5 xl56j7k x6s0dn4">
                                   <span>​</span>
-                                  <div class="xjm9jq1 x78zum5 xl56j7k x6s0dn4">
+                                  <div class="">
                                     <div class="x78zum5 x1ypdohk x1uuroth x67bb7w xsgj6o6 xw3qccf">
-                                      <div
-                                        class="x3nfvp2 x120ccyz x4s1yf2"
-                                        role="presentation"
-                                      >
+                                      <div class="" role="presentation">
                                         <div
                                           class="xtwfq29 style-TsosY"
                                           id="style-TsosY"
@@ -2292,12 +2269,7 @@ const CompaingsData = ({
                             </div>
                           </div>
                         </div>
-                        <div
-                          class="ellipsis _1ha4"
-                          data-hover="tooltip"
-                          data-tooltip-display="overflow"
-                          data-tooltip-text-direction="auto"
-                        >
+                        <div class="ellipsis _1ha4">
                           <div class="xt0psk2 xmi5d70 xw23nyj xo1l8bm x63nzvj x1541jtf">
                             Excludes deleted items
                           </div>
@@ -2307,15 +2279,7 @@ const CompaingsData = ({
                   </div>
                 </td>{" "}
                 {/* Campaign */}
-                <td
-                  colSpan="1"
-                  style={{
-                    position: "sticky",
-                    left: "454px",
-                    zIndex: "1300",
-                  }}
-                ></td>{" "}
-                {/* Delivery */}
+                <td></td> {/* Delivery */}
                 {/* Dynamically render the rest of the footer columns based on categories */}
                 {categories[selectedCategory].map((header, index) => (
                   <td key={`footer-${index}`}>

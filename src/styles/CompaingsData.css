@@ -2284,31 +2284,46 @@ i.img {
   margin: 0px 8px;
   position: relative;
   background-color: white;
-  border: 10px !important;
 }
 
 .vCampaign-scrollable {
-  max-height: 690px; /* Adjust height as needed */
-  max-width: 100%; /* Adjust width as needed */
+  max-height: 690px;
+  max-width: 100%;
   overflow-x: auto;
   overflow-y: auto;
-  border-radius: 10px !important;
+  position: relative;
+  border-radius: 10px;
 }
 
 .vCampaign-table {
-  width: 100%; /* Ensure the table takes up the full width of the container */
+  width: 100%;
   border-spacing: 0;
-  table-layout: fixed; /* Fix the layout to respect column widths */
-  border-collapse: collapse; /* FIX: Ensures full grid-style border lines */
+  table-layout: fixed;
+  border-collapse: separate !important;
 }
-
+/* === HEADERS === */
+.vCampaign-table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background-color: white;
+  border: 1px solid #ddd !important;
+  font-weight: 600;
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+}
+/* Fix for invisible borders */
 .vCampaign-table th,
 .vCampaign-table td {
-  padding: 4px 5.5px;
-  border: 1px solid #ddd; /* slightly darker for better contrast */
-  text-overflow: ellipsis; /* Handle overflow text with ellipsis */
-  white-space: nowrap; /* Prevent wrapping in table cells */
-  overflow: hidden; /* Hide overflow content */
+  padding: 3px 5.3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+.vCampaign-table td {
+  border-bottom: 1px solid #ddd;
+  border-left: 1px solid #ddd;
 }
 
 /* Add shadow to the bottom of the header */
@@ -2317,8 +2332,6 @@ i.img {
   top: 0;
   z-index: 20;
   background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
-  border-bottom: 1px solid #ddd;
   text-align: left;
   font-weight: 600;
 }
@@ -2365,7 +2378,6 @@ i.img {
   bottom: -1px;
   background-color: white; /* Footer background color */
   font-weight: bold; /* Optional: Make footer content bold */
-  border: 1px solid #ddd !important; /* Add consistent border */
   text-align: left; /* Align text in the footer */
   padding: 6px; /* Add consistent padding */
 }
@@ -2392,4 +2404,87 @@ i.img {
 
 .vCampaign-table tbody tr:hover {
   background-color: #e5e5e5 !important; /* Hover row background color */
+}
+.vCampaign-table th.sticky-col {
+  z-index: 5;
+  box-shadow: 2px 0 0 #ddd;
+}
+
+/* Sticky Column Base Style */
+.vCampaign-table th.sticky-col,
+.vCampaign-table td.sticky-col {
+  position: sticky;
+  background-color: white;
+  z-index: 1300;
+}
+
+/* Specific Sticky Columns */
+.vCampaign-table th.sticky-col-1,
+.vCampaign-table td.sticky-col-1 {
+  left: 0;
+}
+
+.vCampaign-table th.sticky-col-2,
+.vCampaign-table td.sticky-col-2 {
+  left: 53px;
+}
+
+.vCampaign-table th.sticky-col-3,
+.vCampaign-table td.sticky-col-3 {
+  left: 141px;
+}
+
+/* Sticky Footer z-index fix */
+.vCampaign-table tfoot td {
+  z-index: 1200;
+}
+
+/* Fix for sticky column background in zebra rows */
+.vCampaign-table tbody tr:nth-child(even) td.sticky-col {
+  background-color: #f4f6f8 !important;
+}
+
+.vCampaign-table tbody tr:nth-child(odd) td.sticky-col {
+  background-color: #ffffff !important;
+}
+
+.vCampaign-table td.sticky-col {
+  background-color: inherit;
+  z-index: 2 !important;
+  box-shadow: 2px 0 0 #ddd !important; /* Only this one is needed */
+}
+
+/* If you have multiple sticky levels, increase z-index accordingly */
+.vCampaign-table td.sticky-col-1 {
+  z-index: 3;
+  left: 1px;
+}
+.vCampaign-table td.sticky-col-2 {
+  z-index: 4;
+  left: 50px;
+}
+.vCampaign-table td.sticky-col-3 {
+  z-index: 5;
+  left: 141px;
+}
+
+/* ✅ Hover Row Background for Sticky Columns */
+.vCampaign-table tbody tr:hover td.sticky-col {
+  background-color: #e5e5e5 !important;
+}
+
+.shadow-scroll {
+  box-shadow: 6px 0 6px -1px rgba(0, 0, 0, 0.08) !important;
+}
+.vCampaign-table td.sticky-col-1 {
+  left: 0;
+  z-index: 3;
+}
+.vCampaign-table td.sticky-col-2 {
+  left: 53px;
+  z-index: 4;
+}
+.vCampaign-table td.sticky-col-3 {
+  left: 141px;
+  z-index: 5;
 }
