@@ -193,11 +193,18 @@ const App = () => {
             pageID:
               localStorage.getItem("currentPageID") ||
               currentPageID ||
-              undefined, // Include currentPageID if it's set
+              undefined,
           },
         }
       );
-      setCampaigns(response.data);
+
+      // ✅ Fallback to empty string for undefined campaignName
+      const sanitizedData = response.data.map((item) => ({
+        ...item,
+        campaignName: item.campaignName || item.campaingname || "", // support both possible fields
+      }));
+
+      setCampaigns(sanitizedData);
     } catch (err) {
       setError("Error fetching campaigns");
       console.error("API Error:", err);
@@ -205,6 +212,7 @@ const App = () => {
       setLoading(false);
     }
   };
+
   const fetchAccount = async () => {
     try {
       const response = await axios.get(
@@ -1330,7 +1338,7 @@ const App = () => {
 
     if (savedCampaignName) {
       const filtered = campaings.filter((campaign) =>
-        campaign.campaignName
+        (campaign.campaignName || "")
           .toLowerCase()
           .includes(savedCampaignName.toLowerCase())
       );
@@ -1339,6 +1347,7 @@ const App = () => {
       setCampaigns(campaings);
     }
   }, [loading]);
+
   console.log();
   // Helper function to filter campaigns based on checkedCampaigns
   const getFilteredCampaignsFetch = (campaigns, selectedIds) => {

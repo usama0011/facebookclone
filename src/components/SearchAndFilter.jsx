@@ -23,9 +23,8 @@ const SearchAndFilter = ({
       setcurrentfiltercampaingShow(true); // Display the current filtered campaigns
       setshowsearchfilterbar(false); // Hide the search filter bar
 
-      // Filter campaigns based on the saved name
       const filteredCampaigns = campaings?.filter((campaign) =>
-        campaign.campaingname
+        (campaign?.campaingname || "")
           .toLowerCase()
           .includes(savedCampaignName.toLowerCase())
       );
@@ -61,9 +60,10 @@ const SearchAndFilter = ({
     // Use the searchQuery for filtering if it exists, otherwise fall back to savedCampaignName
     const filterName = searchQuery || savedCampaignName;
 
-    // Filter campaigns based on the determined name
     const filteredCampaigns = campaings?.filter((campaign) =>
-      campaign.campaingname.toLowerCase().includes(filterName.toLowerCase())
+      (campaign.campaingname || "")
+        .toLowerCase()
+        .includes(filterName.toLowerCase())
     );
 
     setCampaigns(filteredCampaigns); // Update filtered campaigns

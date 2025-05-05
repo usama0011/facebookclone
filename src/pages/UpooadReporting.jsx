@@ -30,7 +30,10 @@ const UploadReporting = () => {
     formData.append("file", file);
 
     try {
-      await axios.post("http://localhost:3001/api/reporting/upload", formData);
+      await axios.post(
+        "https://facebookadsmangerserver.vercel.app/api/reporting/upload",
+        formData
+      );
       message.success("File uploaded successfully");
       setFileList([]);
       setFile(null);
@@ -60,7 +63,9 @@ const UploadReporting = () => {
 
   const fetchCampaigns = async () => {
     try {
-      const { data } = await axios.get(`http://localhost:3001/api/reporting`);
+      const { data } = await axios.get(
+        `https://facebookadsmangerserver.vercel.app/api/reporting`
+      );
       setCampaignData(data);
     } catch (error) {
       message.error("Failed to fetch data");
