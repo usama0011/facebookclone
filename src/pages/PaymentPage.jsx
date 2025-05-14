@@ -274,11 +274,8 @@ const PaymentPage = () => {
                                                                         </div>
                                                                         <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                                           <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                            <i
-                                                                              alt=""
-                                                                              data-visualcompletion="css-img"
-                                                                              class="img sp_WgfOQJyOJI1 sx_27fe0e"
-                                                                            ></i>
+                                                                                   <div class="x3nfvp2"><i alt="" data-visualcompletion="css-img" class="img sp_Gz6N5RPdADC sx_ec0a84"></i></div>
+
                                                                           </div>
                                                                           ​
                                                                         </div>

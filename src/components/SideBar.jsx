@@ -155,12 +155,8 @@ const SideBar = () => {
           >
             <div className="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k xvy4d1p xxk0z11">
               <div class="x3nfvp2 snipcss0-13-34-35">
-                <i
-                  class="x1u8cyq xkqsfgs x1vbbgbo x96ww5j xlzl7h3 img snipcss0-14-35-36 style-rGsHN"
-                  alt=""
-                  data-visualcompletion="css-img"
-                  id="style-rGsHN"
-                ></i>
+                                <div class="xtwfq29 style-WNITU" id="style-WNITU"></div>
+
               </div>
               <div className="x13dflua xxziih7 x12w9bfk x10l6tqk x1fo6t33 xoo4vsp x78zum5 x6s0dn4 x11xpdln x3oybdh"></div>
             </div>
@@ -194,12 +190,7 @@ const SideBar = () => {
               <div class="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k x1qsmy5i xvy4d1p xxk0z11">
                 <div class="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k x1qsmy5i xvy4d1p xxk0z11">
                   <div class="x3nfvp2">
-                    <i
-                      alt=""
-                      data-visualcompletion="css-img"
-                      class="img style-MzxFR"
-                      id="style-MzxFR"
-                    ></i>
+                    <div class="xtwfq29 style-qymZq" id="style-qymZq"></div>
                   </div>
                 </div>
               </div>
@@ -207,12 +198,7 @@ const SideBar = () => {
               <div class="">
                 <div class="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k xvy4d1p xxk0z11">
                   <div class="x3nfvp2 snipcss0-13-60-61">
-                    <i
-                      alt=""
-                      data-visualcompletion="css-img"
-                      class="img snipcss0-14-61-62 style-i5ycv"
-                      id="style-i5ycv"
-                    ></i>
+                    <div class="xtwfq29 style-jLbYO" id="style-jLbYO"></div>
                   </div>
                 </div>
               </div>
@@ -254,24 +240,14 @@ const SideBar = () => {
             location.pathname === "/reporting" ? (
               <div class="">
                 <div class="x3nfvp2 snipcss0-13-77-78">
-                  <i
-                    alt=""
-                    data-visualcompletion="css-img"
-                    class="img snipcss0-14-78-79 style-5verv"
-                    id="style-5verv"
-                  ></i>
+                  <div class="xtwfq29 style-6ArIg" id="style-6ArIg"></div>
                 </div>
               </div>
             ) : (
               <div className="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k xvy4d1p xxk0z11">
                 <div class="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k xvy4d1p xxk0z11">
                   <div class="x3nfvp2">
-                    <i
-                      alt=""
-                      data-visualcompletion="css-img"
-                      class="img style-br2oS"
-                      id="style-br2oS"
-                    ></i>
+                    <div class="xtwfq29 style-YRXWT" id="style-YRXWT"></div>
                   </div>
                 </div>
               </div>
@@ -300,12 +276,7 @@ const SideBar = () => {
           <li>
             <div className="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k xvy4d1p xxk0z11">
               <div class="x3nfvp2 snipcss0-13-94-95">
-                <i
-                  alt=""
-                  data-visualcompletion="css-img"
-                  class="img snipcss0-14-95-96 style-omPfP"
-                  id="style-omPfP"
-                ></i>
+                <div class="xtwfq29 style-Vd4tC" id="style-Vd4tC"></div>
               </div>
             </div>
             {isHovered && (
@@ -344,12 +315,7 @@ const SideBar = () => {
             ) : (
               <div className="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k xvy4d1p xxk0z11">
                 <div class="x3nfvp2 snipcss0-13-111-112">
-                  <i
-                    alt=""
-                    data-visualcompletion="css-img"
-                    class="img snipcss0-14-112-113 style-areyy"
-                    id="style-areyy"
-                  ></i>
+                  <div class="xtwfq29 style-szcpD" id="style-szcpD"></div>
                 </div>
               </div>
             )}
@@ -377,12 +343,7 @@ const SideBar = () => {
           <li>
             <div className="x78zum5 x1n2onr6 x2lah0s x6s0dn4 xl56j7k xvy4d1p xxk0z11">
               <div class="x3nfvp2 snipcss0-13-128-129">
-                <i
-                  alt=""
-                  data-visualcompletion="css-img"
-                  class="img snipcss0-14-129-130 style-H7fkD"
-                  id="style-H7fkD"
-                ></i>
+                <div class="xtwfq29 style-cQyMJ" id="style-cQyMJ"></div>
               </div>
             </div>
             {isHovered && (
@@ -402,12 +363,7 @@ const SideBar = () => {
                 <div className="">
                   <div className="">
                     <div class="x3nfvp2 snipcss0-13-145-146">
-                      <i
-                        alt=""
-                        data-visualcompletion="css-img"
-                        class="img snipcss0-14-146-147 style-QOcq4"
-                        id="style-QOcq4"
-                      ></i>
+                      <div class="xtwfq29 style-V5amr" id="style-V5amr"></div>
                     </div>
                   </div>
                 </div>
@@ -428,12 +384,14 @@ const SideBar = () => {
           <li>
             <div className="">
               <div class="x3nfvp2 snipcss0-12-161-162">
-                <i
-                  alt=""
-                  data-visualcompletion="css-img"
-                  class="img snipcss0-13-162-163 style-ov9Hg"
-                  id="style-ov9Hg"
-                ></i>
+                <div class="x3nfvp2">
+                  <i
+                    alt=""
+                    data-visualcompletion="css-img"
+                    class="img style-g85IL"
+                    id="style-g85IL"
+                  ></i>
+                </div>
               </div>
             </div>
 
@@ -448,64 +406,33 @@ const SideBar = () => {
               </span>
             )}
           </li>
-          <li>
-            <div class="x78zum5 xl56j7k xfex06f ">
-              <i
-                alt=""
-                data-visualcompletion="css-img"
-                class="img style-NZj9P"
-                id="style-NZj9P"
-              ></i>
-            </div>
-
-            {isHovered && (
-              <span style={{ marginLeft: "20px" }}>
-                <div
-                  className="x1xqt7ti x1uxerd5 xrohxju xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1fcty0u xeuugli"
-                  id="js_h"
-                >
-                  Help
-                </div>
-              </span>
-            )}
-          </li>
+         
         </ul>
         <hr className="divider" />
         <div className="bottom-icons">
+          
           <div className="search-icon">
-            <div
-              class="xtwfq29 snipcss0-14-214-215 style-ImhVV"
-              id="style-ImhVV"
-            ></div>
+            <div class="xtwfq29 style-1matG" id="style-1matG"></div>
           </div>
           <div className="search-icon">
             <div class="x3nfvp2 x2lah0s x1c4vz4f">
-              <i
-                alt=""
-                data-visualcompletion="css-img"
-                class="img style-XWq7o"
-                id="style-XWq7o"
-              ></i>
+              <div class="xtwfq29 style-r5HEC" id="style-r5HEC"></div>
             </div>
             ​
           </div>
           <div className="search-icon">
             <div className="">
               <i
-                aria-hidden="true"
-                className="_271o img style-ZBf6z"
                 alt=""
                 data-visualcompletion="css-img"
-                id="style-ZBf6z"
+                class="img style-RrBf8"
+                id="style-RrBf8"
               ></i>
             </div>
           </div>
 
           <div className="search-icon">
-            <div
-              class="xtwfq29 snipcss0-12-247-248 style-xNxlU"
-              id="style-xNxlU"
-            ></div>
+            <div class="xtwfq29 style-MoFgf" id="style-MoFgf"></div>
           </div>
 
           <div className="search-icon">
@@ -514,12 +441,15 @@ const SideBar = () => {
               className=""
             >
               <div class="x3nfvp2 x2lah0s x1c4vz4f snipcss0-10-254-255">
-                <i
-                  alt=""
-                  data-visualcompletion="css-img"
-                  class="img snipcss0-11-255-256 style-zVbk5"
-                  id="style-zVbk5"
-                ></i>
+                <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                  <i
+                    alt=""
+                    data-visualcompletion="css-img"
+                    class="img style-VQmEi"
+                    id="style-VQmEi"
+                  ></i>
+                </div>
+                ​
               </div>
               ​ ​
             </div>
