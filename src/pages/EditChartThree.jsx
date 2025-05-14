@@ -85,10 +85,8 @@ const EditChartThree = () => {
                                 class="x3nfvp2 x120ccyz x140t73q"
                                 role="presentation"
                               >
-                                <div
-                                  class="xtwfq29 style-pvA3C"
-                                  id="style-pvA3C"
-                                ></div>
+                                                               <div class="xtwfq29 style-FAEbx" id="style-FAEbx"></div>
+
                               </div>
                             </div>
                           </div>
@@ -112,10 +110,8 @@ const EditChartThree = () => {
                               class="x3nfvp2 x120ccyz x140t73q"
                               role="presentation"
                             >
-                              <div
-                                class="xtwfq29 style-yi88r"
-                                id="style-yi88r"
-                              ></div>
+                                                                           <div class="xtwfq29 style-T9A6C" id="style-T9A6C"></div>
+
                             </div>
                           </div>
                         </div>
@@ -138,10 +134,8 @@ const EditChartThree = () => {
                               class="x3nfvp2 x120ccyz x140t73q"
                               role="presentation"
                             >
-                              <div
-                                class="xtwfq29 style-jA4U2"
-                                id="style-jA4U2"
-                              ></div>
+                                                <div class="xtwfq29 style-i8HGz" id="style-i8HGz"></div>
+
                             </div>
                           </div>
                         </div>

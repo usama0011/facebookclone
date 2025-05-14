@@ -102,7 +102,7 @@ const EditChartMain = () => {
           >
             <div class="xbsr9hj">
               <div class="x3nfvp2 x120ccyz x140t73q" role="presentation">
-                <div class="xtwfq29 style-iBrpU" id="style-iBrpU"></div>
+                                <div class="xtwfq29 style-FAEbx" id="style-FAEbx"></div>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ const EditChartMain = () => {
             >
               <div class="xbsr9hj">
                 <div class="x3nfvp2 x120ccyz x140t73q" role="presentation">
-                  <div class="xtwfq29 style-TLZOk" id="style-TLZOk"></div>
+                                             <div class="xtwfq29 style-T9A6C" id="style-T9A6C"></div>
                 </div>
               </div>
             </div>

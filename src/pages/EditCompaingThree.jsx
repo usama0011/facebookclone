@@ -55,12 +55,8 @@ const EditCompaingThree = () => {
             tabindex="0"
             data-auto-logging-id="f67df74f4"
           >
-            <i
-              alt=""
-              data-visualcompletion="css-img"
-              class="img snipcss0-2-2-3 style-6rhjN"
-              id="style-6rhjN"
-            ></i>
+             <i alt="" data-visualcompletion="css-img" class="img style-y9MLo" id="style-y9MLo"></i>
+
             <div class="x1rg5ohu x67bb7w snipcss0-2-2-4" id="js_u5">
               <div class="x1ypdohk xlup9mm x1anpbxc xmo9yow xyorhqc x17adc0v x1kky2od x1ejq31n xd10rxx x1sy0etr x17r0tee x1a2a7pz snipcss0-3-4-5"></div>
             </div>
@@ -78,7 +74,7 @@ const EditCompaingThree = () => {
           >
             <div class="xbsr9hj">
               <div class="x3nfvp2 x120ccyz x140t73q" role="presentation">
-                <div class="xtwfq29 style-ayZwS" id="style-ayZwS"></div>
+                                <div class="xtwfq29 style-FAEbx" id="style-FAEbx"></div>
               </div>
             </div>
           </div>
@@ -97,10 +93,8 @@ const EditCompaingThree = () => {
                   class="x3nfvp2 x120ccyz x140t73q snipcss0-6-18-19"
                   role="presentation"
                 >
-                  <div
-                    class="xtwfq29 snipcss0-7-19-20 style-6dsho"
-                    id="style-6dsho"
-                  ></div>
+                                                             <div class="xtwfq29 style-T9A6C" id="style-T9A6C"></div>
+
                 </div>
               </div>
             </div>
@@ -690,12 +684,8 @@ const EditCompaingThree = () => {
                               </div>
                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                 <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                  <i
-                                    alt=""
-                                    data-visualcompletion="css-img"
-                                    class="img style-sRVqT"
-                                    id="style-sRVqT"
-                                  ></i>
+                                                                                <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-QrHKG" id="style-QrHKG"></i></div>​
+
                                 </div>
                                 ​
                               </div>
@@ -935,10 +925,10 @@ const EditCompaingThree = () => {
                                 class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                 role="presentation"
                               >
-                                <div
-                                  class="xtwfq29 style-gkYX5"
-                                  id="style-gkYX5"
-                                ></div>
+                              <div
+                                                        class="xtwfq29 style-neQXp"
+                                                        id="style-neQXp"
+                                                      ></div>
                               </div>
                             </div>
                           </div>
@@ -981,10 +971,8 @@ const EditCompaingThree = () => {
                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s"
                                     role="presentation"
                                   >
-                                    <div
-                                      class="xtwfq29 style-ObdRa"
-                                      id="style-ObdRa"
-                                    ></div>
+                                                                                        <div class="xtwfq29 style-Ri8fD" id="style-Ri8fD"></div>
+
                                   </div>
                                   <div
                                     aria-hidden="true"
@@ -8993,7 +8981,7 @@ const EditCompaingThree = () => {
                 ></div>
               </div>
             </div>
-            <div class="_705e">
+            <div class="_705e" style={{textAlign:'left'}}>
               <div>
                 <div class="_3tgx">
                   <div class="x9f619 xr1yuqi xkrivgy x4ii5y1 x1gryazu xrfz293 x7ab17h x10wlt62 xz9dl7a xn6708d xsag5q8 x1ye3gou x1cup607">

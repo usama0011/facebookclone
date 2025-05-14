@@ -2214,10 +2214,8 @@ const App = () => {
                                                             class="x3nfvp2 x120ccyz x140t73q"
                                                             role="presentation"
                                                           >
-                                                            <div
-                                                              class="xtwfq29 style-DNtgD"
-                                                              id="style-DNtgD"
-                                                            ></div>
+                                                                                            <div class="xtwfq29 style-FAEbx" id="style-FAEbx"></div>
+
                                                           </div>
                                                         </div>
                                                       </div>
@@ -2248,10 +2246,8 @@ const App = () => {
                                                           class="x3nfvp2 x120ccyz xto31z9"
                                                           role="presentation"
                                                         >
-                                                          <div
-                                                            class="xtwfq29 style-6E7zO"
-                                                            id="style-6E7zO"
-                                                          ></div>
+                                                                                     <div class="xtwfq29 style-T9A6C" id="style-T9A6C"></div>
+
                                                         </div>
                                                       </div>
                                                     </div>
