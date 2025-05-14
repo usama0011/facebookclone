@@ -10889,3 +10889,15 @@ svg {
     mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/ys/r/ljZf5LpWM8u.png?_nc_eui2=AeGSwN6ftiB8iIY5Np6dNOIPUKGpy66a4QBQoanLrprhABLctDirXZQ5DTU7lEbNlHDNaLezJ5bt88YCpitmqmpG");  
     mask-position: -21px -194px;  
 }  
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-dv6yL.style-dv6yL {  
+   background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yh/r/-mpd5-YMO3O.png?_nc_eui2=AeHxEtCfm-1gqI-hbL2jkDsx6zm7pwThojrrObunBOGiOkW9kCWDlT2vFjCeUa5lTlsAfZ0PyhJYZjBD6jHbhZHo");  
+    background-position: 0px -118px;  
+    background-size: auto;  
+    width: 16px;  
+    height: 16px;  
+    background-repeat: no-repeat;  
+    display: inline-block;  
+}  

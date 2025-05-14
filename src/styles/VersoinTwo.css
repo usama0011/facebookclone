@@ -200,3 +200,71 @@ td[data-index="Amount Spent"] {
     background-repeat: no-repeat;  
     display: inline-block;  
 }  
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-VBCOM.style-VBCOM {  
+   margin: 0px 8px;  
+}  
+#style-ph48C.style-ph48C {  
+   border-bottom-right-radius: 0px;  
+    vertical-align: top;  
+    border-top-right-radius: 0px;  
+    margin-left: 0px;  
+    flex: 1 1 auto;  
+}  
+#style-bWHyD.style-bWHyD {  
+   border-top-left-radius: 0px;  
+    vertical-align: top;  
+    border-bottom-left-radius: 0px;  
+    margin-left: 2px;  
+    border-left: none;  
+    flex: 1 1 auto;  
+}  
+#style-LmiIc.style-LmiIc {  
+   width: 16px;  
+    height: 16px;  
+    mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yi/r/yce2C66SV51.png?_nc_eui2=AeGqFzXN6vrZqg2_IO2RBfesH-ezJjFgtKwf57MmMWC0rKcTFMCb5cUHtlUX_Rh2b3VCgVOE8rn2tPKQWXFlBE8X");  
+    mask-position: -221px -1118px;  
+}  
+#style-ABkMG.style-ABkMG {  
+   background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yY/r/sYWDUQ_-PTl.png?_nc_eui2=AeFR7T6mvWfDA8rJzbQuHOgqyFjYv5U-S8PIWNi_lT5Lw3JBl-niRCvvZ_bTvKXbBdmfKy7Gh6iMKsjCONibHRTq");  
+    background-position: -160px -251px;  
+    background-size: auto;  
+    width: 16px;  
+    height: 16px;  
+    background-repeat: no-repeat;  
+    display: inline-block;  
+}  
+#style-XWzz7.style-XWzz7 {  
+   background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/y3/r/-ZaR3pfU_BP.png?_nc_eui2=AeEVQ5j8kLEJKME6JAicm_8HKWqbjtvKKPspapuO28oo-7CjDX5pueK3gLpZ4wKJA7EbK03WQq6sqb93deptQ7dl");  
+    background-position: -382px -1055px;  
+    background-size: auto;  
+    width: 16px;  
+    height: 16px;  
+    background-repeat: no-repeat;  
+    display: inline-block;  
+}  
+#style-CBC17.style-CBC17 {  
+   width: 16px;  
+    height: 16px;  
+    mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yY/r/sYWDUQ_-PTl.png?_nc_eui2=AeFR7T6mvWfDA8rJzbQuHOgqyFjYv5U-S8PIWNi_lT5Lw3JBl-niRCvvZ_bTvKXbBdmfKy7Gh6iMKsjCONibHRTq");  
+    mask-position: -211px -251px;  
+}  
+#style-V9dqL.style-V9dqL {  
+   width: 16px;  
+    height: 16px;  
+    mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yh/r/-mpd5-YMO3O.png?_nc_eui2=AeHxEtCfm-1gqI-hbL2jkDsx6zm7pwThojrrObunBOGiOkW9kCWDlT2vFjCeUa5lTlsAfZ0PyhJYZjBD6jHbhZHo");  
+    mask-position: 0px -169px;  
+}  
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-dv6yL.style-dv6yL {  
+   background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yh/r/-mpd5-YMO3O.png?_nc_eui2=AeHxEtCfm-1gqI-hbL2jkDsx6zm7pwThojrrObunBOGiOkW9kCWDlT2vFjCeUa5lTlsAfZ0PyhJYZjBD6jHbhZHo");  
+    background-position: 0px -118px;  
+    background-size: auto;  
+    width: 16px;  
+    height: 16px;  
+    background-repeat: no-repeat;  
+    display: inline-block;  
+}  

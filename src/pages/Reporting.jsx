@@ -743,10 +743,8 @@ const Reporting = () => {
                                                             class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                                             role="presentation"
                                                           >
-                                                            <div
-                                                              class="xtwfq29 style-HKpMM"
-                                                              id="style-HKpMM"
-                                                            ></div>
+                                                                <div class="xtwfq29 style-kM7hn" id="style-kM7hn"></div>
+
                                                           </div>
                                                           <div class="x8t9es0 x1fvot60 xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli">
                                                             All reports
@@ -901,14 +899,8 @@ const Reporting = () => {
                                                     <span class="x8t9es0 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3 snipcss0-3-20-21">
                                                       <div class="x78zum5 snipcss0-4-21-22">
                                                         <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3 snipcss0-5-22-23">
-                                                          <div class="x3nfvp2 x2lah0s x1c4vz4f snipcss0-6-23-24">
-                                                            <i
-                                                              alt=""
-                                                              data-visualcompletion="css-img"
-                                                              class="img snipcss0-7-24-25 style-tRPTU"
-                                                              id="style-tRPTU"
-                                                            ></i>
-                                                          </div>
+                                                                                  <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-ABkMG" id="style-ABkMG"></i></div>
+
                                                           <div
                                                             onClick={
                                                               handleRefreshData
@@ -937,14 +929,8 @@ const Reporting = () => {
                                                       <span class="x8t9es0 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3 snipcss0-4-29-30">
                                                         <div class="x78zum5 snipcss0-5-30-31">
                                                           <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3 snipcss0-6-31-32">
-                                                            <div class="x3nfvp2 x2lah0s x1c4vz4f snipcss0-7-32-33">
-                                                              <i
-                                                                alt=""
-                                                                data-visualcompletion="css-img"
-                                                                class="img snipcss0-8-33-34 style-tYX9V"
-                                                                id="style-tYX9V"
-                                                              ></i>
-                                                            </div>
+                                                                                       <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-XWzz7" id="style-XWzz7"></i></div>
+
                                                             <div class="x8t9es0 x1fvot60 xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli snipcss0-7-32-35">
                                                               Share
                                                             </div>
@@ -977,10 +963,8 @@ const Reporting = () => {
                                                               class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f snipcss0-7-41-42"
                                                               role="presentation"
                                                             >
-                                                              <div
-                                                                class="xtwfq29 snipcss0-8-42-43 style-PeTBn"
-                                                                id="style-PeTBn"
-                                                              ></div>
+                                                                                             <div class="xtwfq29 style-CBC17" id="style-CBC17"></div>
+
                                                             </div>
                                                             <div class="x8t9es0 x1fvot60 xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli snipcss0-7-41-44">
                                                               Export
@@ -1014,10 +998,8 @@ const Reporting = () => {
                                                             class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f snipcss0-6-50-51"
                                                             role="presentation"
                                                           >
-                                                            <div
-                                                              class="xtwfq29 snipcss0-7-51-52 style-awlEy"
-                                                              id="style-awlEy"
-                                                            ></div>
+                                                                                      <div class="xtwfq29 style-V9dqL" id="style-V9dqL"></div>
+
                                                           </div>
                                                           ​
                                                         </div>
@@ -1166,10 +1148,8 @@ const Reporting = () => {
                                                                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                                                                     role="presentation"
                                                                                   >
-                                                                                    <div
-                                                                                      class="xtwfq29 style-zlQsk"
-                                                                                      id="style-zlQsk"
-                                                                                    ></div>
+                                                                                       <div class="xlup9mm x1kky2od"><i alt="" data-visualcompletion="css-img" class="img style-dv6yL" id="style-dv6yL"></i></div>
+
                                                                                   </div>
 
                                                                                   ​
@@ -2507,12 +2487,8 @@ const Reporting = () => {
                                                                     class="x10l6tqk x6ikm8r x10wlt62 x13vifvy x17qophe xh8yej3 x5yr21d x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m xosibs0 xt24udd xw53kvy x1dka6rp x47corl"
                                                                     role="presentation"
                                                                   >
-                                                                    <i
-                                                                      alt=""
-                                                                      data-visualcompletion="css-img"
-                                                                      class="img style-C67Q2"
-                                                                      id="style-C67Q2"
-                                                                    ></i>
+                                                                       <div class="x10l6tqk x6ikm8r x10wlt62 x13vifvy x17qophe xh8yej3 x5yr21d x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m xosibs0 xt24udd xw53kvy x1dka6rp x47corl" role="presentation"><i alt="" data-visualcompletion="css-img" class="img style-URRYI" id="style-URRYI"></i></div>
+
                                                                   </div>
                                                                 </div>
                                                               </div>
@@ -2578,12 +2554,8 @@ const Reporting = () => {
                                                           <div class="x78zum5">
                                                             <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                               <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                <i
-                                                                  alt=""
-                                                                  data-visualcompletion="css-img"
-                                                                  class="img style-qYHrL"
-                                                                  id="style-qYHrL"
-                                                                ></i>
+                                                                    <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-qL17k" id="style-qL17k"></i></div>
+
                                                               </div>
                                                               <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
                                                                 Reset Column
@@ -2614,12 +2586,9 @@ const Reporting = () => {
                                                             <div class="x78zum5">
                                                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                                 <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                  <i
-                                                                    alt=""
-                                                                    data-visualcompletion="css-img"
-                                                                    class="img style-iN5SP"
-                                                                    id="style-iN5SP"
-                                                                  ></i>
+                                                                    <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-n8j1j" id="style-n8j1j"></i></div>
+
+
                                                                 </div>
                                                                 <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
                                                                   Format
@@ -2647,14 +2616,8 @@ const Reporting = () => {
                                                           <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
                                                             <div class="x78zum5">
                                                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
-                                                                <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                  <i
-                                                                    alt=""
-                                                                    data-visualcompletion="css-img"
-                                                                    class="img style-k4MBO"
-                                                                    id="style-k4MBO"
-                                                                  ></i>
-                                                                </div>
+                                                                   <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-TtGFc" id="style-TtGFc"></i></div>
+
 
                                                                 <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
                                                                   Customise
@@ -2848,10 +2811,7 @@ const Reporting = () => {
                                                                                           class="x3nfvp2 x120ccyz x4s1yf2"
                                                                                           role="presentation"
                                                                                         >
-                                                                                          <div
-                                                                                            class="xtwfq29 style-GLwTt"
-                                                                                            id="style-GLwTt"
-                                                                                          ></div>
+                                                                                         <i alt="" data-visualcompletion="css-img" class="img style-vCUYw" id="style-vCUYw"></i>
                                                                                         </div>
                                                                                       </div>
                                                                                     </div>
@@ -2901,10 +2861,10 @@ const Reporting = () => {
                                                                             class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f snipcss0-6-50-51"
                                                                             role="presentation"
                                                                           >
-                                                                            <div
-                                                                              class="xtwfq29 snipcss0-7-51-52 style-awlEy"
-                                                                              id="style-awlEy"
-                                                                            ></div>
+                                                                              <div
+                                                        class="xtwfq29 style-neQXp"
+                                                        id="style-neQXp"
+                                                      ></div>
                                                                           </div>
                                                                           ​
                                                                         </div>
@@ -3059,12 +3019,8 @@ const Reporting = () => {
                                                                           </div>
                                                                           <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                                             <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                              <i
-                                                                                alt=""
-                                                                                data-visualcompletion="css-img"
-                                                                                class="img style-3g3eG"
-                                                                                id="style-3g3eG"
-                                                                              ></i>
+                                                                                             <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-mvgT3" id="style-mvgT3"></i></div>​
+
                                                                             </div>
                                                                           </div>
                                                                         </div>
@@ -3101,8 +3057,8 @@ const Reporting = () => {
                                                                     >
                                                                       <div class="_4u-c _2mun"></div>
                                                                       <div class="x1ye3gou xn6708d xz9dl7a xjkvuk6">
-                                                                        <div>
-                                                                          <div class="xeuugli">
+                                                                        <div style={{width:'100%'}}>
+                                                                          <div class="xeuugli" style={{width:'100%'}}>
                                                                             <div
                                                                               style={{
                                                                                 width:
@@ -3124,7 +3080,7 @@ const Reporting = () => {
                                                                                     category,
                                                                                     index
                                                                                   ) => (
-                                                                                    <div
+                                                                                    <div 
                                                                                       key={
                                                                                         index
                                                                                       }
@@ -3160,12 +3116,8 @@ const Reporting = () => {
                                                                                           </div>
                                                                                         </div>
                                                                                         <div class="x2lah0s xlup9mm">
-                                                                                          <i
-                                                                                            alt=""
-                                                                                            data-visualcompletion="css-img"
-                                                                                            class="img style-DXeKT"
-                                                                                            id="style-DXeKT"
-                                                                                          ></i>
+                                                                                            <div class="x2lah0s xlup9mm"><i alt="" data-visualcompletion="css-img" class="img style-n3Gax" id="style-n3Gax"></i></div>
+
                                                                                         </div>
                                                                                       </div>
                                                                                       {category.metrics.map(
