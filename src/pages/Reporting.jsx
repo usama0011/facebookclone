@@ -1306,10 +1306,8 @@ const Reporting = () => {
                                                                                   class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                                                                   role="presentation"
                                                                                 >
-                                                                                  <div
-                                                                                    class="xtwfq29 style-VkEAs"
-                                                                                    id="style-VkEAs"
-                                                                                  ></div>
+                                                                                                                                                                   <div class="xtwfq29 style-paKtl" id="style-paKtl"></div>
+
                                                                                 </div>
                                                                                 <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1iyjqo2">
                                                                                   {isCurrentMonth(
