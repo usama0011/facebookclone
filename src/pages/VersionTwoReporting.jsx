@@ -577,13 +577,8 @@ const VersionTwoReporting = ({
                                 id="style-qxpXt"
                               >
                                 <div class="_43rl">
-                                  <i
-                                    aria-hidden="true"
-                                    class="_271o img style-UP4Kr"
-                                    alt=""
-                                    data-visualcompletion="css-img"
-                                    id="style-UP4Kr"
-                                  ></i>
+                                       <div class="_43rl"><i aria-hidden="true" class="_271o img style-mjxXw" alt="" data-visualcompletion="css-img" id="style-mjxXw"></i><span class="accessible_elem">Open Inline Column Action Menu</span></div>
+
                                   <span class="accessible_elem">
                                     Open Inline Column Action Menu
                                   </span>
