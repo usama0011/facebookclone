@@ -7574,3 +7574,15 @@ i.img {
     mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yG/r/jg3IY981y5G.png?_nc_eui2=AeF61Cc8qv1jbEygOChDMjYP4-1qC_2FOkTj7WoL_YU6RGSPCuA8pTvK3WjUiwQ8pvn8ia5tavKnZ9l9sd3nJ2bx");  
     mask-position: 0px -135px;  
 }  
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-SNS3g.style-SNS3g {  
+   background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/y3/r/-ZaR3pfU_BP.png?_nc_eui2=AeEVQ5j8kLEJKME6JAicm_8HKWqbjtvKKPspapuO28oo-7CjDX5pueK3gLpZ4wKJA7EbK03WQq6sqb93deptQ7dl");  
+    background-position: -339px -937px;  
+    background-size: auto;  
+    width: 16px;  
+    height: 16px;  
+    background-repeat: no-repeat;  
+    display: inline-block;  
+}  

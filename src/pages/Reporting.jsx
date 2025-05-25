@@ -25,6 +25,7 @@ const Reporting = () => {
   const [showcurrentpageID, setcurrentPageID] = useState(false);
   const [showcalender, setShowCalender] = useState(false);
   const [FetchPageID, setFetchPageID] = useState("");
+  const [activeSubMenu, setActiveSubMenu] = useState(null);
   const [pivottable, setPovitTable] = useState("breakdown");
   const [selectedMetrics, setSelectedMetrics] = useState([
     "Campaign Name",
@@ -33,6 +34,30 @@ const Reporting = () => {
     "Amount Spent",
     "Impressions",
   ]);
+  const menuList = [
+    { key: "delivery", label: "Had delivery", icon: "📦" },
+    {
+      key: "nameId",
+      label: "Name/ID",
+      icon: "🆔",
+      submenu: [
+        "Campaign name",
+        "Ad Set Name",
+        "Ad Name",
+        "Campaign ID",
+        "Ad set ID",
+        "Ad ID",
+        "Page ID",
+      ],
+    },
+    { key: "deliveryType", label: "Delivery", icon: "🚚" },
+    { key: "objective", label: "Objective", icon: "🎯" },
+    { key: "buyingType", label: "Buying type", icon: "🛒" },
+    { key: "metrics", label: "Metrics", icon: "📊" },
+    { key: "creative", label: "Creative", icon: "🎨" },
+    { key: "audience", label: "Audience", icon: "👥" },
+    { key: "attribution", label: "Attribution setting", icon: "⚙️" },
+  ];
 
   const getFirstDayOfMonth = () =>
     new Date(new Date().getFullYear(), new Date().getMonth(), 1);
@@ -743,8 +768,10 @@ const Reporting = () => {
                                                             class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                                             role="presentation"
                                                           >
-                                                                <div class="xtwfq29 style-kM7hn" id="style-kM7hn"></div>
-
+                                                            <div
+                                                              class="xtwfq29 style-kM7hn"
+                                                              id="style-kM7hn"
+                                                            ></div>
                                                           </div>
                                                           <div class="x8t9es0 x1fvot60 xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli">
                                                             All reports
@@ -899,7 +926,14 @@ const Reporting = () => {
                                                     <span class="x8t9es0 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3 snipcss0-3-20-21">
                                                       <div class="x78zum5 snipcss0-4-21-22">
                                                         <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3 snipcss0-5-22-23">
-                                                                                  <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-ABkMG" id="style-ABkMG"></i></div>
+                                                          <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                                                            <i
+                                                              alt=""
+                                                              data-visualcompletion="css-img"
+                                                              class="img style-ABkMG"
+                                                              id="style-ABkMG"
+                                                            ></i>
+                                                          </div>
 
                                                           <div
                                                             onClick={
@@ -929,7 +963,14 @@ const Reporting = () => {
                                                       <span class="x8t9es0 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3 snipcss0-4-29-30">
                                                         <div class="x78zum5 snipcss0-5-30-31">
                                                           <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3 snipcss0-6-31-32">
-                                                                                       <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-XWzz7" id="style-XWzz7"></i></div>
+                                                            <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                                                              <i
+                                                                alt=""
+                                                                data-visualcompletion="css-img"
+                                                                class="img style-XWzz7"
+                                                                id="style-XWzz7"
+                                                              ></i>
+                                                            </div>
 
                                                             <div class="x8t9es0 x1fvot60 xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli snipcss0-7-32-35">
                                                               Share
@@ -963,8 +1004,10 @@ const Reporting = () => {
                                                               class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f snipcss0-7-41-42"
                                                               role="presentation"
                                                             >
-                                                                                             <div class="xtwfq29 style-CBC17" id="style-CBC17"></div>
-
+                                                              <div
+                                                                class="xtwfq29 style-CBC17"
+                                                                id="style-CBC17"
+                                                              ></div>
                                                             </div>
                                                             <div class="x8t9es0 x1fvot60 xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli snipcss0-7-41-44">
                                                               Export
@@ -998,8 +1041,10 @@ const Reporting = () => {
                                                             class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f snipcss0-6-50-51"
                                                             role="presentation"
                                                           >
-                                                                                      <div class="xtwfq29 style-V9dqL" id="style-V9dqL"></div>
-
+                                                            <div
+                                                              class="xtwfq29 style-V9dqL"
+                                                              id="style-V9dqL"
+                                                            ></div>
                                                           </div>
                                                           ​
                                                         </div>
@@ -1148,8 +1193,14 @@ const Reporting = () => {
                                                                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                                                                     role="presentation"
                                                                                   >
-                                                                                       <div class="xlup9mm x1kky2od"><i alt="" data-visualcompletion="css-img" class="img style-dv6yL" id="style-dv6yL"></i></div>
-
+                                                                                    <div class="xlup9mm x1kky2od">
+                                                                                      <i
+                                                                                        alt=""
+                                                                                        data-visualcompletion="css-img"
+                                                                                        class="img style-dv6yL"
+                                                                                        id="style-dv6yL"
+                                                                                      ></i>
+                                                                                    </div>
                                                                                   </div>
 
                                                                                   ​
@@ -1286,8 +1337,10 @@ const Reporting = () => {
                                                                                   class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                                                                   role="presentation"
                                                                                 >
-                                                                                                                                                                   <div class="xtwfq29 style-paKtl" id="style-paKtl"></div>
-
+                                                                                  <div
+                                                                                    class="xtwfq29 style-paKtl"
+                                                                                    id="style-paKtl"
+                                                                                  ></div>
                                                                                 </div>
                                                                                 <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1iyjqo2">
                                                                                   {isCurrentMonth(
@@ -1779,415 +1832,90 @@ const Reporting = () => {
                                                                 class="xmix8c7 x1xmf6yo xw3qccf x12nagc xsgj6o6 x6ikm8r x10wlt62 x1iorvi4 xn6708d xjkvuk6 x1ye3gou xlyipyv xuxw1ft"
                                                                 id="FILTER_SECTION_ID"
                                                               >
-                                                                <span
+                                                                <span style={{marginBottom:"50px"}}
                                                                   id="style-SskBX"
                                                                   class="style-SskBX"
                                                                 >
                                                                   Filters
                                                                 </span>
+                                                                <br />
+                                                                <br />
                                                               </div>
-                                                              <li>
-                                                                <div
-                                                                  class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                  data-testid="typeahead-filter-option"
-                                                                >
-                                                                  <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia">
-                                                                    <span
-                                                                      id="style-8j3Fy"
-                                                                      class="style-8j3Fy"
-                                                                    >
-                                                                      <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli">
-                                                                        Had
-                                                                        delivery
-                                                                      </span>
-                                                                    </span>
-                                                                    <div
-                                                                      class="x1rg5ohu x67bb7w"
-                                                                      id="js_3qb"
-                                                                    >
-                                                                      <div class="x8t9es0 x1fvot60 xxio538 x108nfp6 xq9mrsl x1h4wwuj x1fcty0u x78zum5 xl56j7k x6s0dn4">
-                                                                        <span>
-                                                                          ​
-                                                                        </span>
-                                                                        <div class="xjm9jq1 x78zum5 xl56j7k x6s0dn4">
-                                                                          <div class="x78zum5 x1ypdohk x1uuroth x67bb7w xsgj6o6 xw3qccf">
-                                                                            <div
-                                                                              class="x3nfvp2 x120ccyz x4hq6eo"
-                                                                              role="presentation"
-                                                                            >
-                                                                              <div
-                                                                                class="xtwfq29 style-adIs5"
-                                                                                id="style-adIs5"
-                                                                              ></div>
-                                                                            </div>
-                                                                          </div>
-                                                                        </div>
-                                                                      </div>
-                                                                    </div>
-                                                                  </span>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div class="x1lcm9me x1yr5g0i xrt01vj x10y3i5r x9f619 xg7h5cd x1gslohp xw3qccf x12nagc xsgj6o6 snipcss0-0-0-1">
-                                                                  <div
-                                                                    class="_741l _741m snipcss0-1-1-2"
-                                                                    data-testid="typeahead-filter-options-group"
-                                                                  >
-                                                                    <div
-                                                                      style={{
-                                                                        display:
-                                                                          "flex",
-                                                                        alignItems:
-                                                                          "center",
-                                                                        justifyContent:
-                                                                          "space-between",
+                                                              <hr />
+                                                              <br />
+                                                              <ul
+                                                                style={{
+                                                                  listStyle:
+                                                                    "none",
+                                                                  padding: 0,
+                                                                }}
+                                                              >
+                                                                {menuList.map(
+                                                                  (item) => (
+                                                                    <li style={{cursor:"pointer"}}
+                                                                      onClick={() => {
+                                                                        setActiveSubMenu(
+                                                                          item.submenu
+                                                                            ? item.key
+                                                                            : null
+                                                                        );
                                                                       }}
-                                                                      class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv snipcss0-2-2-3"
+                                                                      key={
+                                                                        item.key
+                                                                      }
                                                                     >
                                                                       <span
-                                                                        class="snipcss0-3-3-4 style-mdWUh"
-                                                                        id="style-mdWUh"
+                                                                        style={{
+                                                                          width:
+                                                                            "100%",
+                                                                            marginBottom:"10px",
+                                                                          display:
+                                                                            "flex",
+                                                                          alignItems:
+                                                                            "center",
+                                                                          justifyContent:
+                                                                            "space-between",
+                                                                          marginRight:
+                                                                            "10px",
+                                                                          
+                                                                        }}
                                                                       >
-                                                                        Name/ID
-                                                                      </span>
-                                                                      <div>
-                                                                        <i
-                                                                          class="_741p img snipcss0-2-2-5 style-CUJXw"
-                                                                          alt=""
-                                                                          data-visualcompletion="css-img"
-                                                                          id="style-CUJXw"
-                                                                        ></i>
-                                                                      </div>
-                                                                    </div>
-                                                                  </div>
-                                                                  <ul class="x2izyaf x1lcm9me x1yr5g0i xrt01vj x10y3i5r x9f619 xdj266r xq8finb x12nagc x16n37ib x6ikm8r x10wlt62 snipcss0-1-1-6">
-                                                                    <li class="snipcss0-2-6-7">
-                                                                      <div
-                                                                        class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                        data-testid="typeahead-filter-option"
-                                                                      >
-                                                                        <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia snipcss0-4-8-9">
+                                                                        <span
+                                                                          style={{
+                                                                            display:
+                                                                              "flex",
+                                                                            alignItems:
+                                                                              "center",
+                                                                            justifyContent:
+                                                                              "space-between",
+                                                                              width:"100%",
+                                                                              marginBottom:"10px"
+                                                                          }}
+                                                                          class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli"
+                                                                        >
                                                                           <span
-                                                                            class="snipcss0-5-9-10 style-nabHz"
-                                                                            id="style-nabHz"
+                                                                            id="style-A6p6w"
+                                                                            class="style-A6p6w"
                                                                           >
-                                                                            <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli snipcss0-6-10-11">
-                                                                              Campaign
-                                                                              name
-                                                                            </span>
+                                                                            {
+                                                                              item.label
+                                                                            }
                                                                           </span>
-                                                                        </span>
-                                                                      </div>
-                                                                    </li>
-                                                                    <li class="snipcss0-2-6-12">
-                                                                      <div
-                                                                        class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                        data-testid="typeahead-filter-option"
-                                                                      >
-                                                                        <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia snipcss0-4-13-14">
-                                                                          <span
-                                                                            class="snipcss0-5-14-15 style-DGQHo"
-                                                                            id="style-DGQHo"
-                                                                          >
-                                                                            <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli snipcss0-6-15-16">
-                                                                              Ad
-                                                                              Set
-                                                                              Name
-                                                                            </span>
-                                                                          </span>
-                                                                        </span>
-                                                                      </div>
-                                                                    </li>
-                                                                    <li class="snipcss0-2-6-17">
-                                                                      <div
-                                                                        class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou x1b9h4xk"
-                                                                        data-testid="typeahead-filter-option"
-                                                                      >
-                                                                        <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia snipcss0-4-18-19">
-                                                                          <span
-                                                                            class="snipcss0-5-19-20 style-mCrYB"
-                                                                            id="style-mCrYB"
-                                                                          >
-                                                                            <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli snipcss0-6-20-21">
-                                                                              Ad
-                                                                              Name
-                                                                            </span>
-                                                                          </span>
-                                                                        </span>
-                                                                      </div>
-                                                                    </li>
-                                                                    <li
-                                                                      onClick={() => {
-                                                                        setcampaignbox(
-                                                                          true
-                                                                        );
-                                                                        setIsFocused(
-                                                                          false
-                                                                        );
-                                                                      }}
-                                                                      class="snipcss0-2-6-22"
-                                                                    >
-                                                                      <div
-                                                                        class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                        data-testid="typeahead-filter-option"
-                                                                      >
-                                                                        <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia snipcss0-4-23-24">
-                                                                          <span
-                                                                            class="snipcss0-5-24-25 style-WJ7BU"
-                                                                            id="style-WJ7BU"
-                                                                          >
-                                                                            <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli snipcss0-6-25-26">
-                                                                              Page
-                                                                              ID
-                                                                            </span>
-                                                                          </span>
-                                                                        </span>
-                                                                      </div>
-                                                                    </li>
-                                                                    <li class="snipcss0-2-6-27">
-                                                                      <div
-                                                                        class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                        data-testid="typeahead-filter-option"
-                                                                      >
-                                                                        <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia snipcss0-4-28-29">
-                                                                          <span
-                                                                            class="snipcss0-5-29-30 style-CXNTB"
-                                                                            id="style-CXNTB"
-                                                                          >
-                                                                            <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli snipcss0-6-30-31">
-                                                                              Ad
-                                                                              set
-                                                                              ID
-                                                                            </span>
-                                                                          </span>
-                                                                        </span>
-                                                                      </div>
-                                                                    </li>
-                                                                    <li class="snipcss0-2-6-32">
-                                                                      <div
-                                                                        class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                        data-testid="typeahead-filter-option"
-                                                                      >
-                                                                        <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia snipcss0-4-33-34">
-                                                                          <span
-                                                                            class="snipcss0-5-34-35 style-P8e8z"
-                                                                            id="style-P8e8z"
-                                                                          >
-                                                                            <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli snipcss0-6-35-36">
-                                                                              Ad
-                                                                              ID
-                                                                            </span>
-                                                                          </span>
-                                                                        </span>
-                                                                      </div>
-                                                                    </li>
-                                                                  </ul>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="_741l"
-                                                                  data-testid="typeahead-filter-options-group"
-                                                                >
-                                                                  <div
-                                                                    style={{
-                                                                      display:
-                                                                        "flex",
-                                                                      alignItems:
-                                                                        "center",
-                                                                      justifyContent:
-                                                                        "space-between",
-                                                                    }}
-                                                                    class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv"
-                                                                  >
-                                                                    <span
-                                                                      id="style-WWSPP"
-                                                                      class="style-WWSPP"
-                                                                    >
-                                                                      Delivery
-                                                                    </span>
-                                                                    <div>
-                                                                      <i
-                                                                        class="_741p img style-IUEGB"
-                                                                        alt=""
-                                                                        data-visualcompletion="css-img"
-                                                                        id="style-IUEGB"
-                                                                      ></i>
-                                                                    </div>
-                                                                  </div>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                  data-testid="typeahead-filter-option"
-                                                                >
-                                                                  <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia">
-                                                                    <span
-                                                                      id="style-mrYaN"
-                                                                      class="style-mrYaN"
-                                                                    >
-                                                                      <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli">
-                                                                        Objective
-                                                                      </span>
-                                                                    </span>
-                                                                  </span>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                  data-testid="typeahead-filter-option"
-                                                                >
-                                                                  <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia">
-                                                                    <span
-                                                                      id="style-AfC3n"
-                                                                      class="style-AfC3n"
-                                                                    >
-                                                                      <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli">
-                                                                        Buying
-                                                                        type
-                                                                      </span>
-                                                                    </span>
-                                                                  </span>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                  data-testid="typeahead-filter-option"
-                                                                >
-                                                                  <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia">
-                                                                    <span
-                                                                      id="style-eUwjN"
-                                                                      class="style-eUwjN"
-                                                                    >
-                                                                      <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli">
-                                                                        Impression
-                                                                        device
-                                                                      </span>
-                                                                    </span>
-                                                                  </span>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                  data-testid="typeahead-filter-option"
-                                                                >
-                                                                  <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia">
-                                                                    <span
-                                                                      id="style-lg9SK"
-                                                                      class="style-lg9SK"
-                                                                    >
-                                                                      <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli">
-                                                                        Placement
-                                                                      </span>
-                                                                    </span>
-                                                                  </span>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="_741l"
-                                                                  data-testid="typeahead-filter-options-group"
-                                                                >
-                                                                  <div class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv">
-                                                                    <span
-                                                                      id="style-t19YL"
-                                                                      class="style-t19YL"
-                                                                    >
-                                                                      Metrics
-                                                                    </span>
-                                                                    <div class="x1rg5ohu x67bb7w">
-                                                                      <div class="x8t9es0 x1fvot60 xxio538 x108nfp6 xq9mrsl x1h4wwuj x1fcty0u x78zum5 xl56j7k x6s0dn4">
-                                                                        <span>
-                                                                          ​
-                                                                        </span>
-                                                                        <div class="xjm9jq1 x78zum5 xl56j7k x6s0dn4">
-                                                                          <div class="x78zum5 x1ypdohk x1uuroth x67bb7w xsgj6o6 xw3qccf">
-                                                                            <div
-                                                                              class="x3nfvp2 x120ccyz x4hq6eo"
-                                                                              role="presentation"
-                                                                            >
-                                                                              <div
-                                                                                class="xtwfq29 style-e25ZD"
-                                                                                id="style-e25ZD"
-                                                                              ></div>
-                                                                            </div>
+
+                                                                          <div style={{marginRight:"30px"}} class="x6s0dn4 x3nfvp2 x1q0g3np xozqiw3 x2lwn1j xeuugli x1c4vz4f x19lwn94">
+                                                                            <i
+                                                                              alt=""
+                                                                              data-visualcompletion="css-img"
+                                                                              class="img style-SNS3g"
+                                                                              id="style-SNS3g"
+                                                                            ></i>
                                                                           </div>
-                                                                        </div>
-                                                                      </div>
-                                                                    </div>
-                                                                  </div>
-                                                                  <i
-                                                                    class="_741p img style-OE1d1"
-                                                                    alt=""
-                                                                    data-visualcompletion="css-img"
-                                                                    id="style-OE1d1"
-                                                                  ></i>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="_741l"
-                                                                  data-testid="typeahead-filter-options-group"
-                                                                >
-                                                                  <div class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv">
-                                                                    <span
-                                                                      id="style-Nglii"
-                                                                      class="style-Nglii"
-                                                                    >
-                                                                      Creative
-                                                                    </span>
-                                                                  </div>
-                                                                  <i
-                                                                    class="_741p img style-cvhXs"
-                                                                    alt=""
-                                                                    data-visualcompletion="css-img"
-                                                                    id="style-cvhXs"
-                                                                  ></i>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="_741l"
-                                                                  data-testid="typeahead-filter-options-group"
-                                                                >
-                                                                  <div class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv">
-                                                                    <span
-                                                                      id="style-Qv2Pn"
-                                                                      class="style-Qv2Pn"
-                                                                    >
-                                                                      Audience
-                                                                    </span>
-                                                                  </div>
-                                                                  <i
-                                                                    class="_741p img style-kamoc"
-                                                                    alt=""
-                                                                    data-visualcompletion="css-img"
-                                                                    id="style-kamoc"
-                                                                  ></i>
-                                                                </div>
-                                                              </li>
-                                                              <li>
-                                                                <div
-                                                                  class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
-                                                                  data-testid="typeahead-filter-option"
-                                                                >
-                                                                  <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia">
-                                                                    <span
-                                                                      id="style-SiixR"
-                                                                      class="style-SiixR"
-                                                                    >
-                                                                      <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli">
-                                                                        Attribution
-                                                                        setting
+                                                                        </span>
                                                                       </span>
-                                                                    </span>
-                                                                  </span>
-                                                                </div>
-                                                              </li>
+                                                                    </li>
+                                                                  )
+                                                                )}
+                                                              </ul>
                                                             </ul>
                                                           </div>
                                                         </div>
@@ -2205,6 +1933,93 @@ const Reporting = () => {
                                                   </div>
                                                 </div>
                                               )}
+                                              {activeSubMenu === "nameId" && (
+                                                <div
+                                                  style={{
+                                                    position: "absolute",
+                                                    top: "130px", // adjust as needed
+                                                    left: "60px",
+                                                    zIndex: 3000,
+                                                    background: "white",
+                                                    borderRadius: "10px",
+                                                    width: "380px",
+                                                    padding: "15px",
+                                                    textAlign:"left",
+                                                    boxShadow:
+                                                      "rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em",
+                                                  }}
+                                                >
+                                                  <h4
+                                                    style={{
+                                                      marginBottom: "10px",
+                                                    }}
+                                                  >
+                                                    Name/ID
+                                                  </h4>
+                                                  <ul
+                                                    style={{
+                                                      listStyle: "none",
+                                                      padding: 0,
+                                                      textAlign:"left",
+                                                      margin: 0,
+                                                    }}
+                                                  >
+                                                    {menuList
+                                                      .find(
+                                                        (item) =>
+                                                          item.key === "nameId"
+                                                      )
+                                                      .submenu.map(
+                                                        (sub, index) => (
+                                                          <li
+                                                            key={index}
+                                                            style={{
+                                                              padding:
+                                                                "5px 12px",
+                                                                textAlign:'left',
+                                                              cursor: "pointer",
+                                                            }}
+                                                            onClick={() => {
+                                                              // handle selection
+                                                              setActiveSubMenu(
+                                                                null
+                                                              );
+                                                            }}
+                                                          >
+                                                            <li
+                                                              onClick={() => {
+                                                                setcampaignbox(
+                                                                  true
+                                                                );
+                                                                setIsFocused(
+                                                                  false
+                                                                );
+                                                              }}
+                                                              class="snipcss0-2-6-22"
+                                                            >
+                                                              <div
+                                                                class="xhk9q7s x1otrzb0 x1i1ezom x1o6z2jb x1ypdohk x78zum5 xmix8c7 x1gslohp xw3qccf x12nagc xsgj6o6 x1iorvi4 xn6708d xjkvuk6 x1ye3gou"
+                                                                data-testid="typeahead-filter-option"
+                                                              >
+                                                                <span class="x1iyjqo2 x6ikm8r x10wlt62 xlyipyv x1sdyfia snipcss0-4-23-24">
+                                                                  <span
+                                                                    class="snipcss0-5-24-25 style-WJ7BU"
+                                                                    id="style-WJ7BU"
+                                                                  >
+                                                                    <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x108nfp6 xq9mrsl x1h4wwuj xeuugli snipcss0-6-25-26">
+                                                                      {sub}
+                                                                    </span>
+                                                                  </span>
+                                                                </span>
+                                                              </div>
+                                                            </li>
+                                                          </li>
+                                                        )
+                                                      )}
+                                                  </ul>
+                                                </div>
+                                              )}
+
                                               {campaignbox && (
                                                 <div
                                                   style={{
@@ -2487,8 +2302,17 @@ const Reporting = () => {
                                                                     class="x10l6tqk x6ikm8r x10wlt62 x13vifvy x17qophe xh8yej3 x5yr21d x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m xosibs0 xt24udd xw53kvy x1dka6rp x47corl"
                                                                     role="presentation"
                                                                   >
-                                                                       <div class="x10l6tqk x6ikm8r x10wlt62 x13vifvy x17qophe xh8yej3 x5yr21d x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m xosibs0 xt24udd xw53kvy x1dka6rp x47corl" role="presentation"><i alt="" data-visualcompletion="css-img" class="img style-URRYI" id="style-URRYI"></i></div>
-
+                                                                    <div
+                                                                      class="x10l6tqk x6ikm8r x10wlt62 x13vifvy x17qophe xh8yej3 x5yr21d x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m xosibs0 xt24udd xw53kvy x1dka6rp x47corl"
+                                                                      role="presentation"
+                                                                    >
+                                                                      <i
+                                                                        alt=""
+                                                                        data-visualcompletion="css-img"
+                                                                        class="img style-URRYI"
+                                                                        id="style-URRYI"
+                                                                      ></i>
+                                                                    </div>
                                                                   </div>
                                                                 </div>
                                                               </div>
@@ -2554,8 +2378,14 @@ const Reporting = () => {
                                                           <div class="x78zum5">
                                                             <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                               <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                    <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-qL17k" id="style-qL17k"></i></div>
-
+                                                                <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                                                                  <i
+                                                                    alt=""
+                                                                    data-visualcompletion="css-img"
+                                                                    class="img style-qL17k"
+                                                                    id="style-qL17k"
+                                                                  ></i>
+                                                                </div>
                                                               </div>
                                                               <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
                                                                 Reset Column
@@ -2586,9 +2416,14 @@ const Reporting = () => {
                                                             <div class="x78zum5">
                                                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                                 <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                    <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-n8j1j" id="style-n8j1j"></i></div>
-
-
+                                                                  <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                                                                    <i
+                                                                      alt=""
+                                                                      data-visualcompletion="css-img"
+                                                                      class="img style-n8j1j"
+                                                                      id="style-n8j1j"
+                                                                    ></i>
+                                                                  </div>
                                                                 </div>
                                                                 <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
                                                                   Format
@@ -2616,8 +2451,14 @@ const Reporting = () => {
                                                           <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
                                                             <div class="x78zum5">
                                                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
-                                                                   <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-TtGFc" id="style-TtGFc"></i></div>
-
+                                                                <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                                                                  <i
+                                                                    alt=""
+                                                                    data-visualcompletion="css-img"
+                                                                    class="img style-TtGFc"
+                                                                    id="style-TtGFc"
+                                                                  ></i>
+                                                                </div>
 
                                                                 <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
                                                                   Customise
@@ -2811,7 +2652,12 @@ const Reporting = () => {
                                                                                           class="x3nfvp2 x120ccyz x4s1yf2"
                                                                                           role="presentation"
                                                                                         >
-                                                                                         <i alt="" data-visualcompletion="css-img" class="img style-vCUYw" id="style-vCUYw"></i>
+                                                                                          <i
+                                                                                            alt=""
+                                                                                            data-visualcompletion="css-img"
+                                                                                            class="img style-vCUYw"
+                                                                                            id="style-vCUYw"
+                                                                                          ></i>
                                                                                         </div>
                                                                                       </div>
                                                                                     </div>
@@ -2861,10 +2707,10 @@ const Reporting = () => {
                                                                             class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f snipcss0-6-50-51"
                                                                             role="presentation"
                                                                           >
-                                                                              <div
-                                                        class="xtwfq29 style-neQXp"
-                                                        id="style-neQXp"
-                                                      ></div>
+                                                                            <div
+                                                                              class="xtwfq29 style-neQXp"
+                                                                              id="style-neQXp"
+                                                                            ></div>
                                                                           </div>
                                                                           ​
                                                                         </div>
@@ -3019,8 +2865,15 @@ const Reporting = () => {
                                                                           </div>
                                                                           <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                                             <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                                             <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-mvgT3" id="style-mvgT3"></i></div>​
-
+                                                                              <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                                                                                <i
+                                                                                  alt=""
+                                                                                  data-visualcompletion="css-img"
+                                                                                  class="img style-mvgT3"
+                                                                                  id="style-mvgT3"
+                                                                                ></i>
+                                                                              </div>
+                                                                              ​
                                                                             </div>
                                                                           </div>
                                                                         </div>
@@ -3057,8 +2910,19 @@ const Reporting = () => {
                                                                     >
                                                                       <div class="_4u-c _2mun"></div>
                                                                       <div class="x1ye3gou xn6708d xz9dl7a xjkvuk6">
-                                                                        <div style={{width:'100%'}}>
-                                                                          <div class="xeuugli" style={{width:'100%'}}>
+                                                                        <div
+                                                                          style={{
+                                                                            width:
+                                                                              "100%",
+                                                                          }}
+                                                                        >
+                                                                          <div
+                                                                            class="xeuugli"
+                                                                            style={{
+                                                                              width:
+                                                                                "100%",
+                                                                            }}
+                                                                          >
                                                                             <div
                                                                               style={{
                                                                                 width:
@@ -3080,7 +2944,7 @@ const Reporting = () => {
                                                                                     category,
                                                                                     index
                                                                                   ) => (
-                                                                                    <div 
+                                                                                    <div
                                                                                       key={
                                                                                         index
                                                                                       }
@@ -3116,8 +2980,14 @@ const Reporting = () => {
                                                                                           </div>
                                                                                         </div>
                                                                                         <div class="x2lah0s xlup9mm">
-                                                                                            <div class="x2lah0s xlup9mm"><i alt="" data-visualcompletion="css-img" class="img style-n3Gax" id="style-n3Gax"></i></div>
-
+                                                                                          <div class="x2lah0s xlup9mm">
+                                                                                            <i
+                                                                                              alt=""
+                                                                                              data-visualcompletion="css-img"
+                                                                                              class="img style-n3Gax"
+                                                                                              id="style-n3Gax"
+                                                                                            ></i>
+                                                                                          </div>
                                                                                         </div>
                                                                                       </div>
                                                                                       {category.metrics.map(
