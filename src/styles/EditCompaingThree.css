@@ -4769,3 +4769,10 @@ p {
     mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/130_LlANR6f.png?_nc_eui2=AeHGD_vLu2KrFRi0hkmVHKBdS7j-kaexSK1LuP6Rp7FIrV3MzdOfVrKNCbY75SUyEpGFyC3rvE2IMomXTlrjAL73");  
     mask-position: -85px -1209px;  
 }  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-GrJFq.style-GrJFq {  
+   width: 16px;  
+    height: 16px;  
+    mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/ys/r/ljZf5LpWM8u.png?_nc_eui2=AeGSwN6ftiB8iIY5Np6dNOIPUKGpy66a4QBQoanLrprhABLctDirXZQ5DTU7lEbNlHDNaLezJ5bt88YCpitmqmpG");  
+    mask-position: -21px -177px;  
+}  

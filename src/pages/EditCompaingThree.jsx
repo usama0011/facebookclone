@@ -1143,10 +1143,8 @@ const EditCompaingThree = () => {
                                                             class="x3nfvp2 x120ccyz xs7e29d"
                                                             role="presentation"
                                                           >
-                                                            <div
-                                                              class="xtwfq29 style-mgD4h"
-                                                              id="style-mgD4h"
-                                                            ></div>
+                                                                               <div class="xtwfq29 style-GrJFq" id="style-GrJFq"></div>
+
                                                           </div>
                                                         </span>
                                                       </div>
@@ -1564,7 +1562,13 @@ const EditCompaingThree = () => {
                                                                                         <div class="x6s0dn4 x3nfvp2 x1q0g3np xozqiw3 x2lwn1j xeuugli x1c4vz4f x19lwn94 xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl xqcrz7y x2lah0s">
                                                                                           ​
                                                                                           <div class="xbmpl8g x9otpla x1wsgfga">
-                                                                                            <div style={{textAlign:"left"}} class="x1lliihq x1n2onr6 x2lah0s xlup9mm x1kky2od xzolkzo x12go9s9 x1rnf11y xprq8jg">
+                                                                                            <div
+                                                                                              style={{
+                                                                                                textAlign:
+                                                                                                  "left",
+                                                                                              }}
+                                                                                              class="x1lliihq x1n2onr6 x2lah0s xlup9mm x1kky2od xzolkzo x12go9s9 x1rnf11y xprq8jg"
+                                                                                            >
                                                                                               <img
                                                                                                 style={{
                                                                                                   width:
@@ -1586,8 +1590,18 @@ const EditCompaingThree = () => {
                                                                                             </div>
                                                                                           </div>
                                                                                         </div>
-                                                                                        <div  style={{textAlign:"left"}} class="xjbqb8w x972fbf xcfux6l x1qhh985 xm0m39n xdj266r x11i5rnm xat24cr x1mh8g0r x1t137rt xexx8yu x4uap5 x18d9i69 xkhd6sd xlyipyv xr4vacz x1gnnqk1 xbsr9hj x1urst0s x1glnyev x1ad04t7 x1ix68h3 x19gujb8 xni1clt x1tutvks xfrpkgu x15h3p50 x1gf4pb6 xh7izdl x10emqs4 x2yyzbt xu8dvwe xmi5d70 x1fvot60 xo1l8bm xxio538 x1iyjqo2 x6ikm8r x10wlt62">
-                                                                                          <div  style={{textAlign:"left"}}
+                                                                                        <div
+                                                                                          style={{
+                                                                                            textAlign:
+                                                                                              "left",
+                                                                                          }}
+                                                                                          class="xjbqb8w x972fbf xcfux6l x1qhh985 xm0m39n xdj266r x11i5rnm xat24cr x1mh8g0r x1t137rt xexx8yu x4uap5 x18d9i69 xkhd6sd xlyipyv xr4vacz x1gnnqk1 xbsr9hj x1urst0s x1glnyev x1ad04t7 x1ix68h3 x19gujb8 xni1clt x1tutvks xfrpkgu x15h3p50 x1gf4pb6 xh7izdl x10emqs4 x2yyzbt xu8dvwe xmi5d70 x1fvot60 xo1l8bm xxio538 x1iyjqo2 x6ikm8r x10wlt62"
+                                                                                        >
+                                                                                          <div
+                                                                                            style={{
+                                                                                              textAlign:
+                                                                                                "left",
+                                                                                            }}
                                                                                             class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli"
                                                                                             id="js_5h"
                                                                                           >
@@ -1604,10 +1618,10 @@ const EditCompaingThree = () => {
                                                                                         class="x3nfvp2 x120ccyz x1heor9g"
                                                                                         role="presentation"
                                                                                       >
-                                                                                          <div
-                                                                          class="xtwfq29 snipcss0-5-8-9 style-B62LF"
-                                                                          id="style-B62LF"
-                                                                        ></div>
+                                                                                        <div
+                                                                                          class="xtwfq29 snipcss0-5-8-9 style-B62LF"
+                                                                                          id="style-B62LF"
+                                                                                        ></div>
                                                                                       </div>
                                                                                     </div>
                                                                                   </div>
