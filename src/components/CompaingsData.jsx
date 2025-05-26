@@ -345,10 +345,8 @@ const CompaingsData = ({
                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                     role="presentation"
                                   >
-                                    <div
-                                      class="xtwfq29 style-knHVB"
-                                      id="style-knHVB"
-                                    ></div>
+                                            <div class="xtwfq29 style-pMqrq" id="style-pMqrq"></div>
+
                                   </div>
                                   <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1uvtmcs x1iyjqo2">
                                     Coloums
@@ -585,7 +583,7 @@ const CompaingsData = ({
               position: "absolute",
               top: "48px",
               left: "1180px",
-              zIndex: 999,
+              zIndex: 4000,
               textAlign: "left",
             }}
           >
