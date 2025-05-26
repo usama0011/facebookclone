@@ -55,7 +55,12 @@ const EditCompaingThree = () => {
             tabindex="0"
             data-auto-logging-id="f67df74f4"
           >
-             <i alt="" data-visualcompletion="css-img" class="img style-y9MLo" id="style-y9MLo"></i>
+            <i
+              alt=""
+              data-visualcompletion="css-img"
+              class="img style-y9MLo"
+              id="style-y9MLo"
+            ></i>
 
             <div class="x1rg5ohu x67bb7w snipcss0-2-2-4" id="js_u5">
               <div class="x1ypdohk xlup9mm x1anpbxc xmo9yow xyorhqc x17adc0v x1kky2od x1ejq31n xd10rxx x1sy0etr x17r0tee x1a2a7pz snipcss0-3-4-5"></div>
@@ -74,7 +79,7 @@ const EditCompaingThree = () => {
           >
             <div class="xbsr9hj">
               <div class="x3nfvp2 x120ccyz x140t73q" role="presentation">
-                                <div class="xtwfq29 style-FAEbx" id="style-FAEbx"></div>
+                <div class="xtwfq29 style-FAEbx" id="style-FAEbx"></div>
               </div>
             </div>
           </div>
@@ -93,8 +98,7 @@ const EditCompaingThree = () => {
                   class="x3nfvp2 x120ccyz x140t73q snipcss0-6-18-19"
                   role="presentation"
                 >
-                                                             <div class="xtwfq29 style-T9A6C" id="style-T9A6C"></div>
-
+                  <div class="xtwfq29 style-T9A6C" id="style-T9A6C"></div>
                 </div>
               </div>
             </div>
@@ -684,8 +688,15 @@ const EditCompaingThree = () => {
                               </div>
                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                 <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                                <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-QrHKG" id="style-QrHKG"></i></div>​
-
+                                  <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                                    <i
+                                      alt=""
+                                      data-visualcompletion="css-img"
+                                      class="img style-QrHKG"
+                                      id="style-QrHKG"
+                                    ></i>
+                                  </div>
+                                  ​
                                 </div>
                                 ​
                               </div>
@@ -925,10 +936,10 @@ const EditCompaingThree = () => {
                                 class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                 role="presentation"
                               >
-                              <div
-                                                        class="xtwfq29 style-neQXp"
-                                                        id="style-neQXp"
-                                                      ></div>
+                                <div
+                                  class="xtwfq29 style-neQXp"
+                                  id="style-neQXp"
+                                ></div>
                               </div>
                             </div>
                           </div>
@@ -971,8 +982,10 @@ const EditCompaingThree = () => {
                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s"
                                     role="presentation"
                                   >
-                                                                                        <div class="xtwfq29 style-Ri8fD" id="style-Ri8fD"></div>
-
+                                    <div
+                                      class="xtwfq29 style-Ri8fD"
+                                      id="style-Ri8fD"
+                                    ></div>
                                   </div>
                                   <div
                                     aria-hidden="true"
@@ -1551,7 +1564,7 @@ const EditCompaingThree = () => {
                                                                                         <div class="x6s0dn4 x3nfvp2 x1q0g3np xozqiw3 x2lwn1j xeuugli x1c4vz4f x19lwn94 xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl xqcrz7y x2lah0s">
                                                                                           ​
                                                                                           <div class="xbmpl8g x9otpla x1wsgfga">
-                                                                                            <div class="x1lliihq x1n2onr6 x2lah0s xlup9mm x1kky2od xzolkzo x12go9s9 x1rnf11y xprq8jg">
+                                                                                            <div style={{textAlign:"left"}} class="x1lliihq x1n2onr6 x2lah0s xlup9mm x1kky2od xzolkzo x12go9s9 x1rnf11y xprq8jg">
                                                                                               <img
                                                                                                 style={{
                                                                                                   width:
@@ -1573,8 +1586,8 @@ const EditCompaingThree = () => {
                                                                                             </div>
                                                                                           </div>
                                                                                         </div>
-                                                                                        <div class="xjbqb8w x972fbf xcfux6l x1qhh985 xm0m39n xdj266r x11i5rnm xat24cr x1mh8g0r x1t137rt xexx8yu x4uap5 x18d9i69 xkhd6sd xlyipyv xr4vacz x1gnnqk1 xbsr9hj x1urst0s x1glnyev x1ad04t7 x1ix68h3 x19gujb8 xni1clt x1tutvks xfrpkgu x15h3p50 x1gf4pb6 xh7izdl x10emqs4 x2yyzbt xu8dvwe xmi5d70 x1fvot60 xo1l8bm xxio538 x1iyjqo2 x6ikm8r x10wlt62">
-                                                                                          <div
+                                                                                        <div  style={{textAlign:"left"}} class="xjbqb8w x972fbf xcfux6l x1qhh985 xm0m39n xdj266r x11i5rnm xat24cr x1mh8g0r x1t137rt xexx8yu x4uap5 x18d9i69 xkhd6sd xlyipyv xr4vacz x1gnnqk1 xbsr9hj x1urst0s x1glnyev x1ad04t7 x1ix68h3 x19gujb8 xni1clt x1tutvks xfrpkgu x15h3p50 x1gf4pb6 xh7izdl x10emqs4 x2yyzbt xu8dvwe xmi5d70 x1fvot60 xo1l8bm xxio538 x1iyjqo2 x6ikm8r x10wlt62">
+                                                                                          <div  style={{textAlign:"left"}}
                                                                                             class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli"
                                                                                             id="js_5h"
                                                                                           >
@@ -1591,10 +1604,10 @@ const EditCompaingThree = () => {
                                                                                         class="x3nfvp2 x120ccyz x1heor9g"
                                                                                         role="presentation"
                                                                                       >
-                                                                                        <div
-                                                                                          class="xtwfq29 style-9GmSn"
-                                                                                          id="style-9GmSn"
-                                                                                        ></div>
+                                                                                          <div
+                                                                          class="xtwfq29 snipcss0-5-8-9 style-B62LF"
+                                                                          id="style-B62LF"
+                                                                        ></div>
                                                                                       </div>
                                                                                     </div>
                                                                                   </div>
@@ -6382,37 +6395,41 @@ const EditCompaingThree = () => {
                                                               </div>
                                                               <div
                                                                 aria-busy="false"
-                                                                aria-controls="js_74"
-                                                                class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 x1ye3gou xn6708d"
+                                                                aria-controls="js_sf"
+                                                                aria-expanded="false"
+                                                                aria-haspopup="menu"
+                                                                class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 x1ye3gou xn6708d snipcss-xPgc9"
                                                                 role="button"
                                                                 tabindex="0"
+                                                                id="js_19y"
+                                                                data-auto-logging-id="f7d4d7515"
                                                               >
-                                                                <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
-                                                                  <div class="x78zum5">
+                                                                <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3 snipcss0-1-1-2">
+                                                                  <div class="x78zum5 snipcss0-2-2-3">
                                                                     <div
-                                                                      class="x1qvwoe0 xjm9jq1 x1y332i5 xcwd3tp x1jyxor1 x39eecv x6ikm8r x10wlt62 x10l6tqk xuxw1ft x1i1rx1s"
+                                                                      class="x1qvwoe0 xjm9jq1 x1y332i5 xcwd3tp x1jyxor1 x39eecv x6ikm8r x10wlt62 x10l6tqk xuxw1ft x1i1rx1s snipcss0-3-3-4"
                                                                       data-sscoverage-ignore="true"
                                                                     >
                                                                       Share
                                                                     </div>
-                                                                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk x1nhvcw1 xh8yej3">
+                                                                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk x1nhvcw1 xh8yej3 snipcss0-3-3-5">
                                                                       <div
-                                                                        class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
+                                                                        class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f snipcss0-4-5-6"
                                                                         role="presentation"
                                                                       >
                                                                         <div
-                                                                          class="xtwfq29 style-VEJVw"
-                                                                          id="style-VEJVw"
+                                                                          class="xtwfq29 snipcss0-5-6-7 style-XvF8d"
+                                                                          id="style-XvF8d"
                                                                         ></div>
                                                                       </div>
                                                                       ​
                                                                       <div
-                                                                        class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f x1gryazu"
+                                                                        class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f x1gryazu snipcss0-4-5-8"
                                                                         role="presentation"
                                                                       >
                                                                         <div
-                                                                          class="xtwfq29 style-spLqa"
-                                                                          id="style-spLqa"
+                                                                          class="xtwfq29 snipcss0-5-8-9 style-B62LF"
+                                                                          id="style-B62LF"
                                                                         ></div>
                                                                       </div>
                                                                     </div>
@@ -6424,120 +6441,123 @@ const EditCompaingThree = () => {
                                                           <hr class="xjbqb8w x11i5rnm x1mh8g0r xso031l x1q0q8m5 xqtp20y xwebqov xvyu6v8 xrsgblv x10lij0i xdj266r xat24cr" />
                                                           <div class="x1qjc9v5 x78zum5 x2lwn1j xeuugli">
                                                             <div class="x78zum5 xdt5ytf x2lwn1j xeuugli x1iyjqo2">
-                                                              <div class="x1n2onr6">
-                                                                <div class="x6s0dn4 x78zum5 xl56j7k x2lwn1j xeuugli x5yr21d snipcss-XAtli">
-                                                                  <div
-                                                                    data-visualcompletion="ignore"
-                                                                    class=""
-                                                                  ></div>
-                                                                  <div id="adgroup-preview-placement-filters">
-                                                                    <div class="x78zum5 x2lwn1j xeuugli x1gslohp x12nagc">
+                                                              <div class="x6s0dn4 x78zum5 xl56j7k x2lwn1j xeuugli x5yr21d snipcss-Qj3EX">
+                                                                <div
+                                                                  data-visualcompletion="ignore"
+                                                                  class=""
+                                                                ></div>
+                                                                <div id="adgroup-preview-placement-filters">
+                                                                  <div class="x78zum5 x2lwn1j xeuugli x1gslohp x12nagc">
+                                                                    <div
+                                                                      class="x78zum5 xdmi676 x193iq5w x6ikm8r x10wlt62 x1n2onr6 xmi5d70 x1fvot60 xo1l8bm xxio538"
+                                                                      role="tablist"
+                                                                    >
                                                                       <div
-                                                                        class="x78zum5 xdmi676 x193iq5w x6ikm8r x10wlt62 x1n2onr6 xmi5d70 x1fvot60 xo1l8bm xxio538"
-                                                                        role="tablist"
+                                                                        aria-hidden="false"
+                                                                        aria-label="All"
+                                                                        aria-selected="true"
+                                                                        class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d x1xlr1w8 x1qsmy5i x1k4ywey xm7lytj x1ykpatu"
+                                                                        role="tab"
+                                                                        tabindex="0"
+                                                                        data-auto-logging-component-type="GeoTab"
                                                                       >
-                                                                        <div
-                                                                          aria-hidden="false"
-                                                                          aria-label="All"
-                                                                          aria-selected="true"
-                                                                          class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d x1xlr1w8 x1qsmy5i x1k4ywey xm7lytj x1ykpatu"
-                                                                          role="tab"
-                                                                          tabindex="0"
-                                                                        >
-                                                                          <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
-                                                                            <div class="x3nfvp2 x2lah0s">
-                                                                              <i
-                                                                                class="img style-3Q4Xa"
-                                                                                height="16"
-                                                                                width="16"
-                                                                                alt=""
-                                                                                data-visualcompletion="css-img"
-                                                                                id="style-3Q4Xa"
-                                                                              ></i>
-                                                                            </div>
+                                                                        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
+                                                                          <div class="x3nfvp2 x2lah0s">
+                                                                            <i
+                                                                              class="img style-z8oG5"
+                                                                              height="16"
+                                                                              width="16"
+                                                                              alt=""
+                                                                              data-visualcompletion="css-img"
+                                                                              id="style-z8oG5"
+                                                                            ></i>
                                                                           </div>
                                                                         </div>
-                                                                        <div
-                                                                          aria-hidden="false"
-                                                                          aria-label="Feeds, In-stream ads for videos and reels"
-                                                                          aria-selected="false"
-                                                                          class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d xo1l8bm xbsr9hj x1v911su xm7lytj x1ykpatu x1i64zmx"
-                                                                          role="tab"
-                                                                          tabindex="0"
-                                                                        >
-                                                                          <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
-                                                                            <div class="x3nfvp2 x2lah0s">
-                                                                              <i
-                                                                                class="img style-adHoG"
-                                                                                height="16"
-                                                                                width="16"
-                                                                                alt=""
-                                                                                data-visualcompletion="css-img"
-                                                                                id="style-adHoG"
-                                                                              ></i>
-                                                                            </div>
+                                                                      </div>
+                                                                      <div
+                                                                        aria-hidden="false"
+                                                                        aria-label="Feeds, In-stream ads for videos and reels"
+                                                                        aria-selected="false"
+                                                                        class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d xo1l8bm xbsr9hj xas4zb2 xm7lytj x1ykpatu x1i64zmx"
+                                                                        role="tab"
+                                                                        tabindex="0"
+                                                                        data-auto-logging-component-type="GeoTab"
+                                                                      >
+                                                                        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
+                                                                          <div class="x3nfvp2 x2lah0s">
+                                                                            <i
+                                                                              class="img style-WHbrA"
+                                                                              height="16"
+                                                                              width="16"
+                                                                              alt=""
+                                                                              data-visualcompletion="css-img"
+                                                                              id="style-WHbrA"
+                                                                            ></i>
                                                                           </div>
                                                                         </div>
-                                                                        <div
-                                                                          aria-hidden="false"
-                                                                          aria-label="Stories and Reels"
-                                                                          aria-selected="false"
-                                                                          class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d xo1l8bm xbsr9hj x1v911su xm7lytj x1ykpatu x1i64zmx"
-                                                                          role="tab"
-                                                                          tabindex="0"
-                                                                        >
-                                                                          <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
-                                                                            <div class="x3nfvp2 x2lah0s">
-                                                                              <i
-                                                                                class="img style-tBc8r"
-                                                                                height="16"
-                                                                                width="16"
-                                                                                alt=""
-                                                                                data-visualcompletion="css-img"
-                                                                                id="style-tBc8r"
-                                                                              ></i>
-                                                                            </div>
+                                                                      </div>
+                                                                      <div
+                                                                        aria-hidden="false"
+                                                                        aria-label="Stories and Reels"
+                                                                        aria-selected="false"
+                                                                        class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d xo1l8bm xbsr9hj x1v911su xm7lytj x1ykpatu x1i64zmx"
+                                                                        role="tab"
+                                                                        tabindex="0"
+                                                                        data-auto-logging-component-type="GeoTab"
+                                                                      >
+                                                                        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
+                                                                          <div class="x3nfvp2 x2lah0s">
+                                                                            <i
+                                                                              class="img style-4SIbj"
+                                                                              height="16"
+                                                                              width="16"
+                                                                              alt=""
+                                                                              data-visualcompletion="css-img"
+                                                                              id="style-4SIbj"
+                                                                            ></i>
                                                                           </div>
                                                                         </div>
-                                                                        <div
-                                                                          aria-hidden="false"
-                                                                          aria-label="Right column, Search results"
-                                                                          aria-selected="false"
-                                                                          class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d xo1l8bm xbsr9hj x1v911su xm7lytj x1ykpatu x1i64zmx"
-                                                                          role="tab"
-                                                                          tabindex="0"
-                                                                        >
-                                                                          <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
-                                                                            <div class="x3nfvp2 x2lah0s">
-                                                                              <i
-                                                                                class="x1iffjtl img style-hstfX"
-                                                                                height="16"
-                                                                                width="16"
-                                                                                alt=""
-                                                                                data-visualcompletion="css-img"
-                                                                                id="style-hstfX"
-                                                                              ></i>
-                                                                            </div>
+                                                                      </div>
+                                                                      <div
+                                                                        aria-hidden="false"
+                                                                        aria-label="Right column, Search results"
+                                                                        aria-selected="false"
+                                                                        class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d xo1l8bm xbsr9hj x1v911su xm7lytj x1ykpatu x1i64zmx"
+                                                                        role="tab"
+                                                                        tabindex="0"
+                                                                        data-auto-logging-component-type="GeoTab"
+                                                                      >
+                                                                        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
+                                                                          <div class="x3nfvp2 x2lah0s">
+                                                                            <i
+                                                                              class="x1iffjtl img style-iystv"
+                                                                              height="16"
+                                                                              width="16"
+                                                                              alt=""
+                                                                              data-visualcompletion="css-img"
+                                                                              id="style-iystv"
+                                                                            ></i>
                                                                           </div>
                                                                         </div>
-                                                                        <div
-                                                                          aria-haspopup="true"
-                                                                          aria-hidden="true"
-                                                                          aria-label="More"
-                                                                          class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d xo1l8bm xbsr9hj x1v911su xm7lytj x1ykpatu x10l6tqk x47corl x1i64zmx xlshs6z"
-                                                                          role="button"
-                                                                          tabindex="-1"
-                                                                        >
-                                                                          <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
+                                                                      </div>
+                                                                      <div
+                                                                        aria-haspopup="true"
+                                                                        aria-hidden="true"
+                                                                        aria-label="More"
+                                                                        class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x13fuv20 xu3j5b3 x1q0q8m5 x26u7qi x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xdl72j9 xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt x6s0dn4 x78zum5 x1q0g3np x2lah0s xl56j7k x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ye3gou xn6708d xo1l8bm xbsr9hj x1v911su xm7lytj x1ykpatu x10l6tqk x47corl x1i64zmx xlshs6z"
+                                                                        role="button"
+                                                                        tabindex="-1"
+                                                                        data-auto-logging-component-type="GeoTab"
+                                                                      >
+                                                                        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x19lwn94 xl56j7k">
+                                                                          <div
+                                                                            class="x3nfvp2 x120ccyz x1heor9g"
+                                                                            role="presentation"
+                                                                          >
                                                                             <div
-                                                                              class="x3nfvp2 x120ccyz x1heor9g"
-                                                                              role="presentation"
-                                                                            >
-                                                                              <div
-                                                                                class="xtwfq29 style-WEzJL"
-                                                                                id="style-WEzJL"
-                                                                              ></div>
-                                                                            </div>
+                                                                              class="xtwfq29 style-NDX7f"
+                                                                              id="style-NDX7f"
+                                                                            ></div>
                                                                           </div>
                                                                         </div>
                                                                       </div>
@@ -8981,7 +9001,7 @@ const EditCompaingThree = () => {
                 ></div>
               </div>
             </div>
-            <div class="_705e" style={{textAlign:'left'}}>
+            <div class="_705e" style={{ textAlign: "left" }}>
               <div>
                 <div class="_3tgx">
                   <div class="x9f619 xr1yuqi xkrivgy x4ii5y1 x1gryazu xrfz293 x7ab17h x10wlt62 xz9dl7a xn6708d xsag5q8 x1ye3gou x1cup607">
