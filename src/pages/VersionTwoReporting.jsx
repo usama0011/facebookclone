@@ -341,9 +341,11 @@ const VersionTwoReporting = ({
                     {/* Hover Ad Preview */}
                     <div className="hover-ad-preview">
                       <div className="ad-preview-placeholder">
+                        {console.log("Thisisparent",row)}
                         <HoverBox
                           description={creative.description}
                           campaingImage={creative.image}
+                          pageImageLink={row.pageImageLink} // ✅ Pass the external page image link here
                           angryshow="1"
                           likesshow="10"
                           happyshow
@@ -577,7 +579,18 @@ const VersionTwoReporting = ({
                                 id="style-qxpXt"
                               >
                                 <div class="_43rl">
-                                       <div class="_43rl"><i aria-hidden="true" class="_271o img style-mjxXw" alt="" data-visualcompletion="css-img" id="style-mjxXw"></i><span class="accessible_elem">Open Inline Column Action Menu</span></div>
+                                  <div class="_43rl">
+                                    <i
+                                      aria-hidden="true"
+                                      class="_271o img style-mjxXw"
+                                      alt=""
+                                      data-visualcompletion="css-img"
+                                      id="style-mjxXw"
+                                    ></i>
+                                    <span class="accessible_elem">
+                                      Open Inline Column Action Menu
+                                    </span>
+                                  </div>
 
                                   <span class="accessible_elem">
                                     Open Inline Column Action Menu

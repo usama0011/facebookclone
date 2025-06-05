@@ -6,6 +6,7 @@ const HoverBox = ({
   description,
   learnmoreabove,
   learnmorebottom,
+  pageImageLink,
   pagename,
   likesshow,
   angryshow,
@@ -15,6 +16,7 @@ const HoverBox = ({
   campaingImage,
   learnmorecenter,
 }) => {
+  console.log(pageImageLink,"letcheck")
   return (
     <div>
       <div
@@ -33,7 +35,7 @@ const HoverBox = ({
           }}
         >
           <img
-            src={Dlogo}
+            src={pageImageLink}
             style={{
               width: "60px",
               height: "60px",
