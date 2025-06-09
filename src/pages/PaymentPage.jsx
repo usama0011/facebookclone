@@ -701,10 +701,8 @@ const PaymentPage = () => {
                                                                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                                                                     role="presentation"
                                                                                   >
-                                                                                    <div
-                                                                                      class="xtwfq29 style-K4HxR"
-                                                                                      id="style-K4HxR"
-                                                                                    ></div>
+                                                                                                                    <div class="xtwfq29 style-LDng7" id="style-LDng7"></div>
+
                                                                                   </div>
                                                                                 </div>
                                                                               </div>
@@ -727,10 +725,8 @@ const PaymentPage = () => {
                                                                             class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                                                             role="presentation"
                                                                           >
-                                                                            <div
-                                                                              class="xtwfq29 style-nYMg3"
-                                                                              id="style-nYMg3"
-                                                                            ></div>
+                                                                                                                                                            <div class="xtwfq29 style-paKtl" id="style-paKtl"></div>
+
                                                                           </div>
                                                                           <div class="x8t9es0 x1fvot60 xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli x1iyjqo2">
                                                                             01
@@ -1226,11 +1222,7 @@ const PaymentPage = () => {
                                                                                           </div>
                                                                                           <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                                                             <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                                                              <i
-                                                                                                alt=""
-                                                                                                data-visualcompletion="css-img"
-                                                                                                class="img sp_8sb-lWwAiyD sx_eea79f"
-                                                                                              ></i>
+                                                                                               <img style={{width:"16px",height:"16px"}} src="https://img.icons8.com/?size=100&id=82831&format=png&color=000000" alt="" />
                                                                                             </div>
                                                                                           </div>
                                                                                         </div>
