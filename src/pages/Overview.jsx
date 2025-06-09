@@ -436,10 +436,8 @@ const Overview = () => {
                                                 class="x3nfvp2 x120ccyz x4s1yf2"
                                                 role="presentation"
                                               >
-                                                 <div
-                                                        class="xtwfq29 style-neQXp"
-                                                        id="style-neQXp"
-                                                      ></div>
+                                                              <div class="xtwfq29 style-r5HEC" id="style-r5HEC"></div>
+
                                               </div>
                                             </div>
                                             ​
