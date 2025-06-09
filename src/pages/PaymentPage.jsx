@@ -1074,7 +1074,7 @@ const PaymentPage = () => {
                                                                                   <a
                                                                                     class="xt0psk2 x1hl2dhg xt0b8zv x8t9es0 x1fvot60 xxio538 xjnfcd9 xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
                                                                                     target="_blank"
-                                                                                    href="#"
+                                                                                   
                                                                                   >
                                                                                     {
                                                                                       item?.TransactionID

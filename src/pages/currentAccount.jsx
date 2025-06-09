@@ -167,7 +167,7 @@ const CurrentAccount = () => {
                                   <div class="uiToggle _7zbb" id="u_0_d_b4">
                                     <a
                                       class="_1-ys"
-                                      href="#"
+                                      
                                       role="button"
                                       rel="toggle"
                                     >
@@ -1535,7 +1535,7 @@ const CurrentAccount = () => {
                                   >
                                     <a
                                       class="jewelButton _3eo9"
-                                      href="#"
+                                      
                                       rel="toggle"
                                       role="button"
                                       aria-labelledby="u_1_0_TO"
@@ -1640,7 +1640,7 @@ const CurrentAccount = () => {
                                           <div class="x1rg5ohu">
                                             <a
                                               class="_231w _231z  _4yef style-nwbOq"
-                                              href="#"
+                                              
                                               id="style-nwbOq"
                                             >
                                               Mark all as read
@@ -1649,7 +1649,7 @@ const CurrentAccount = () => {
                                           <div class="x18mqm2i">
                                             <a
                                               class="_231w _231z  _4yef style-AfyPs"
-                                              href="#"
+                                              
                                               id="style-AfyPs"
                                             >
                                               See All
@@ -1684,7 +1684,7 @@ const CurrentAccount = () => {
                                   data-mouseoverable="1"
                                   data-changeable="1"
                                 >
-                                  <a class="_14xs" id="help-jewel" href="#">
+                                  <a class="_14xs" id="help-jewel" >
                                     <span class="_nxh x1rg5ohu x14ju556 x1nn3v0j xg83lxy x1120s5i x1h0ha7o">
                                       <i
                                         alt=""

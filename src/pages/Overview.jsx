@@ -346,7 +346,7 @@ const Overview = () => {
                                         </div>
                                         <a
                                           class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                          href="#"
+                                          
                                         >
                                           60 active campaigns
                                         </a>
@@ -1399,7 +1399,7 @@ const Overview = () => {
                                                                 Facebook's{" "}
                                                                 <a
                                                                   class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1qlqyl8 x1pd3egz"
-                                                                  href="#"
+                                                                  
                                                                 >
                                                                   Terms and
                                                                   Advertising
@@ -1962,7 +1962,7 @@ const Overview = () => {
                                                 </div>
                                                 <a
                                                   class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                  href="#"
+                                                  
                                                 >
                                                   View more
                                                 </a>
@@ -2000,7 +2000,7 @@ const Overview = () => {
                                                 </div>
                                                 <a
                                                   class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                  href="#"
+                                                  
                                                 >
                                                   View more
                                                 </a>
@@ -2038,7 +2038,7 @@ const Overview = () => {
                                                 </div>
                                                 <a
                                                   class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                  href="#"
+                                                  
                                                 >
                                                   View more
                                                 </a>

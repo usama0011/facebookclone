@@ -1069,7 +1069,7 @@ const AdsSets = ({ campaigns, loading }) => {
                                 >
                                   <a
                                     class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                    href="#"
+                                    
                                   >
                                     <span class="_3dfi _3dfj">
                                       {campaign?.campaingname}
@@ -1081,7 +1081,7 @@ const AdsSets = ({ campaigns, loading }) => {
                                 <a
                                   aria-label="Edit"
                                   class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                  href="#"
+                                  
                                 >
                                   <div class="_5_6n">
                                     <span class="_5_6o"></span>
@@ -1105,7 +1105,7 @@ const AdsSets = ({ campaigns, loading }) => {
                                               <a
                                                 aria-label="View Charts"
                                                 class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                href="#"
+                                                
                                               >
                                                 <span class="_3qjp">
                                                   <div class="x6s0dn4 x78zum5">
@@ -1135,7 +1135,7 @@ const AdsSets = ({ campaigns, loading }) => {
                                               <a
                                                 aria-label="Edit"
                                                 class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                href="#"
+                                                
                                               >
                                                 <span class="_3qjp">
                                                   <div class="x6s0dn4 x78zum5">
@@ -1165,7 +1165,7 @@ const AdsSets = ({ campaigns, loading }) => {
                                               <a
                                                 aria-label="Duplicate"
                                                 class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                href="#"
+                                                
                                               >
                                                 <span class="_3qjp">
                                                   <div class="x6s0dn4 x78zum5">
@@ -1197,7 +1197,7 @@ const AdsSets = ({ campaigns, loading }) => {
                                                 <a
                                                   aria-label="Compare"
                                                   class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                  href="#"
+                                                  
                                                 >
                                                   <span class="_3qjp">
                                                     <div class="x6s0dn4 x78zum5">

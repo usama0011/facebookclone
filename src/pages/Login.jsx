@@ -70,7 +70,7 @@ const Login = () => {
                     <div class="_1e_p _4sea _4seb _3wgx" id="u_0_d_10">
                       <a
                         class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _69kf _2m8f"
-                        href="#"
+                       
                         data-ms='{"creative_detail":"nav2022_GetStarted","creative":"header"}'
                         role="button"
                         id="u_0_e_KF"
@@ -230,7 +230,7 @@ const Login = () => {
                       <noscript>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2020_solutions_goals","creative":"header"&#125;'
                           role="button"
                         >
@@ -274,7 +274,7 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_GetStarted_StartWithBusinessTools","creative":"header"&#125;'
                           role="button"
                         >
@@ -318,7 +318,7 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_GetStarted_ExploreOurApps","creative":"header"&#125;'
                           role="button"
                         >
@@ -371,7 +371,7 @@ const Login = () => {
                     <div class="_1e_p _4sea _4seb _3wgx" id="u_0_g_aa">
                       <a
                         class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _69kf _2m8f"
-                        href="#"
+                       
                         data-ms='{"creative_detail":"nav2022_Advertise","creative":"header"}'
                         role="button"
                         id="u_0_h_Iz"
@@ -531,7 +531,7 @@ const Login = () => {
                       <noscript>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_Advertise_ExploreMetaAds","creative":"header"&#125;'
                           role="button"
                         >
@@ -596,7 +596,7 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_Advertise_CreateAnAd","creative":"header"&#125;'
                           role="button"
                         >
@@ -616,7 +616,7 @@ const Login = () => {
                     <div class="_1e_p _4sea _4seb _3wgx" id="u_0_j_VR">
                       <a
                         class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _69kf _2m8f"
-                        href="#"
+                       
                         data-ms='{"creative_detail":"nav2022_Learn","creative":"header"}'
                         role="button"
                         id="u_0_k_wY"
@@ -695,7 +695,7 @@ const Login = () => {
                       <noscript>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_Learn_StartACourse","creative":"header"&#125;'
                           role="button"
                         >
@@ -721,7 +721,7 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_Learn_DiscoverMoreInsights","creative":"header"&#125;'
                           role="button"
                         >
@@ -759,7 +759,7 @@ const Login = () => {
                     <div class="_1e_p _4sea _4seb _3wgx" id="u_0_m_bz">
                       <a
                         class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _69kf _2m8f"
-                        href="#"
+                       
                         data-ms='{"creative_detail":"nav2022_Support","creative":"header"}'
                         role="button"
                         id="u_0_n_bS"
@@ -874,7 +874,7 @@ const Login = () => {
                       <noscript>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_Support_SearchForSolutions","creative":"header"&#125;'
                           role="button"
                         >
@@ -901,7 +901,7 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_Support_PopularHelpTopics","creative":"header"&#125;'
                           role="button"
                         >
@@ -954,7 +954,7 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                          href="#"
+                         
                           data-ms='&#123;"creative_detail":"nav2022_Support_WorkWithExperts","creative":"header"&#125;'
                           role="button"
                         >
@@ -1055,7 +1055,7 @@ const Login = () => {
                                           courses.
                                         </div>
                                       </a>
-                                     <a class="x1cxtvei xz9dl7a xwn43p0 x1x5flf6 xdvlbce x1l4yu9x snipcss-eriOs style-KrteT" href="#" id="style-KrteT"><img height="20" width="20" class="xxymvpz img" alt="" src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.8562-6/445356466_1170799447379124_1827778994453747726_n.svg?_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=28b1f4&amp;_nc_ohc=DauOSsEX03IQ7kNvwGTFMMo&amp;_nc_oc=Admcy8qAwCD1yymVLpeqYnzHge1fI-aydZE6QdbOlt_egypUoVrVXtCDMs6vcKUQQUg&amp;_nc_zt=14&amp;_nc_ht=scontent.flhe3-2.fna&amp;_nc_gid=aTYJfTZgjlWwebSw2KzKgg&amp;oh=00_AfPjLF9u3W6nBGfpp4uqXEtPEi53HeDoogmZySPah3TvRA&amp;oe=684C7E82"/></a>
+                                     <a class="x1cxtvei xz9dl7a xwn43p0 x1x5flf6 xdvlbce x1l4yu9x snipcss-eriOs style-KrteT" id="style-KrteT"><img height="20" width="20" class="xxymvpz img" alt="" src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.8562-6/445356466_1170799447379124_1827778994453747726_n.svg?_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=28b1f4&amp;_nc_ohc=DauOSsEX03IQ7kNvwGTFMMo&amp;_nc_oc=Admcy8qAwCD1yymVLpeqYnzHge1fI-aydZE6QdbOlt_egypUoVrVXtCDMs6vcKUQQUg&amp;_nc_zt=14&amp;_nc_ht=scontent.flhe3-2.fna&amp;_nc_gid=aTYJfTZgjlWwebSw2KzKgg&amp;oh=00_AfPjLF9u3W6nBGfpp4uqXEtPEi53HeDoogmZySPah3TvRA&amp;oe=684C7E82"/></a>
                                     </div>
                                   </div>
                                 </div>
@@ -1072,7 +1072,7 @@ const Login = () => {
                                 <div class="_84la" id="u_0_s_yJ">
                                   <a
                                     class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _9hw5"
-                                    href="#"
+                                   
                                     data-ms='{"creative_detail":"loginv2_logout_dropdown","creative":"top_nav"}'
                                     role="button"
                                     data-onclick='[{"mod":"GBMFloatingNotificationCard","meth":"closeNotification","a":[{"__elem":1}]}]'
@@ -1172,7 +1172,7 @@ const Login = () => {
                             >
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _9hw5"
-                                href="#"
+                               
                                 data-ms='{"creative_detail":"nav_labeltest_startNow_createAPage_button_menu","creative":"top_nav"}'
                                 role="button"
                                 data-onclick='[{"mod":"GBMFloatingNotificationCard","meth":"closeNotification","a":[{"__elem":1}]}]'
@@ -1211,7 +1211,7 @@ const Login = () => {
                   <div class="_32v2 _4sea _4seb">
                     <a
                       class="_3cr5 _5j3- _53m5 _9aos _1s6a _2s4r _9bfs"
-                      href="#"
+                     
                       data-ms='{"creative_detail":"hamburger_opened","creative":"header"}'
                       role="button"
                       id="u_0_12_Kz"
@@ -1263,7 +1263,7 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                              href="#"
+                             
                               hreflang=""
                               target=""
                               data-ms='{"creative_detail":"nav2022_GetStarted","creative":"header"}'
@@ -1277,7 +1277,7 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2020_solutions_goals","creative":"header"}'
@@ -1328,7 +1328,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_GetStarted_StartWithBusinessTools","creative":"header"}'
@@ -1379,7 +1379,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_GetStarted_ExploreOurApps","creative":"header"}'
@@ -1444,7 +1444,7 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                              href="#"
+                             
                               hreflang=""
                               target=""
                               data-ms='{"creative_detail":"nav2022_Advertise","creative":"header"}'
@@ -1458,7 +1458,7 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Advertise_ExploreMetaAds","creative":"header"}'
@@ -1529,7 +1529,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Advertise_CreateAnAd","creative":"header"}'
@@ -1562,7 +1562,7 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                              href="#"
+                             
                               hreflang=""
                               target=""
                               data-ms='{"creative_detail":"nav2022_Learn","creative":"header"}'
@@ -1576,7 +1576,7 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Learn_StartACourse","creative":"header"}'
@@ -1607,7 +1607,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Learn_DiscoverMoreInsights","creative":"header"}'
@@ -1660,7 +1660,7 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                              href="#"
+                             
                               hreflang=""
                               target=""
                               data-ms='{"creative_detail":"nav2022_Support","creative":"header"}'
@@ -1674,7 +1674,7 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Support_SearchForSolutions","creative":"header"}'
@@ -1705,7 +1705,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Support_PopularHelpTopics","creative":"header"}'
@@ -1766,7 +1766,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Support_WorkWithExperts","creative":"header"}'
@@ -1879,7 +1879,7 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                              href="#"
+                             
                               data-ms='{"creative":"link"}'
                               role="button"
                               id="u_0_2t_8K"
@@ -1891,7 +1891,7 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_GetStarted","creative":"header"}'
@@ -1902,7 +1902,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Advertise","creative":"header"}'
@@ -1913,7 +1913,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Learn","creative":"header"}'
@@ -1924,7 +1924,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _1ptd _4sea _4seb _9531"
-                                href="#"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Support","creative":"header"}'
@@ -2002,7 +2002,7 @@ const Login = () => {
                                         <div class="_84la" id="u_0_33_JF">
                                           <a
                                             class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _9hw5"
-                                            href="#"
+                                           
                                             data-ms='{"creative_detail":"button-menu","creative":"top_nav"}'
                                             role="button"
                                             data-onclick='[{"mod":"GBMFloatingNotificationCard","meth":"closeNotification","a":[{"__elem":1}]}]'
@@ -2052,7 +2052,7 @@ const Login = () => {
                                                         <a
                                                           role="button"
                                                           class="_42ft _inf _9c1q _ajm4 _9f5z _2qix _aci5 _aci6 _w1i _inf _9c1q _9f5z _ajm4 _9lf6 _9lfa _am1c _ajln _ajlq _am5- _am63 _98hv _inf _9c1q _9f5z _ajm4 _9lf6 _9lfa _am1c _ajln _ajlq _am5- _am63 style-NbZik"
-                                                          href="#"
+                                                         
                                                           data-ms='{"creative_detail":"loginv2_log_out_modal_open_mobile","creative":"button"}'
                                                           id="u_0_36_Tc"
                                                         >
@@ -2180,7 +2180,7 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpi _1uba"
-                                          href="#"
+                                         
                                           data-ms='{"creative_detail":"AdsManager_Overview_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",1183243772121479,"\/business\/tools\/ads-manager",{"__event":1},{"__elem":1},0,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2193,7 +2193,7 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpj _1uba"
-                                          href="#"
+                                         
                                           data-ms='{"creative_detail":"AdsManager_CaseStudies_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",501215167586476,"\/business\/tools\/ads-manager\/case-studies",{"__event":1},{"__elem":1},1,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2206,7 +2206,7 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpj _1uba"
-                                          href="#"
+                                         
                                           data-ms='{"creative_detail":"AdsManager_GetStarted_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",520651672632863,"\/business\/tools\/ads-manager\/get-started",{"__event":1},{"__elem":1},2,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2219,7 +2219,7 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpj _1uba"
-                                          href="#"
+                                         
                                           data-ms='{"creative_detail":"AdsManager_Tips_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",884848058741294,"\/business\/tools\/ads-manager\/tips",{"__event":1},{"__elem":1},3,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2232,7 +2232,7 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpj _1uba"
-                                          href="#"
+                                         
                                           data-ms='{"creative_detail":"AdsManager_Help_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",819986355543146,"\/business\/tools\/ads-manager\/help",{"__event":1},{"__elem":1},4,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2250,7 +2250,7 @@ const Login = () => {
                                     <div class="_9r55">
                                       <a
                                         class="_3cr5 _53m5 _98hv _9fro _9fqi _9fqy style-kJRxv"
-                                        href="#"
+                                       
                                         id="style-kJRxv"
                                       >
                                         {" "}
@@ -2260,7 +2260,7 @@ const Login = () => {
                                         <a
                                           class="_9p0y _abjk"
                                           data-ms='{"creative_detail":"product-sidenav-prev-arrow","creative":"link"}'
-                                          href="#"
+                                         
                                         >
                                           <img
                                             class="_2qnn img"
@@ -2271,7 +2271,7 @@ const Login = () => {
                                         <a
                                           class="_9p0y"
                                           data-ms='{"creative_detail":"product-sidenav-next-arrow","creative":"link"}'
-                                          href="#"
+                                         
                                         >
                                           <img
                                             class="_2qnn img"
@@ -4348,7 +4348,7 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u"
                                 data-nocookies="1"
                                 dir="ltr"
-                                href="#"
+                               
                                 title="English (UK)"
                                 onclick='require("IntlUtils").setCookieLocale("en_GB", "en_GB", "https:\/\/en-gb.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"en_gb","creative":"footer"}'
@@ -4361,7 +4361,7 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-7hDWj"
                                 data-nocookies="1"
                                 dir="ltr"
-                                href="#"
+                               
                                 title="English (US)"
                                 onclick='require("IntlUtils").setCookieLocale("en_US", "en_GB", "https:\/\/www.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"en_us","creative":"footer"}'
@@ -4374,7 +4374,7 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-Sjl91"
                                 data-nocookies="1"
                                 dir="ltr"
-                                href="#"
+                               
                                 title="Spanish"
                                 onclick='require("IntlUtils").setCookieLocale("es_LA", "en_GB", "https:\/\/es-la.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"es_la","creative":"footer"}'
@@ -4387,7 +4387,7 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-NVT3R"
                                 data-nocookies="1"
                                 dir="ltr"
-                                href="#"
+                               
                                 title="Portuguese (Brazil)"
                                 onclick='require("IntlUtils").setCookieLocale("pt_BR", "en_GB", "https:\/\/pt-br.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"pt_br","creative":"footer"}'
@@ -4400,7 +4400,7 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-1fplb"
                                 data-nocookies="1"
                                 dir="ltr"
-                                href="#"
+                               
                                 title="French (France)"
                                 onclick='require("IntlUtils").setCookieLocale("fr_FR", "en_GB", "https:\/\/fr-fr.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"fr_fr","creative":"footer"}'
@@ -4413,7 +4413,7 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-NkRWZ"
                                 data-nocookies="1"
                                 dir="ltr"
-                                href="#"
+                               
                                 title="Spanish (Spain)"
                                 onclick='require("IntlUtils").setCookieLocale("es_ES", "en_GB", "https:\/\/es-es.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"es_es","creative":"footer"}'
@@ -4427,7 +4427,7 @@ const Login = () => {
                                 data-nocookies="1"
                                 rel="dialog"
                                 ajaxify="/business/globalsites/?page_cms_id=203195953813189&amp;next_uri=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2Ftools%2Fads-manager&amp;property=fbb"
-                                href="#"
+                               
                                 data-ms='{"creative_detail":"more","creative":"footer"}'
                                 role="button"
                                 id="u_0_7p_wc"
@@ -4895,7 +4895,7 @@ const Login = () => {
         <div class="hidden_elem _7wcw style-cv3qr" id="style-cv3qr">
           <a
             class="_3cr5 _5j3- _53m5 _9aos _1s6a _7wcx layerCancel style-jNQwF"
-            href="#"
+           
             data-ms='{"creative_detail":"loginv2_log_out_x_close","creative":"link"}'
             role="button"
             id="u_0_8w_x6"
@@ -4947,7 +4947,7 @@ const Login = () => {
                           <a
                             role="button"
                             class="_42ft _inf _dcm _33o3 _6m1p _ajm4 _9f5z _2qix _3bn- _9g0w _w1i _inf _dcm _33o3 _6m1p _7hpr _9f5z _ajm4 layerCancel _98hv _inf _dcm _33o3 _6m1p _7hpr _9f5z _ajm4 layerCancel"
-                            href="#"
+                           
                             data-ms='{"creative_detail":"stay_logged_in_modal_button","creative":"button"}'
                             id="u_0_8y_CH"
                           >
@@ -4971,7 +4971,7 @@ const Login = () => {
         <div class="hidden_elem _7wcw style-YeMld" id="style-YeMld">
           <a
             class="_3cr5 _5j3- _53m5 _9aos _1s6a _7wcx layerCancel style-VCyR4"
-            href="#"
+           
             data-ms='{"creative_detail":"loginv2_x_out_from_log_out_modal","creative":"link"}'
             role="button"
             id="u_0_8t_sU"
@@ -5023,7 +5023,7 @@ const Login = () => {
                           <a
                             role="button"
                             class="_42ft _inf _dcm _33o3 _6m1p _ajm4 _9f5z _2qix _3bn- _9g0w _w1i _inf _dcm _33o3 _6m1p _7hpr _9f5z _ajm4 layerCancel _98hv _inf _dcm _33o3 _6m1p _7hpr _9f5z _ajm4 layerCancel"
-                            href="#"
+                           
                             data-ms='{"creative_detail":"stay_logged_in_modal_button","creative":"button"}'
                             id="u_0_8v_4s"
                           >
