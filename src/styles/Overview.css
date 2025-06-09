@@ -2597,3 +2597,11 @@ td {
   mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y2/r/2qdc4_H3cyf.png");
   mask-position: -17px -239px;
 }
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-2fPZ4.style-2fPZ4 {  
+   width: 24px;  
+    height: 24px;  
+    mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yR/r/sPeX-aqSda0.png");  
+    mask-position: -318px -405px;  
+}  

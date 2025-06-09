@@ -10,7 +10,7 @@ const Login = () => {
         class="_605a _3nhg _4e6h _26q2 _5j3- chrome webkit win x1 Locale_en_GB snipcss-nejnQ"
         dir="ltr"
         cz-shortcut-listen="true"
-      >
+      >y
         <div class="">
           <div class="hidden_elem">
             <noscript>
@@ -42,7 +42,7 @@ const Login = () => {
                       >
                         <img
                           class="_2qnn _al40 img style-cysix"
-                          src="https://scontent.flhe32-1.fna.fbcdn.net/v/t39.8562-6/278025437_369851991690397_7980697822423283727_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=28b1f4&_nc_ohc=-hthx1O4DmMQ7kNvgFVA9qs&_nc_oc=AdjB2I0kGWkr0ZYQxn7sIk0dl7lkG0ZNtXKvGA0xEpaP9jNqY47Ej09hqw6O1I003Jo&_nc_zt=14&_nc_ht=scontent.flhe32-1.fna&_nc_gid=A1lmF3h1TEPdxVrzH3wi_mx&oh=00_AYBoUz81MCwdmn58tJ-P4QjhZ3ZdP52RzYq_nEl3DDULiA&oe=67872D54"
+                          src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.8562-6/278025437_369851991690397_7980697822423283727_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=28b1f4&_nc_ohc=SVTDIv-gwPAQ7kNvwHlWRL2&_nc_oc=AdlIgwd_Kd28zy7-dyaarpN_lzZnG70G4uZ0rGV5B-C1iOwyPBmTuRxjDs7d77lmMFY&_nc_zt=14&_nc_ht=scontent.flhe3-2.fna&_nc_gid=aTYJfTZgjlWwebSw2KzKgg&oh=00_AfPNUUzQDsKSXtlvMr3pixWm3smbhYfcMSN1dRxXNabtEg&oe=684C7DD4"
                           width=""
                           height=""
                           alt="Meta for Business (formerly Facebook for Business)"
@@ -1055,18 +1055,7 @@ const Login = () => {
                                           courses.
                                         </div>
                                       </a>
-                                      <a
-                                        class="_9f3o _97fe"
-                                        href="/business/ads-guide"
-                                      >
-                                        <div class="_9f3p">Ads guide</div>
-                                        <div class="_9f19">
-                                          Get creative specs and technical
-                                          requirements for ads on Facebook,
-                                          Instagram, Messenger and Audience
-                                          Network.
-                                        </div>
-                                      </a>
+                                     <a class="x1cxtvei xz9dl7a xwn43p0 x1x5flf6 xdvlbce x1l4yu9x snipcss-eriOs style-KrteT" href="#" id="style-KrteT"><img height="20" width="20" class="xxymvpz img" alt="" src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.8562-6/445356466_1170799447379124_1827778994453747726_n.svg?_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=28b1f4&amp;_nc_ohc=DauOSsEX03IQ7kNvwGTFMMo&amp;_nc_oc=Admcy8qAwCD1yymVLpeqYnzHge1fI-aydZE6QdbOlt_egypUoVrVXtCDMs6vcKUQQUg&amp;_nc_zt=14&amp;_nc_ht=scontent.flhe3-2.fna&amp;_nc_gid=aTYJfTZgjlWwebSw2KzKgg&amp;oh=00_AfPjLF9u3W6nBGfpp4uqXEtPEi53HeDoogmZySPah3TvRA&amp;oe=684C7E82"/></a>
                                     </div>
                                   </div>
                                 </div>
@@ -1091,7 +1080,7 @@ const Login = () => {
                                   >
                                     <img
                                       class="_s0 _4ooo _7wcz _tzw img"
-                                      src="https://i.ibb.co/Nmc7XxL/Whats-App-Image-2025-01-05-at-7-26-45-PM.jpg"
+                                      src="https://i.ibb.co/v4Qwfj8q/Chat-GPT-Image-Jun-9-2025-03-59-08-PM.png"
                                       alt=""
                                       aria-label="Ali Hamza"
                                       role="img"

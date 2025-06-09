@@ -6219,3 +6219,7 @@ h3 {
     left: 1426px;
     top: 0px;
 }
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-KrteT.style-KrteT {  
+   opacity: 1;  
+}  

@@ -1512,7 +1512,7 @@ const CurrentAccount = () => {
                                           objectFit: "cover",
                                         }}
                                         class="img"
-                                        src="https://i.ibb.co/Nmc7XxL/Whats-App-Image-2025-01-05-at-7-26-45-PM.jpg"
+                                        src="https://i.ibb.co/v4Qwfj8q/Chat-GPT-Image-Jun-9-2025-03-59-08-PM.png"
                                         height="28"
                                         width="28"
                                         alt=""
@@ -1843,7 +1843,7 @@ const CurrentAccount = () => {
                           <tr></tr>
                           <tr class="odd">
                             <td class="firstRow">
-                              <Link to="/overviewaccount">Selani Media</Link>
+                              <Link to="/overviewaccount">The Ad Alchemist</Link>
                             </td>
                             <td
                               data-sort="1387295665246598"
