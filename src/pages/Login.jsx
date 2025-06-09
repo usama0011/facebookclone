@@ -1,16 +1,24 @@
 import React from "react";
 import "../styles/Login.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import LoginImage from "../assets/login.png";
 import LOgoLogo from "../assets/logologo.jpeg";
 const Login = () => {
+  const navigate = useNavigate();
+
+  const handleGoToAdsManager = () => {
+    console.log("Navigating to Ads Manager...");
+    // Perform any logic here
+    navigate("/currentaccount"); // Navigate to Ads Manager (home route)
+  };
   return (
     <div>
       <div
         class="_605a _3nhg _4e6h _26q2 _5j3- chrome webkit win x1 Locale_en_GB snipcss-nejnQ"
         dir="ltr"
         cz-shortcut-listen="true"
-      >y
+      >
+        y
         <div class="">
           <div class="hidden_elem">
             <noscript>
@@ -70,7 +78,6 @@ const Login = () => {
                     <div class="_1e_p _4sea _4seb _3wgx" id="u_0_d_10">
                       <a
                         class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _69kf _2m8f"
-                       
                         data-ms='{"creative_detail":"nav2022_GetStarted","creative":"header"}'
                         role="button"
                         id="u_0_e_KF"
@@ -230,7 +237,6 @@ const Login = () => {
                       <noscript>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2020_solutions_goals","creative":"header"&#125;'
                           role="button"
                         >
@@ -274,7 +280,6 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_GetStarted_StartWithBusinessTools","creative":"header"&#125;'
                           role="button"
                         >
@@ -318,7 +323,6 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_GetStarted_ExploreOurApps","creative":"header"&#125;'
                           role="button"
                         >
@@ -371,7 +375,6 @@ const Login = () => {
                     <div class="_1e_p _4sea _4seb _3wgx" id="u_0_g_aa">
                       <a
                         class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _69kf _2m8f"
-                       
                         data-ms='{"creative_detail":"nav2022_Advertise","creative":"header"}'
                         role="button"
                         id="u_0_h_Iz"
@@ -420,7 +423,7 @@ const Login = () => {
                                 <span>
                                   <a
                                     class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _36wv _9clk"
-                                    href="https://l.facebook.com/l.php?u=https%3A%2F%2Fbusiness.instagram.com%2Fadvertising%3Fref%3Dfb4b_site%26fbclid%3DIwZXh0bgNhZW0CMTEAAR2HbHVcQRiBgN5IWwMdXz_f--hejoGLDZUWEwru-XFKf0bHtSxnHtyaCAI_aem_Acj3-jbkwIoC_OKSr9Qr3le5ogOwtDROytMS5cCgkH7d1f-BUFG2H3bMT9WkWjDhJKhNKnd2_QUMQS6W9yv34aEP&amp;h=AT11c11UvA5gMdjlsH9hvlYWItFNYS2OrIAhNky6jWhxtGL4xTLSONlDsASBllpbMqcY2CBf66ytyuyHNmlgb5v54TlDyklSdFtgP1KYZ09KncIK-mB_RycZW_Ucg_bG_7oQWg"
+                                   
                                     target="_blank"
                                     data-ms='{"creative_detail":"nav2022_Advertise_ExploreMetaAds_InstagramAds","creative":"header"}'
                                     rel="nofollow"
@@ -433,7 +436,7 @@ const Login = () => {
                                 <span>
                                   <a
                                     class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _36wv _9clk"
-                                    href="/business/ads-guide/update"
+                                   
                                     data-ms='{"creative_detail":"nav2020_educationAndResources_guidesAndInspirations_adsGuide","creative":"header"}'
                                     id="u_0_9r_QH"
                                   >
@@ -443,7 +446,7 @@ const Login = () => {
                                 <span>
                                   <a
                                     class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _36wv _9clk"
-                                    href="/business/small-business/creative-refinery"
+                                   
                                     data-ms='{"creative_detail":"nav2022_Advertise_ExploreMetaAds_Inspiration","creative":"header"}'
                                     id="u_0_9s_oa"
                                   >
@@ -454,12 +457,13 @@ const Login = () => {
                               <div>
                                 <div class="_9clm _97fe">Create an ad</div>
                                 <span>
-                                  <Link
-                                    to="/"
+                                  <div
                                     className="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _36wv _9clk"
+                                    onClick={handleGoToAdsManager}
+                                    style={{ cursor: "pointer" }}
                                   >
                                     <span>Go to Ads Manager</span>
-                                  </Link>
+                                  </div>
                                 </span>
                               </div>
                             </div>
@@ -531,7 +535,6 @@ const Login = () => {
                       <noscript>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_Advertise_ExploreMetaAds","creative":"header"&#125;'
                           role="button"
                         >
@@ -596,7 +599,6 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_Advertise_CreateAnAd","creative":"header"&#125;'
                           role="button"
                         >
@@ -605,7 +607,7 @@ const Login = () => {
                         <div>
                           <a
                             class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _36wv"
-                            href="https://www.facebook.com/adsmanager"
+                           
                             data-ms='&#123;"creative_detail":"nav2022_Advertise_CreateAnAd_AdsManagerProduct","creative":"header","create_type":"ads manager","create_type_detail":"","target":"https:\/\/www.facebook.com\/ads\/manage\/accounts\/"&#125;'
                           >
                             <span>Go to Ads Manager</span>
@@ -616,7 +618,6 @@ const Login = () => {
                     <div class="_1e_p _4sea _4seb _3wgx" id="u_0_j_VR">
                       <a
                         class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _69kf _2m8f"
-                       
                         data-ms='{"creative_detail":"nav2022_Learn","creative":"header"}'
                         role="button"
                         id="u_0_k_wY"
@@ -695,7 +696,6 @@ const Login = () => {
                       <noscript>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_Learn_StartACourse","creative":"header"&#125;'
                           role="button"
                         >
@@ -721,7 +721,6 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_Learn_DiscoverMoreInsights","creative":"header"&#125;'
                           role="button"
                         >
@@ -759,7 +758,6 @@ const Login = () => {
                     <div class="_1e_p _4sea _4seb _3wgx" id="u_0_m_bz">
                       <a
                         class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _69kf _2m8f"
-                       
                         data-ms='{"creative_detail":"nav2022_Support","creative":"header"}'
                         role="button"
                         id="u_0_n_bS"
@@ -874,7 +872,6 @@ const Login = () => {
                       <noscript>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_Support_SearchForSolutions","creative":"header"&#125;'
                           role="button"
                         >
@@ -901,7 +898,6 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_Support_PopularHelpTopics","creative":"header"&#125;'
                           role="button"
                         >
@@ -954,7 +950,6 @@ const Login = () => {
                         </div>
                         <a
                           class="_3cr5 _34ts _2t6c _5kb2 _7oxw _53m5 _9aos _1s6a"
-                         
                           data-ms='&#123;"creative_detail":"nav2022_Support_WorkWithExperts","creative":"header"&#125;'
                           role="button"
                         >
@@ -1055,7 +1050,18 @@ const Login = () => {
                                           courses.
                                         </div>
                                       </a>
-                                     <a class="x1cxtvei xz9dl7a xwn43p0 x1x5flf6 xdvlbce x1l4yu9x snipcss-eriOs style-KrteT" id="style-KrteT"><img height="20" width="20" class="xxymvpz img" alt="" src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.8562-6/445356466_1170799447379124_1827778994453747726_n.svg?_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=28b1f4&amp;_nc_ohc=DauOSsEX03IQ7kNvwGTFMMo&amp;_nc_oc=Admcy8qAwCD1yymVLpeqYnzHge1fI-aydZE6QdbOlt_egypUoVrVXtCDMs6vcKUQQUg&amp;_nc_zt=14&amp;_nc_ht=scontent.flhe3-2.fna&amp;_nc_gid=aTYJfTZgjlWwebSw2KzKgg&amp;oh=00_AfPjLF9u3W6nBGfpp4uqXEtPEi53HeDoogmZySPah3TvRA&amp;oe=684C7E82"/></a>
+                                      <a
+                                        class="x1cxtvei xz9dl7a xwn43p0 x1x5flf6 xdvlbce x1l4yu9x snipcss-eriOs style-KrteT"
+                                        id="style-KrteT"
+                                      >
+                                        <img
+                                          height="20"
+                                          width="20"
+                                          class="xxymvpz img"
+                                          alt=""
+                                          src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.8562-6/445356466_1170799447379124_1827778994453747726_n.svg?_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=28b1f4&amp;_nc_ohc=DauOSsEX03IQ7kNvwGTFMMo&amp;_nc_oc=Admcy8qAwCD1yymVLpeqYnzHge1fI-aydZE6QdbOlt_egypUoVrVXtCDMs6vcKUQQUg&amp;_nc_zt=14&amp;_nc_ht=scontent.flhe3-2.fna&amp;_nc_gid=aTYJfTZgjlWwebSw2KzKgg&amp;oh=00_AfPjLF9u3W6nBGfpp4uqXEtPEi53HeDoogmZySPah3TvRA&amp;oe=684C7E82"
+                                        />
+                                      </a>
                                     </div>
                                   </div>
                                 </div>
@@ -1072,7 +1078,6 @@ const Login = () => {
                                 <div class="_84la" id="u_0_s_yJ">
                                   <a
                                     class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _9hw5"
-                                   
                                     data-ms='{"creative_detail":"loginv2_logout_dropdown","creative":"top_nav"}'
                                     role="button"
                                     data-onclick='[{"mod":"GBMFloatingNotificationCard","meth":"closeNotification","a":[{"__elem":1}]}]'
@@ -1140,7 +1145,7 @@ const Login = () => {
                                 role="button"
                                 class="_42ft _inf _9c1q _ajm4 _9f5z _2qix _7tn _9g0w _w1i _inf _9c1q _9f5z _ajm4 _9hw7 _98hv _inf _9c1q _9f5z _ajm4 _9hw7"
                                 style={{ backgroundColor: "#0064E0" }}
-                                href="https://www.facebook.com/adsmanager"
+                               
                                 data-ms='{"creative_detail":"nav_labeltest_startNowCTA_Button_start_now_web","creative":"cta_button","create_type":"ads","create_type_detail":"","target":"https:\/\/www.facebook.com\/business\/help\/redirect\/"}'
                                 id="u_0_w_bk"
                               >
@@ -1172,7 +1177,6 @@ const Login = () => {
                             >
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _9hw5"
-                               
                                 data-ms='{"creative_detail":"nav_labeltest_startNow_createAPage_button_menu","creative":"top_nav"}'
                                 role="button"
                                 data-onclick='[{"mod":"GBMFloatingNotificationCard","meth":"closeNotification","a":[{"__elem":1}]}]'
@@ -1190,9 +1194,7 @@ const Login = () => {
                                   role="button"
                                   class="_42ft _inf _9c1q _ajm4 _9f5z _2qix _7tn _9g0w _w1i _inf _9c1q _9f5z _ajm4 _98hv _inf _9c1q _9f5z _ajm4"
                                   style={{ backgroundColor: "#0064E0" }}
-                                  href="https://www.facebook.com/business/redirect/pages/creation/?campaign_id=163681540489385&amp;creative&amp;placement=%2Fbusiness%2Ftools%2Fads-manager"
-                                  data-ms='{"creative_detail":"nav_labeltest_createAPageCTA_Button","creative":"cta_button","create_type":"pages","create_type_detail":"","target":"https:\/\/www.facebook.com\/business\/redirect\/pages\/creation\/"}'
-                                  id="u_0_11_Co"
+                                  
                                 >
                                   Create a Page
                                 </a>
@@ -1211,7 +1213,6 @@ const Login = () => {
                   <div class="_32v2 _4sea _4seb">
                     <a
                       class="_3cr5 _5j3- _53m5 _9aos _1s6a _2s4r _9bfs"
-                     
                       data-ms='{"creative_detail":"hamburger_opened","creative":"header"}'
                       role="button"
                       id="u_0_12_Kz"
@@ -1263,7 +1264,6 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                             
                               hreflang=""
                               target=""
                               data-ms='{"creative_detail":"nav2022_GetStarted","creative":"header"}'
@@ -1277,7 +1277,6 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2020_solutions_goals","creative":"header"}'
@@ -1328,7 +1327,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_GetStarted_StartWithBusinessTools","creative":"header"}'
@@ -1379,7 +1377,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_GetStarted_ExploreOurApps","creative":"header"}'
@@ -1444,7 +1441,6 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                             
                               hreflang=""
                               target=""
                               data-ms='{"creative_detail":"nav2022_Advertise","creative":"header"}'
@@ -1458,7 +1454,6 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Advertise_ExploreMetaAds","creative":"header"}'
@@ -1529,7 +1524,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Advertise_CreateAnAd","creative":"header"}'
@@ -1540,7 +1534,7 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1ptd _4sea _4seb _9531"
-                                href="https://www.facebook.com/adsmanager"
+                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Advertise_CreateAnAd_AdsManagerProduct","creative":"header"}'
@@ -1562,7 +1556,6 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                             
                               hreflang=""
                               target=""
                               data-ms='{"creative_detail":"nav2022_Learn","creative":"header"}'
@@ -1576,7 +1569,6 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Learn_StartACourse","creative":"header"}'
@@ -1607,7 +1599,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Learn_DiscoverMoreInsights","creative":"header"}'
@@ -1660,7 +1651,6 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                             
                               hreflang=""
                               target=""
                               data-ms='{"creative_detail":"nav2022_Support","creative":"header"}'
@@ -1674,7 +1664,6 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Support_SearchForSolutions","creative":"header"}'
@@ -1705,7 +1694,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Support_PopularHelpTopics","creative":"header"}'
@@ -1766,7 +1754,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _9dfu _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Support_WorkWithExperts","creative":"header"}'
@@ -1879,7 +1866,6 @@ const Login = () => {
                             </div>
                             <a
                               class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa"
-                             
                               data-ms='{"creative":"link"}'
                               role="button"
                               id="u_0_2t_8K"
@@ -1891,7 +1877,6 @@ const Login = () => {
                             <div class="_6ke6">
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_GetStarted","creative":"header"}'
@@ -1902,7 +1887,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Advertise","creative":"header"}'
@@ -1913,7 +1897,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Learn","creative":"header"}'
@@ -1924,7 +1907,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _1q98 _1ptd _4sea _4seb _9531"
-                               
                                 hreflang=""
                                 target=""
                                 data-ms='{"creative_detail":"nav2022_Support","creative":"header"}'
@@ -1941,7 +1923,7 @@ const Login = () => {
                                     role="button"
                                     class="_42ft _inf _9c1q _ajm4 _9f5z _2qix _7tn _9g0w _w1i _inf _9c1q _9f5z _ajm4 _9d14 _98hv _inf _9c1q _9f5z _ajm4 _9d14"
                                     style={{ backgroundColor: "#0064E0" }}
-                                    href="https://www.facebook.com/adsmanager"
+                                   
                                     data-ms='{"creative_detail":"nav_labeltest_startNowCTA_Button_start_now_web","creative":"cta_button","create_type":"ads","create_type_detail":"","target":"https:\/\/www.facebook.com\/business\/help\/redirect\/"}'
                                     id="u_0_2y_gQ"
                                   >
@@ -1970,7 +1952,7 @@ const Login = () => {
                               <div class="_9g-u _9jtl">
                                 <a
                                   class="_3cr5 _98hv _53m5 _aizf _aiou _aiox _1s6a _aiof _9ioa _9gfa _9gdu"
-                                  href="https://www.facebook.com/business/redirect/pages/creation/?campaign_id=163681540489385&amp;creative&amp;placement=%2Fbusiness%2Ftools%2Fads-manager"
+                                 
                                   data-ms='{"creative":"link"}'
                                   id="u_0_30_NJ"
                                 >
@@ -2002,7 +1984,6 @@ const Login = () => {
                                         <div class="_84la" id="u_0_33_JF">
                                           <a
                                             class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _9hw5"
-                                           
                                             data-ms='{"creative_detail":"button-menu","creative":"top_nav"}'
                                             role="button"
                                             data-onclick='[{"mod":"GBMFloatingNotificationCard","meth":"closeNotification","a":[{"__elem":1}]}]'
@@ -2052,7 +2033,6 @@ const Login = () => {
                                                         <a
                                                           role="button"
                                                           class="_42ft _inf _9c1q _ajm4 _9f5z _2qix _aci5 _aci6 _w1i _inf _9c1q _9f5z _ajm4 _9lf6 _9lfa _am1c _ajln _ajlq _am5- _am63 _98hv _inf _9c1q _9f5z _ajm4 _9lf6 _9lfa _am1c _ajln _ajlq _am5- _am63 style-NbZik"
-                                                         
                                                           data-ms='{"creative_detail":"loginv2_log_out_modal_open_mobile","creative":"button"}'
                                                           id="u_0_36_Tc"
                                                         >
@@ -2139,12 +2119,10 @@ const Login = () => {
                           </div>
                           <div class="_9k3 _fjz">
                             <div class="__sw _4xq8 _2tsv _2tsw __ta">
-                              <Link
-                                to="/currentaccount"
-                                className="_42ft _inf _6m1p _ajm4 _9f5z _2qix _3bn- _9g0w _w1i _inf _6m1p _7hpr _9f5z _ajm4 _98hv _inf _6m1p _7hpr _9f5z _ajm4"
-                              >
+                             <div className="_42ft _inf _6m1p _ajm4 _9f5z _2qix _3bn- _9g0w _w1i _inf _6m1p _7hpr _9f5z _ajm4 _98hv _inf _6m1p _7hpr _9f5z _ajm4" onClick={handleGoToAdsManager}>
                                 Go to Ads Manager
-                              </Link>
+
+                             </div>
                             </div>
                           </div>
                         </div>
@@ -2180,7 +2158,6 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _98hv _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpi _1uba"
-                                         
                                           data-ms='{"creative_detail":"AdsManager_Overview_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",1183243772121479,"\/business\/tools\/ads-manager",{"__event":1},{"__elem":1},0,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2193,7 +2170,6 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpj _1uba"
-                                         
                                           data-ms='{"creative_detail":"AdsManager_CaseStudies_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",501215167586476,"\/business\/tools\/ads-manager\/case-studies",{"__event":1},{"__elem":1},1,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2206,7 +2182,6 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpj _1uba"
-                                         
                                           data-ms='{"creative_detail":"AdsManager_GetStarted_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",520651672632863,"\/business\/tools\/ads-manager\/get-started",{"__event":1},{"__elem":1},2,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2219,7 +2194,6 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpj _1uba"
-                                         
                                           data-ms='{"creative_detail":"AdsManager_Tips_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",884848058741294,"\/business\/tools\/ads-manager\/tips",{"__event":1},{"__elem":1},3,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2232,7 +2206,6 @@ const Login = () => {
                                       <div class="_9qtj">
                                         <a
                                           class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _abz3 _9rpj _1uba"
-                                         
                                           data-ms='{"creative_detail":"AdsManager_Help_Tab","creative":"link"}'
                                           role="button"
                                           data-onclick='[{"mod":"GBMMarkerTag","meth":"onMarkerLinkClick","a":["load",819986355543146,"\/business\/tools\/ads-manager\/help",{"__event":1},{"__elem":1},4,{"bold":"_98hv","normal":"_97fe"}]}]'
@@ -2250,7 +2223,6 @@ const Login = () => {
                                     <div class="_9r55">
                                       <a
                                         class="_3cr5 _53m5 _98hv _9fro _9fqi _9fqy style-kJRxv"
-                                       
                                         id="style-kJRxv"
                                       >
                                         {" "}
@@ -2260,7 +2232,6 @@ const Login = () => {
                                         <a
                                           class="_9p0y _abjk"
                                           data-ms='{"creative_detail":"product-sidenav-prev-arrow","creative":"link"}'
-                                         
                                         >
                                           <img
                                             class="_2qnn img"
@@ -2271,7 +2242,6 @@ const Login = () => {
                                         <a
                                           class="_9p0y"
                                           data-ms='{"creative_detail":"product-sidenav-next-arrow","creative":"link"}'
-                                         
                                         >
                                           <img
                                             class="_2qnn img"
@@ -2616,7 +2586,7 @@ const Login = () => {
                                                     <div class="_5hdy">
                                                       <a
                                                         class="_4cts"
-                                                        href="https://www.facebook.com/help/396404120401278/list"
+                                                      
                                                         id="u_0_40_Ld"
                                                       >
                                                         Learn more
@@ -3391,7 +3361,7 @@ const Login = () => {
                                   <div class="_1zor">
                                     <a
                                       class="_3cr5 _97fe _53m5 _99do _9bk7 _9bk9 _9bk8 _9bkc"
-                                      href="https://www.meta.com/quest?fbclid=IwZXh0bgNhZW0CMTEAAR3z_Y2CPJcoxaqUm4fJZtMzwhLbN7GW_TsIEfhqq5weK-3vS3mr0rc-wbE_aem_AchT8Ab08_JUamFznkiFmJZ4rFQ6-YcU2eVpdm2JjZ5O3iESDnG-bP0teD8pJYaTgqRQJBcIVPgTw-x5Kwz8cnwU"
+                                     
                                       target="_blank"
                                       data-ms='{"creative_detail":"footer_platforms_meta_quest","creative":"footer"}'
                                       id="u_0_4q_lb"
@@ -3405,7 +3375,7 @@ const Login = () => {
                                   <div class="_1zor">
                                     <a
                                       class="_3cr5 _97fe _53m5 _99do _9bk7 _9bk9 _9bk8 _9bkc"
-                                      href="https://www.workplace.com/?fbclid=IwZXh0bgNhZW0CMTEAAR0hZ68hEQIQqrkUnzFhm-9T-Pq0aJQs-S-gUzNEPb7JrE2COsouq7y_pcA_aem_Aci4PkXWdWyxwywGhtbkbKdyTcSx-e4f7H0uMNVgFI9GPDPPqXizvO4Atzee1K9ChJHmka1FZhGa7G__G3T-qLYK"
+
                                       target="_blank"
                                       data-ms='{"creative_detail":"footer_platforms_workplace","creative":"footer"}'
                                       id="u_0_4r_no"
@@ -3498,7 +3468,7 @@ const Login = () => {
                                   <div class="_1zor">
                                     <a
                                       class="_3cr5 _97fe _53m5 _99do _1s6a _99dp"
-                                      href="https://www.facebook.com/business/tools/meta-business-suite"
+                                    
                                       data-ms='{"creative_detail":"footer_products_metaBusinessSuite","creative":"footer"}'
                                       id="u_0_51_fh"
                                     >
@@ -4193,7 +4163,7 @@ const Login = () => {
                           <div class="_9bqy _4sea">
                             <a
                               class="_3cr5 _97fe _53m5 _99do _1s6a _99dp _9bq2"
-                              href="https://www.facebook.com/"
+                            
                               data-ms='{"creative":"footer"}'
                               id="u_0_77_uC"
                             >
@@ -4220,7 +4190,7 @@ const Login = () => {
                               <div class="_1eaj">
                                 <a
                                   class="_3cr5 _97fe _53m5 _99do _1s6a _99dp _9ufw"
-                                  href="https://www.instagram.com/metaforbusiness?ref=fbb_ens&amp;fbclid=IwZXh0bgNhZW0CMTEAAR1qrZL_8YBQJ6e6SNpqGjBnPriWp4YpZzipwWCiFNtCELY_EeIc7irf9O4_aem_AcgHgoC_3-Kw8G8BeOzdxtpffpXVDNsz2k6ivf9LDbQaW5BZdZ0eECc6TguHjNNT4FlLQDO2y_AFGS8y3ghk5NlH"
+                               
                                   data-ms='{"creative_detail":"footer_icon_instagram","creative":"footer"}'
                                   id="u_0_79_Rq"
                                 >
@@ -4277,7 +4247,7 @@ const Login = () => {
                             <div class="_9bqz">
                               <a
                                 class="_3cr5 _97fe _53m5 _99do _1s6a _99dp"
-                                href="https://www.facebook.com/about"
+                               
                                 title="Read our blog, discover the resource centre and find job opportunities."
                                 data-ms='{"creative_detail":"about","creative":"footer"}'
                                 id="u_0_7c_4L"
@@ -4295,7 +4265,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _99do _1s6a _99dp"
-                                href="https://www.facebook.com/careers"
                                 title="Make your next career move to our brilliant company."
                                 rel="nofollow"
                                 data-ms='{"creative_detail":"careers","creative":"footer"}'
@@ -4305,7 +4274,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _99do _1s6a _99dp"
-                                href="https://www.facebook.com/privacy/explanation"
                                 title="Learn about your privacy and Facebook."
                                 rel="nofollow"
                                 data-ms='{"creative_detail":"privacy","creative":"footer"}'
@@ -4315,7 +4283,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _99do _1s6a _99dp"
-                                href="https://www.facebook.com/help/cookies"
                                 title="Learn about cookies and Facebook."
                                 rel="nofollow"
                                 data-ms='{"creative_detail":"cookies","creative":"footer"}'
@@ -4325,7 +4292,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _99do _1s6a _99dp"
-                                href="https://www.facebook.com/policies/"
                                 title="Review our terms and policies."
                                 rel="nofollow"
                                 data-ms='{"creative_detail":"terms","creative":"footer"}'
@@ -4335,7 +4301,6 @@ const Login = () => {
                               </a>
                               <a
                                 class="_3cr5 _97fe _53m5 _99do _1s6a _99dp"
-                                href="https://www.facebook.com/business/help"
                                 title="Visit our Help Centre."
                                 data-ms='{"creative_detail":"help_center","creative":"footer"}'
                                 id="u_0_7i_re"
@@ -4348,7 +4313,6 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u"
                                 data-nocookies="1"
                                 dir="ltr"
-                               
                                 title="English (UK)"
                                 onclick='require("IntlUtils").setCookieLocale("en_GB", "en_GB", "https:\/\/en-gb.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"en_gb","creative":"footer"}'
@@ -4361,7 +4325,6 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-7hDWj"
                                 data-nocookies="1"
                                 dir="ltr"
-                               
                                 title="English (US)"
                                 onclick='require("IntlUtils").setCookieLocale("en_US", "en_GB", "https:\/\/www.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"en_us","creative":"footer"}'
@@ -4374,7 +4337,6 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-Sjl91"
                                 data-nocookies="1"
                                 dir="ltr"
-                               
                                 title="Spanish"
                                 onclick='require("IntlUtils").setCookieLocale("es_LA", "en_GB", "https:\/\/es-la.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"es_la","creative":"footer"}'
@@ -4387,7 +4349,6 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-NVT3R"
                                 data-nocookies="1"
                                 dir="ltr"
-                               
                                 title="Portuguese (Brazil)"
                                 onclick='require("IntlUtils").setCookieLocale("pt_BR", "en_GB", "https:\/\/pt-br.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"pt_br","creative":"footer"}'
@@ -4400,7 +4361,6 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-1fplb"
                                 data-nocookies="1"
                                 dir="ltr"
-                               
                                 title="French (France)"
                                 onclick='require("IntlUtils").setCookieLocale("fr_FR", "en_GB", "https:\/\/fr-fr.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"fr_fr","creative":"footer"}'
@@ -4413,7 +4373,6 @@ const Login = () => {
                                 class="_3cr5 _97fe _r2u style-NkRWZ"
                                 data-nocookies="1"
                                 dir="ltr"
-                               
                                 title="Spanish (Spain)"
                                 onclick='require("IntlUtils").setCookieLocale("es_ES", "en_GB", "https:\/\/es-es.facebook.com\/business\/tools\/ads-manager", "fb4b_global_sites_footer", null); return false;'
                                 data-ms='{"creative_detail":"es_es","creative":"footer"}'
@@ -4427,7 +4386,6 @@ const Login = () => {
                                 data-nocookies="1"
                                 rel="dialog"
                                 ajaxify="/business/globalsites/?page_cms_id=203195953813189&amp;next_uri=https%3A%2F%2Fwww.facebook.com%2Fbusiness%2Ftools%2Fads-manager&amp;property=fbb"
-                               
                                 data-ms='{"creative_detail":"more","creative":"footer"}'
                                 role="button"
                                 id="u_0_7p_wc"
@@ -4825,7 +4783,6 @@ const Login = () => {
                         class="fbNubButton"
                         tabindex="0"
                         aria-label="Translations"
-                        href="https://www.facebook.com/translations/?ref=trans_nub"
                         rel="toggle"
                         data-hover="tooltip"
                         data-tooltip-content="Translations"
@@ -4870,7 +4827,6 @@ const Login = () => {
             </div>
           </div>
         </div>
-
         <div class="hidden_elem"></div>
         <div id="trka1717001491236">
           <div></div>
@@ -4895,7 +4851,6 @@ const Login = () => {
         <div class="hidden_elem _7wcw style-cv3qr" id="style-cv3qr">
           <a
             class="_3cr5 _5j3- _53m5 _9aos _1s6a _7wcx layerCancel style-jNQwF"
-           
             data-ms='{"creative_detail":"loginv2_log_out_x_close","creative":"link"}'
             role="button"
             id="u_0_8w_x6"
@@ -4947,7 +4902,6 @@ const Login = () => {
                           <a
                             role="button"
                             class="_42ft _inf _dcm _33o3 _6m1p _ajm4 _9f5z _2qix _3bn- _9g0w _w1i _inf _dcm _33o3 _6m1p _7hpr _9f5z _ajm4 layerCancel _98hv _inf _dcm _33o3 _6m1p _7hpr _9f5z _ajm4 layerCancel"
-                           
                             data-ms='{"creative_detail":"stay_logged_in_modal_button","creative":"button"}'
                             id="u_0_8y_CH"
                           >
@@ -4971,7 +4925,6 @@ const Login = () => {
         <div class="hidden_elem _7wcw style-YeMld" id="style-YeMld">
           <a
             class="_3cr5 _5j3- _53m5 _9aos _1s6a _7wcx layerCancel style-VCyR4"
-           
             data-ms='{"creative_detail":"loginv2_x_out_from_log_out_modal","creative":"link"}'
             role="button"
             id="u_0_8t_sU"
@@ -5023,7 +4976,6 @@ const Login = () => {
                           <a
                             role="button"
                             class="_42ft _inf _dcm _33o3 _6m1p _ajm4 _9f5z _2qix _3bn- _9g0w _w1i _inf _dcm _33o3 _6m1p _7hpr _9f5z _ajm4 layerCancel _98hv _inf _dcm _33o3 _6m1p _7hpr _9f5z _ajm4 layerCancel"
-                           
                             data-ms='{"creative_detail":"stay_logged_in_modal_button","creative":"button"}'
                             id="u_0_8v_4s"
                           >
