@@ -962,3 +962,12 @@ i.img {
     left: 455px;
     height: 46px;
 }
+
+@keyframes loadingBarAnim {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}

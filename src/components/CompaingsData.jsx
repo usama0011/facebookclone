@@ -349,7 +349,7 @@ const CompaingsData = ({
 
                                   </div>
                                   <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1uvtmcs x1iyjqo2">
-                                    Coloums
+                                    Coloums {selectedCategory}
                                   </div>
                                   <div
                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f x1gryazu"
@@ -599,7 +599,7 @@ const CompaingsData = ({
         )}
       </div>
       <div className="vCampaign-container">
-        <div className="vCampaign-scrollable">
+        <div style={{position:'relative'}} className="vCampaign-scrollable">
           <table className="vCampaign-table">
             <thead style={{ backgroundColor: "white" }}>
               <tr>
@@ -984,7 +984,20 @@ const CompaingsData = ({
                 ))}
               </tr>
             </thead>
-
+ {loading   && (
+                <div
+                  style={{
+                    position: "absolute",
+                    top: "38px", // Adjust to just below thead (based on your thead height)
+                    left: 0,
+                    zIndex:"1500",
+                    width: "100%",
+                    height: "4px",
+                    backgroundColor: "#0678bf",
+                    animation: "loadingBarAnim 1s infinite linear",
+                  }}
+                />
+              )}
             <tbody>
               {campaigns.map((campaign, index) => (
                 <React.Fragment key={index}>
@@ -2209,7 +2222,7 @@ const CompaingsData = ({
                         </div>
                       </div>
                     ) : (
-                      header
+                      ""
                     )}
                   </td>
                 ))}
