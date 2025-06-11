@@ -6748,6 +6748,7 @@ const EditCompaingThree = () => {
                                                                                   </div>
                                                                                 </div>
                                                                                 <div class="xw7yly9">
+                                                                                  {/* part one here  */}
                                                                                   <div
                                                                                     class="x1gzqxud x1lcm9me x1yr5g0i xrt01vj x10y3i5r xhgxa4x xy5ysw6 x1qkj6lk xn3walq xnvurfn xv1ta3e x1opv7go x1dtnpoi xibdhds xtnng9g xhvrwov x13k1m86 xwx4but x1cpjm7i xszcg87 x1hmns74 xkk1bqk x14d4353 xsxiz9q x1rmj1tg xchklzq x9f619 xc8icb0 x1n2onr6 x1pvq41x xhhp2wi x14q35kh x1wa3ocq x1n7iyjn x1s928wv x1wsn0xg x1j6awrg x162n7g1 x1m1drc7 x4eaejv xi4xitw x5yr21d xh8yej3"
                                                                                     data-auto-logging-component-type="GeoCard"
@@ -6822,21 +6823,9 @@ const EditCompaingThree = () => {
                                                                                                                                         Sponsored
                                                                                                                                       </div>{" "}
                                                                                                                                       ·{" "}
-                                                                                                                                      <img
-                                                                                                                                        style={{
-                                                                                                                                          width:
-                                                                                                                                            "100%",
-                                                                                                                                          height:
-                                                                                                                                            "100%",
-                                                                                                                                          objectFit:
-                                                                                                                                            "cover",
-                                                                                                                                        }}
-                                                                                                                                        src={
-                                                                                                                                          campaign.campaingImage
-                                                                                                                                        }
-                                                                                                                                        alt=""
-                                                                                                                                        class="img"
-                                                                                                                                      />
+                                                                                                                                      <br />
+                                                                                                                                      
+                                                                                                                                      
                                                                                                                                     </div>
                                                                                                                                   </div>
                                                                                                                                   <div class="x78zum5 x1q0g3np x1gfops9 xh8yej3 x13a6bvl">
@@ -6846,35 +6835,11 @@ const EditCompaingThree = () => {
                                                                                                                                       data-visualcompletion="css-img"
                                                                                                                                       id="style-5cks3"
                                                                                                                                     ></i>
-                                                                                                                                    <i
-                                                                                                                                      class="x1d52u69 xamitd3 img style-Sb933"
-                                                                                                                                      alt=""
-                                                                                                                                      data-visualcompletion="css-img"
-                                                                                                                                      id="style-Sb933"
-                                                                                                                                    ></i>
+                                                                                                                                      <div class="xtwfq29 style-neQXp" id="style-neQXp"></div>
                                                                                                                                   </div>
                                                                                                                                 </div>
                                                                                                                               </div>
-                                                                                                                              <div class="x1xmf6yo x11i5rnm x1e56ztr x1mh8g0r xexx8yu x1iji9kk x18d9i69 x1sln4lm _3qn7 _61-0 _2fyh _1a9e">
-                                                                                                                                <div
-                                                                                                                                  class="xogfrqt x1f6kntn xd4r4e8 x1vvkbs"
-                                                                                                                                  data-ad-preview="message"
-                                                                                                                                  data-react-ad-preview="message"
-                                                                                                                                >
-                                                                                                                                  <div>
-                                                                                                                                    <div
-                                                                                                                                      class=""
-                                                                                                                                      dir=""
-                                                                                                                                    >
-                                                                                                                                      <span>
-                                                                                                                                        <span>
-                                                                                                                                                                                                                                                               </span>
-                                                                                                                                        <br />
-                                                                                                                                      </span>
-                                                                                                                                    </div>
-                                                                                                                                  </div>
-                                                                                                                                </div>
-                                                                                                                              </div>
+                                                                                                                             
                                                                                                                               <div class="x1n2onr6 x1ja2u2z x1m258z3 x1e56ztr">
                                                                                                                                 <div class="x1n2onr6">
                                                                                                                                   <div class="x10l6tqk x178xt8z x13fuv20 xqvba61 x1m258z3 x1vjfegm x17qophe x13vifvy"></div>
@@ -6889,6 +6854,23 @@ const EditCompaingThree = () => {
                                                                                                                                       alt=""
                                                                                                                                     />
                                                                                                                                   </div>
+                                                                                                                                  <span style={{padding:"5px",textAlign:'left',float:'left',fontSize:"13px"}}>   {campaign?.quotetext}</span>
+                                                                                                                                  <img
+                                                                                                                                        style={{
+                                                                                                                                          width:
+                                                                                                                                            "100%",
+                                                                                                                                          height:
+                                                                                                                                            "100%",
+                                                                                                                                          objectFit:
+                                                                                                                                            "cover",
+                                                                                                                                            textAlign:"left"
+                                                                                                                                        }}
+                                                                                                                                        src={
+                                                                                                                                          campaign.campaingImage
+                                                                                                                                        }
+                                                                                                                                        alt=""
+                                                                                                                                        class="img"
+                                                                                                                                      />
                                                                                                                                   <div class="xz9dl7a xn6708d xsag5q8 x1ye3gou xz2iaq5 x1ba4aug _3qn7 _61-0 _2fyi _3qng">
                                                                                                                                     <div
                                                                                                                                       class="_6g3g x6ikm8r x10wlt62 x1vvkbs x1qughib x1jquxbb style-iKkPY"
@@ -6904,7 +6886,7 @@ const EditCompaingThree = () => {
                                                                                                                                               id="style-JhmsW"
                                                                                                                                               class="style-JhmsW"
                                                                                                                                             >
-                                                                                                                                              {/* solarpanelsystems.xyz */}
+                                                                                                                                            
                                                                                                                                              
                                                                                                                                             </span>
                                                                                                                                           </span>
@@ -6931,15 +6913,7 @@ const EditCompaingThree = () => {
                                                                                                                                         </span>
                                                                                                                                       </div>
                                                                                                                                     </div>
-                                                                                                                                   
-                                                                                                                                  </div>
-                                                                                                                                  <div class="x10l6tqk xso031l x1q0q8m5 x1mpk314 x1m258z3 x1vjfegm xds687c x1ey2m1c"></div>
-                                                                                                                                </div>
-                                                                                                                              </div>
-                                                                                                                              <div></div>
-                                                                                                                               <div class="x16n37ib">
-                                                                                                                                      <div data-ad-preview="cta" style={{marginRight:"6px"}}>
-                                                                                                                                        <div
+                                                                                                                                     <div
                                                                                                                                           aria-label="Learn more"
                                                                                                                                           class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x87ps6o x1lku1pv x1a2a7pz x9f619 x3nfvp2 xdt5ytf xl56j7k x1n2onr6 xh8yej3"
                                                                                                                                           role="button"
@@ -6972,6 +6946,15 @@ const EditCompaingThree = () => {
                                                                                                                                             ></div>
                                                                                                                                           </div>
                                                                                                                                         </div>
+                                                                                                                                   
+                                                                                                                                  </div>
+                                                                                                                                  <div class="x10l6tqk xso031l x1q0q8m5 x1mpk314 x1m258z3 x1vjfegm xds687c x1ey2m1c"></div>
+                                                                                                                                </div>
+                                                                                                                              </div>
+                                                                                                                              <div></div>
+                                                                                                                               <div class="x16n37ib">
+                                                                                                                                      <div data-ad-preview="cta" style={{marginRight:"6px"}}>
+                                                                                                                                       
                                                                                                                                       </div>
                                                                                                                                     </div>
                                                                                                                               <div class="x1anpbxc _3qn7 _61-0 _2fyh _3qnf">
@@ -7121,6 +7104,7 @@ const EditCompaingThree = () => {
                                                                                         <div class="x10wjd1d x47corl x10l6tqk x19991ni x13dflua xwji4o3 xh8yej3 xg01cxk x1ta9b4f x1ey2m1c"></div>
                                                                                       </div>
                                                                                     </div>
+                                                                                    {/*  */}
                                                                                   </div>
                                                                                 </div>
                                                                               </div>
@@ -7626,27 +7610,28 @@ const EditCompaingThree = () => {
                                                                                     </div>
                                                                                   </div>
                                                                                 </div>
-                                                                                <div class="xw7yly9">
-                                                                                  <div
+                                                                                 <div class="xw7yly9" >
+                                                                                  {/* part one here  */}
+                                                                                  <div 
                                                                                     class="x1gzqxud x1lcm9me x1yr5g0i xrt01vj x10y3i5r xhgxa4x xy5ysw6 x1qkj6lk xn3walq xnvurfn xv1ta3e x1opv7go x1dtnpoi xibdhds xtnng9g xhvrwov x13k1m86 xwx4but x1cpjm7i xszcg87 x1hmns74 xkk1bqk x14d4353 xsxiz9q x1rmj1tg xchklzq x9f619 xc8icb0 x1n2onr6 x1pvq41x xhhp2wi x14q35kh x1wa3ocq x1n7iyjn x1s928wv x1wsn0xg x1j6awrg x162n7g1 x1m1drc7 x4eaejv xi4xitw x5yr21d xh8yej3"
                                                                                     data-auto-logging-component-type="GeoCard"
                                                                                   >
-                                                                                    <div class="x78zum5 xdt5ytf x5yr21d xedcshv x1t2pt76 xh8yej3">
-                                                                                      <div class="x9f619 x78zum5 x1iyjqo2 x5yr21d x2lwn1j x1n2onr6 xh8yej3">
+                                                                                    <div  class="x78zum5 xdt5ytf x5yr21d xedcshv x1t2pt76 xh8yej3">
+                                                                                      <div  class="x9f619 x78zum5 x1iyjqo2 x5yr21d x2lwn1j x1n2onr6 xh8yej3">
                                                                                         <div class="xw2csxc x1odjw0f xh8yej3 x18d9i69">
                                                                                           <div class="xjm9jq1 xg01cxk x47corl xh8yej3 x1jyxor1"></div>
                                                                                           <div class="x6s0dn4 x78zum5 xdt5ytf xl56j7k x2lwn1j xeuugli xgx9qek x1lq5wgf xgqcy7u x30kzoy x9jhf4c x6ikm8r x10wlt62 x1n2onr6 x15b6uid x3smdqs">
                                                                                             <div>
                                                                                               <div>
-                                                                                                <div class="_89mx">
+                                                                                                <div class="_89mx" >
                                                                                                   <div class="_4u-c">
                                                                                                     <div
-                                                                                                      id="style-lm8nd"
-                                                                                                      class="style-lm8nd"
+                                                                                                      id="style-l8kvI"
+                                                                                                      class="style-l8kvI"
                                                                                                     >
-                                                                                                      <div class="">
+                                                                                                      <div class="" >
                                                                                                         <div>
-                                                                                                          <div class="_5zg">
+                                                                                                          <div class="_5zg" >
                                                                                                             <div class="_7vpk">
                                                                                                               <div class=" _831c">
                                                                                                                 <div class="_91kv">
@@ -7654,325 +7639,310 @@ const EditCompaingThree = () => {
                                                                                                                     <div class="">
                                                                                                                       <div
                                                                                                                         class="_ag3c _228q"
-                                                                                                                        id="f0c2819ee6e6828a3"
+                                                                                                                        id="f668441416e5b1f98"
                                                                                                                       >
                                                                                                                         <div
                                                                                                                           class="hidden_elem"
-                                                                                                                          id="f0c2819ee6e6828a3-1"
+                                                                                                                          id="f668441416e5b1f98-1"
                                                                                                                         ></div>
                                                                                                                         <div
                                                                                                                           class=""
-                                                                                                                          id="f0c2819ee6e6828a3-2"
+                                                                                                                          id="f668441416e5b1f98-2"
                                                                                                                           data-ad-preview="previewContainer"
                                                                                                                         >
                                                                                                                           <div
-                                                                                                                            class="_67wx style-ko4yQ"
-                                                                                                                            id="style-ko4yQ"
+                                                                                                                            data-testid="ad-preview-mobile-feed-standard"
+                                                                                                                            data-react-ad-preview="reactPreviewContainer"
+                                                                                                                            data-clickable="1"
+                                                                                                                            data-inputable="1"
+                                                                                                                            data-keydownable="1"
+                                                                                                                            data-keyupable="1"
+                                                                                                                            data-changeable="1"
                                                                                                                           >
-                                                                                                                            <div
-                                                                                                                              class="_32yk style-bbtN4"
-                                                                                                                              id="u_2e_0_d3"
-                                                                                                                            ></div>
-                                                                                                                            <img
-                                                                                                                              class="_67wy img style-zxKX7"
-                                                                                                                              src={
-                                                                                                                                campaign.campaingImage
-                                                                                                                              }
-                                                                                                                              alt=""
-                                                                                                                              id="u_2e_1_JP"
-                                                                                                                            />
-                                                                                                                            <div
-                                                                                                                              class="_12ba style-bpEtB"
-                                                                                                                              id="u_2e_2_1/"
-                                                                                                                            >
-                                                                                                                              <span
-                                                                                                                                class="_4fu1 style-YG8Er"
-                                                                                                                                id="u_2e_3_6P"
-                                                                                                                              >
-                                                                                                                                <span class="">
-                                                                                                                                  W
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  h
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  l
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  p
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  p
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  o
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  p
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  l
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  t
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  o
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  l
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  i
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  v
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  a
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  b
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  t
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  t
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  r
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  l
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  i
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  f
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  t
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  h
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  r
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  o
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  u
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  g
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  h
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  t
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  c
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  h
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  n
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  o
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  l
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  o
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  g
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  i
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  c
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  a
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  l
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  h
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  o
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  m
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  {" "}
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  s
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  r
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  v
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  i
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  c
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  e
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  s
-                                                                                                                                </span>
-                                                                                                                                <span class="">
-                                                                                                                                  .
-                                                                                                                                </span>
-                                                                                                                                <span class="_3mga">
-                                                                                                                                  <span>
-                                                                                                                                    ...
-                                                                                                                                  </span>{" "}
-                                                                                                                                  <span class="_12b9">
-                                                                                                                                    More
-                                                                                                                                  </span>
-                                                                                                                                </span>
-                                                                                                                                <span class="_3mga">
-                                                                                                                                  <span class="_2x87">
-                                                                                                                                    See
-                                                                                                                                    caption
-                                                                                                                                  </span>
-                                                                                                                                </span>
-                                                                                                                              </span>
-                                                                                                                            </div>
-                                                                                                                            <div class="_aqd-">
-                                                                                                                              <div class="_8rf1 _6_si"></div>
-                                                                                                                              <div class="_aqfv"></div>
-                                                                                                                              <div class="_aqe1">
-                                                                                                                                <p>
-                                                                                                                                  Learn
-                                                                                                                                  more
-                                                                                                                                </p>
-                                                                                                                              </div>
-                                                                                                                            </div>
-                                                                                                                            <div class="_67w-">
-                                                                                                                              <div
-                                                                                                                                class="_2khr style-3jdsW"
-                                                                                                                                id="style-3jdsW"
-                                                                                                                              ></div>
-                                                                                                                              <div class="_67wz">
-                                                                                                                                <div
-                                                                                                                                  class="_67x0 style-Aiod2"
-                                                                                                                                  id="u_2e_4_GA"
-                                                                                                                                ></div>
-                                                                                                                              </div>
-                                                                                                                              <div>
-                                                                                                                                <img
-                                                                                                                                  class="_67w_ img"
-                                                                                                                                  src={
-                                                                                                                                    campaign?.sponsorImageURL
-                                                                                                                                  }
-                                                                                                                                  alt=""
-                                                                                                                                />
-                                                                                                                                <div class="_67x2">
-                                                                                                                                  {
-                                                                                                                                    campaign?.sponsorName
-                                                                                                                                  }
-                                                                                                                                  &nbsp;{" "}
-                                                                                                                                  <div></div>
+                                                                                                                            <div class="x2izyaf x1m258z3 x1yc453h xdj266r xkrivgy xat24cr x1gryazu xw2csxc x1odjw0f x47corl x87ps6o">
+                                                                                                                              <div class="x78zum5 xdj266r x11i5rnm xod5an3 x1mh8g0r x889kno x1iji9kk x18d9i69 x1sln4lm x1cy8zhl">
+                                                                                                                                <div class="x78zum5 x16dsc37 x1sxyh0">
+                                                                                                                                  <img
+                                                                                                                                    class="x14yjl9h xudhj91 x18nykt9 xww2gxu x100vrsf x1vqgdyp x3ajldb img"
+                                                                                                                                    src={
+                                                                                                                                      campaign?.sponsorImageURL
+                                                                                                                                    }
+                                                                                                                                    alt=""
+                                                                                                                                  />
                                                                                                                                 </div>
-                                                                                                                                <div class="_67x3">
-                                                                                                                                  Sponsored
+                                                                                                                                <div class="x78zum5 xamitd3">
+                                                                                                                                  <div class="x78zum5 xdt5ytf xamitd3 x1ajhdc7 xh8yej3">
+                                                                                                                                    <div>
+                                                                                                                                      <span class="x1fzdab9 x1f6kntn xuy8w9f">
+                                                                                                                                        <span class="x1xlr1w8">
+                                                                                                                                          {
+                                                                                                                                            campaign?.sponsorName
+                                                                                                                                          }
+                                                                                                                                        </span>
+                                                                                                                                      </span>
+                                                                                                                                    </div>
+                                                                                                                                    <div class="x1hjcb3a x1pg5gke x9438zm x1n2onr6 x17ocude xt0psk2">
+                                                                                                                                      <div class="xt0psk2">
+                                                                                                                                        Sponsored
+                                                                                                                                      </div>{" "}
+                                                                                                                                      ·{" "}
+                                                                                                                                      <br />
+                                                                                                                                      
+                                                                                                                                      
+                                                                                                                                    </div>
+                                                                                                                                  </div>
+                                                                                                                                  <div class="x78zum5 x1q0g3np x1gfops9 xh8yej3 x13a6bvl">
+                                                                                                                                    <i
+                                                                                                                                      class="xamitd3 img style-5cks3"
+                                                                                                                                      alt=""
+                                                                                                                                      data-visualcompletion="css-img"
+                                                                                                                                      id="style-5cks3"
+                                                                                                                                    ></i>
+                                                                                                                                      <div class="xtwfq29 style-neQXp" id="style-neQXp"></div>
+                                                                                                                                  </div>
                                                                                                                                 </div>
-                                                                                                                                <i
-                                                                                                                                  class="_67x4 img style-Kdxrd"
-                                                                                                                                  id="style-Kdxrd"
-                                                                                                                                ></i>
-                                                                                                                                <i
-                                                                                                                                  class="_67x5 img style-bC5FZ"
-                                                                                                                                  id="style-bC5FZ"
-                                                                                                                                ></i>
+                                                                                                                              </div>
+                                                                                                                             
+                                                                                                                              <div class="x1n2onr6 x1ja2u2z x1m258z3 x1e56ztr">
+                                                                                                                                <div class="x1n2onr6">
+                                                                                                                                  <div class="x10l6tqk x178xt8z x13fuv20 xqvba61 x1m258z3 x1vjfegm x17qophe x13vifvy"></div>
+                                                                                                                                  <div
+                                                                                                                                    class="x1n2onr6"
+                                                                                                                                    data-ad-preview="image-container"
+                                                                                                                                    data-react-ad-preview="image-container"
+                                                                                                                                  >
+                                                                                                                                    <img
+                                                                                                                                      class="https://res.cloudinary.com/dfqzvupho/image/upload/fl_preserve_transparency/v1716296493/WhatsApp_Image_2024-05-21_at_17.56.46_ancsme.jpg?_s=public-apps"
+                                                                                                                                      width="320"
+                                                                                                                                      alt=""
+                                                                                                                                    />
+                                                                                                                                  </div>
+                                                                                                                                  <span style={{padding:"5px",textAlign:'left',float:'left',fontSize:"13px"}}>   {campaign?.quotetext}</span>
+                                                                                                                                  <img
+                                                                                                                                        style={{
+                                                                                                                                          width:
+                                                                                                                                            "100%",
+                                                                                                                                          height:
+                                                                                                                                            "285px",
+                                                                                                                                          objectFit:
+                                                                                                                                            "cover",
+                                                                                                                                            textAlign:"left"
+                                                                                                                                        }}
+                                                                                                                                        src={
+                                                                                                                                          campaign.campaingImage
+                                                                                                                                        }
+                                                                                                                                        alt=""
+                                                                                                                                        class="img"
+                                                                                                                                      />
+                                                                                                                                  <div class="xz9dl7a xn6708d xsag5q8 x1ye3gou xz2iaq5 x1ba4aug _3qn7 _61-0 _2fyi _3qng">
+                                                                                                                                    <div
+                                                                                                                                      class="_6g3g x6ikm8r x10wlt62 x1vvkbs x1qughib x1jquxbb style-iKkPY"
+                                                                                                                                      id="style-iKkPY"
+                                                                                                                                    >
+                                                                                                                                      <div>
+                                                                                                                                        <div
+                                                                                                                                          class="xh8yej3 x1d3mw78"
+                                                                                                                                          data-ad-preview="display-link-container"
+                                                                                                                                        >
+                                                                                                                                          <span class="x1nxh6w3 x1kyqaxf _6i6a">
+                                                                                                                                            <span
+                                                                                                                                              id="style-JhmsW"
+                                                                                                                                              class="style-JhmsW"
+                                                                                                                                            >
+                                                                                                                                            
+                                                                                                                                             
+                                                                                                                                            </span>
+                                                                                                                                          </span>
+                                                                                                                                        </div>
+                                                                                                                                        <div class="xowg6hp">
+                                                                                                                                          <div>
+                                                                                                                                            <span
+                                                                                                                                              class="xh8yej3 x1fc57z9 x6prxxf x117nqv4"
+                                                                                                                                              data-ad-preview="headline"
+                                                                                                                                              dir=""
+                                                                                                                                            >
+                                                                                                                                              {campaign?.quoteheading}                                                                                                                            </span>
+                                                                                                                                          </div>
+                                                                                                                                        </div>
+                                                                                                                                      </div>
+                                                                                                                                      <div
+                                                                                                                                        data-ad-preview="link-description"
+                                                                                                                                        dir=""
+                                                                                                                                        id="style-5SSbJ"
+                                                                                                                                        class="style-5SSbJ"
+                                                                                                                                      >
+                                                                                                                                        <span class="x1fc57z9 x6prxxf _6i6a">
+                                                                                                                                          {campaign?.quotetext}
+                                                                                                                                        </span>
+                                                                                                                                      </div>
+                                                                                                                                    </div>
+                                                                                                                                     <div
+                                                                                                                                          aria-label="Learn more"
+                                                                                                                                          class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x87ps6o x1lku1pv x1a2a7pz x9f619 x3nfvp2 xdt5ytf xl56j7k x1n2onr6 xh8yej3"
+                                                                                                                                          role="button"
+                                                                                                                                          tabindex="0"
+                                                                                                                                        >
+                                                                                                                                          <div
+                                                                                                                                            role="none"
+                                                                                                                                            class="x1n2onr6 x1ja2u2z x78zum5 x2lah0s xl56j7k x6s0dn4 xozqiw3 x1q0g3np xi112ho x17zwfj4 x585lrc x1403ito x972fbf xcfux6l x1qhh985 xm0m39n x9f619 xn6708d x1ye3gou x1qhmfi1 x1r1pt67"
+                                                                                                                                          >
+                                                                                                                                            <div class="x6s0dn4 x78zum5 xl56j7k x1608yet xljgi0e x1e0frkt">
+                                                                                                                                              <div
+                                                                                                                                                role="none"
+                                                                                                                                                class="x9f619 x1n2onr6 x1ja2u2z x193iq5w xeuugli x6s0dn4 x78zum5 x2lah0s x1fbi1t2 xl8fo4v"
+                                                                                                                                              >
+                                                                                                                                                <span
+                                                                                                                                                  class="x193iq5w xeuugli x13faqbe x1vvkbs x1xmvt09 x1lliihq x1s928wv xhkezso x1gmr53x x1cpjm7i x1fgarty x1943h6x xudqn12 x3x7a5m x6prxxf xvq8zen x1s688f x1dem4cn"
+                                                                                                                                                  dir="auto"
+                                                                                                                                                >
+                                                                                                                                                  <span class="x1lliihq x6ikm8r x10wlt62 x1n2onr6 xlyipyv xuxw1ft">
+                                                                                                                                                    Learn
+                                                                                                                                                    more
+                                                                                                                                                  </span>
+                                                                                                                                                </span>
+                                                                                                                                              </div>
+                                                                                                                                            </div>
+                                                                                                                                            <div
+                                                                                                                                              class="x1ey2m1c xds687c x17qophe xg01cxk x47corl x10l6tqk x13vifvy x1ebt8du x19991ni x1dhq9h x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m"
+                                                                                                                                              role="none"
+                                                                                                                                              data-visualcompletion="ignore"
+                                                                                                                                            ></div>
+                                                                                                                                          </div>
+                                                                                                                                        </div>
+                                                                                                                                   
+                                                                                                                                  </div>
+                                                                                                                                  <div class="x10l6tqk xso031l x1q0q8m5 x1mpk314 x1m258z3 x1vjfegm xds687c x1ey2m1c"></div>
+                                                                                                                                </div>
                                                                                                                               </div>
                                                                                                                               <div></div>
+                                                                                                                               <div class="x16n37ib">
+                                                                                                                                      <div data-ad-preview="cta" style={{marginRight:"6px"}}>
+                                                                                                                                       
+                                                                                                                                      </div>
+                                                                                                                                    </div>
+                                                                                                                              <div class="x1anpbxc _3qn7 _61-0 _2fyh _3qnf">
+                                                                                                                                <div
+                                                                                                                                  class="_6g3g xdzyupr x1nn3v0j x1iji9kk x10b6aqq x1sln4lm style-5bojo"
+                                                                                                                                  id="style-5bojo"
+                                                                                                                                >
+                                                                                                                                  <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                    <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                      <div
+                                                                                                                                        class="_6g3g x150jy0e style-CqwFl"
+                                                                                                                                        id="style-CqwFl"
+                                                                                                                                      >
+                                                                                                                                        <span class="_9zc _9--">
+                                                                                                                                          <i class="_3j7m _2p78 _9--"></i>
+                                                                                                                                        </span>
+                                                                                                                                      </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div
+                                                                                                                                      class="_6g3g x1h0ha7o x1mpkggp xeuugli x11hbpws style-JJvtH"
+                                                                                                                                      id="style-JJvtH"
+                                                                                                                                    >
+                                                                                                                                      <div class="x8t9es0 x1fvot60 xo1l8bm xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
+                                                                                                                                        1
+                                                                                                                                      </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div
+                                                                                                                                      class="_6g3g x11hbpws x1f6kntn x14atkfc style-Ft51O"
+                                                                                                                                      id="style-Ft51O"
+                                                                                                                                    >
+                                                                                                                                      <div class="_3qn7 _61-2 _2fyi _3qnf">
+                                                                                                                                        <div
+                                                                                                                                          class="_6g3g x5ib6vp style-e5PXm"
+                                                                                                                                          id="style-e5PXm"
+                                                                                                                                        >
+                                                                                                                                          <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x1heor9g xq9mrsl x1h4wwuj xeuugli">
+                                                                                                                                            1
+                                                                                                                                            comment
+                                                                                                                                          </span>
+                                                                                                                                        </div>
+                                                                                                                                      </div>
+                                                                                                                                    </div>
+                                                                                                                                  </div>
+                                                                                                                                </div>
+                                                                                                                                <div class="x14nfmen xjm9jq1 x1gryazu xkrivgy xdzyupr"></div>
+                                                                                                                                <div
+                                                                                                                                  class="_6g3g xdzyupr x1y1aw1k x1iji9kk x1120s5i x1sln4lm style-kqQjX"
+                                                                                                                                  id="style-kqQjX"
+                                                                                                                                >
+                                                                                                                                  <div class="x1s688f x11hbpws _3qn7 _6twk _2fyi _3qnf">
+                                                                                                                                    <div
+                                                                                                                                      class="_6g3g style-hcpNT"
+                                                                                                                                      id="style-hcpNT"
+                                                                                                                                    >
+                                                                                                                                      <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                        <div
+                                                                                                                                          class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-C8CCY"
+                                                                                                                                          id="style-C8CCY"
+                                                                                                                                        >
+                                                                                                                                          <i
+                                                                                                                                            alt=""
+                                                                                                                                            data-visualcompletion="css-img"
+                                                                                                                                            class="img style-sjbQi"
+                                                                                                                                            id="style-sjbQi"
+                                                                                                                                          ></i>
+                                                                                                                                        </div>
+                                                                                                                                        <div
+                                                                                                                                          class="_6g3g style-UqxjT"
+                                                                                                                                          id="style-UqxjT"
+                                                                                                                                        >
+                                                                                                                                          Like
+                                                                                                                                        </div>
+                                                                                                                                      </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div
+                                                                                                                                      class="_6g3g style-2mnSR"
+                                                                                                                                      id="style-2mnSR"
+                                                                                                                                    >
+                                                                                                                                      <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                        <div
+                                                                                                                                          class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-PaYyF"
+                                                                                                                                          id="style-PaYyF"
+                                                                                                                                        >
+                                                                                                                                          <i
+                                                                                                                                            alt=""
+                                                                                                                                            data-visualcompletion="css-img"
+                                                                                                                                            class="img style-P3cbc"
+                                                                                                                                            id="style-P3cbc"
+                                                                                                                                          ></i>
+                                                                                                                                        </div>
+                                                                                                                                        <div
+                                                                                                                                          class="_6g3g style-493sJ"
+                                                                                                                                          id="style-493sJ"
+                                                                                                                                        >
+                                                                                                                                          Comment
+                                                                                                                                        </div>
+                                                                                                                                      </div>
+                                                                                                                                    </div>
+                                                                                                                                    <div
+                                                                                                                                      class="_6g3g style-tJ2h6"
+                                                                                                                                      id="style-tJ2h6"
+                                                                                                                                    >
+                                                                                                                                      <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                        <div
+                                                                                                                                          class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-dxM4P"
+                                                                                                                                          id="style-dxM4P"
+                                                                                                                                        >
+                                                                                                                                          <i
+                                                                                                                                            alt=""
+                                                                                                                                            data-visualcompletion="css-img"
+                                                                                                                                            class="img style-iKJpF"
+                                                                                                                                            id="style-iKJpF"
+                                                                                                                                          ></i>
+                                                                                                                                        </div>
+                                                                                                                                        <div
+                                                                                                                                          class="_6g3g style-Z2oH6"
+                                                                                                                                          id="style-Z2oH6"
+                                                                                                                                        >
+                                                                                                                                          Share
+                                                                                                                                        </div>
+                                                                                                                                      </div>
+                                                                                                                                    </div>
+                                                                                                                                  </div>
+                                                                                                                                </div>
+                                                                                                                              </div>
                                                                                                                             </div>
                                                                                                                           </div>
                                                                                                                         </div>
@@ -7997,8 +7967,11 @@ const EditCompaingThree = () => {
                                                                                         <div class="x10wjd1d x47corl x10l6tqk x19991ni x13dflua xwji4o3 xh8yej3 xg01cxk x1ta9b4f x1ey2m1c"></div>
                                                                                       </div>
                                                                                     </div>
+                                                                                    {/*  */}
                                                                                   </div>
                                                                                 </div>
+                                                                               
+                                                                                {/* End there */}
                                                                               </div>
                                                                             </div>
                                                                           </div>
