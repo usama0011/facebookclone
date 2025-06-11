@@ -217,67 +217,174 @@ const CompaingsData = ({
             <div class="_9p_y" role="toolbar">
               <div>
                 <div class="_9p_y">
-                 <div class="_9p_y snipcss-nkTaA"><span data-tracked="true" class=" " data-interactable="|mousedown||click|"><span data-tracked="true" class=" " data-interactable="|mousedown||click|">
-            <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
-                <div aria-busy="false" class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1t137rt x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r xo1l8bm x140t73q xasdndc x1y1aw1k xwib8y2 x1pi30zi x1ye3gou" role="button" tabindex="0" data-auto-logging-component-type="GeoButton"><span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
-                        <div class="x78zum5">
+                  <div class="_9p_y snipcss-nkTaA">
+                    <span
+                      data-tracked="true"
+                      class=" "
+                      data-interactable="|mousedown||click|"
+                    >
+                      <span
+                        data-tracked="true"
+                        class=" "
+                        data-interactable="|mousedown||click|"
+                      >
+                        <div
+                          class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s"
+                          role="none"
+                        >
+                          <div
+                            aria-busy="false"
+                            class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1t137rt x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r xo1l8bm x140t73q xasdndc x1y1aw1k xwib8y2 x1pi30zi x1ye3gou"
+                            role="button"
+                            tabindex="0"
+                            data-auto-logging-component-type="GeoButton"
+                          >
+                            <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                              <div class="x78zum5">
+                                <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                                  <div class="x3nfvp2 x2lah0s x1c4vz4f">
+                                    <i
+                                      alt=""
+                                      data-visualcompletion="css-img"
+                                      class="img style-X36Eb"
+                                      id="style-X36Eb"
+                                    ></i>
+                                  </div>
+                                  <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
+                                    Create
+                                  </div>
+                                </div>
+                              </div>
+                            </span>
+                          </div>
+                        </div>
+                      </span>
+                    </span>
+                    <div
+                      class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s"
+                      role="none"
+                    >
+                      <div
+                        aria-busy="false"
+                        aria-disabled="true"
+                        class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1h6gzvc x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r xtpvj6k xaatb59 x1qgsegg xo1l8bm x1v911su xis6omg x1y1aw1k xwib8y2 x1pi30zi x1ye3gou"
+                        role="button"
+                        tabindex="-1"
+                        data-auto-logging-component-type="GeoButton"
+                      >
+                        <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                          <div class="x78zum5">
                             <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
-                                <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-X36Eb" id="style-X36Eb"></i></div>
-                                <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">Create</div>
+                              <div
+                                class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
+                                role="presentation"
+                              >
+                                <div
+                                  class="xtwfq29 style-M83iy"
+                                  id="style-M83iy"
+                                ></div>
+                              </div>
+                              <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
+                                Duplicate
+                              </div>
                             </div>
-                        </div>
-                    </span></div>
-            </div>
-        </span></span>
-    <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
-        <div aria-busy="false" aria-disabled="true" class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1h6gzvc x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r xtpvj6k xaatb59 x1qgsegg xo1l8bm x1v911su xis6omg x1y1aw1k xwib8y2 x1pi30zi x1ye3gou" role="button" tabindex="-1" data-auto-logging-component-type="GeoButton"><span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
-                <div class="x78zum5">
-                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
-                        <div class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f" role="presentation">
-                            <div class="xtwfq29 style-M83iy" id="style-M83iy"></div>
-                        </div>
-                        <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">Duplicate</div>
+                          </div>
+                        </span>
+                      </div>
                     </div>
-                </div>
-            </span></div>
-    </div>
-    <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
-        <div aria-busy="false" aria-disabled="true" class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1h6gzvc x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r xtpvj6k xaatb59 x1qgsegg xo1l8bm x1v911su xis6omg x1y1aw1k xwib8y2 x1pi30zi x1ye3gou" role="button" tabindex="-1" data-auto-logging-component-type="GeoButton"><span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
-                <div class="x78zum5">
-                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
-                        <div class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f" role="presentation">
-                            <div class="xtwfq29 style-Kh7HC" id="style-Kh7HC"></div>
+                    <div
+                      class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s"
+                      role="none"
+                    >
+                      <div
+                        aria-busy="false"
+                        aria-disabled="true"
+                        class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1h6gzvc x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r xtpvj6k xaatb59 x1qgsegg xo1l8bm x1v911su xis6omg x1y1aw1k xwib8y2 x1pi30zi x1ye3gou"
+                        role="button"
+                        tabindex="-1"
+                        data-auto-logging-component-type="GeoButton"
+                      >
+                        <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                          <div class="x78zum5">
+                            <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                              <div
+                                class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
+                                role="presentation"
+                              >
+                                <div
+                                  class="xtwfq29 style-Kh7HC"
+                                  id="style-Kh7HC"
+                                ></div>
+                              </div>
+                              <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
+                                Edit
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                    <div class="xjbqb8w xdj266r xat24cr xnalus7 xm81vs4 xu3j5b3 xkh2ocl xwebqov xvyu6v8 xrsgblv x10lij0i x1i64zmx x11i5rnm"></div>
+                    <div
+                      class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s"
+                      role="none"
+                    >
+                      <div
+                        aria-busy="false"
+                        class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x15028xs x1y1aw1k xwib8y2 x1pi30zi x1ye3gou"
+                        role="button"
+                        tabindex="0"
+                        data-auto-logging-component-type="GeoButton"
+                      >
+                        <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                          <div class="x78zum5">
+                            <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                              <div
+                                class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
+                                role="presentation"
+                              >
+                                <div
+                                  class="xtwfq29 style-v3jLa"
+                                  id="style-v3jLa"
+                                ></div>
+                              </div>
+                              <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
+                                A/B test
+                              </div>
+                            </div>
+                          </div>
+                        </span>
+                      </div>
+                    </div>
+                    <div
+                      aria-busy="false"
+                      aria-controls="js_1t"
+                      aria-expanded="false"
+                      aria-haspopup="menu"
+                      class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1t137rt x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 x1swvt13 xn6708d x1i64zmx"
+                      role="button"
+                      tabindex="0"
+                    >
+                      <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                        <div class="x78zum5">
+                          <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk x1nhvcw1 xh8yej3">
+                            <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1iyjqo2">
+                              More
+                            </div>
+                            <div
+                              class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f x1gryazu"
+                              role="presentation"
+                            >
+                              <div
+                                class="xtwfq29 style-eZ5Cx"
+                                id="style-eZ5Cx"
+                              ></div>
+                            </div>
+                          </div>
                         </div>
-                        <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">Edit</div>
+                      </span>
                     </div>
-                </div>
-            </span></div>
-    </div>
-    <div class="xjbqb8w xdj266r xat24cr xnalus7 xm81vs4 xu3j5b3 xkh2ocl xwebqov xvyu6v8 xrsgblv x10lij0i x1i64zmx x11i5rnm"></div>
-    <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
-        <div aria-busy="false" class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x15028xs x1y1aw1k xwib8y2 x1pi30zi x1ye3gou" role="button" tabindex="0" data-auto-logging-component-type="GeoButton"><span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
-                <div class="x78zum5">
-                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
-                        <div class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f" role="presentation">
-                            <div class="xtwfq29 style-v3jLa" id="style-v3jLa"></div>
-                        </div>
-                        <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">A/B test</div>
-                    </div>
-                </div>
-            </span></div>
-    </div>
-    <div aria-busy="false" aria-controls="js_1t" aria-expanded="false" aria-haspopup="menu" class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1t137rt x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy x1lcm9me x1yr5g0i xrt01vj x10y3i5r xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 x1swvt13 xn6708d x1i64zmx" role="button" tabindex="0"><span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
-            <div class="x78zum5">
-                <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk x1nhvcw1 xh8yej3">
-                    <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1iyjqo2">More</div>
-                    <div class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f x1gryazu" role="presentation">
-                        <div class="xtwfq29 style-eZ5Cx" id="style-eZ5Cx"></div>
-                    </div>
-                </div>
-            </div>
-        </span></div>
-</div>
-               
+                  </div>
                 </div>
               </div>
               <div class="_9p_w"></div>
@@ -345,8 +452,10 @@ const CompaingsData = ({
                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                     role="presentation"
                                   >
-                                            <div class="xtwfq29 style-pMqrq" id="style-pMqrq"></div>
-
+                                    <div
+                                      class="xtwfq29 style-pMqrq"
+                                      id="style-pMqrq"
+                                    ></div>
                                   </div>
                                   <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1uvtmcs x1iyjqo2">
                                     Coloums {selectedCategory}
@@ -394,8 +503,10 @@ const CompaingsData = ({
                                 class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                 role="presentation"
                               >
-                                                    <div class="xtwfq29 style-YoW3Q" id="style-YoW3Q"></div>
-
+                                <div
+                                  class="xtwfq29 style-YoW3Q"
+                                  id="style-YoW3Q"
+                                ></div>
                               </div>
                               <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1uvtmcs x1iyjqo2">
                                 Breakdown {showPerformanceRows && `1 Selected`}
@@ -433,8 +544,10 @@ const CompaingsData = ({
                               class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                               role="presentation"
                             >
-                                               <div class="xtwfq29 style-fCC7V" id="style-fCC7V"></div>
-
+                              <div
+                                class="xtwfq29 style-fCC7V"
+                                id="style-fCC7V"
+                              ></div>
                             </div>
                             <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1uvtmcs x1iyjqo2">
                               Reports
@@ -543,8 +656,10 @@ const CompaingsData = ({
                               class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                               role="presentation"
                             >
-                                                 <div class="xtwfq29 style-tr8UC" id="style-tr8UC"></div>
-
+                              <div
+                                class="xtwfq29 style-tr8UC"
+                                id="style-tr8UC"
+                              ></div>
                             </div>
                             <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli x1uvtmcs">
                               Charts
@@ -599,7 +714,7 @@ const CompaingsData = ({
         )}
       </div>
       <div className="vCampaign-container">
-        <div style={{position:'relative'}} className="vCampaign-scrollable">
+        <div style={{ position: "relative" }} className="vCampaign-scrollable">
           <table className="vCampaign-table">
             <thead style={{ backgroundColor: "white" }}>
               <tr>
@@ -764,10 +879,16 @@ const CompaingsData = ({
                         >
                           <div class="x1ua5tub x104kibb x1f6kntn x1h7i4cw xdy096k x195v057 x6ikm8r x10wlt62 x1yc453h xlyipyv xeaf4i8">
                             <div class="_3ea9">
-                              Delivery 
+                              Delivery
                               <span id="style-ltFgb" class="style-ltFgb">
-                                                     <span id="style-XgZEd" class="style-XgZEd"><i alt="" data-visualcompletion="css-img" class="img style-vZooG" id="style-vZooG"></i></span>
-
+                                <span id="style-XgZEd" class="style-XgZEd">
+                                  <i
+                                    alt=""
+                                    data-visualcompletion="css-img"
+                                    class="img style-vZooG"
+                                    id="style-vZooG"
+                                  ></i>
+                                </span>
                               </span>
                             </div>
                           </div>
@@ -839,7 +960,12 @@ const CompaingsData = ({
                                     aria-label="information symbol, button, tap for more information"
                                     class="x1emribx"
                                   >
-                                   <i alt="" data-visualcompletion="css-img" class="img style-iGbrw" id="style-iGbrw"></i>
+                                    <i
+                                      alt=""
+                                      data-visualcompletion="css-img"
+                                      class="img style-iGbrw"
+                                      id="style-iGbrw"
+                                    ></i>
                                   </span>
                                   <div class="_3ea9">
                                     {col}
@@ -895,7 +1021,6 @@ const CompaingsData = ({
                             <div>
                               <a
                                 class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                               
                                 data-auto-logging-id="fbc72b67d"
                               >
                                 <div class="x1rg5ohu x67bb7w" id="js_4qe">
@@ -984,20 +1109,20 @@ const CompaingsData = ({
                 ))}
               </tr>
             </thead>
- {loading   && (
-                <div
-                  style={{
-                    position: "absolute",
-                    top: "38px", // Adjust to just below thead (based on your thead height)
-                    left: 0,
-                    zIndex:"1500",
-                    width: "100%",
-                    height: "4px",
-                    backgroundColor: "#0678bf",
-                    animation: "loadingBarAnim 1s infinite linear",
-                  }}
-                />
-              )}
+            {loading && (
+              <div
+                style={{
+                  position: "absolute",
+                  top: "38px", // Adjust to just below thead (based on your thead height)
+                  left: 0,
+                  zIndex: "1500",
+                  width: "100%",
+                  height: "4px",
+                  backgroundColor: "#0678bf",
+                  animation: "loadingBarAnim 1s infinite linear",
+                }}
+              />
+            )}
             <tbody>
               {campaigns.map((campaign, index) => (
                 <React.Fragment key={index}>
@@ -1023,13 +1148,15 @@ const CompaingsData = ({
                         }}
                         type="checkbox"
                         className="mynewbox"
-                        checked={checkedCampaigns.includes(campaign._id)}
-                        onChange={(e) =>
-                          handleCheckboxChangeTarget(
-                            campaign._id,
-                            e.target.checked
-                          )
-                        }
+                        checked={checkedCampaigns.includes(
+    (campaign.campaignName || campaign.campaingname || "").toLowerCase()
+  )}
+  onChange={(e) =>
+    handleCheckboxChangeTarget(
+      (campaign.campaignName || campaign.campaingname || "").toLowerCase(),
+      e.target.checked
+    )
+  }
                       />
                     </td>
                     <td className="sticky-col sticky-col-2">
@@ -1088,10 +1215,7 @@ const CompaingsData = ({
                                   data-tracked="true"
                                   data-interactable="|mousedown||click|"
                                 >
-                                  <a
-                                    class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                   
-                                  >
+                                  <a class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u">
                                     <span class="_3dfi _3dfj">
                                       {campaign?.campaingname}
                                     </span>
@@ -1102,7 +1226,6 @@ const CompaingsData = ({
                                 <a
                                   aria-label="Edit"
                                   class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                 
                                 >
                                   <div class="_5_6n">
                                     <span class="_5_6o"></span>
@@ -1126,11 +1249,17 @@ const CompaingsData = ({
                                               <a
                                                 aria-label="View Charts"
                                                 class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                               
                                               >
                                                 <span class="_3qjp">
                                                   <div class="x6s0dn4 x78zum5">
-                                                   <div class="xw3qccf x1gslohp"><i alt="" data-visualcompletion="css-img" class="img style-GXmcV" id="style-GXmcV"></i></div>
+                                                    <div class="xw3qccf x1gslohp">
+                                                      <i
+                                                        alt=""
+                                                        data-visualcompletion="css-img"
+                                                        class="img style-GXmcV"
+                                                        id="style-GXmcV"
+                                                      ></i>
+                                                    </div>
                                                     <span
                                                       onClick={() =>
                                                         handleViewChart(
@@ -1154,11 +1283,17 @@ const CompaingsData = ({
                                               <a
                                                 aria-label="Edit"
                                                 class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                               
                                               >
                                                 <span class="_3qjp">
                                                   <div class="x6s0dn4 x78zum5">
-                                                   <div class="xw3qccf x1gslohp"><i alt="" data-visualcompletion="css-img" class="img style-AfLIW" id="style-AfLIW"></i></div>
+                                                    <div class="xw3qccf x1gslohp">
+                                                      <i
+                                                        alt=""
+                                                        data-visualcompletion="css-img"
+                                                        class="img style-AfLIW"
+                                                        id="style-AfLIW"
+                                                      ></i>
+                                                    </div>
                                                     <span
                                                       onClick={() =>
                                                         handleViewEdit(
@@ -1182,11 +1317,17 @@ const CompaingsData = ({
                                               <a
                                                 aria-label="Duplicate"
                                                 class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                               
                                               >
                                                 <span class="_3qjp">
                                                   <div class="x6s0dn4 x78zum5">
-                                                  <div class="xw3qccf x1gslohp"><i alt="" data-visualcompletion="css-img" class="img style-wY6FJ" id="style-wY6FJ"></i></div>
+                                                    <div class="xw3qccf x1gslohp">
+                                                      <i
+                                                        alt=""
+                                                        data-visualcompletion="css-img"
+                                                        class="img style-wY6FJ"
+                                                        id="style-wY6FJ"
+                                                      ></i>
+                                                    </div>
                                                     <span
                                                       class="ellipsis"
                                                       data-tooltip-display="overflow"
@@ -1212,12 +1353,17 @@ const CompaingsData = ({
                                                 <a
                                                   aria-label="Compare"
                                                   class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                 
                                                 >
                                                   <span class="_3qjp">
                                                     <div class="x6s0dn4 x78zum5">
-                                                       <div class="xw3qccf x1gslohp"><i alt="" data-visualcompletion="css-img" class="img style-YF1Ts" id="style-YF1Ts"></i></div>
-                                                      
+                                                      <div class="xw3qccf x1gslohp">
+                                                        <i
+                                                          alt=""
+                                                          data-visualcompletion="css-img"
+                                                          class="img style-YF1Ts"
+                                                          id="style-YF1Ts"
+                                                        ></i>
+                                                      </div>
                                                     </div>
                                                   </span>
                                                 </a>
@@ -1249,8 +1395,10 @@ const CompaingsData = ({
                                               class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                               role="presentation"
                                             >
-                                                                                         <div class="xtwfq29 style-VdhPV" id="style-VdhPV"></div>
-
+                                              <div
+                                                class="xtwfq29 style-VdhPV"
+                                                id="style-VdhPV"
+                                              ></div>
                                             </div>
                                             ​
                                           </div>
@@ -1270,7 +1418,14 @@ const CompaingsData = ({
                       <span>
                         <div class="clearfix _ikh">
                           <div class="x6s0dn4 x78zum5 x1q0g3np x2lwn1j xeuugli">
-                                       <div class="x1yc453h x1kky2od x1y5rjcf"><i alt="" data-visualcompletion="css-img" class="img style-fJqfv" id="style-fJqfv"></i></div>
+                            <div class="x1yc453h x1kky2od x1y5rjcf">
+                              <i
+                                alt=""
+                                data-visualcompletion="css-img"
+                                class="img style-fJqfv"
+                                id="style-fJqfv"
+                              ></i>
+                            </div>
 
                             <span class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli x1uvtmcs">
                               Active
@@ -1290,19 +1445,42 @@ const CompaingsData = ({
                                 backgroundColor: "transparent",
                               }}
                             >
-                             <div class="_4bl7" style={{border:"none"}}>
-        <div class=" _1b33 _e9h _abu1" style={{border:"none",backgroundColor:'transparent'}}>
-            <div class="_e9n">
-                <div class="">
-                    <div geotextcolor="value" data-hover="tooltip" data-tooltip-display="overflow" data-tooltip-text-direction="auto" class="xmi5d70 x1fvot60 xo1l8bm xxio538 x1lliihq x6ikm8r x10wlt62 xlyipyv xuxw1ft xbsr9hj"><span class="x3nfvp2 xmix8c7 x1n2onr6"><span class="x6s0dn4 x9f619 x78zum5 xmix8c7 xl56j7k x16xo4sp x1t137rt x1j85h84 xsyo7zv x16hj40l x4p5aij x1n2onr6 xzolkzo x12go9s9 x1rnf11y xprq8jg x10cdfl8 x14ihq94 x1ug7tv7 x6kzwsm xd1rtb7 xmi5d70 xw23nyj x63nzvj xbsr9hj xuxw1ft x2b8uid x117nqv4">
-                                <div class="xmi5d70 xw23nyj x63nzvj x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli">1 recommendation</div>
-                            </span>
-                            <div aria-atomic="true" aria-live="polite" role="status" class="x1qvwoe0 xjm9jq1 x1y332i5 xcwd3tp x1jyxor1 x39eecv x6ikm8r x10wlt62 x10l6tqk xuxw1ft x1i1rx1s" data-sscoverage-ignore="true"></div>
-                        </span></div>
-                </div>
-            </div>
-        </div>
-    </div>
+                              <div class="_4bl7" style={{ border: "none" }}>
+                                <div
+                                  class=" _1b33 _e9h _abu1"
+                                  style={{
+                                    border: "none",
+                                    backgroundColor: "transparent",
+                                  }}
+                                >
+                                  <div class="_e9n">
+                                    <div class="">
+                                      <div
+                                        geotextcolor="value"
+                                        data-hover="tooltip"
+                                        data-tooltip-display="overflow"
+                                        data-tooltip-text-direction="auto"
+                                        class="xmi5d70 x1fvot60 xo1l8bm xxio538 x1lliihq x6ikm8r x10wlt62 xlyipyv xuxw1ft xbsr9hj"
+                                      >
+                                        <span class="x3nfvp2 xmix8c7 x1n2onr6">
+                                          <span class="x6s0dn4 x9f619 x78zum5 xmix8c7 xl56j7k x16xo4sp x1t137rt x1j85h84 xsyo7zv x16hj40l x4p5aij x1n2onr6 xzolkzo x12go9s9 x1rnf11y xprq8jg x10cdfl8 x14ihq94 x1ug7tv7 x6kzwsm xd1rtb7 xmi5d70 xw23nyj x63nzvj xbsr9hj xuxw1ft x2b8uid x117nqv4">
+                                            <div class="xmi5d70 xw23nyj x63nzvj x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj x1pd3egz xeuugli">
+                                              1 recommendation
+                                            </div>
+                                          </span>
+                                          <div
+                                            aria-atomic="true"
+                                            aria-live="polite"
+                                            role="status"
+                                            class="x1qvwoe0 xjm9jq1 x1y332i5 xcwd3tp x1jyxor1 x39eecv x6ikm8r x10wlt62 x10l6tqk xuxw1ft x1i1rx1s"
+                                            data-sscoverage-ignore="true"
+                                          ></div>
+                                        </span>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
                         </div>

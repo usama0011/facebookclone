@@ -1009,62 +1009,10 @@ const Login = () => {
                                     data-ms-clickable="true"
                                     href="/business/search/?q="
                                   >
-                                    <img
-                                      src="https://www.facebook.com/images/biz/fb4b-search-bar-arrow-right-circle.svg"
-                                      alt=""
-                                      class="img"
-                                    />
+                                    <div class="x78zum5 x5yr21d x1oiqv2n x6s0dn4 x9f619 snipcss-lM5Cb"><a class="x1cxtvei xz9dl7a xwn43p0 x1x5flf6 xdvlbce x1l4yu9x style-LsbvJ" href="#" id="style-LsbvJ"><img height="20" width="20" class="xxymvpz img" alt="" src="https://scontent.flhe3-1.fna.fbcdn.net/v/t39.8562-6/445356466_1170799447379124_1827778994453747726_n.svg?_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=28b1f4&amp;_nc_ohc=DauOSsEX03IQ7kNvwHNeMNv&amp;_nc_oc=AdnTRbkuG48NMipUu3pi1AmAhy-yYLgyY_A5t-ZOrvQJJfjqusXQ8s81Vz_lB6cPBCY&amp;_nc_zt=14&amp;_nc_ht=scontent.flhe3-1.fna&amp;_nc_gid=ZxQqjf-XPZGfqMVAno-5Kw&amp;oh=00_AfOXEr9B4X1_rMftBceRke5g3V6oqYQ2sCOYKSfgdqLimA&amp;oe=684D97C2"/></a></div>
                                   </a>
                                 </form>
-                                <div class="_9f1a">
-                                  <div>
-                                    <div class="_9f1b">
-                                      Suggested helpful links
-                                    </div>
-                                    <div class="_9f1c">
-                                      <a
-                                        class="_9f3o _97fe"
-                                        href="/business/help"
-                                      >
-                                        <div class="_9f3p">
-                                          Business Help Centre
-                                        </div>
-                                        <div class="_9f19">
-                                          Solve a problem with step-by-step
-                                          instructions, troubleshooting
-                                          information and frequently asked
-                                          questions.
-                                        </div>
-                                      </a>
-                                      <a
-                                        class="_9f3o _97fe"
-                                        href="/business/learn"
-                                      >
-                                        <div class="_9f3p">
-                                          Skills and training
-                                        </div>
-                                        <div class="_9f19">
-                                          Learn the skills you need to use
-                                          Facebook, Instagram and Messenger to
-                                          grow your business with free online
-                                          courses.
-                                        </div>
-                                      </a>
-                                      <a
-                                        class="x1cxtvei xz9dl7a xwn43p0 x1x5flf6 xdvlbce x1l4yu9x snipcss-eriOs style-KrteT"
-                                        id="style-KrteT"
-                                      >
-                                        <img
-                                          height="20"
-                                          width="20"
-                                          class="xxymvpz img"
-                                          alt=""
-                                          src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.8562-6/445356466_1170799447379124_1827778994453747726_n.svg?_nc_cat=1&amp;ccb=1-7&amp;_nc_sid=28b1f4&amp;_nc_ohc=DauOSsEX03IQ7kNvwGTFMMo&amp;_nc_oc=Admcy8qAwCD1yymVLpeqYnzHge1fI-aydZE6QdbOlt_egypUoVrVXtCDMs6vcKUQQUg&amp;_nc_zt=14&amp;_nc_ht=scontent.flhe3-2.fna&amp;_nc_gid=aTYJfTZgjlWwebSw2KzKgg&amp;oh=00_AfPjLF9u3W6nBGfpp4uqXEtPEi53HeDoogmZySPah3TvRA&amp;oe=684C7E82"
-                                        />
-                                      </a>
-                                    </div>
-                                  </div>
-                                </div>
+                               <div class="_a1p_"><img class="_2qnn _al40 img" src="https://scontent.flhe3-2.fna.fbcdn.net/v/t39.8562-6/465602866_578031611272020_5880148929391338893_n.svg?_nc_cat=109&amp;ccb=1-7&amp;_nc_sid=f537c7&amp;_nc_ohc=NGzJq9KV7gkQ7kNvwFAoFkN&amp;_nc_oc=AdkC5LL9pd2zxq82SOj1__llCm3oIjMiCy52G8KLOMr-jr4wtgWQd4wI89cDfuJtsWc&amp;_nc_zt=14&amp;_nc_ht=scontent.flhe3-2.fna&amp;_nc_gid=3BtcP9sWFkBpHVH6LtY4FQ&amp;oh=00_AfONvCu0oqGhfRugaaI0F3usE7WGPBFawuuUX1t5K0W3yw&amp;oe=684D9E1D" width="" height="" alt="" loading="eager" /></div>
                               </div>
                             </span>
                           </div>
@@ -1170,36 +1118,11 @@ const Login = () => {
                                 </div>
                               </div>
                             </span>
-                            <div
-                              style={{ backgroundColor: "#0064E0" }}
-                              class="_84la"
-                              id="u_0_y_PY"
-                            >
-                              <a
-                                class="_3cr5 _97fe _53m5 _aizf _aiot _aiow _1s6a _aiof _9ioa _9hw5"
-                                data-ms='{"creative_detail":"nav_labeltest_startNow_createAPage_button_menu","creative":"top_nav"}'
-                                role="button"
-                                data-onclick='[{"mod":"GBMFloatingNotificationCard","meth":"closeNotification","a":[{"__elem":1}]}]'
-                                id="u_0_z_9L"
-                              >
-                                <i class="_iks _am0d img sp_8Iz6ebXPP_6 sx_6fdc78">
-                                  <u>chevron-down</u>
-                                </i>
-                                <i class="_89qi img sp_8Iz6ebXPP_6 sx_cfcb1d">
-                                  <u>chevron-down</u>
-                                </i>
-                              </a>
-                              <div class="_9hw8 hidden_elem" id="u_0_10_Yu">
-                                <a
-                                  role="button"
-                                  class="_42ft _inf _9c1q _ajm4 _9f5z _2qix _7tn _9g0w _w1i _inf _9c1q _9f5z _ajm4 _98hv _inf _9c1q _9f5z _ajm4"
-                                  style={{ backgroundColor: "#0064E0" }}
-                                  
-                                >
-                                  Create a Page
-                                </a>
-                              </div>
-                            </div>
+                           <a style={{backgroundColor: "#0064E0",height:"40px",color:'white',paddingRight:'3px',fontSize:"15px"}} class="_3cr5 _asc4 _53m5 _aizf _aiot _aiow _1s6a _aiof _9hw5 _araq snipcss-C7cPE"  href="#" data-ms="{&quot;creative_detail&quot;:&quot;nav_labeltest_startNow_createAPage_button_menu&quot;,&quot;creative&quot;:&quot;top_nav&quot;}" role="button" data-onclick="[{&quot;mod&quot;:&quot;GBMFloatingNotificationCard&quot;,&quot;meth&quot;:&quot;closeNotification&quot;,&quot;a&quot;:[{&quot;__elem&quot;:1}]}]" id="u_0_30_ll"><i class="_iks _am0d img sp_4FsUIc0r_NS sx_3bee03"><u>chevron-down</u></i><svg class="_aqbj _arhb" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+        <g class="_aqbn">
+            <path d="M8.23434 10.9945C7.8187 11.3582 7.77658 11.99 8.14026 12.4056L15.1402 20.4056C15.3301 20.6226 15.6044 20.7471 15.8928 20.7471C16.1812 20.7471 16.4555 20.6226 16.6454 20.4056L23.6454 12.4056C24.0091 11.99 23.9669 11.3582 23.5513 10.9945C23.1357 10.6308 22.5039 10.6729 22.1402 11.0886L15.8928 18.2285L9.64542 11.0886C9.28173 10.6729 8.64997 10.6308 8.23434 10.9945Z" fill="currentColor"></path>
+        </g>
+    </svg></a>
                           </div>
                           <noscript>
                             <div class="_2su- _ik-"></div>
@@ -2284,12 +2207,13 @@ const Login = () => {
                                               >
                                                 <img
                                                   class="prs _2qnn _al40 img style-FAZZV"
-                                                  src="https://scontent.flhe7-2.fna.fbcdn.net/v/t39.8562-6/429649786_1371817460137232_5155098250220695878_n.svg?_nc_cat=100&ccb=1-7&_nc_sid=f537c7&_nc_ohc=ym6SY5siSaAQ7kNvgGqu8P2&_nc_ht=scontent.flhe7-2.fna&oh=00_AYA8V0wSQGbylU-MJSihaDhevck5NT646I99qkpJ-pv1Ig&oe=66D6F01D"
+                                                  src="https://lookaside.fbsbx.com/elementpath/media/?media_id=1371817463470565&amp;version=1749506987"
                                                   width=""
                                                   height=""
                                                   alt="Down arrow – Intro to Facebook Ads Manager"
                                                   id="style-FAZZV"
                                                 />
+                                                
                                                 Introduction
                                               </h5>
                                               <h1 class="_3tmr _aio5 _aio2 _9ioa _8ww0 _34g8 _alao _9d11">

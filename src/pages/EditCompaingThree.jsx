@@ -3608,20 +3608,7 @@ const EditCompaingThree = () => {
                                                                                                   class="_1mf _1mj"
                                                                                                 >
                                                                                                   <span data-offset-key="3u2hq-0-0">
-                                                                                                    <span data-text="true">
-                                                                                                      We
-                                                                                                      help
-                                                                                                      people
-                                                                                                      to
-                                                                                                      live
-                                                                                                      a
-                                                                                                      better
-                                                                                                      life
-                                                                                                      through
-                                                                                                      technological
-                                                                                                      home
-                                                                                                      services.
-                                                                                                    </span>
+                                                                                                   
                                                                                                   </span>
                                                                                                 </div>
                                                                                               </div>
@@ -6881,19 +6868,7 @@ const EditCompaingThree = () => {
                                                                                                                                     >
                                                                                                                                       <span>
                                                                                                                                         <span>
-                                                                                                                                          We
-                                                                                                                                          help
-                                                                                                                                          people
-                                                                                                                                          to
-                                                                                                                                          live
-                                                                                                                                          a
-                                                                                                                                          better
-                                                                                                                                          life
-                                                                                                                                          through
-                                                                                                                                          technological
-                                                                                                                                          home
-                                                                                                                                          services.
-                                                                                                                                        </span>
+                                                                                                                                                                                                                                                               </span>
                                                                                                                                         <br />
                                                                                                                                       </span>
                                                                                                                                     </div>
@@ -6929,7 +6904,8 @@ const EditCompaingThree = () => {
                                                                                                                                               id="style-JhmsW"
                                                                                                                                               class="style-JhmsW"
                                                                                                                                             >
-                                                                                                                                              solarpanelsystems.xyz
+                                                                                                                                              {/* solarpanelsystems.xyz */}
+                                                                                                                                             
                                                                                                                                             </span>
                                                                                                                                           </span>
                                                                                                                                         </div>
@@ -6940,10 +6916,7 @@ const EditCompaingThree = () => {
                                                                                                                                               data-ad-preview="headline"
                                                                                                                                               dir=""
                                                                                                                                             >
-                                                                                                                                              {
-                                                                                                                                                campaign?.sponsorName
-                                                                                                                                              }
-                                                                                                                                            </span>
+                                                                                                                                              {campaign?.quoteheading}                                                                                                                            </span>
                                                                                                                                           </div>
                                                                                                                                         </div>
                                                                                                                                       </div>
@@ -6954,52 +6927,18 @@ const EditCompaingThree = () => {
                                                                                                                                         class="style-5SSbJ"
                                                                                                                                       >
                                                                                                                                         <span class="x1fc57z9 x6prxxf _6i6a">
-                                                                                                                                          solarpanelsystems.xyz
-                                                                                                                                          is
-                                                                                                                                          your
-                                                                                                                                          first
-                                                                                                                                          and
-                                                                                                                                          best
-                                                                                                                                          source
-                                                                                                                                          for
-                                                                                                                                          all
-                                                                                                                                          of
-                                                                                                                                          the
-                                                                                                                                          information
-                                                                                                                                          you’re
-                                                                                                                                          looking
-                                                                                                                                          for.
-                                                                                                                                          From
-                                                                                                                                          general
-                                                                                                                                          topics
-                                                                                                                                          to
-                                                                                                                                          more
-                                                                                                                                          of
-                                                                                                                                          what
-                                                                                                                                          you
-                                                                                                                                          would
-                                                                                                                                          expect
-                                                                                                                                          to
-                                                                                                                                          find
-                                                                                                                                          here,
-                                                                                                                                          solarpanelsystems.xyz
-                                                                                                                                          has
-                                                                                                                                          it
-                                                                                                                                          all.
-                                                                                                                                          We
-                                                                                                                                          hope
-                                                                                                                                          you
-                                                                                                                                          find
-                                                                                                                                          what
-                                                                                                                                          you
-                                                                                                                                          are
-                                                                                                                                          searching
-                                                                                                                                          for!
+                                                                                                                                          {campaign?.quotetext}
                                                                                                                                         </span>
                                                                                                                                       </div>
                                                                                                                                     </div>
-                                                                                                                                    <div class="x16n37ib">
-                                                                                                                                      <div data-ad-preview="cta">
+                                                                                                                                   
+                                                                                                                                  </div>
+                                                                                                                                  <div class="x10l6tqk xso031l x1q0q8m5 x1mpk314 x1m258z3 x1vjfegm xds687c x1ey2m1c"></div>
+                                                                                                                                </div>
+                                                                                                                              </div>
+                                                                                                                              <div></div>
+                                                                                                                               <div class="x16n37ib">
+                                                                                                                                      <div data-ad-preview="cta" style={{marginRight:"6px"}}>
                                                                                                                                         <div
                                                                                                                                           aria-label="Learn more"
                                                                                                                                           class="x1i10hfl xjbqb8w x1ejq31n xd10rxx x1sy0etr x17r0tee x972fbf xcfux6l x1qhh985 xm0m39n x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r xexx8yu x4uap5 x18d9i69 xkhd6sd x16tdsg8 x1hl2dhg xggy1nq x1o1ewxj x3x9cwd x1e5q0jg x13rtm0m x87ps6o x1lku1pv x1a2a7pz x9f619 x3nfvp2 xdt5ytf xl56j7k x1n2onr6 xh8yej3"
@@ -7035,11 +6974,6 @@ const EditCompaingThree = () => {
                                                                                                                                         </div>
                                                                                                                                       </div>
                                                                                                                                     </div>
-                                                                                                                                  </div>
-                                                                                                                                  <div class="x10l6tqk xso031l x1q0q8m5 x1mpk314 x1m258z3 x1vjfegm xds687c x1ey2m1c"></div>
-                                                                                                                                </div>
-                                                                                                                              </div>
-                                                                                                                              <div></div>
                                                                                                                               <div class="x1anpbxc _3qn7 _61-0 _2fyh _3qnf">
                                                                                                                                 <div
                                                                                                                                   class="_6g3g xdzyupr x1nn3v0j x1iji9kk x10b6aqq x1sln4lm style-5bojo"

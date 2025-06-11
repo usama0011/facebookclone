@@ -21,7 +21,10 @@ import SideBar from "./components/SideBar";
 const App = () => {
   const [filteredCampaigns, setFilteredCampaigns] = useState([]);
   const [showcalender, setShowCalender] = useState(false);
-  const [checkedCampaigns, setCheckedCampaigns] = useState([]);
+  const [checkedCampaigns, setCheckedCampaigns] = useState(() => {
+    const stored = localStorage.getItem("checkedCampaigns");
+    return stored ? JSON.parse(stored) : [];
+  });
   const [showmyaccount, setShowmyAccount] = useState(false);
   const [account, setAccount] = useState({});
   const [showcustomizedbanner, setShowCustumizeBanner] = useState(false);
@@ -55,16 +58,17 @@ const App = () => {
     const storedEndDate = localStorage.getItem("endDate");
     return storedEndDate ? new Date(storedEndDate) : getTodayDate();
   });
-  // Callback function to update checked campaign IDs
-  const handleCheckboxChangeTarget = (campaignId, isChecked) => {
-    setCheckedCampaigns((prevIds) => {
-      if (isChecked) {
-        return [...prevIds, campaignId];
-      } else {
-        return prevIds.filter((id) => id !== campaignId);
-      }
+  const handleCheckboxChangeTarget = (campaignName, isChecked) => {
+    setCheckedCampaigns((prevNames) => {
+      const updated = isChecked
+        ? [...prevNames, campaignName]
+        : prevNames.filter((name) => name !== campaignName);
+
+      localStorage.setItem("checkedCampaigns", JSON.stringify(updated));
+      return updated;
     });
   };
+
   const [selectedOption, setSelectedOption] = useState("This Month");
   const [hoverDate, setHoverDate] = useState(null);
   const [currentMonth, setCurrentMonth] = useState(new Date());
@@ -206,12 +210,27 @@ const App = () => {
       }));
 
       setCampaigns(sanitizedData);
-      // ✅ Sync checkedCampaigns with new campaign list
-      setCheckedCampaigns((prevChecked) =>
-        prevChecked.filter((id) =>
-          sanitizedData.some((campaign) => campaign._id === id)
+      const validCheckedCampaigns = checkedCampaigns.filter((name) =>
+        sanitizedData.some(
+          (c) =>
+            (c.campaignName || c.campaingname || "").toLowerCase() ===
+            name.toLowerCase()
         )
       );
+
+      setCheckedCampaigns(validCheckedCampaigns);
+
+      if (validCheckedCampaigns.length > 0) {
+        setFilteredCampaigns(
+          sanitizedData.filter((c) =>
+            validCheckedCampaigns.includes(
+              (c.campaignName || c.campaingname || "").toLowerCase()
+            )
+          )
+        );
+      } else {
+        setFilteredCampaigns([]);
+      }
     } catch (err) {
       setError("Error fetching campaigns");
       console.error("API Error:", err);
@@ -1355,26 +1374,40 @@ const App = () => {
     }
   }, [loading]);
 
-  console.log();
-  // Helper function to filter campaigns based on checkedCampaigns
-  const getFilteredCampaignsFetch = (campaigns, selectedIds) => {
-    if (!selectedIds || selectedIds.length === 0) {
-      return campaigns;
+
+  
+ useEffect(() => {
+  const filteredName = localStorage.getItem("filteredCampaignName");
+
+  if (checkedCampaigns.length > 0) {
+    const filtered = campaings.filter((campaign) =>
+      checkedCampaigns.includes(
+        (campaign.campaignName || campaign.campaingname || "").toLowerCase()
+      )
+    );
+
+    // If there's also a name filter, apply it
+    if (filteredName) {
+      const lower = filteredName.toLowerCase();
+      setFilteredCampaigns(
+        filtered.filter((c) =>
+          (c.campaignName || c.campaingname || "").toLowerCase().includes(lower)
+        )
+      );
+    } else {
+      setFilteredCampaigns(filtered);
     }
-    return campaigns.filter((campaign) => selectedIds.includes(campaign._id));
+  } else {
+    // ✅ Default to all campaigns if nothing is checked
+    setFilteredCampaigns(campaings);
+  }
+}, [campaings, checkedCampaigns]);
+
+  const handleClearCheckedCampaigns = () => {
+    localStorage.removeItem("checkedCampaigns");
+    setCheckedCampaigns([]);
   };
 
-  useEffect(() => {
-    // Filter based on checkedCampaigns
-    if (checkedCampaigns.length > 0) {
-      const filtered = campaings.filter((campaign) =>
-        checkedCampaigns.includes(campaign._id)
-      );
-      setFilteredCampaigns(filtered);
-    } else {
-      setFilteredCampaigns(campaings);
-    }
-  }, [campaings, checkedCampaigns]);
   return (
     <div>
       <div
@@ -2974,6 +3007,7 @@ const App = () => {
                                                 className="outerserachandfilercontar"
                                                 style={{
                                                   position: "absolute",
+                                                  
                                                   top: "170px",
                                                   zIndex: "1500",
                                                   left: "73px",
@@ -3119,7 +3153,9 @@ const App = () => {
                                                                               Campaigns{" "}
                                                                               {checkedCampaigns?.length >
                                                                               0 ? (
-                                                                                <div
+                                                                                <div  onClick={
+                                                                                          handleClearCheckedCampaigns
+                                                                                        }
                                                                                   style={{
                                                                                     marginLeft:
                                                                                       "18px",
@@ -3142,11 +3178,7 @@ const App = () => {
                                                                                       role="presentation"
                                                                                     >
                                                                                       <div
-                                                                                        onClick={() =>
-                                                                                          setCheckedCampaigns(
-                                                                                            []
-                                                                                          )
-                                                                                        }
+                                                                                       
                                                                                         class="xtwfq29 style-w822C"
                                                                                         id="style-w822C"
                                                                                       ></div>
@@ -3800,8 +3832,7 @@ const App = () => {
                                               )}
                                               {currentfolder === "AdsSets" && (
                                                 <AdsSets
-                                                    campaigns={filteredCampaigns}
-
+                                                  campaigns={filteredCampaigns}
                                                   loading={loading}
                                                   setLoading={setLoading}
                                                   setError={setError}
@@ -3809,8 +3840,7 @@ const App = () => {
                                               )}
                                               {currentfolder === "Ads" && (
                                                 <Ads
-                                                     campaigns={filteredCampaigns}
-
+                                                  campaigns={filteredCampaigns}
                                                   loading={loading}
                                                   setLoading={setLoading}
                                                   setError={setError}

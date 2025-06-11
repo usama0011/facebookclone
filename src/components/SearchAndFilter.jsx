@@ -76,7 +76,6 @@ const SearchAndFilter = ({
       <div
         style={{ zIndex: "5000" }}
         width="400"
-        class="uiScrollableArea nofade uiScrollableAreaWithShadow snipcss-dQbl2 contentAfter"
       >
         <div
           style={{ zIndex: "5000" }}

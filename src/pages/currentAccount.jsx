@@ -1844,7 +1844,7 @@ const CurrentAccount = () => {
                                 onClick={handleNavigate}
                                 style={{
                                   cursor: "pointer",
-                                  color: "#0071c2",
+                                  color: "#0678bf",
                                   textDecoration: "underline",
                                 }}
                               >
