@@ -4792,27 +4792,12 @@ const EditCompaingTwo = () => {
                                                                                 </div>
                                                                                 <br />
                                                                               </div>
-                                                                              <div class="snipcss-7KHog">
-                                                                                <i
-                                                                                  alt=""
-                                                                                  data-visualcompletion="css-img"
-                                                                                  class="img style-oJzSc"
-                                                                                  id="style-oJzSc"
-                                                                                ></i>
-                                                                                <div class="_3-8x clearfix">
-                                                                                  <div class="_ohe">
-                                                                                    <span>
-                                                                                      Specific
-                                                                                    </span>
-                                                                                  </div>
-                                                                                  <div class="_ohf">
-                                                                                    <span>
-                                                                                      Broad
-                                                                                    </span>
-                                                                                  </div>
-                                                                                </div>
-                                                                                <br />
-                                                                              </div>
+                                                                             <div class="snipcss-FQncq"><i alt="" data-visualcompletion="css-img" class="img style-4MOyF" id="style-4MOyF"></i>
+    <div class="_3-8x clearfix">
+        <div class="_ohe"><span>Narrow</span></div>
+        <div class="_ohf"><span>Broad</span></div>
+    </div><br/>
+</div>
                                                                             </div>
                                                                             <div
                                                                               class="_9t0w"

@@ -4362,3 +4362,14 @@ i.img {
   background-repeat: no-repeat;
   display: inline-block;
 }
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-4MOyF.style-4MOyF {  
+   background-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yS/r/Q4_igHwpUFY.png");  
+    background-position: 0px -36px;  
+    background-size: auto;  
+    width: 318px;  
+    height: 8px;  
+    background-repeat: no-repeat;  
+    display: inline-block;  
+} 

@@ -6213,11 +6213,30 @@ const EditCompaingThree = () => {
                               </div>
                             </div>
                           </div>
+                          
                           <div
                             class="_6g3g  _8ga1 _3pvh style-qWJ2D"
                             id="style-qWJ2D"
                           >
+                            <div style={{backgroundColor:'white'}} class="x6s0dn4 x78zum5 x1q0g3np x1qughib x2lwn1j xeuugli xh8yej3 xmzvs34 x1nn3v0j x1120s5i x14vy60q snipcss-oenNY newpoitnerhere">
+    <div class="x6s0dn4 x78zum5 x2lwn1j xeuugli">
+        <div class="x78zum5 x6s0dn4 xl56j7k x1td3qas x10w6t97 x1e8prfs xflfurm x1obq294 x5a5i1n xde0f50 x15x8krk">
+            <div class="x3nfvp2 x120ccyz x1heor9g" role="presentation">
+                <div class="xtwfq29 style-POUMB" id="style-POUMB"></div>
+            </div>
+        </div>
+        <div class="x8gbvx8 x78zum5 xdt5ytf x2lwn1j xeuugli x1diwwjn">
+            <div class="x1cy8zhl x78zum5 x2lwn1j xeuugli"><span aria-level="3" class="x1vvvo52 x1uxerd5 x1xlr1w8 xrohxju xbsr9hj xq9mrsl x1h4wwuj xeuugli" role="heading">Campaign opportunities</span></div><span class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli">Your campaign has room to improve.</span>
+        </div>
+    </div>
+    <div class="x1xegmmw">
+        <div class="x3nfvp2 x120ccyz x4s1yf2" role="presentation">
+            <div class="xtwfq29 style-Xq8Xz" id="style-Xq8Xz"></div>
+        </div>
+    </div>
+</div>
                             <div class="_3qn7 _61-0 _2fyh _1a9e">
+                              
                               <div
                                 class="_6g3g style-P9cYm"
                                 id="style-P9cYm"
@@ -6860,7 +6879,7 @@ const EditCompaingThree = () => {
                                                                                                                                           width:
                                                                                                                                             "100%",
                                                                                                                                           height:
-                                                                                                                                            "100%",
+                                                                                                                                            "190px",
                                                                                                                                           objectFit:
                                                                                                                                             "cover",
                                                                                                                                             textAlign:"left"
