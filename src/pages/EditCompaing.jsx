@@ -3069,8 +3069,8 @@ const EditCompaing = () => {
                                             >
                                               {/* usamaahmad */}
                                               <div  data-pagelet="campaignGroupAccountSpendLimitWarningSection">
-                                                {/* <div  class="x78zum5 xdt5ytf x5yr21d xedcshv x1t2pt76 xh8yej3 snipcss-Idsgw">
-    <div style={{backgroundColor:'white'}} class="x6s0dn4 x78zum5 x1q0g3np x2lwn1j xeuugli xw7yly9 x1ys307a x1yztbdb xyqm7xq">
+                                                <div style={{backgroundColor:'white',padding:'10px',borderRadius:'5px'}}  class="x78zum5 xdt5ytf x5yr21d xedcshv x1t2pt76 xh8yej3 snipcss-Idsgw">
+    <div  class="x6s0dn4 x78zum5 x1q0g3np x2lwn1j xeuugli xw7yly9 x1ys307a x1yztbdb xyqm7xq">
         <div  class="x78zum5 x6s0dn4 xl56j7k x1td3qas x10w6t97 x1e8prfs xflfurm x1obq294 x5a5i1n xde0f50 x15x8krk">
             <div class="x3nfvp2 x120ccyz x1heor9g" role="presentation">
                 <div class="xtwfq29 style-1jZ1X" id="style-1jZ1X"></div>
@@ -3137,6 +3137,7 @@ const EditCompaing = () => {
                                             </div>
                                         </div>
                                     </div>
+                                    <br />
                                     <div class="xh8yej3 x9f619 x13jy36j">
                                         <div class="x1cy8zhl x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my">
                                             <div class="x1gslohp">
@@ -3173,7 +3174,7 @@ const EditCompaing = () => {
         <div class="x10wjd1d x47corl x10l6tqk x19991ni x13dflua xwji4o3 xh8yej3 xg01cxk x67dex8 x13vifvy"></div>
         <div class="x10wjd1d x47corl x10l6tqk x19991ni x13dflua xwji4o3 xh8yej3 xg01cxk x1ta9b4f x1ey2m1c"></div>
     </div>
-</div> */}
+</div>
                                                 <div class="">
                                                   <span
                                                     data-surface-wrapper="1"

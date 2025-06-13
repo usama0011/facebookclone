@@ -3621,7 +3621,7 @@ const EditCompaingTwo = () => {
                                                                                                         </div>
                                                                                                       </div>
                                                                                                     </div>
-                                                                                                    <div
+                                                                                                    <div style={{display:'flex',flexDirection:"column",alignItems:"start"}}
                                                                                                       alignh="left"
                                                                                                       class="_5twp _6a _6b"
                                                                                                     >
@@ -3629,14 +3629,14 @@ const EditCompaingTwo = () => {
                                                                                                         class="x3nfvp2 x193iq5w xxymvpz"
                                                                                                         role="none"
                                                                                                       >
-                                                                                                        <div
+                                                                                                        <div 
                                                                                                           aria-busy="false"
                                                                                                           class="x1i10hfl xjqpnuy xa49m3k xqeqjp1 x2hbi6w x972fbf xcfux6l x1qhh985 xm0m39n x9f619 x1ypdohk xe8uvvx xdj266r x11i5rnm xat24cr x1mh8g0r x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n xd10rxx x1sy0etr x17r0tee x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1lcm9me x1yr5g0i xrt01vj x10y3i5r x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 x1swvt13 x1pi30zi"
                                                                                                           role="button"
                                                                                                           tabindex="0"
                                                                                                         >
-                                                                                                          <span class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
-                                                                                                            <div class="x78zum5">
+                                                                                                          <span  class="xmi5d70 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                                                                                                            <div  class="x78zum5">
                                                                                                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                                                                                 <div class="x1xqt7ti x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
                                                                                                                   Add
@@ -4133,7 +4133,7 @@ const EditCompaingTwo = () => {
                                                                                                             </div>
                                                                                                           </div>
                                                                                                         </div>
-                                                                                                        <div class="_3-95">
+                                                                                                        <div style={{display:'flex',flexDirection:"column",alignItems:"start"}} class="_3-95">
                                                                                                           <div
                                                                                                             class="x3nfvp2 x193iq5w xxymvpz x1emribx"
                                                                                                             role="none"
@@ -4273,8 +4273,8 @@ const EditCompaingTwo = () => {
                                                                           </div>
                                                                         </div>
                                                                       </div>
-                                                                      <div class="xamhcws x13fuv20 xkh9tda xyamay9 x12nagc x1sy10c2">
-                                                                        <div class="_19b9 _34l3 _19ba">
+                                                                      <div  class="xamhcws x13fuv20 xkh9tda xyamay9 x12nagc x1sy10c2">
+                                                                        <div style={{display:'flex',flexDirection:"column",alignItems:"start"}} class="_19b9 _34l3 _19ba">
                                                                           <div class="_4jch _420b">
                                                                             <div
                                                                               aria-labelledby="js_12b"
@@ -4325,232 +4325,1197 @@ const EditCompaingTwo = () => {
                                                 </div>
                                               </div>
                                             </div>
-                                            <div class="">
-                                              <div
-                                                class=""
-                                                id="campaignPlacementSection"
-                                              >
-                                                <div data-pagelet="campaignPlacementSection">
-                                                  <span
-                                                    data-surface-wrapper="1"
-                                                    data-surface="/am/editor_drawer/editor:ad_set/adset_placement_section"
-                                                    data-auto-logging-id="f27c9c621678d58"
-                                                    id="style-fQMIX"
-                                                    class="style-fQMIX"
-                                                  >
-                                                    <div></div>
-                                                    <div class="x1n2onr6">
-                                                      <div class="">
-                                                        <div
-                                                          aria-labelledby="js_12d"
-                                                          class="x1gzqxud x1lcm9me x1yr5g0i xrt01vj x10y3i5r xhgxa4x xy5ysw6 x1qkj6lk xn3walq xnvurfn xv1ta3e x1opv7go x1dtnpoi xibdhds xtnng9g xhvrwov x13k1m86 xwx4but x1cpjm7i xszcg87 x1hmns74 xkk1bqk x14d4353 xsxiz9q x1rmj1tg xchklzq x9f619 xc8icb0 x1n2onr6 x1pvq41x xhhp2wi x14q35kh x1wa3ocq x1n7iyjn x1s928wv x1wsn0xg x1j6awrg x162n7g1 x1m1drc7 x4eaejv xi4xitw x5yr21d xh8yej3 xod5an3"
-                                                          data-auto-logging-component-type="GeoCard"
-                                                        >
-                                                          <div class="x78zum5 xdt5ytf x5yr21d xedcshv x1t2pt76 xh8yej3">
-                                                            <div class="x9f619 x78zum5 x2lah0s xh8yej3 xyamay9 x1l90r2v x1swvt13 x1pi30zi">
-                                                              <div class="x1iyjqo2 xeuugli">
-                                                                <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94">
-                                                                  <div class="x78zum5 xlup9mm">
-                                                                    <div class="x1rg5ohu x67bb7w">
-                                                                      <span
-                                                                        linger="200"
-                                                                        class="_2kdf"
-                                                                      >
-                                                                        <div
-                                                                          class="x3nfvp2 x120ccyz xs7e29d"
-                                                                          role="presentation"
-                                                                        >
-                                                                          <div
-                                                                            class="xtwfq29 style-D497F"
-                                                                            id="style-D497F"
-                                                                          ></div>
-                                                                        </div>
-                                                                      </span>
-                                                                    </div>
-                                                                  </div>
-                                                                  <div
-                                                                    aria-level="3"
-                                                                    class="x1xqt7ti x1uxerd5 x1xlr1w8 xrohxju xbsr9hj xq9mrsl x1yc453h x1h4wwuj xeuugli"
-                                                                    role="heading"
-                                                                  >
-                                                                    Placements
-                                                                  </div>
-                                                                  <div class="x78zum5 x1q0g3np xozqiw3 xeuugli x1iyjqo2 x2lah0s x19lwn94 x6s0dn4 x13a6bvl xu0aao5 x9otpla x1wsgfga">
-                                                                    <span>
-                                                                      <a
-                                                                        class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                                        target="_blank"
-                                                                        href="https://www.facebook.com/business/help/965529646866485"
-                                                                      >
-                                                                        Learn
-                                                                        more
-                                                                      </a>
-                                                                    </span>
-                                                                  </div>
-                                                                </div>
-                                                              </div>
-                                                            </div>
-                                                            <div class="x9f619 x78zum5 x1iyjqo2 x5yr21d x2lwn1j x1n2onr6 xh8yej3">
-                                                              <div class="xh8yej3 x18d9i69 x1plvlek xryxfnj">
-                                                                <div class="xjm9jq1 xg01cxk x47corl xh8yej3 x1jyxor1"></div>
-                                                                <div
-                                                                  class="x1iyjqo2 xs83m0k xdl72j9 x3igimt xedcshv x1t2pt76 x1l90r2v x1swvt13 x1pi30zi xexx8yu"
-                                                                  data-auto-logging-component-type="GeoSection"
-                                                                  data-auto-logging-dependent-region=""
-                                                                >
-                                                                  <div>
-                                                                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94"></div>
-                                                                    <div>
-                                                                      <div xstyle="[object Object]"></div>
-                                                                    </div>
-                                                                    <div>
-                                                                      <div class="_19b9 _34l3 _19ba">
-                                                                        <div>
-                                                                          <div
-                                                                            class="_7yfl _9iq_ _7_wz"
-                                                                            id=""
-                                                                          >
-                                                                            <div>
-                                                                              <div>
-                                                                                <div
-                                                                                  class=""
-                                                                                  data-sscoverage-ignore="true"
-                                                                                >
-                                                                                  <div class="x1iyjqo2 x12nagc">
-                                                                                    <div class="x1pha0wt x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x65s2av">
-                                                                                      <label id="js_15c">
-                                                                                        <span class="xmi5d70 x1fvot60 xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe x117nqv4 xeuugli">
-                                                                                          Advantage+
-                                                                                          placements
-                                                                                        </span>
-                                                                                      </label>
-                                                                                      <div class="x1rg5ohu x67bb7w xsgj6o6 xw3qccf">
-                                                                                        <i
-                                                                                          alt=""
-                                                                                          data-visualcompletion="css-img"
-                                                                                          class="img style-fUYPy"
-                                                                                          id="style-fUYPy"
-                                                                                        ></i>
-                                                                                      </div>
-                                                                                    </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                                <div
-                                                                                  aria-labelledby="js_15c"
-                                                                                  class=" _21op"
-                                                                                >
-                                                                                  <div class="_7_zy _9iou">
-                                                                                    <div class="_3qn7 _61-3 _2fyi _3qnf">
-                                                                                      <div>
-                                                                                        <div class="">
-                                                                                          <div
-                                                                                            id="style-lGwJ5"
-                                                                                            class="style-lGwJ5"
-                                                                                          >
-                                                                                            Your
-                                                                                            budget
-                                                                                            will
-                                                                                            be
-                                                                                            allocated
-                                                                                            by
-                                                                                            Meta's
-                                                                                            delivery
-                                                                                            system
-                                                                                            across
-                                                                                            multiple
-                                                                                            placements
-                                                                                            based
-                                                                                            on
-                                                                                            where
-                                                                                            it's
-                                                                                            likely
-                                                                                            to
-                                                                                            perform
-                                                                                            best.
-                                                                                          </div>
-                                                                                        </div>
-                                                                                      </div>
-                                                                                      <div class="_7yfk">
-                                                                                        <div class="xmi5d70 x1fvot60 xo1l8bm xxio538 x1qsmy5i x1ypdohk xt0b8zv">
-                                                                                          <div class="x6s0dn4 x78zum5 x2lwn1j xeuugli x16n37ib xq8finb x1ypdohk xt0b8zv">
-                                                                                            <div
-                                                                                              class="x3nfvp2 x120ccyz x1heor9g xw3qccf"
-                                                                                              role="presentation"
-                                                                                            >
-                                                                                              <div
-                                                                                                class="xtwfq29 style-iyaqP"
-                                                                                                id="style-iyaqP"
-                                                                                              ></div>
-                                                                                            </div>
-                                                                                            <span>
-                                                                                              Edit
-                                                                                            </span>
-                                                                                          </div>
-                                                                                          <button
-                                                                                            class="accessible_elem _5f0v"
-                                                                                            label="Edit"
-                                                                                            id="js_15b"
-                                                                                          >
-                                                                                            Edit
-                                                                                          </button>
-                                                                                        </div>
-                                                                                      </div>
-                                                                                    </div>
-                                                                                  </div>
-                                                                                </div>
-                                                                              </div>
-                                                                            </div>
-                                                                          </div>
-                                                                        </div>
-                                                                      </div>
-                                                                      <hr class="xjbqb8w x11i5rnm x1mh8g0r xso031l x1q0q8m5 xqtp20y xwebqov xvyu6v8 xrsgblv x10lij0i xw7yly9 x1yztbdb" />
-                                                                      <div class="_87w9 _3-8x">
-                                                                        <span>
-                                                                          <a
-                                                                            class="xt0psk2 x1hl2dhg xt0b8zv xmi5d70 x1fvot60 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1fcty0u"
-                                                                            href="#"
-                                                                          >
-                                                                            <div class="x6s0dn4 x78zum5 x2lwn1j xeuugli">
-                                                                              Show
-                                                                              more
-                                                                              options
-                                                                              <div
-                                                                                class="x3nfvp2 x120ccyz x1heor9g x12mruv9"
-                                                                                role="presentation"
-                                                                              >
-                                                                                <div
-                                                                                  class="xtwfq29 style-EJsFM"
-                                                                                  id="style-EJsFM"
-                                                                                ></div>
-                                                                              </div>
-                                                                            </div>
-                                                                          </a>
-                                                                        </span>
-                                                                        <div
-                                                                          data-visualcompletion="ignore"
-                                                                          class=""
-                                                                        ></div>
-                                                                        <div
-                                                                          data-visualcompletion="ignore"
-                                                                          class=""
-                                                                        ></div>
-                                                                      </div>
-                                                                    </div>
-                                                                  </div>
-                                                                </div>
-                                                                <div class="xjm9jq1 xg01cxk x47corl xh8yej3 x1y332i5"></div>
-                                                              </div>
-                                                              <div class="x10wjd1d x47corl x10l6tqk x19991ni x13dflua xwji4o3 xh8yej3 xg01cxk x67dex8 x13vifvy"></div>
-                                                              <div class="x10wjd1d x47corl x10l6tqk x19991ni x13dflua xwji4o3 xh8yej3 xg01cxk x1ta9b4f x1ey2m1c"></div>
-                                                            </div>
-                                                          </div>
-                                                        </div>
-                                                      </div>
-                                                    </div>
-                                                  </span>
+                                           {/* Placement starthere */}
+                                           <div style={{backgroundColor:'white',paddingTop:"20px"}} class="x1iyjqo2 xs83m0k xdl72j9 x3igimt xedcshv x1t2pt76 x1l90r2v xf7dkkf xv54qhq xexx8yu snipcss-YnjJv" data-auto-logging-component-type="GeoSection" data-auto-logging-dependent-region="">
+    <div id="style-xYfHS" class="style-xYfHS"><span data-surface-wrapper="1" data-surface="/am/editor_drawer/editor:ad_set/adset_placement_section/msg:AdsCCCardComponent" data-auto-logging-id="f41b65b5d" id="style-i2NfT" class="style-i2NfT">
+            <div>
+                <div class="_4rlp _11gv style-kQ8Qw" id="style-kQ8Qw"><i alt="ACTIVE_FEEDBACK" aria-label="ACTIVE_FEEDBACK" class="_4rln img style-pRi96" role="img" data-visualcompletion="css-img" id="style-pRi96"><u>ACTIVE_FEEDBACK</u></i>
+                    <div class="_4rlm">
+                        <div class="x9otpla x1w5wx5t x1wsgfga x1qfufaz">
+                            <div class="x6s0dn4 x78zum5 x13a6bvl x2lwn1j xeuugli">
+                                <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
+                                    <div aria-busy="false" class="x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1t137rt x6s0dn4 x1ejq31n x18oe1m7 x1sy0etr xstzfhl x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy xjwep3j x1t39747 x1wcsgtt x1pczhz8 xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 x1g0dm76 xpdmqnj" role="button" tabindex="0" data-auto-logging-component-type="GeoButton"><span class="x1vvvo52 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                                            <div class="x78zum5">
+                                                <div class="x1qvwoe0 xjm9jq1 x1y332i5 xjn30re x1jyxor1 x1hb08if x6ikm8r x10wlt62 x10l6tqk xuxw1ft x1i1rx1s" data-sscoverage-ignore="true">Close</div>
+                                                <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                                                    <div class="x3nfvp2 x2lah0s x1c4vz4f"><i alt="" data-visualcompletion="css-img" class="img style-Ivgcq" id="style-Ivgcq"></i></div>​
                                                 </div>
-                                              </div>
                                             </div>
+                                        </span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="_4rlo">
+                        <div class="_4dqc"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x117nqv4 xeuugli">
+                                <div id="style-AKMBD" class="style-AKMBD">Introducing ads in Threads</div>
+                            </span></div>
+                    </div>
+                    <div class=" _4822">
+                        <div class="_1qgy">
+                            <div class="x1pg5gke x1yc453h xh8yej3">
+                                <div class="_666t">
+                                    <div class="_4dqc">
+                                        <div class="_3p-2"><span class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli">To help you reach more people, the new Threads feed placement is included in this campaign. You can manage placements in Manual placements. <span><a class="xt0psk2 x1hl2dhg xt0b8zv x1vvvo52 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1qlqyl8 x1pd3egz" target="_blank" href="https://www.facebook.com/business/help/179980294969821">About ads in Threads</a></span></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </span></div>
+    <div>
+        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my"></div>
+        <div>
+            <div xstyle="[object Object]"></div>
+        </div>
+        <div>
+            <div class="x1e56ztr">
+                <div></div>
+                <div class="x78zum5 xe8uvvx xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl xdt5ytf xdm93yi" role="list" data-auto-logging-component-type="GeoBaseInteractiveList">
+                    <div aria-expanded="true" class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk x78zum5 xdl72j9 xdt5ytf x2lah0s xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt" role="button" tabindex="0">
+                        <div class="x78zum5 x1iyjqo2">
+                            <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my xjwep3j x1t39747 x1y1aw1k xwib8y2 xmzvs34 xf159sx x1qfufaz x1w5wx5t xo1l8bm xbsr9hj x1k4ywey xbiv7yw x16uus16">
+                                <div class="x1iyjqo2 xeuugli">
+                                    <div class="x78zum5 x1iyjqo2" role="listitem">
+                                        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my xjwep3j x1t39747 x1wcsgtt x1pczhz8 xexx8yu xyri2b x18d9i69 x1c1uobl xdj266r x14z9mp xat24cr x1lziwak">
+                                            <div class="x78zum5 x1q0g3np x1qughib x2lwn1j xeuugli style-ALtGJ" id="style-ALtGJ">
+                                                <div class="x78zum5 xdt5ytf x2lwn1j xeuugli style-HOvJQ" id="style-HOvJQ">
+                                                    <div>
+                                                        <div class="x1pha0wt x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x1xsc7gk"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe x117nqv4 xeuugli">Account controls</span>
+                                                            <div class="x1rg5ohu x67bb7w">
+                                                                <div class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x1fcty0u x78zum5 xl56j7k x6s0dn4"><span>​</span>
+                                                                    <div class="xjm9jq1 x78zum5 xl56j7k x6s0dn4">
+                                                                        <div class="x78zum5 x1uuroth x67bb7w xdwrcjd x2fvf9">
+                                                                            <div class="x3nfvp2 x120ccyz x4s1yf2" role="presentation">
+                                                                                <div class="xtwfq29 style-97hnI" id="style-97hnI"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="x1kky2od x78zum5 x6s0dn4 xl56j7k xf159sx">
+                                    <div class="x3nfvp2 x120ccyz x4s1yf2" role="presentation">
+                                        <div class="xtwfq29 style-Y1Ev8" id="style-Y1Ev8"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x19kh74d style-8so2U" role="region" id="style-8so2U">
+                        <div class="xo1l8bm xbsr9hj x1k4ywey xmzvs34 xf159sx x1wcsgtt x1pczhz8 x15mokao x1ga7v0g x1qfufaz x1w5wx5t x13dflua xxziih7 x12w9bfk x1humd01 x1hc1fzr style-sdZA1" id="style-sdZA1">
+                            <div>
+                                <div class="xwib8y2">
+                                    <div class="xjwep3j x1t39747 x1wcsgtt x1pczhz8 x1gzqxud xz9dl7a xsag5q8 x1g0dm76 xpdmqnj">
+                                        <div class="x1cy8zhl x78zum5 xdt5ytf xozqiw3 x2lwn1j xeuugli x1iyjqo2 xavht8x"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x117nqv4 xeuugli">Excluded placements: <span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x1fcty0u xeuugli">None</span></span>
+                                            <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
+                                                <div aria-busy="false" class="x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n x18oe1m7 x1sy0etr xstzfhl x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy xjwep3j x1t39747 x1wcsgtt x1pczhz8 x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 xf7dkkf xv54qhq" role="button" tabindex="0" data-auto-logging-component-type="GeoButton"><span class="x1vvvo52 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                                                        <div class="x78zum5">
+                                                            <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                                                                <div class="x1vvvo52 x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">Edit placement controls</div>
+                                                            </div>
+                                                        </div>
+                                                    </span></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="x78zum5 xdt5ytf xdl72j9 x1iyjqo2 xeuugli x1n2onr6 xh8yej3">
+                    <div class="x1qvwoe0 xjm9jq1 x1y332i5 xjn30re x1jyxor1 x1hb08if x6ikm8r x10wlt62 x10l6tqk xuxw1ft x1i1rx1s style-5AarY" data-sscoverage-ignore="true" id="style-5AarY">
+                        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my">
+                            <div class="x1iyjqo2">
+                                <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x1xsc7gk"><label id="js_198" for="js_197"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe x117nqv4 xeuugli"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe x117nqv4 xeuugli">Placement selection</span></span></label></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="xjwep3j x1t39747 xbiv7yw x16uus16 x78zum5 xdt5ytf x1iyjqo2">
+                        <div class="x78zum5 xdt5ytf x1iyjqo2">
+                            <div class="x1iyjqo2">
+                                <div id="js_197" aria-labelledby="js_198" class="x78zum5 xe8uvvx xdj266r x14z9mp xat24cr x1lziwak xexx8yu xyri2b x18d9i69 x1c1uobl xdt5ytf xdm93yi" role="radiogroup" data-auto-logging-component-type="GeoBaseInteractiveList"><label class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk x78zum5 xdl72j9 xdt5ytf x2lah0s xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt" tabindex="-1">
+                                        <div class="x78zum5 x1iyjqo2">
+                                            <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my xjwep3j x1t39747 x1wcsgtt x1pczhz8 x1iorvi4 xjkvuk6 xmzvs34 xf159sx x1qfufaz x1w5wx5t">
+                                                <div class="x6s0dn4 x3nfvp2 x1q0g3np xozqiw3 x2lwn1j xeuugli x1c4vz4f x8va1my xqcrz7y x2lah0s">
+                                                    <div class="x1rg5ohu x1n2onr6 x3oybdh">
+                                                        <div class="x1n2onr6 x14atkfc">
+                                                            <div class="x6s0dn4 x78zum5 x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x178xt8z x1lun4ml xso031l xpilrb4 xwebqov x1x9jw1y xrsgblv xceihxd x1iwo8zk x1033uif x179ill4 x1b60jn0 x1gzqxud xbsr9hj x9f619 xexx8yu xyri2b x18d9i69 x1c1uobl xl56j7k xxk0z11 xvy4d1p">
+                                                                <div></div><input aria-checked="false" aria-disabled="false" aria-describedby="js_19c" aria-labelledby="js_19d" class="xjyslct x1ypdohk x5yr21d x1o0tod xdj266r x14z9mp xat24cr x1lziwak x1w3u9th x1t137rt x10l6tqk x13vifvy xh8yej3 x1vjfegm" id="js_19b" type="radio" value="automatic" name="js_196"/>
+                                                                <div class="x13dflua xnnyp6c x12w9bfk x78zum5 xg01cxk x1f85oc2 x6o7n8i">
+                                                                    <div class="xsmyaan x1kpxq89 x1iwo8zk x1033uif x179ill4 x1b60jn0 xo1l8bm x140t73q x19bke7z"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="xwebqov x1x9jw1y xrsgblv xceihxd x1iwo8zk x1033uif x179ill4 x1b60jn0 x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x178xt8z x1lun4ml xso031l xpilrb4 x13dflua xxziih7 x12w9bfk xg01cxk x47corl x10l6tqk x1o0tod xtijo5x x13vifvy x1ey2m1c x6ikm8r x10wlt62 xxane8w xnl74ce x11v5mnd xdx8kah x1e4jdvc xmn8db3 x5gca4s x2te4dl xt46lh7 xfijbtm xfenqrj xgy0gl7 x19igvu x1t0di37 x1q4riu3 xe25xm5 x140d7st x1s928wv x1w3onc2 x1j6awrg xxxjk75 x15v7efq x1hvfe8t x1te75w5"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="x1iyjqo2 xr9ek0c xamitd3" data-sscoverage-ignore="true">
+                                                    <div class="x6s0dn4 x1q0g3np xozqiw3 x2lwn1j x1iyjqo2 xs83m0k x1xsc7gk x78zum5 xeuugli">
+                                                        <div class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli x1iyjqo2" id="js_19d">
+                                                            <div class="x1rg5ohu">Advantage+ placements (recommended)</div>
+                                                            <div class="x1rg5ohu">
+                                                                <div class="x1rg5ohu x67bb7w xdwrcjd x2fvf9"><i alt="" data-visualcompletion="css-img" class="img style-PoSzo" id="style-PoSzo"></i></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli">Use Advantage+ placements to maximise your budget and help show your ads to more <span><a class="xt0psk2 x1hl2dhg xt0b8zv x1vvvo52 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1qlqyl8 x1pd3egz" target="_blank" href="https://www.facebook.com/business/help/283579896000936">people</a></span>. Facebook's delivery system will allocate your ad set's budget across multiple placements based on where they're likely to perform best.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label><label class="x1i10hfl x1qjc9v5 xjbqb8w xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk x78zum5 xdl72j9 xdt5ytf x2lah0s xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli xexx8yu xyri2b x18d9i69 x1c1uobl x1n2onr6 x16tdsg8 x1hl2dhg xggy1nq x1ja2u2z x1t137rt" tabindex="-1">
+                                        <div class="x78zum5 x1iyjqo2">
+                                            <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my xjwep3j x1t39747 x1wcsgtt x1pczhz8 x1iorvi4 xjkvuk6 xmzvs34 xf159sx x1qfufaz x1w5wx5t">
+                                                <div class="x6s0dn4 x3nfvp2 x1q0g3np xozqiw3 x2lwn1j xeuugli x1c4vz4f x8va1my xqcrz7y x2lah0s">
+                                                    <div class="x1rg5ohu x1n2onr6 x3oybdh">
+                                                        <div class="x1n2onr6 x14atkfc">
+                                                            <div class="x6s0dn4 x78zum5 x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x178xt8z x1lun4ml xso031l xpilrb4 xwebqov x1x9jw1y xrsgblv xceihxd x1iwo8zk x1033uif x179ill4 x1b60jn0 x1gzqxud xbsr9hj x9f619 xexx8yu xyri2b x18d9i69 x1c1uobl xl56j7k xxk0z11 xvy4d1p">
+                                                                <div></div><input aria-checked="true" aria-disabled="false" aria-describedby="js_19j" aria-labelledby="js_19k" class="xjyslct x1ypdohk x5yr21d x1o0tod xdj266r x14z9mp xat24cr x1lziwak x1w3u9th x1t137rt x10l6tqk x13vifvy xh8yej3 x1vjfegm" id="js_19i" type="radio" value="manual" checked="" name="js_196" data-auto-logging-id="f37b3568"/>
+                                                                <div class="x13dflua xnnyp6c x12w9bfk x78zum5 x6o7n8i x1hc1fzr x3oybdh">
+                                                                    <div class="xsmyaan x1kpxq89 x1iwo8zk x1033uif x179ill4 x1b60jn0 xo1l8bm x140t73q x19bke7z"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="xwebqov x1x9jw1y xrsgblv xceihxd x1iwo8zk x1033uif x179ill4 x1b60jn0 x13fuv20 x18b5jzi x1q0q8m5 x1t7ytsu x178xt8z x1lun4ml xso031l xpilrb4 x13dflua xxziih7 x12w9bfk xg01cxk x47corl x10l6tqk x1o0tod xtijo5x x13vifvy x1ey2m1c x6ikm8r x10wlt62 xxane8w xnl74ce x11v5mnd xdx8kah x1e4jdvc xmn8db3 x5gca4s x2te4dl xt46lh7 xfijbtm xfenqrj xgy0gl7 x19igvu x1t0di37 x1q4riu3 xe25xm5 x140d7st x1s928wv x1w3onc2 x1j6awrg xxxjk75 x15v7efq x1hvfe8t x1te75w5"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="x1iyjqo2 xr9ek0c xamitd3" data-sscoverage-ignore="true">
+                                                    <div class="x6s0dn4 x1q0g3np xozqiw3 x2lwn1j x1iyjqo2 xs83m0k x1xsc7gk x78zum5 xeuugli">
+                                                        <div class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli x1iyjqo2" id="js_19k">Manual placements</div>
+                                                    </div>
+                                                    <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli">Manually choose the places to show your ad. The more placements you select, the more opportunities you'll have to reach your target audience and achieve your business goals.</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </label></div>
+                            </div>
+                        </div>
+                    </div>
+                </div><span data-surface-wrapper="1" data-non-int-surface="/am/int:a/editor_drawer/int:a/editor:ad_set/adset_placement_section/int:" data-auto-logging-id="fd6383b71" id="style-IYNdP" class="style-IYNdP">
+                    <div class=""><span data-surface-wrapper="1" data-surface="/am/editor_drawer/editor:ad_set/adset_placement_section/lib:GeoGuidanceCard" data-auto-logging-id="fe01b921" id="style-Uo6bG" class="style-Uo6bG">
+                            <div class="x78zum5 x9f619 x1n2onr6 x1t7ytsu x56jcm7 x6sto7s x1mofxk0 x5lnnqw xne44d9 x1g0dm76 xpdmqnj xjwep3j x1t39747 x1wcsgtt x1pczhz8 x1kmqopl xz9dl7a xsag5q8 x1gzqxud x14vqqas xod5an3" data-visualcompletion="ignore-dynamic">
+                                <div class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1yc453h x1h4wwuj xeuugli x1iyjqo2 xs83m0k" data-auto-logging-component-type="GeoGuidanceCard">
+                                    <div class="x1qjc9v5 x78zum5 xdt5ytf xozqiw3 x2lwn1j xeuugli x1iyjqo2 xavht8x">
+                                        <div class="x1cy8zhl x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my">
+                                            <div class="x1c4vz4f x2lah0s">
+                                                <div class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x1fcty0u x78zum5 xl56j7k x6s0dn4"><span>​</span>
+                                                    <div class="xjm9jq1 x78zum5 xl56j7k x6s0dn4"><span class="x3nfvp2 xflfurm">
+                                                            <div class="x3nfvp2 x120ccyz x1heor9g" role="presentation">
+                                                                <div class="xtwfq29 style-QmylT" id="style-QmylT"></div>
+                                                            </div>
+                                                        </span></div>
+                                                </div>
+                                            </div>
+                                            <div class="x1iyjqo2 xeuugli x3nfvp2">
+                                                <div aria-level="4" class="x1vvvo52 xsuwoey x1xlr1w8 x63nzvj xbsr9hj xq9mrsl x1h4wwuj xeuugli xh8yej3" role="heading">
+                                                    <div class="x1cy8zhl x78zum5 xdt5ytf xozqiw3 x2lwn1j xeuugli x1iyjqo2 xavht8x x1qughib"><span>You could get better results with Advantage+ placements</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="x9otpla x1wsgfga x1w5wx5t"></div>
+                                        </div>
+                                        <div class="x1n2onr6 x1iyjqo2 xs83m0k xefazk8">
+                                            <div class="x1cy8zhl x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my">
+                                                <div class="x1cy8zhl x78zum5 xdt5ytf xozqiw3 x2lwn1j xeuugli x1iyjqo2 xavht8x"><span class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli">Including more placements often helps you find a wider audience. The more places your ad is displayed, the more chances your target audience has to see it. <span><a class="xt0psk2 x1hl2dhg xt0b8zv x1vvvo52 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1qlqyl8 x1pd3egz" target="_blank" href="https://www.facebook.com/business/help/196554084569964">About Advantage+ placements</a></span></span>
+                                                    <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
+                                                        <div aria-busy="false" class="x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n x18oe1m7 x1sy0etr xstzfhl x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy xjwep3j x1t39747 x1wcsgtt x1pczhz8 x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 xf7dkkf xv54qhq" role="button" tabindex="0" data-auto-logging-component-type="GeoButton"><span class="x1vvvo52 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                                                                <div class="x78zum5">
+                                                                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                                                                        <div class="x1vvvo52 x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">Apply now</div>
+                                                                    </div>
+                                                                </div>
+                                                            </span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </span></div>
+                </span>
+            </div>
+            <div class="_7pdv">
+                <div>
+                    <div>
+                        <div class="_7yfl _9iq_ _7_wz _815l" id="">
+                            <div class="x1gslohp x12nagc">
+                                <div class="_3-95 _3-8w">
+                                    <div class="_19b9 _34l3 _19ba">
+                                        <div class="_3-8z">
+                                            <div>
+                                                <div class="" data-sscoverage-ignore="true">
+                                                    <div class="x1iyjqo2 x12nagc">
+                                                        <div class="x1pha0wt x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x1xsc7gk"><label id="js_19q"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe x117nqv4 xeuugli">Devices</span></label></div>
+                                                    </div>
+                                                </div>
+                                                <div aria-labelledby="js_19q" class=" _as9p">
+                                                    <div>
+                                                        <div class="_7_zy _9iou">
+                                                            <div class="x1cy8zhl x78zum5 x1q0g3np x1qughib xozqiw3">
+                                                                <div>
+                                                                    <div>
+                                                                        <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj xbsr9hj xq9mrsl x1h4wwuj xeuugli">All devices</div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="_7yfk">
+                                                                    <div class="x1vvvo52 x1fvot60 xo1l8bm xxio538 x1qsmy5i x1ypdohk xt0b8zv">
+                                                                        <div class="x6s0dn4 x78zum5 x2lwn1j xeuugli x1diwwjn xbmvrgn x1ypdohk xt0b8zv">
+                                                                            <div class="x3nfvp2 x120ccyz x1heor9g x2fvf9" role="presentation">
+                                                                                <div class="xtwfq29 style-vZYbY" id="style-vZYbY"></div>
+                                                                            </div><span>Edit</span>
+                                                                        </div><button class="accessible_elem _5f0v" label="Edit" id="js_1bz">Edit</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x14vqqas">
+                        <div class="_3-8z">
+                            <div>
+                                <div class="" data-sscoverage-ignore="true">
+                                    <div class="x1iyjqo2 x12nagc">
+                                        <div class="x1pha0wt x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x1xsc7gk"><label id="js_19r"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe x117nqv4 xeuugli">Platforms</span></label></div>
+                                    </div>
+                                </div>
+                                <div aria-labelledby="js_19r" class=" _as9p"></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <table class="_90bm uiGrid _51mz" cols="2" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr class="_51mx">
+                                        <td width="170" class="_51m-">
+                                            <li>
+                                                <div class="x1iorvi4" id="placement-facebook">
+                                                    <div class="_3qn7 _61-0 _2fyi _3qng">
+                                                        <div class="_ag27"><input aria-checked="mixed" aria-disabled="false" id="js_19s" class="" type="checkbox"/>
+                                                            <div class="_afh9 _afhf style-IQDot" id="style-IQDot"><i class="_afhg img style-rsivl" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-rsivl"></i></div>
+                                                        </div><label class="x1ypdohk x13fj5qh x193iq5w" for="js_19s"><span id="style-qVODM" class="style-qVODM">Facebook</span></label>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </td>
+                                        <td width="170" class="_51mw _51m-">
+                                            <li>
+                                                <div class="x1iorvi4" id="placement-instagram">
+                                                    <div class="_3qn7 _61-0 _2fyi _3qng">
+                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_19u" class="" type="checkbox" checked="" data-auto-logging-id="fa94a859d"/>
+                                                            <div class="_afh9 _afha style-FnG2P" id="style-FnG2P"><i class="_afhg img style-26TvJ" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-26TvJ"></i></div>
+                                                        </div><label class="x1ypdohk x13fj5qh x193iq5w" for="js_19u"><span id="style-VElqJ" class="style-VElqJ">Instagram</span></label>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="_90bm uiGrid _51mz" cols="2" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr class="_51mx">
+                                        <td width="170" class="_51m-">
+                                            <li>
+                                                <div class="x1iorvi4" id="placement-audience_network">
+                                                    <div class="_3qn7 _61-0 _2fyi _3qng">
+                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_19w" class="" type="checkbox" checked="" data-auto-logging-id="f9d9552e2"/>
+                                                            <div class="_afh9 _afha style-eZh4K" id="style-eZh4K"><i class="_afhg img style-M25Nh" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-M25Nh"></i></div>
+                                                        </div><label class="x1ypdohk x13fj5qh x193iq5w" for="js_19w"><span id="style-LMhon" class="style-LMhon">Audience Network</span></label>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </td>
+                                        <td width="170" class="_51mw _51m-">
+                                            <li>
+                                                <div class="x1iorvi4" id="placement-messenger">
+                                                    <div class="_3qn7 _61-0 _2fyi _3qng">
+                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_19y" class="" type="checkbox" checked="" data-auto-logging-id="f17dced91"/>
+                                                            <div class="_afh9 _afha style-jl47U" id="style-jl47U"><i class="_afhg img style-ItvSW" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-ItvSW"></i></div>
+                                                        </div><label class="x1ypdohk x13fj5qh x193iq5w" for="js_19y"><span id="style-LlxqA" class="style-LlxqA">Messenger</span></label>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="_90bm uiGrid _51mz" cols="2" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                    <tr class="_51mx">
+                                        <td width="170" class="_51m-">
+                                            <li>
+                                                <div class="x1iorvi4" id="placement-threads">
+                                                    <div class="_3qn7 _61-0 _2fyi _3qng">
+                                                        <div class="_ag27"><input aria-checked="false" aria-disabled="false" id="js_1a0" class="" type="checkbox"/>
+                                                            <div class="_afh9 style-XK7Rf" id="style-XK7Rf"><i class="_afhg img style-wohcy" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-wohcy"></i></div>
+                                                        </div><label class="x1ypdohk x13fj5qh x193iq5w" for="js_1a0"><span id="style-4Tooo" class="style-4Tooo">Threads</span></label>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </td>
+                                        <td width="170" class="_51mw _51m-"></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </ul>
+                    </div>
+                    <div class="x1gslohp x12nagc">
+                        <div>
+                            <div class="_19b9 _34l3 _19ba">
+                                <div class="_3-8z">
+                                    <div>
+                                        <div class="" data-sscoverage-ignore="true">
+                                            <div class="x1iyjqo2 x12nagc">
+                                                <div class="x1pha0wt x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x1xsc7gk"><label id="js_1a2"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe x117nqv4 xeuugli">Asset customisation</span></label>
+                                                    <div aria-describedby="js_1a3" aria-haspopup="true" aria-label="Learn more" class="_4rhp" role="button" tabindex="0" data-interactable="|mouseover|"><i data-testid="SUISimplePopover/icon" class="_h6r _3-8r img style-N5GFo" alt="" data-visualcompletion="css-img" id="style-N5GFo"></i></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div aria-labelledby="js_1a2" class=" _as9p">
+                                            <div>
+                                                <div><span class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">23/22 placements that support asset customisation</span></div>
+                                                <div></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="x14vqqas">
+                        <div id="ads_manager_threads_ads_messagegi">
+                            <div class="_3-8z">
+                                <div>
+                                    <div class="" data-sscoverage-ignore="true">
+                                        <div class="x1iyjqo2 x12nagc">
+                                            <div class="x1pha0wt x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x1xsc7gk"><label id="js_1a4"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe x117nqv4 xeuugli">Placements</span></label></div>
+                                        </div>
+                                    </div>
+                                    <div aria-labelledby="js_1a4" class=" _as9p"></div>
+                                </div>
+                            </div>
+                        </div><span data-surface-wrapper="1" data-surface="/am/editor_drawer/editor:ad_set/adset_placement_section/nux" data-auto-logging-id="fc62bb50b" id="style-VbTsY" class="style-VbTsY">
+                            <div></div>
+                        </span>
+                        <div class="_3cg-">
+                            <div id="js_1h2" class="style-wQWCV">
+                                <ul class="x178xt8z x1lun4ml xso031l xpilrb4 x13fuv20 x18b5jzi x1t7ytsu x13ys2tp xacstfb x14os3ni x1lj09sn x1sy0etr x1iyjqo2">
+                                    <div>
+                                        <li>
+                                            <ul class="xso031l x1q0q8m5 x14os3ni">
+                                                <li class="_3ycp _3ycq">
+                                                    <div class="_6w29 _5aj7">
+                                                        <div class="_4bl7"><span><button aria-label="Collapse" class="_4ezf _2pi7"><span class="_4eze x1rg5ohu x14ju556 x1nn3v0j x14vy60q x1120s5i xyiysdx"><i alt="" class="xi7du73 img style-AQpTH" data-visualcompletion="css-img" id="style-AQpTH"></i></span></button><span class="_4ezg"></span></span></div>
+                                                        <div class="_2pi8 _4bl9">
+                                                            <div class="_3yf1">
+                                                                <div>Feeds</div>
+                                                                <div class="_3yf4"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="_4bl7">
+                                                            <div class="_3ye_">
+                                                                <div class="x1iorvi4" id="placement-feed">
+                                                                    <div class="_ag27"><input aria-checked="mixed" aria-disabled="false" id="js_1a5" class="" type="checkbox"/>
+                                                                        <div class="_afh9 _afhf style-yAzSw" id="style-yAzSw"><i class="_afhg img style-45hjm" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-45hjm"></i></div>
+                                                                    </div><label class="accessible_elem" for="js_1a5"><span id="style-f51Pw" class="style-f51Pw">Feeds</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_7v8-">
+                                                        <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Get high visibility for your business with ads in feeds</div>
+                                                    </div>
+                                                </li>
+                                                <div id="facebook/feed_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/feed_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook Feed</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/feed">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1a7" class="" type="checkbox" checked="" data-auto-logging-id="fa3077d4a"/>
+                                                                            <div class="_afh9 _afha style-xKcoQ" id="style-xKcoQ"><i class="_afhg img style-2Ki6W" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-2Ki6W"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1a7"><span id="style-5r93p" class="style-5r93p">Facebook Feed</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/profile_feed_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/profile_feed_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook profile feed</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/profile_feed">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1a9" class="" type="checkbox" checked="" data-auto-logging-id="f95406d73"/>
+                                                                            <div class="_afh9 _afha style-EyZAF" id="style-EyZAF"><i class="_afhg img style-rKhbH" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-rKhbH"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1a9"><span id="style-NpOtn" class="style-NpOtn">Facebook profile feed</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="instagram/stream_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="instagram/stream_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Instagram Feed</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-instagram/stream">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1ab" class="" type="checkbox" checked="" data-auto-logging-id="fcd2ba2ca"/>
+                                                                            <div class="_afh9 _afha style-Y139o" id="style-Y139o"><i class="_afhg img style-yCaY7" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-yCaY7"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1ab"><span id="style-8TeaA" class="style-8TeaA">Instagram Feed</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="instagram/profile_feed_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="instagram/profile_feed_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Instagram profile feed</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-instagram/profile_feed">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1ad" class="" type="checkbox" checked="" data-auto-logging-id="f34c85eee"/>
+                                                                            <div class="_afh9 _afha style-C4WwB" id="style-C4WwB"><i class="_afhg img style-n7gMS" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-n7gMS"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1ad"><span id="style-rlPOe" class="style-rlPOe">Instagram profile feed</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/marketplace_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/marketplace_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook Marketplace</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/marketplace">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1af" class="" type="checkbox" checked="" data-auto-logging-id="f7587aff2"/>
+                                                                            <div class="_afh9 _afha style-qZw1Q" id="style-qZw1Q"><i class="_afhg img style-YWvvo" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-YWvvo"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1af"><span id="style-oLgm9" class="style-oLgm9">Facebook Marketplace</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/video_feeds_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/video_feeds_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook video feeds</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/video_feeds">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1ah" class="" type="checkbox" checked="" data-auto-logging-id="ff7d9bad6"/>
+                                                                            <div class="_afh9 _afha style-vR1x1" id="style-vR1x1"><i class="_afhg img style-4WYTa" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-4WYTa"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1ah"><span id="style-xSoFa" class="style-xSoFa">Facebook video feeds</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/right_column_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/right_column_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook right column</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/right_column">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1aj" class="" type="checkbox" checked="" data-auto-logging-id="f80ca3534"/>
+                                                                            <div class="_afh9 _afha style-ZIwgV" id="style-ZIwgV"><i class="_afhg img style-i6oRz" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-i6oRz"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1aj"><span id="style-bN5n4" class="style-bN5n4">Facebook right column</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="instagram/explore_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="instagram/explore_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Instagram Explore</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-instagram/explore">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1al" class="" type="checkbox" checked="" data-auto-logging-id="f9cb04c52"/>
+                                                                            <div class="_afh9 _afha style-gjAz4" id="style-gjAz4"><i class="_afhg img style-tZTqU" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-tZTqU"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1al"><span id="style-e5NKL" class="style-e5NKL">Instagram Explore</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="instagram/explore_home_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="instagram/explore_home_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Instagram Explore home</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-instagram/explore_home">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1an" class="" type="checkbox" checked="" data-auto-logging-id="fffb83845"/>
+                                                                            <div class="_afh9 _afha style-RvAXV" id="style-RvAXV"><i class="_afhg img style-ts1Bp" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-ts1Bp"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1an"><span id="style-8kDEt" class="style-8kDEt">Instagram Explore home</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="messenger/inbox_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="messenger/inbox_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Messenger inbox</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="_ag27 _ag28"><input aria-checked="false" aria-disabled="true" disabled="" id="js_1ap" class="_afh8" type="checkbox"/>
+                                                                        <div class="_afh9 style-heAxF" id="style-heAxF"><i class="_afhg img style-iaqNo" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-iaqNo"></i></div>
+                                                                    </div><label class="accessible_elem" for="js_1ap"><span id="style-4acbC" class="style-4acbC">Messenger inbox</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/biz_disco_feed_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/biz_disco_feed_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook Business Explore</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/biz_disco_feed">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1ar" class="" type="checkbox" checked="" data-auto-logging-id="fba348dae"/>
+                                                                            <div class="_afh9 _afha style-CQBHz" id="style-CQBHz"><i class="_afhg img style-XWsam" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-XWsam"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1ar"><span id="style-lhWDW" class="style-lhWDW">Facebook Business Explore</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="threads/stream_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="threads/stream_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Threads feed</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-threads/stream">
+                                                                        <div class="_ag27"><input aria-checked="false" aria-disabled="false" id="js_1at" class="" type="checkbox"/>
+                                                                            <div class="_afh9 style-Co6Ql" id="style-Co6Ql"><i class="_afhg img style-yo5Dw" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-yo5Dw"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1at"><span id="style-pdlWG" class="style-pdlWG">Threads feed</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/notification_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/notification_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook notifications</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/notification">
+                                                                        <div class="_ag27"><input aria-checked="false" aria-disabled="false" id="js_1av" class="" type="checkbox"/>
+                                                                            <div class="_afh9 style-xbzXp" id="style-xbzXp"><i class="_afhg img style-77Nmi" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-77Nmi"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1av"><span id="style-EUp3P" class="style-EUp3P">Facebook notifications</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul class="xso031l x1q0q8m5 x14os3ni">
+                                                <li class="_3ycp _3ycq">
+                                                    <div class="_6w29 _5aj7">
+                                                        <div class="_4bl7"><span><button aria-label="Collapse" class="_4ezf _2pi7"><span class="_4eze x1rg5ohu x14ju556 x1nn3v0j x14vy60q x1120s5i xyiysdx"><i alt="" class="xi7du73 img style-fAoCY" data-visualcompletion="css-img" id="style-fAoCY"></i></span></button><span class="_4ezg"></span></span></div>
+                                                        <div class="_2pi8 _4bl9">
+                                                            <div class="_3yf1">
+                                                                <div>Stories and Reels</div>
+                                                                <div class="_3yf4"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="_4bl7">
+                                                            <div class="_3ye_">
+                                                                <div class="x1iorvi4" id="placement-story">
+                                                                    <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1ax" class="" type="checkbox" checked="" data-auto-logging-id="f2433110b"/>
+                                                                        <div class="_afh9 _afha style-rFYZK" id="style-rFYZK"><i class="_afhg img style-asSxj" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-asSxj"></i></div>
+                                                                    </div><label class="accessible_elem" for="js_1ax"><span id="style-JP2eN" class="style-JP2eN">Stories and Reels</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_7v8-">
+                                                        <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Tell a rich, visual story with immersive, full-screen vertical ads</div>
+                                                    </div>
+                                                </li>
+                                                <div id="instagram/story_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="instagram/story_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Instagram Stories</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-instagram/story">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1az" class="" type="checkbox" checked="" data-auto-logging-id="f5f385f5"/>
+                                                                            <div class="_afh9 _afha style-iPA4s" id="style-iPA4s"><i class="_afhg img style-GFXR7" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-GFXR7"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1az"><span id="style-Zzj8Y" class="style-Zzj8Y">Instagram Stories</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/stories_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/stories_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook Stories</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/stories">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1b1" class="" type="checkbox" checked="" data-auto-logging-id="f8f82bdc7"/>
+                                                                            <div class="_afh9 _afha style-lvoU1" id="style-lvoU1"><i class="_afhg img style-ye9AC" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-ye9AC"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1b1"><span id="style-1wMNJ" class="style-1wMNJ">Facebook Stories</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="messenger/story_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="messenger/story_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Messenger Stories</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-messenger/story">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1b3" class="" type="checkbox" checked="" data-auto-logging-id="f1914ad11"/>
+                                                                            <div class="_afh9 _afha style-Fcqmr" id="style-Fcqmr"><i class="_afhg img style-FKKon" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-FKKon"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1b3"><span id="style-wNByP" class="style-wNByP">Messenger Stories</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="instagram/reels_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="instagram/reels_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Instagram Reels</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-instagram/reels">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1b5" class="" type="checkbox" checked="" data-auto-logging-id="fe846ddce"/>
+                                                                            <div class="_afh9 _afha style-JlEED" id="style-JlEED"><i class="_afhg img style-ox573" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-ox573"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1b5"><span id="style-GMUVm" class="style-GMUVm">Instagram Reels</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="instagram/profile_reels_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="instagram/profile_reels_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Instagram profile reels</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-instagram/profile_reels">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1b7" class="" type="checkbox" checked="" data-auto-logging-id="fcaa8fe09"/>
+                                                                            <div class="_afh9 _afha style-KCZbD" id="style-KCZbD"><i class="_afhg img style-NTOKM" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-NTOKM"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1b7"><span id="style-4hkDI" class="style-4hkDI">Instagram profile reels</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/fb_reels_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/fb_reels_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook Reels</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/fb_reels">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1b9" class="" type="checkbox" checked="" data-auto-logging-id="f3e82e21b"/>
+                                                                            <div class="_afh9 _afha style-aNTbN" id="style-aNTbN"><i class="_afhg img style-wwL32" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-wwL32"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1b9"><span id="style-43kvo" class="style-43kvo">Facebook Reels</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul class="xso031l x1q0q8m5 x14os3ni">
+                                                <li class="_3ycp _3ycq">
+                                                    <div class="_6w29 _5aj7">
+                                                        <div class="_4bl7"><span><button aria-label="Collapse" class="_4ezf _2pi7"><span class="_4eze x1rg5ohu x14ju556 x1nn3v0j x14vy60q x1120s5i xyiysdx"><i alt="" class="xi7du73 img style-Illnl" data-visualcompletion="css-img" id="style-Illnl"></i></span></button><span class="_4ezg"></span></span></div>
+                                                        <div class="_2pi8 _4bl9">
+                                                            <div class="_3yf1">
+                                                                <div>In-stream ads for videos and reels</div>
+                                                                <div class="_3yf4"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="_4bl7">
+                                                            <div class="_3ye_">
+                                                                <div class="x1iorvi4" id="placement-stream">
+                                                                    <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1bb" class="" type="checkbox" checked="" data-auto-logging-id="fdb2b7e58"/>
+                                                                        <div class="_afh9 _afha style-TNUh7" id="style-TNUh7"><i class="_afhg img style-yx8cJ" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-yx8cJ"></i></div>
+                                                                    </div><label class="accessible_elem" for="js_1bb"><span id="style-zyRb8" class="style-zyRb8">In-stream ads for videos and reels</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_7v8-">
+                                                        <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Reach people before, during or after they watch a video or reel</div>
+                                                    </div>
+                                                </li>
+                                                <div id="facebook/instream_video_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/instream_video_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook in-stream videos</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/instream_video">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1bd" class="" type="checkbox" checked="" data-auto-logging-id="f740e1a30"/>
+                                                                            <div class="_afh9 _afha style-myRYY" id="style-myRYY"><i class="_afhg img style-BDZ1o" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-BDZ1o"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1bd"><span id="style-j8Biw" class="style-j8Biw">Facebook in-stream videos</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="facebook/reels_overlay_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/reels_overlay_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Ads on Facebook Reels</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/reels_overlay">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1bf" class="" type="checkbox" checked="" data-auto-logging-id="f88ee080b"/>
+                                                                            <div class="_afh9 _afha style-NNoQZ" id="style-NNoQZ"><i class="_afhg img style-cpmXk" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-cpmXk"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1bf"><span id="style-oQZm7" class="style-oQZm7">Ads on Facebook Reels</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul class="xso031l x1q0q8m5 x14os3ni">
+                                                <li class="_3ycp _3ycq">
+                                                    <div class="_6w29 _5aj7">
+                                                        <div class="_4bl7"><span><button aria-label="Collapse" class="_4ezf _2pi7"><span class="_4eze x1rg5ohu x14ju556 x1nn3v0j x14vy60q x1120s5i xyiysdx"><i alt="" class="xi7du73 img style-p1ds9" data-visualcompletion="css-img" id="style-p1ds9"></i></span></button><span class="_4ezg"></span></span></div>
+                                                        <div class="_2pi8 _4bl9">
+                                                            <div class="_3yf1">
+                                                                <div>Search results</div>
+                                                                <div class="_3yf4"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="_4bl7">
+                                                            <div class="_3ye_">
+                                                                <div class="x1iorvi4" id="placement-search">
+                                                                    <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1bh" class="" type="checkbox" checked="" data-auto-logging-id="f696f5280"/>
+                                                                        <div class="_afh9 _afha style-JgVtF" id="style-JgVtF"><i class="_afhg img style-zac7s" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-zac7s"></i></div>
+                                                                    </div><label class="accessible_elem" for="js_1bh"><span id="style-EW7Gk" class="style-EW7Gk">Search results</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_7v8-">
+                                                        <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Get visibility for your business as people search</div>
+                                                    </div>
+                                                </li>
+                                                <div id="facebook/search_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="facebook/search_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Facebook search results</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-facebook/search">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1bj" class="" type="checkbox" checked="" data-auto-logging-id="f26a6f76f"/>
+                                                                            <div class="_afh9 _afha style-zTyea" id="style-zTyea"><i class="_afhg img style-TSxSr" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-TSxSr"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1bj"><span id="style-wSRnn" class="style-wSRnn">Facebook search results</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="instagram/search_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="instagram/search_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Instagram search results</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-instagram/search">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1bl" class="" type="checkbox" checked="" data-auto-logging-id="f1f470b10"/>
+                                                                            <div class="_afh9 _afha style-I6cnD" id="style-I6cnD"><i class="_afhg img style-vOhZA" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-vOhZA"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1bl"><span id="style-oFLbo" class="style-oFLbo">Instagram search results</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul class="xso031l x1q0q8m5 x14os3ni">
+                                                <li class="_3ycp _3ycq">
+                                                    <div class="_6w29 _5aj7">
+                                                        <div class="_4bl7"><span><button aria-label="Collapse" class="_4ezf _2pi7"><span class="_4eze x1rg5ohu x14ju556 x1nn3v0j x14vy60q x1120s5i xyiysdx"><i alt="" class="xi7du73 img style-pgzwT" data-visualcompletion="css-img" id="style-pgzwT"></i></span></button><span class="_4ezg"></span></span></div>
+                                                        <div class="_2pi8 _4bl9">
+                                                            <div class="_3yf1">
+                                                                <div>Messages</div>
+                                                                <div class="_3yf4"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="_4bl7">
+                                                            <div class="_3ye_">
+                                                                <div class="_ag27 _ag28"><input aria-checked="false" aria-disabled="true" disabled="" id="js_1bn" class="_afh8" type="checkbox"/>
+                                                                    <div class="_afh9 style-Yg3C2" id="style-Yg3C2"><i class="_afhg img style-PB78i" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-PB78i"></i></div>
+                                                                </div><label class="accessible_elem" for="js_1bn"><span id="style-i2miD" class="style-i2miD">Messages</span></label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_7v8-">
+                                                        <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Send offers or updates to <a target="_blank" href="https://www.facebook.com/business/help/283579896000936">people</a> who are already connected to your business</div>
+                                                    </div>
+                                                </li>
+                                                <div id="messenger/thread_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="messenger/thread_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Messenger sponsored messages</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="_ag27 _ag28"><input aria-checked="false" aria-disabled="true" disabled="" id="js_1bp" class="_afh8" type="checkbox"/>
+                                                                        <div class="_afh9 style-py7lr" id="style-py7lr"><i class="_afhg img style-CzCAQ" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-CzCAQ"></i></div>
+                                                                    </div><label class="accessible_elem" for="js_1bp"><span id="style-rhZJb" class="style-rhZJb">Messenger sponsored messages</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <ul class="xso031l x1q0q8m5 x14os3ni">
+                                                <li class="_3ycp _3ycq">
+                                                    <div class="_6w29 _5aj7">
+                                                        <div class="_4bl7"><span><button aria-label="Collapse" class="_4ezf _2pi7"><span class="_4eze x1rg5ohu x14ju556 x1nn3v0j x14vy60q x1120s5i xyiysdx"><i alt="" class="xi7du73 img style-6iSXZ" data-visualcompletion="css-img" id="style-6iSXZ"></i></span></button><span class="_4ezg"></span></span></div>
+                                                        <div class="_2pi8 _4bl9">
+                                                            <div class="_3yf1">
+                                                                <div>Apps and sites</div>
+                                                                <div class="_3yf4"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="_4bl7">
+                                                            <div class="_3ye_">
+                                                                <div class="x1iorvi4" id="placement-external">
+                                                                    <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1br" class="" type="checkbox" checked="" data-auto-logging-id="f8eefbc77"/>
+                                                                        <div class="_afh9 _afha style-bisdo" id="style-bisdo"><i class="_afhg img style-iNvKF" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-iNvKF"></i></div>
+                                                                    </div><label class="accessible_elem" for="js_1br"><span id="style-Id1dH" class="style-Id1dH">Apps and sites</span></label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="_7v8-">
+                                                        <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Expand your reach with ads in external apps and websites</div>
+                                                    </div>
+                                                </li>
+                                                <div id="audience_network/classic_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="audience_network/classic_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Audience Network native, banner and interstitial</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-audience_network/classic">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1bt" class="" type="checkbox" checked="" data-auto-logging-id="f575946dc"/>
+                                                                            <div class="_afh9 _afha style-3pNSW" id="style-3pNSW"><i class="_afhg img style-3B4om" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-3B4om"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1bt"><span id="style-JSWyT" class="style-JSWyT">Audience Network native, banner and interstitial</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                                <div id="audience_network/rewarded_video_check">
+                                                    <li class="_3ycp _3ycq">
+                                                        <div class="_6w29 _5aj7">
+                                                            <div class="_4bl7"></div>
+                                                            <div class="_2pi8 _4bl9">
+                                                                <div class=" _3yf2">
+                                                                    <div><span class="" id="audience_network/rewarded_video_group">
+                                                                            <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Audience Network rewarded videos</span></div>
+                                                                        </span></div>
+                                                                    <div class="_3yf4"></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="_4bl7">
+                                                                <div class="_3ye_">
+                                                                    <div class="x1iorvi4" id="placement-audience_network/rewarded_video">
+                                                                        <div class="_ag27"><input aria-checked="true" aria-disabled="false" id="js_1bv" class="" type="checkbox" checked="" data-auto-logging-id="fb47a8a5e"/>
+                                                                            <div class="_afh9 _afha style-rmCFv" id="style-rmCFv"><i class="_afhg img style-zYcw5" height="16" width="16" alt="" data-visualcompletion="css-img" id="style-zYcw5"></i></div>
+                                                                        </div><label class="accessible_elem" for="js_1bv"><span id="style-UcSJC" class="style-UcSJC">Audience Network rewarded videos</span></label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+                                                </div>
+                                            </ul>
+                                        </li>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div id="style-ongrx" class="style-ongrx">
+                                <div class="x1guec7k x7wzq59 x1tk7jg1 style-Xmfta" id="style-Xmfta">
+                                    <div class="xso031l x1q0q8m5 xzsr00n"><img height="320" width="246" alt="" class="img" src="https://static.xx.fbcdn.net/rsrc.php/v4/yk/r/JvqNs2m_i_P.png"/></div>
+                                    <div class="x1vebhii x1pg5gke x117nqv4 x14vqqas x2b8uid"><span class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x117nqv4 xeuugli">Facebook search results</span></div>
+                                    <div class="x1vvvo52 x1fvot60 xo1l8bm xxio538 x1541jtf xq9mrsl x2b8uid x1h4wwuj xeuugli x14vqqas">We recommend <span class="x1vvvo52 x1fvot60 xxio538 x1541jtf xq9mrsl x1h4wwuj x117nqv4 xeuugli">horizontal (1.91:1)</span> images and <span class="x1vvvo52 x1fvot60 xxio538 x1541jtf xq9mrsl x1h4wwuj x117nqv4 xeuugli">square (1:1)</span> videos. <div><br/></div> This placement includes both general search and Marketplace search.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <br />
+            </div>
+        </div>
+    </div>
+</div>
                                           </div>
                                           <div class="x78zum5 xdt5ytf x2lwn1j x1dc814f xeuugli x1swvt13 x16dsc37">
                                             <div class="x7wzq59 x1tk7jg1">
