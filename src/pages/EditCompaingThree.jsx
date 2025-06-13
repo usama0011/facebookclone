@@ -6206,23 +6206,7 @@ const EditCompaingThree = () => {
                             class="_6g3g  _8ga1 _3pvh style-qWJ2D"
                             id="style-qWJ2D"
                           >
-                            <div style={{backgroundColor:'white'}} class="x6s0dn4 x78zum5 x1q0g3np x1qughib x2lwn1j xeuugli xh8yej3 xmzvs34 x1nn3v0j x1120s5i x14vy60q snipcss-oenNY newpoitnerhere">
-    <div class="x6s0dn4 x78zum5 x2lwn1j xeuugli">
-        <div class="x78zum5 x6s0dn4 xl56j7k x1td3qas x10w6t97 x1e8prfs xflfurm x1obq294 x5a5i1n xde0f50 x15x8krk">
-            <div class="x3nfvp2 x120ccyz x1heor9g" role="presentation">
-                <div class="xtwfq29 style-POUMB" id="style-POUMB"></div>
-            </div>
-        </div>
-        <div class="x8gbvx8 x78zum5 xdt5ytf x2lwn1j xeuugli x1diwwjn">
-            <div class="x1cy8zhl x78zum5 x2lwn1j xeuugli"><span aria-level="3" class="x1vvvo52 x1uxerd5 x1xlr1w8 xrohxju xbsr9hj xq9mrsl x1h4wwuj xeuugli" role="heading">Campaign opportunities</span></div><span class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli">Your campaign has room to improve.</span>
-        </div>
-    </div>
-    <div class="x1xegmmw">
-        <div class="x3nfvp2 x120ccyz x4s1yf2" role="presentation">
-            <div class="xtwfq29 style-Xq8Xz" id="style-Xq8Xz"></div>
-        </div>
-    </div>
-</div>
+                           
                             <div class="_3qn7 _61-0 _2fyh _1a9e">
                               
                               <div
@@ -6298,6 +6282,24 @@ const EditCompaingThree = () => {
                                     class="x1gzqxud x1lcm9me x1yr5g0i xrt01vj x10y3i5r xhgxa4x xy5ysw6 x1qkj6lk xn3walq xnvurfn xv1ta3e x1opv7go x1dtnpoi xibdhds xtnng9g xhvrwov x13k1m86 xwx4but x1cpjm7i xszcg87 x1hmns74 xkk1bqk x14d4353 xsxiz9q x1rmj1tg xchklzq x9f619 xc8icb0 x1n2onr6 x1pvq41x xhhp2wi x14q35kh x1wa3ocq x1n7iyjn x1s928wv x1wsn0xg x1j6awrg x162n7g1 x1m1drc7 x4eaejv xi4xitw x5yr21d xh8yej3 xod5an3"
                                     data-auto-logging-component-type="GeoCard"
                                   >
+                                     <div style={{paddingLeft:"5px",paddingRight:"10px",paddingTop:"10px"}} class="x6s0dn4 x78zum5 x1q0g3np x1qughib x2lwn1j xeuugli xh8yej3 xmzvs34 x1nn3v0j x1120s5i x14vy60q snipcss-oenNY newpoitnerhere">
+    <div class="x6s0dn4 x78zum5 x2lwn1j xeuugli">
+        <div class="x78zum5 x6s0dn4 xl56j7k x1td3qas x10w6t97 x1e8prfs xflfurm x1obq294 x5a5i1n xde0f50 x15x8krk">
+            <div class="x3nfvp2 x120ccyz x1heor9g" role="presentation">
+                <div class="xtwfq29 style-POUMB" id="style-POUMB"></div>
+            </div>
+        </div>
+        <div class="x8gbvx8 x78zum5 xdt5ytf x2lwn1j xeuugli x1diwwjn">
+            <div class="x1cy8zhl x78zum5 x2lwn1j xeuugli"><span aria-level="3" class="x1vvvo52 x1uxerd5 x1xlr1w8 xrohxju xbsr9hj xq9mrsl x1h4wwuj xeuugli" role="heading">Campaign opportunities</span></div><span class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli">Your campaign has room to improve.</span>
+        </div>
+    </div>
+    <div class="x1xegmmw">
+        <div class="x3nfvp2 x120ccyz x4s1yf2" role="presentation">
+            <div class="xtwfq29 style-Xq8Xz" id="style-Xq8Xz"></div>
+        </div>
+    </div>
+</div>
+<br />
                                     <div class="x78zum5 xdt5ytf x5yr21d xedcshv x1t2pt76 xh8yej3">
                                       <div class="x9f619 x78zum5 x1iyjqo2 x5yr21d x2lwn1j x1n2onr6 xh8yej3">
                                         <div class="xh8yej3 x18d9i69 x1plvlek xryxfnj">
@@ -7016,19 +7018,14 @@ const EditCompaingThree = () => {
                                                                                                                                       class="_6g3g style-hcpNT"
                                                                                                                                       id="style-hcpNT"
                                                                                                                                     >
-                                                                                                                                      <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                      <div  class="_3qn7 _61-0 _2fyi _3qnf">
                                                                                                                                         <div
                                                                                                                                           class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-C8CCY"
                                                                                                                                           id="style-C8CCY"
                                                                                                                                         >
-                                                                                                                                          <i
-                                                                                                                                            alt=""
-                                                                                                                                            data-visualcompletion="css-img"
-                                                                                                                                            class="img style-sjbQi"
-                                                                                                                                            id="style-sjbQi"
-                                                                                                                                          ></i>
+                                                                                                                                          <img style={{width:"25px",height:"20px"}} src="https://i.ibb.co/fGQ9nHnx/download.png" alt="" />
                                                                                                                                         </div>
-                                                                                                                                        <div
+                                                                                                                                        <div style={{marginTop:"2px"}}
                                                                                                                                           class="_6g3g style-UqxjT"
                                                                                                                                           id="style-UqxjT"
                                                                                                                                         >
@@ -7040,19 +7037,14 @@ const EditCompaingThree = () => {
                                                                                                                                       class="_6g3g style-2mnSR"
                                                                                                                                       id="style-2mnSR"
                                                                                                                                     >
-                                                                                                                                      <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                      <div  class="_3qn7 _61-0 _2fyi _3qnf">
                                                                                                                                         <div
                                                                                                                                           class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-PaYyF"
                                                                                                                                           id="style-PaYyF"
                                                                                                                                         >
-                                                                                                                                          <i
-                                                                                                                                            alt=""
-                                                                                                                                            data-visualcompletion="css-img"
-                                                                                                                                            class="img style-P3cbc"
-                                                                                                                                            id="style-P3cbc"
-                                                                                                                                          ></i>
+                                                                                                                                          <img style={{width:"20px",height:"20px"}} src="https://i.ibb.co/6Jb8FsnQ/icons8-comment-50.png" alt="" />
                                                                                                                                         </div>
-                                                                                                                                        <div
+                                                                                                                                        <div style={{marginTop:"2px"}}
                                                                                                                                           class="_6g3g style-493sJ"
                                                                                                                                           id="style-493sJ"
                                                                                                                                         >
@@ -7064,17 +7056,12 @@ const EditCompaingThree = () => {
                                                                                                                                       class="_6g3g style-tJ2h6"
                                                                                                                                       id="style-tJ2h6"
                                                                                                                                     >
-                                                                                                                                      <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                      <div style={{display:"flex",alignItems:'center'}} class="_3qn7 _61-0 _2fyi _3qnf">
                                                                                                                                         <div
                                                                                                                                           class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-dxM4P"
                                                                                                                                           id="style-dxM4P"
                                                                                                                                         >
-                                                                                                                                          <i
-                                                                                                                                            alt=""
-                                                                                                                                            data-visualcompletion="css-img"
-                                                                                                                                            class="img style-iKJpF"
-                                                                                                                                            id="style-iKJpF"
-                                                                                                                                          ></i>
+                                                                                                                                           <img style={{width:"20px",height:"20px"}} src="https://i.ibb.co/chBvvxpN/icons8-share-50.png" alt="" />
                                                                                                                                         </div>
                                                                                                                                         <div
                                                                                                                                           class="_6g3g style-Z2oH6"
@@ -7848,7 +7835,7 @@ const EditCompaingThree = () => {
                                                                                                                                       id="style-JJvtH"
                                                                                                                                     >
                                                                                                                                       <div class="x8t9es0 x1fvot60 xo1l8bm xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">
-                                                                                                                                        1
+                                                                                                                                        7
                                                                                                                                       </div>
                                                                                                                                     </div>
                                                                                                                                     <div
@@ -7861,7 +7848,7 @@ const EditCompaingThree = () => {
                                                                                                                                           id="style-e5PXm"
                                                                                                                                         >
                                                                                                                                           <span class="x8t9es0 x1fvot60 xo1l8bm xxio538 x1heor9g xq9mrsl x1h4wwuj xeuugli">
-                                                                                                                                            1
+                                                                                                                                            9
                                                                                                                                             comment
                                                                                                                                           </span>
                                                                                                                                         </div>
@@ -7879,19 +7866,14 @@ const EditCompaingThree = () => {
                                                                                                                                       class="_6g3g style-hcpNT"
                                                                                                                                       id="style-hcpNT"
                                                                                                                                     >
-                                                                                                                                      <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                                                                      <div  class="_3qn7 _61-0 _2fyi _3qnf">
                                                                                                                                         <div
                                                                                                                                           class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-C8CCY"
                                                                                                                                           id="style-C8CCY"
                                                                                                                                         >
-                                                                                                                                          <i
-                                                                                                                                            alt=""
-                                                                                                                                            data-visualcompletion="css-img"
-                                                                                                                                            class="img style-sjbQi"
-                                                                                                                                            id="style-sjbQi"
-                                                                                                                                          ></i>
+                                                                                                                                          <img style={{width:"25px",height:"20px"}} src="https://i.ibb.co/fGQ9nHnx/download.png" alt="" />
                                                                                                                                         </div>
-                                                                                                                                        <div
+                                                                                                                                        <div style={{marginTop:"2px"}}
                                                                                                                                           class="_6g3g style-UqxjT"
                                                                                                                                           id="style-UqxjT"
                                                                                                                                         >
@@ -7908,12 +7890,7 @@ const EditCompaingThree = () => {
                                                                                                                                           class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-PaYyF"
                                                                                                                                           id="style-PaYyF"
                                                                                                                                         >
-                                                                                                                                          <i
-                                                                                                                                            alt=""
-                                                                                                                                            data-visualcompletion="css-img"
-                                                                                                                                            class="img style-P3cbc"
-                                                                                                                                            id="style-P3cbc"
-                                                                                                                                          ></i>
+                                                                                                                                          <img style={{width:"20px",height:"20px"}} src="https://i.ibb.co/6Jb8FsnQ/icons8-comment-50.png" alt="" />
                                                                                                                                         </div>
                                                                                                                                         <div
                                                                                                                                           class="_6g3g style-493sJ"
@@ -7932,12 +7909,7 @@ const EditCompaingThree = () => {
                                                                                                                                           class="_6g3g x1sxyh0 x1j85h84 xg32yw2 style-dxM4P"
                                                                                                                                           id="style-dxM4P"
                                                                                                                                         >
-                                                                                                                                          <i
-                                                                                                                                            alt=""
-                                                                                                                                            data-visualcompletion="css-img"
-                                                                                                                                            class="img style-iKJpF"
-                                                                                                                                            id="style-iKJpF"
-                                                                                                                                          ></i>
+                                                                                                                                          <img style={{width:"20px",height:"20px"}} src="https://i.ibb.co/chBvvxpN/icons8-share-50.png" alt="" />
                                                                                                                                         </div>
                                                                                                                                         <div
                                                                                                                                           class="_6g3g style-Z2oH6"
