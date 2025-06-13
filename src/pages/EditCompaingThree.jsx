@@ -6977,9 +6977,9 @@ const EditCompaingThree = () => {
                                                                                                                                         class="_6g3g x150jy0e style-CqwFl"
                                                                                                                                         id="style-CqwFl"
                                                                                                                                       >
-                                                                                                                                        <span class="_9zc _9--">
-                                                                                                                                          <i class="_3j7m _2p78 _9--"></i>
-                                                                                                                                        </span>
+                                                                                                                                        <img style={{width:'20px',height:'20px'}} src="https://i.ibb.co/0p5f6wQZ/4bb12f13-b862-4a73-97d2-4e40f0bbc71f.png" alt="" />
+                                                                                                                                          <img style={{width:'20px',height:'20px'}} src="https://i.ibb.co/99gRCL7p/826ec2b0-3d2b-4fed-8b71-1fd7727aec3d.png" alt="" />
+                                                                                                                                            <img style={{width:'20px',height:'20px'}} src="https://i.ibb.co/Jj3Sdh1Y/eb3960ce-af36-4165-826b-b7c8df2bedba.png" alt="" />
                                                                                                                                       </div>
                                                                                                                                     </div>
                                                                                                                                     <div
@@ -7825,9 +7825,9 @@ const EditCompaingThree = () => {
                                                                                                                                         class="_6g3g x150jy0e style-CqwFl"
                                                                                                                                         id="style-CqwFl"
                                                                                                                                       >
-                                                                                                                                        <span class="_9zc _9--">
-                                                                                                                                          <i class="_3j7m _2p78 _9--"></i>
-                                                                                                                                        </span>
+                                                                                                                                         <img style={{width:'20px',height:'20px'}} src="https://i.ibb.co/0p5f6wQZ/4bb12f13-b862-4a73-97d2-4e40f0bbc71f.png" alt="" />
+                                                                                                                                          <img style={{width:'20px',height:'20px'}} src="https://i.ibb.co/99gRCL7p/826ec2b0-3d2b-4fed-8b71-1fd7727aec3d.png" alt="" />
+                                                                                                                                            <img style={{width:'20px',height:'20px'}} src="https://i.ibb.co/Jj3Sdh1Y/eb3960ce-af36-4165-826b-b7c8df2bedba.png" alt="" />
                                                                                                                                       </div>
                                                                                                                                     </div>
                                                                                                                                     <div
