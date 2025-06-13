@@ -99,7 +99,7 @@ const router = createBrowserRouter([
     element: <NewCalender />,
   },
   {
-    path: "/history",
+    path: "/history/:id",
     element: <History />,
   },
   {

@@ -103,7 +103,7 @@ const EditCompaingThree = () => {
               </div>
             </div>
           </Link>
-          <Link to="/history">
+          <Link to={`/history/${campaign?._id}`}>
             <div
               aria-disabled="false"
               aria-label="See history (Ctrl+I)"

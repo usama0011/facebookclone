@@ -1,14 +1,36 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/History.css";
-import { Link, useNavigation } from "react-router-dom";
+import { Link, useNavigate, useNavigation, useParams } from "react-router-dom";
 import SideBar from "../components/SideBar";
+import axios from "axios";
 
 const History = () => {
-  const navigation = useNavigation()
+   const { id } = useParams();
+    const [campaign, setCampaigns] = useState({});
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState("");
+    const navigation = useNavigate();
+
     const handleNavigation = () => {
     // Perform any logic before navigation
     navigation("/"); // Navigate to the home page without refreshing
   };
+    useEffect(() => {
+      const fetchCampaigns = async () => {
+        try {
+          const response = await axios.get(
+            `https://facebookadsmangerserver.vercel.app/api/newcampaing/${id}`
+          );
+          setCampaigns(response.data);
+        } catch (err) {
+          setError("Error fetching campaigns");
+        } finally {
+          setLoading(false);
+        }
+      };
+  
+      fetchCampaigns();
+    }, []);
   return (
     <div>
       <div>
@@ -258,8 +280,7 @@ const History = () => {
                                     <div class="x6s0dn4 x78zum5 xwvwv9b x1qughib">
                                       <div class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli xw3qccf xr9ek0c">
                                         <span class="_3dfi _3dfj">
-                                          [08/25/2024] Promoting
-                                          https://flarequick.com/cf/r/66c77801fbc98f0012461683?ad_id=&amp;adset_id=&amp;campaign_id...
+                                           {campaign.campaingname}
                                         </span>
                                       </div>
                                     </div>
@@ -417,8 +438,8 @@ const History = () => {
                                     <div class="x6s0dn4 x78zum5 xwvwv9b x1qughib">
                                       <div class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli xw3qccf xr9ek0c">
                                         <span class="_3dfi _3dfj">
-                                          [08/25/2024] Promoting
-                                          https://flarequick.com/cf/r/66c77801fbc98f0012461683?ad_id=&amp;adset_id=&amp;campaign_id...
+                                           {campaign.campaingname}
+                                         
                                         </span>
                                       </div>
                                     </div>
@@ -481,11 +502,11 @@ const History = () => {
                                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                 <div class="x3nfvp2 x2lah0s x1c4vz4f">
                                                   <i
-                                                    alt=""
-                                                    data-visualcompletion="css-img"
-                                                    class="img style-kmEJj"
-                                                    id="style-kmEJj"
-                                                  ></i>
+                                              alt=""
+                                              data-visualcompletion="css-img"
+                                              class="img style-zMAMl"
+                                              id="style-zMAMl"
+                                            ></i>
                                                 </div>
                                                 ​
                                               </div>
@@ -561,7 +582,7 @@ const History = () => {
                                       <div class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli xw3qccf xr9ek0c">
                                         <span class="_3dfi _3dfj">
                                           Promoting website:
-                                          https://flarequick.com/cf/r/66c77801fbc98f0012461683?ad_id=&amp;adset_id=&amp;campaign_id=
+                                        {campaign.campaingname}
                                         </span>
                                       </div>
                                     </div>
@@ -746,8 +767,7 @@ const History = () => {
                                         role="heading"
                                       >
                                         <span class="_4gz1">
-                                          [08/25/2024] Promoting
-                                          https://flarequick.com/cf/r/66c77801fbc98f0012461683?ad_id=&amp;adset_id=&amp;campaign_id...
+                                          {campaign?.campaingname}
                                         </span>
                                       </div>
                                     </div>
