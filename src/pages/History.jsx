@@ -265,7 +265,7 @@ const History = () => {
                                 data-interactable="|click|"
                               >
                                 <div class="x6s0dn4 x9f619 x78zum5 x1iorvi4 x4uap5 xjkvuk6 xkhd6sd xwvwv9b">
-                                  <span class="x1ok221b x1emribx xat24cr x1mh8g0r">
+                                  <div class="_96mg">
                                     <svg
                                       viewBox="0 0 48 48"
                                       width="1em"
@@ -275,7 +275,7 @@ const History = () => {
                                     >
                                       <path d="M40.5 10H23.74c-1.08 0-2.03-.69-2.37-1.71s-.18-.53-.18-.53A5.496 5.496 0 0 0 15.97 4H6.5C4.02 4 2 6.02 2 8.5v30C2 41.53 4.47 44 7.5 44h33c3.03 0 5.5-2.47 5.5-5.5v-23c0-3.03-2.47-5.5-5.5-5.5z"></path>
                                     </svg>
-                                  </span>
+                                  </div>
                                   <div class="x6ikm8r x10wlt62 x1iyjqo2 xs83m0k x1t1x2f9">
                                     <div class="x6s0dn4 x78zum5 xwvwv9b x1qughib">
                                       <div class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli xw3qccf xr9ek0c">
@@ -342,12 +342,12 @@ const History = () => {
                                               </div>
                                               <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x19lwn94 x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
                                                 <div class="x3nfvp2 x2lah0s x1c4vz4f">
-                                                  <i
-                                                    alt=""
-                                                    data-visualcompletion="css-img"
-                                                    class="img style-FHDUs"
-                                                    id="style-FHDUs"
-                                                  ></i>
+                                                   <i
+                                              alt=""
+                                              data-visualcompletion="css-img"
+                                              class="img style-zMAMl"
+                                              id="style-zMAMl"
+                                            ></i>
                                                 </div>
                                                 ​
                                               </div>
@@ -961,17 +961,18 @@ const History = () => {
                                       <div class="_4bl7">
                                         <div class="x1yc453h x1kky2od x1y5rjcf">
                                           <i
-                                            alt=""
-                                            data-visualcompletion="css-img"
-                                            class="img style-aD6jY"
-                                            id="style-aD6jY"
-                                          ></i>
+                                        alt=""
+                                        data-visualcompletion="css-img"
+                                        class="img style-8242S"
+                                        id="style-8242S"
+                                      ></i>
                                         </div>
                                       </div>
                                       <div class="_4bl9">
                                         <span class="xmi5d70 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli">
                                           Active
                                         </span>
+                                        
                                       </div>
                                     </div>
                                   </div>
@@ -1029,10 +1030,7 @@ const History = () => {
                                     class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f"
                                     role="presentation"
                                   >
-                                    <div
-                                      class="xtwfq29 style-sVHk8"
-                                      id="style-sVHk8"
-                                    ></div>
+                                   <img style={{width:"16px"}} src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAYFBMVEX///8CAgKYmJicnJzy8vLOzs7Jycn5+fns7Ozv7++ysrIvLy+/v7/W1ta3t7cZGRlxcXFXV1c1NTVOTk7m5uZcXFyioqKrq6sqKipra2vb29uDg4Nzc3MUFBRCQkKJiYky0gkLAAACcUlEQVR4nO3Z53qqQBCAYZciRZRYYiwp93+XR/TEGNw2C5oEv/f/zLPAzBZ2NAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADubVW9xNF6lmb9pSzGZRzF5bjoL2WWztZR/FKtpIG7fa0+LcteHjKPJ+eUkzjvI2VWLs8p6/1OEJl+BZ5ESdfBrJ5aKZ/Eb70tiVopl6lnZPGqrtRVt9HE1ylV3C1lVV+nfPWq/+lGMxqlPjoMJplrU847VEb2oU25mbpDU23kwTa4G/OFIeUiuBuzrWmYzkqdmiIPnRM4msT0gIdHDP2K7a6+4PiK+Zs5VEVho9GX6Mk8LGV7jrn0Zi+MZ0uoRwXo6CaZL0HTjbGTjp5toTNrqNoEjGZlT6lCFg39XHg2M0dm5o45KeWjsXTMUUB3l46UC/OcWDlC1UQ8mtyVUsm3cBNXSvPibe/ChrgT7V3YEHeivQsbxk5MnKHydd/5vuV1oV/rvzEtQs4iVepdOBp3kcrL9N2d0lSmtlXmv1q4Cxl7POFYljLX7EfbTCu3a9prSI4oI/e01xBO0DuPlKYJun1m0vHY2V5ae6QUTjWWfeXZ0hDrUeDSydSj8KWbQfdUap4ubvAN3YvFXb/h8Ptw+HPpDdbDwuMJ77ge/pE9zd49TOPBevD70p85W8j/1TjrwnxAHP750HXGl3/C25zxHR/RcsZ/gP80D/CvzbYn2oaN5pf9L7X98w4czG/75/1X7i0M/zJ87i0e4O5pNPz7w8YN7oCLb3fAvVx0h98BHw38Hh8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADo7B+mYxxcMjPHfQAAAABJRU5ErkJggg==" alt="" />
                                   </div>
                                   ​
                                 </div>
