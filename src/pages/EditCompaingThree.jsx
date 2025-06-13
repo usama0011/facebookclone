@@ -6276,7 +6276,7 @@ const EditCompaingThree = () => {
                                   </div>
                                 </div>
                               </div>
-                              <div class="x1n2onr6">
+                              <div class="x1n2onr6" style={{marginTop:"-7px"}}>
                                 <div>
                                   <div
                                     class="x1gzqxud x1lcm9me x1yr5g0i xrt01vj x10y3i5r xhgxa4x xy5ysw6 x1qkj6lk xn3walq xnvurfn xv1ta3e x1opv7go x1dtnpoi xibdhds xtnng9g xhvrwov x13k1m86 xwx4but x1cpjm7i xszcg87 x1hmns74 xkk1bqk x14d4353 xsxiz9q x1rmj1tg xchklzq x9f619 xc8icb0 x1n2onr6 x1pvq41x xhhp2wi x14q35kh x1wa3ocq x1n7iyjn x1s928wv x1wsn0xg x1j6awrg x162n7g1 x1m1drc7 x4eaejv xi4xitw x5yr21d xh8yej3 xod5an3"

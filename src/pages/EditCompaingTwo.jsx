@@ -5658,12 +5658,12 @@ const EditCompaingTwo = () => {
                                                   ></span>
                                                 </div>
                                               </div>
-                                              <div
+                                              <div style={{overflow:"hidden",marginTop:"-11px"}}
                                                 class=""
                                                 id="campaignReachEstimatesSection"
                                               >
                                                 <div data-pagelet="campaignReachEstimatesSection">
-                                                  <span
+                                                  <span 
                                                     data-surface-wrapper="1"
                                                     data-surface="/am/editor_drawer/editor:ad_set/adset_reach_estimates_section"
                                                     data-auto-logging-id="f3128355ee416c"
@@ -5672,13 +5672,114 @@ const EditCompaingTwo = () => {
                                                   >
                                                     <div class="_8wj0">
                                                       <div></div>
-                                                      <div class="x1e56ztr xherrf8"></div>
-                                                      <div class="x1e56ztr xherrf8"></div>
-                                                      <div class="x1e56ztr xherrf8"></div>
-                                                      <div class="x1e56ztr xherrf8"></div>
-                                                      <div class="x1e56ztr xherrf8"></div>
-                                                      <div class="x1e56ztr xherrf8"></div>
-                                                      <div class="x1e56ztr xherrf8"></div>
+                                                      
+                                                        <div style={{backgroundColor:'white',borderRadius:'5px'}}  class="x78zum5 xdt5ytf x5yr21d xedcshv x1t2pt76 xh8yej3 snipcss-Idsgw">
+    <div  class="x6s0dn4 x78zum5 x1q0g3np x2lwn1j xeuugli xw7yly9 x1ys307a x1yztbdb xyqm7xq">
+        <div  class="x78zum5 x6s0dn4 xl56j7k x1td3qas x10w6t97 x1e8prfs xflfurm x1obq294 x5a5i1n xde0f50 x15x8krk">
+            <div class="x3nfvp2 x120ccyz x1heor9g" role="presentation">
+                <div class="xtwfq29 style-1jZ1X" id="style-1jZ1X"></div>
+            </div>
+        </div><span aria-level="3" class="x1vvvo52 x1uxerd5 xrohxju xbsr9hj xq9mrsl x1h4wwuj x117nqv4 xeuugli x13fj5qh" role="heading">Campaign opportunities</span>
+    </div>
+    <div  class="x9f619 x78zum5 x1iyjqo2 x5yr21d x2lwn1j x1n2onr6 xh8yej3">
+        <div class="xh8yej3 x18d9i69 x1plvlek xryxfnj">
+            <div class="xjm9jq1 xg01cxk x47corl xh8yej3 x1jyxor1"></div>
+            <div class="x1iyjqo2 xs83m0k xdl72j9 x3igimt xedcshv x1t2pt76 x1l90r2v xf7dkkf xv54qhq xexx8yu" data-auto-logging-component-type="GeoSection" data-auto-logging-dependent-region="">
+                <div class="x78zum5 xdt5ytf x40hh3e xgpatz3 x2lwn1j xeuugli x9otpla">
+                    <div id="js_44"><span data-surface-wrapper="1" data-surface="/am/editor_drawer/editor:campaign/campaign_group_preflight_recommendation_hub_section/lib:GeoCollapsibleGuidanceCard" data-auto-logging-id="f78ccb97c" id="style-HO9nr" class="style-HO9nr">
+                            <div class="x78zum5 x9f619 x1n2onr6 x1t7ytsu x56jcm7 x6sto7s x1mofxk0 x5lnnqw xne44d9 x1g0dm76 xpdmqnj xjwep3j x1t39747 x1wcsgtt x1pczhz8 x1kmqopl xz9dl7a xsag5q8 x1gzqxud" data-auto-logging-component-type="GeoCollapsibleGuidanceCard">
+                                <div style={{padding:'10px',width:'100%'}} class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1yc453h x1h4wwuj xeuugli x1iyjqo2 xs83m0k">
+                                    <div  class="x1cy8zhl x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my">
+                                        <div class="x1c4vz4f x2lah0s">
+                                            <div class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x1fcty0u x78zum5 xl56j7k x6s0dn4"><span>​</span>
+                                                <div class="xjm9jq1 x78zum5 xl56j7k x6s0dn4"><span class="x3nfvp2 xflfurm">
+                                                        <div class="x3nfvp2 x120ccyz x1heor9g" role="presentation">
+                                                            <div class="xtwfq29 style-ZToin" id="style-ZToin"></div>
+                                                        </div>
+                                                    </span></div>
+                                            </div>
+                                        </div>
+                                        <div class="x1iyjqo2 xeuugli x3nfvp2">
+                                            <div aria-level="4" class="x1vvvo52 xsuwoey x1xlr1w8 x63nzvj xbsr9hj xq9mrsl x1h4wwuj xeuugli xh8yej3" role="heading">
+                                                <div class="x1cy8zhl x78zum5 xdt5ytf xozqiw3 x2lwn1j xeuugli x1iyjqo2 xavht8x x1qughib"><span>You could get 3% lower cost per result with some Advantage+ creative enhancements for 1 ad<div class="x1rg5ohu x67bb7w">
+                                                            <div class="x1vvvo52 x1fvot60 xxio538 xbsr9hj xq9mrsl x1h4wwuj x1fcty0u x78zum5 xl56j7k x6s0dn4"><span>​</span>
+                                                                <div class="xjm9jq1 x78zum5 xl56j7k x6s0dn4">
+                                                                    <div class="x78zum5 x1uuroth x67bb7w xdwrcjd x2fvf9">
+                                                                        <div class="x3nfvp2 x120ccyz x4s1yf2" role="presentation">
+                                                                            <div class="xtwfq29 style-oQmrn" id="style-oQmrn"></div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div></span></div>
+                                            </div>
+                                        </div>
+                                        <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s x9otpla x1wsgfga x1w5wx5t" role="none">
+                                            <div aria-busy="false" aria-expanded="true" class="x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1t137rt x6s0dn4 x1ejq31n x18oe1m7 x1sy0etr xstzfhl x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy xjwep3j x1t39747 x1wcsgtt x1pczhz8 xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 x1g0dm76 xpdmqnj" role="button" tabindex="0" data-auto-logging-component-type="GeoButton"><span class="x1vvvo52 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                                                    <div class="x78zum5">
+                                                        <div class="x1qvwoe0 xjm9jq1 x1y332i5 xjn30re x1jyxor1 x1hb08if x6ikm8r x10wlt62 x10l6tqk xuxw1ft x1i1rx1s" data-sscoverage-ignore="true">Open</div>
+                                                        <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                                                            <div class="x3nfvp2 x120ccyz x1heor9g x2lah0s x1c4vz4f" role="presentation">
+                                                                <div class="xtwfq29 style-i6Zt6" id="style-i6Zt6"></div>
+                                                            </div>​
+                                                        </div>
+                                                    </div>
+                                                </span></div>
+                                        </div>
+                                    </div>
+                                    <div id="style-dcbPa" class="style-dcbPa">
+                                        <div class="x13dflua xxziih7 x12w9bfk x1humd01 x1hc1fzr style-9NGEL" id="style-9NGEL">
+                                            <div>
+                                                <div class="x1qjc9v5 x78zum5 xdt5ytf xozqiw3 x2lwn1j xeuugli x1iyjqo2 xavht8x">
+                                                    <div></div>
+                                                    <div class="x1n2onr6 x1iyjqo2 xs83m0k xefazk8">
+                                                        <div class="x1cy8zhl x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my">
+                                                            <div class="x1cy8zhl x78zum5 xdt5ytf xozqiw3 x2lwn1j xeuugli x1iyjqo2 xavht8x"><span class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1h4wwuj xeuugli">Tailor your ad for the person viewing it by letting us automatically optimise your creative. <span><a class="xt0psk2 x1hl2dhg xt0b8zv x1vvvo52 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1qlqyl8 x1pd3egz" target="_blank" href="https://www.facebook.com/business/help/1720288338140238">About Advantage+ creative</a></span></span></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <br />
+                                    <div class="xh8yej3 x9f619 x13jy36j">
+                                        <div class="x1cy8zhl x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my">
+                                            <div class="x1gslohp">
+                                                <div class="x78zum5 x1q0g3np xfex06f x3pnbk8 x1a02dak x2lwn1j xeuugli x14vqqas">
+                                                    <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
+                                                        <div aria-busy="false" class="x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x1t137rt x6s0dn4 x1ejq31n x18oe1m7 x1sy0etr xstzfhl x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy xjwep3j x1t39747 x1wcsgtt x1pczhz8 xo1l8bm x140t73q x19bke7z x1y1aw1k xwib8y2 xf7dkkf xv54qhq" role="button" tabindex="0" data-auto-logging-component-type="GeoButton"><span class="x1vvvo52 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                                                                <div style={{paddingLeft:'10px',paddingRight:'10px',textAlign:"center"}} class="x78zum5">
+                                                                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                                                                        <div style={{textAlign:'center'}} class="x1vvvo52 x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">Apply now</div>
+                                                                    </div>
+                                                                </div>
+                                                            </span></div>
+                                                    </div>
+                                                    <div class="x3nfvp2 x193iq5w xxymvpz xeuugli x2lah0s" role="none">
+                                                        <div aria-busy="false" class="x1i10hfl xjqpnuy xc5r6h4 xqeqjp1 x1phubyo x972fbf x10w94by x1qhh985 x14e42zd x9f619 x1ypdohk xe8uvvx xdj266r x14z9mp xat24cr x1lziwak x2lwn1j xeuugli x16tdsg8 xggy1nq x1ja2u2z x6s0dn4 x1ejq31n x18oe1m7 x1sy0etr xstzfhl x3nfvp2 xdl72j9 x1q0g3np x2lah0s x193iq5w x1n2onr6 x1hl2dhg x87ps6o xxymvpz xlh3980 xvmahel x1lku1pv x1g40iwv x1g2r6go x16e9yqp x12w9bfk x15406qy xjwep3j x1t39747 x1wcsgtt x1pczhz8 x1ob88yx xaatb59 x1qgsegg xo1l8bm xbsr9hj x1v911su x1y1aw1k xwib8y2 xf7dkkf xv54qhq" role="button" tabindex="0" data-auto-logging-component-type="GeoButton"><span class="x1vvvo52 x1fvot60 xxio538 x1heor9g xq9mrsl x1h4wwuj x1pd3egz xeuugli xh8yej3">
+                                                                <div style={{paddingLeft:'10px',paddingRight:'10px'}} class="x78zum5">
+                                                                    <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my x1hc1fzr x13dflua x6o7n8i xxziih7 x12w9bfk xl56j7k xh8yej3">
+                                                                        <div class="x1vvvo52 x1fvot60 xk50ysn xxio538 x1heor9g xuxw1ft x6ikm8r x10wlt62 xlyipyv x1h4wwuj xeuugli">View in ad</div>
+                                                                    </div>
+                                                                </div>
+                                                            </span></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </span></div>
+                </div>
+            </div>
+            <div class="xjm9jq1 xg01cxk x47corl xh8yej3 x1y332i5"></div>
+        </div>
+        <div class="x10wjd1d x47corl x10l6tqk x19991ni x13dflua xwji4o3 xh8yej3 xg01cxk x67dex8 x13vifvy"></div>
+        <div class="x10wjd1d x47corl x10l6tqk x19991ni x13dflua xwji4o3 xh8yej3 xg01cxk x1ta9b4f x1ey2m1c"></div>
+    </div>
+</div>
+<br />  
                                                       <div class="x1e56ztr xherrf8"></div>
                                                       <div>
                                                         <div
