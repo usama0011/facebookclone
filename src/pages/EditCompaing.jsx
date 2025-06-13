@@ -608,6 +608,7 @@ const EditCompaing = () => {
           class="_2k0g"
           style={{
             width: "1450px",
+          
             backgroundImage: "linear-gradient(180deg, #f8e9ef, #dbe9fa)",
           }}
         >
@@ -2361,11 +2362,11 @@ const EditCompaing = () => {
                                                                                   </div>
                                                                                 </div>
                                                                               </div>
-                                                                              <div class="x1lcm9me x1yr5g0i xo71vjh x5pf9jr x78zum5 xdt5ytf x1iyjqo2">
-                                                                                <div class="x78zum5 xdt5ytf x1iyjqo2">
+                                                                              <div  style={{textAlign:'left'}} class="x1lcm9me x1yr5g0i xo71vjh x5pf9jr x78zum5 xdt5ytf x1iyjqo2">
+                                                                                <div  style={{textAlign:'left'}} class="x78zum5 xdt5ytf x1iyjqo2">
                                                                                   <div class="x1iyjqo2">
                                                                                     <div class="x1pg5gke x1yc453h xxymvpz x78zum5 xdt5ytf xdj266r xh8yej3">
-                                                                                      <div class="_3qn7 _61-0 _2fyi _3qnf">
+                                                                                      <div  style={{textAlign:'left'}} class="_3qn7 _61-0 _2fyi _3qnf">
                                                                                         <div class="x1iyjqo2 x2lah0s x4pfjvb">
                                                                                           <div class="x1rg5ohu xh8yej3">
                                                                                             <span data-hover="tooltip">
@@ -2392,10 +2393,10 @@ const EditCompaing = () => {
                                                                                             </span>
                                                                                           </div>
                                                                                         </div>
-                                                                                        <div class="x1iyjqo2 x2lah0s x4pfjvb">
-                                                                                          <div class="xh8yej3 x1rg5ohu xt7dq6l x1i64zmx">
-                                                                                            <div class="_aed4">
-                                                                                              <span class="accessible_elem">
+                                                                                        <div  style={{textAlign:'left'}} class="x1iyjqo2 x2lah0s x4pfjvb">
+                                                                                          <div  style={{textAlign:'left'}} class="xh8yej3 x1rg5ohu xt7dq6l x1i64zmx">
+                                                                                            <div style={{textAlign:'left'}} class="_aed4">
+                                                                                              <span  style={{textAlign:'left'}} class="accessible_elem">
                                                                                                 <label
                                                                                                   for="js_bw"
                                                                                                   id="js_bx"
@@ -2408,12 +2409,12 @@ const EditCompaing = () => {
                                                                                                   ></span>
                                                                                                 </label>
                                                                                               </span>
-                                                                                              <div class="_aed7 _3qn7 _61-0 _2fyh _3qnf">
+                                                                                              <div  style={{textAlign:'left'}} class="_aed7 _3qn7 _61-0 _2fyh _3qnf">
                                                                                                 <span
                                                                                                   class="_agh9 _agha style-1yKDA"
                                                                                                   id="style-1yKDA"
                                                                                                 >
-                                                                                                  <input
+                                                                                                  <input  style={{textAlign:'left'}}
                                                                                                     class="_58al _aghb"
                                                                                                     aria-invalid="false"
                                                                                                     aria-labelledby="js_bx"

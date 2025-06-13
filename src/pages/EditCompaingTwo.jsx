@@ -2412,7 +2412,7 @@ const EditCompaingTwo = () => {
                                                                             </div>
                                                                           </div>
                                                                         </div>
-                                                                        <div class="x1lcm9me x1yr5g0i xo71vjh x5pf9jr x78zum5 xdt5ytf x1iyjqo2">
+                                                                        <div style={{textAlign:'left'}} class="x1lcm9me x1yr5g0i xo71vjh x5pf9jr x78zum5 xdt5ytf x1iyjqo2">
                                                                           <div class="x78zum5 xdt5ytf x1iyjqo2">
                                                                             <div class="x1iyjqo2">
                                                                               <span
@@ -2813,7 +2813,7 @@ const EditCompaingTwo = () => {
                                                                                                             </div>
                                                                                                           </div>
                                                                                                         </div>
-                                                                                                        <div
+                                                                                                        <div style={{textAlign:'left'}}
                                                                                                           class="x1iyjqo2 xamitd3"
                                                                                                           data-sscoverage-ignore="true"
                                                                                                         >
@@ -4467,7 +4467,7 @@ const EditCompaingTwo = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="x1iyjqo2 xr9ek0c xamitd3" data-sscoverage-ignore="true">
+                                                <div style={{textAlign:"left"}} class="x1iyjqo2 xr9ek0c xamitd3" data-sscoverage-ignore="true">
                                                     <div class="x6s0dn4 x1q0g3np xozqiw3 x2lwn1j x1iyjqo2 xs83m0k x1xsc7gk x78zum5 xeuugli">
                                                         <div class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli x1iyjqo2" id="js_19d">
                                                             <div class="x1rg5ohu">Advantage+ placements (recommended)</div>
@@ -4476,7 +4476,7 @@ const EditCompaingTwo = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli">Use Advantage+ placements to maximise your budget and help show your ads to more <span><a class="xt0psk2 x1hl2dhg xt0b8zv x1vvvo52 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1qlqyl8 x1pd3egz" target="_blank" href="https://www.facebook.com/business/help/283579896000936">people</a></span>. Facebook's delivery system will allocate your ad set's budget across multiple placements based on where they're likely to perform best.</div>
+                                                    <div   class="x1vvvo52 xw23nyj xo1l8bm x63nzvj xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli">Use Advantage+ placements to maximise your budget and help show your ads to more <span><a class="xt0psk2 x1hl2dhg xt0b8zv x1vvvo52 xxio538 x1qsmy5i xq9mrsl x1yc453h x1h4wwuj x1qlqyl8 x1pd3egz" target="_blank" href="https://www.facebook.com/business/help/283579896000936">people</a></span>. Facebook's delivery system will allocate your ad set's budget across multiple placements based on where they're likely to perform best.</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -4496,7 +4496,7 @@ const EditCompaingTwo = () => {
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="x1iyjqo2 xr9ek0c xamitd3" data-sscoverage-ignore="true">
+                                                <div style={{textAlign:"left"}} class="x1iyjqo2 xr9ek0c xamitd3" data-sscoverage-ignore="true">
                                                     <div class="x6s0dn4 x1q0g3np xozqiw3 x2lwn1j x1iyjqo2 xs83m0k x1xsc7gk x78zum5 xeuugli">
                                                         <div class="x1vvvo52 x1fvot60 xo1l8bm xxio538 xbsr9hj xq9mrsl x1mzt3pk x1vvkbs x13faqbe xeuugli x1iyjqo2" id="js_19k">Manual placements</div>
                                                     </div>
@@ -4694,7 +4694,7 @@ const EditCompaingTwo = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div aria-labelledby="js_1a2" class=" _as9p">
+                                        <div style={{textAlign:"left"}} aria-labelledby="js_1a2" class=" _as9p">
                                             <div>
                                                 <div><span class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">23/22 placements that support asset customisation</span></div>
                                                 <div></div>
@@ -4745,7 +4745,7 @@ const EditCompaingTwo = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="_7v8-">
+                                                    <div style={{textAlign:"left"}} class="_7v8-">
                                                         <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Get high visibility for your business with ads in feeds</div>
                                                     </div>
                                                 </li>
@@ -5082,7 +5082,7 @@ const EditCompaingTwo = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="_7v8-">
+                                                    <div style={{textAlign:"left"}} class="_7v8-">
                                                         <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Tell a rich, visual story with immersive, full-screen vertical ads</div>
                                                     </div>
                                                 </li>
@@ -5253,7 +5253,7 @@ const EditCompaingTwo = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="_7v8-">
+                                                    <div style={{textAlign:'left'}} class="_7v8-">
                                                         <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Reach people before, during or after they watch a video or reel</div>
                                                     </div>
                                                 </li>
@@ -5450,7 +5450,7 @@ const EditCompaingTwo = () => {
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="_7v8-">
+                                                    <div style={{textAlign:'left'}} class="_7v8-">
                                                         <div class="x1vvvo52 xw23nyj xo1l8bm x63nzvj x1541jtf xq9mrsl x1h4wwuj xeuugli">Expand your reach with ads in external apps and websites</div>
                                                     </div>
                                                 </li>
@@ -5459,7 +5459,7 @@ const EditCompaingTwo = () => {
                                                         <div class="_6w29 _5aj7">
                                                             <div class="_4bl7"></div>
                                                             <div class="_2pi8 _4bl9">
-                                                                <div class=" _3yf2">
+                                                                <div style={{textAlign:'left'}} class=" _3yf2">
                                                                     <div><span class="" id="audience_network/classic_group">
                                                                             <div class="x6s0dn4 x78zum5 x1q0g3np x1qughib xozqiw3 x2lwn1j xeuugli x1iyjqo2 xs83m0k x8va1my"><span>Audience Network native, banner and interstitial</span></div>
                                                                         </span></div>

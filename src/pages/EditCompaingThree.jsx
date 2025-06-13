@@ -1416,10 +1416,7 @@ const EditCompaingThree = () => {
                                                             class="x3nfvp2 x120ccyz xs7e29d"
                                                             role="presentation"
                                                           >
-                                                            <div
-                                                              class="xtwfq29 style-KdjW7"
-                                                              id="style-KdjW7"
-                                                            ></div>
+                                                             <div class="xtwfq29 style-GrJFq" id="style-GrJFq"></div>
                                                           </div>
                                                         </span>
                                                       </div>
@@ -1784,10 +1781,7 @@ const EditCompaingThree = () => {
                                                           class="x3nfvp2 x120ccyz xs7e29d"
                                                           role="presentation"
                                                         >
-                                                          <div
-                                                            class="xtwfq29 style-y3Nsw"
-                                                            id="style-y3Nsw"
-                                                          ></div>
+                                                          <div class="xtwfq29 style-GrJFq" id="style-GrJFq"></div>
                                                         </div>
                                                       </span>
                                                     </div>
@@ -2772,10 +2766,7 @@ const EditCompaingThree = () => {
                                                               class="x3nfvp2 x120ccyz xs7e29d"
                                                               role="presentation"
                                                             >
-                                                              <div
-                                                                class="xtwfq29 style-QHl49"
-                                                                id="style-QHl49"
-                                                              ></div>
+                                                              <div class="xtwfq29 style-GrJFq" id="style-GrJFq"></div>
                                                             </div>
                                                           </span>
                                                         </div>
@@ -4486,10 +4477,7 @@ const EditCompaingThree = () => {
                                                                 class="x3nfvp2 x120ccyz xs7e29d"
                                                                 role="presentation"
                                                               >
-                                                                <div
-                                                                  class="xtwfq29 style-hoaDf"
-                                                                  id="style-hoaDf"
-                                                                ></div>
+                                                            <div class="xtwfq29 style-GrJFq" id="style-GrJFq"></div>
                                                               </div>
                                                             </span>
                                                           </div>
