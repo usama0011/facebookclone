@@ -7350,3 +7350,10 @@ button {
     mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/yx/r/130_LlANR6f.png");  
     mask-position: -132px -1209px;  
 }  
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-ZWiKL.style-ZWiKL {  
+   width: 16px;  
+    height: 16px;  
+    mask-image: url("https://static.xx.fbcdn.net/rsrc.php/v4/y6/r/fd7XFJomRUO.png");  
+    mask-position: -21px -211px;  
+}  

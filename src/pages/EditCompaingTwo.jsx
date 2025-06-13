@@ -1179,10 +1179,8 @@ const EditCompaingTwo = () => {
                                                                         class="x3nfvp2 x120ccyz xs7e29d"
                                                                         role="presentation"
                                                                       >
-                                                                        <div
-                                                                          class="xtwfq29 style-IzrGh"
-                                                                          id="style-IzrGh"
-                                                                        ></div>
+                                                                                            <div class="xtwfq29 style-ZWiKL" id="style-ZWiKL"></div>
+
                                                                       </div>
                                                                     </span>
                                                                   </div>
@@ -1339,10 +1337,8 @@ const EditCompaingTwo = () => {
                                                                           class="x3nfvp2 x120ccyz xs7e29d"
                                                                           role="presentation"
                                                                         >
-                                                                          <div
-                                                                            class="xtwfq29 style-JgmBL"
-                                                                            id="style-JgmBL"
-                                                                          ></div>
+                                                                                             <div class="xtwfq29 style-ZWiKL" id="style-ZWiKL"></div>
+
                                                                         </div>
                                                                       </span>
                                                                     </div>
@@ -2354,10 +2350,8 @@ const EditCompaingTwo = () => {
                                                                         class="x3nfvp2 x120ccyz xs7e29d"
                                                                         role="presentation"
                                                                       >
-                                                                        <div
-                                                                          class="xtwfq29 style-VVVHx"
-                                                                          id="style-VVVHx"
-                                                                        ></div>
+                                                                                           <div class="xtwfq29 style-ZWiKL" id="style-ZWiKL"></div>
+
                                                                       </div>
                                                                     </span>
                                                                   </div>
@@ -3118,10 +3112,8 @@ const EditCompaingTwo = () => {
                                                                             class="x3nfvp2 x120ccyz xs7e29d"
                                                                             role="presentation"
                                                                           >
-                                                                            <div
-                                                                              class="xtwfq29 style-jCRxN"
-                                                                              id="style-jCRxN"
-                                                                            ></div>
+                                                                                               <div class="xtwfq29 style-ZWiKL" id="style-ZWiKL"></div>
+
                                                                           </div>
                                                                         </span>
                                                                       </div>
@@ -4325,8 +4317,22 @@ const EditCompaingTwo = () => {
                                                 </div>
                                               </div>
                                             </div>
-                                           {/* Placement starthere */}
-                                           <div style={{backgroundColor:'white',paddingTop:"20px"}} class="x1iyjqo2 xs83m0k xdl72j9 x3igimt xedcshv x1t2pt76 x1l90r2v xf7dkkf xv54qhq xexx8yu snipcss-YnjJv" data-auto-logging-component-type="GeoSection" data-auto-logging-dependent-region="">
+                                           {/* Placement starthere */}  
+                                           <div style={{backgroundColor:'white',paddingTop:"20px",borderRadius:"5px"}} class="x1iyjqo2 xs83m0k xdl72j9 x3igimt xedcshv x1t2pt76 x1l90r2v xf7dkkf xv54qhq xexx8yu snipcss-YnjJv" data-auto-logging-component-type="GeoSection" data-auto-logging-dependent-region="">
+                                            <div class="x6s0dn4 x78zum5 x1q0g3np xozqiw3 x2lwn1j xeuugli x1iyjqo2 x8va1my snipcss-dk5sT">
+    <div class="x78zum5 xlup9mm">
+        <div class="x1rg5ohu x67bb7w" id="js_2dx"><span linger="200" class="_2kdf">
+                <div class="x3nfvp2 x120ccyz xs7e29d" role="presentation">
+                    <div class="xtwfq29 style-ZWiKL" id="style-ZWiKL"></div>
+                </div>
+            </span></div>
+    </div>
+    <br />  
+    <br />
+    <br />
+    <div aria-level="3" class="x1vvvo52 x1uxerd5 x1xlr1w8 xrohxju xbsr9hj xq9mrsl x1yc453h x1h4wwuj xeuugli" role="heading">Placements</div>
+    <div class="x78zum5 x1q0g3np xozqiw3 xeuugli x1iyjqo2 x2lah0s x8va1my x6s0dn4 x13a6bvl xu0aao5 x9otpla x1wsgfga"></div>
+</div>
     <div id="style-xYfHS" class="style-xYfHS"><span data-surface-wrapper="1" data-surface="/am/editor_drawer/editor:ad_set/adset_placement_section/msg:AdsCCCardComponent" data-auto-logging-id="f41b65b5d" id="style-i2NfT" class="style-i2NfT">
             <div>
                 <div class="_4rlp _11gv style-kQ8Qw" id="style-kQ8Qw"><i alt="ACTIVE_FEEDBACK" aria-label="ACTIVE_FEEDBACK" class="_4rln img style-pRi96" role="img" data-visualcompletion="css-img" id="style-pRi96"><u>ACTIVE_FEEDBACK</u></i>
@@ -5302,7 +5308,7 @@ const EditCompaingTwo = () => {
                                             </ul>
                                         </li>
                                         <li>
-                                            <ul class="xso031l x1q0q8m5 x14os3ni">
+                                            <ul style={{textAlign:'left'}} class="xso031l x1q0q8m5 x14os3ni">
                                                 <li class="_3ycp _3ycq">
                                                     <div class="_6w29 _5aj7">
                                                         <div class="_4bl7"><span><button aria-label="Collapse" class="_4ezf _2pi7"><span class="_4eze x1rg5ohu x14ju556 x1nn3v0j x14vy60q x1120s5i xyiysdx"><i alt="" class="xi7du73 img style-p1ds9" data-visualcompletion="css-img" id="style-p1ds9"></i></span></button><span class="_4ezg"></span></span></div>
