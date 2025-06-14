@@ -104,7 +104,7 @@ const EditCompaingTwo = () => {
             <div
               aria-disabled="false"
               aria-label="See history (Ctrl+I)"
-              class="x972fbf xcfux6l x1qhh985 xm0m39n x1ejq31n xd10rxx x1sy0etr x17r0tee x15wryii x14yi0bh x2kcyu4 xmfk5bu x9f619 x1ypdohk xc9qbxq x1a2a7pz x889kno "
+              class="x972fbf xcfux6l x1qhh985 xm0m39n x1ejq31n xd10rxx x1sy0etr x17r0tee x15wryii x14yi0bh x2kcyu4 xmfk5bu x9f619 x1ypdohk xc9qbxq x1a2a7pz x889kno"
               data-pitloot-persistonclick="false"
               role="button"
               tabindex="0"
